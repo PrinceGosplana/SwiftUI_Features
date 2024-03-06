@@ -9,7 +9,16 @@ import SwiftUI
 
 struct NewApiScrollView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal) {
+            let colors: [Color] = [.red, .blue, .green, .yellow, .purple]
+            
+            LazyHStack(spacing: 25) {
+                ForEach(colors, id: \.self) { color in
+                    RoundedRectangle(cornerRadius: 15)
+                        .frame(height: 200)
+                }
+            }
+        }
     }
 }
 
