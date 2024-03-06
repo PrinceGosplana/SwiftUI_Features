@@ -16,6 +16,7 @@ struct NewApiScrollView: View {
                 ForEach(colors, id: \.self) { color in
                     RoundedRectangle(cornerRadius: 15)
                         .frame(height: 200)
+                        .containerRelativeFrame(.horizontal)
                 }
             }
         }
