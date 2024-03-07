@@ -14,9 +14,10 @@ struct ScrollTransitionViewExample: View {
                 ForEach(1...30, id: \.self) { _ in
                     Rectangle()
                         .fill(.red.gradient)
-                        .frame(height: 35)
+                        .frame(height: 135)
                 }
             }
+            .padding(.horizontal, 30)
         }
     }
 }
