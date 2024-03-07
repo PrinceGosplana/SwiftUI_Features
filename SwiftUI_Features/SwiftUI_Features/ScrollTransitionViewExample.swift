@@ -21,7 +21,7 @@ struct ScrollTransitionViewExample: View {
             /// Scroll transitionn
             .scrollTransition(topLeading: .interactive, bottomTrailing: .interactive) { view, phase in
                 view
-                    .opacity(1 - phase.value)
+                    .opacity(1 - (phase.value < 0 ? -phase.value : phase.value))
             }
         }
     }
