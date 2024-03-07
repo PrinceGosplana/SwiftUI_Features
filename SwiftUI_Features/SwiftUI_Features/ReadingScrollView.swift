@@ -32,10 +32,12 @@ struct ReadingScrollView: View {
         }
         .frame(height: 200)
         .overlay(alignment: .bottom) {
-            if let scrollPosition {
-                Text(scrollPosition == .red ? "Red" : "Other Colors")
-                    .offset(y: 100)
+            Button("Scroll to yellow") {
+                withAnimation(.snappy) {
+                    scrollPosition = .yellow
+                }
             }
+            .offset(y: 100)
         }
     }
 }
