@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct CustomTransitionsView: View {
+    @State private var showView: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            if showView {
+                Rectangle()
+                    .fill(.red.gradient)
+                    .frame(width: 150, height: 150)
+            }
+            
+            Button("Show view") {
+                withAnimation(.bouncy) {
+                    showView.toggle()
+                }
+            }
+        }
     }
 }
 
