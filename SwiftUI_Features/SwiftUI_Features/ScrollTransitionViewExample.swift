@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ScrollTransitionViewExample: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.vertical) {
+            LazyHStack {
+                ForEach(1...30, id: \.self) { _ in
+                    Rectangle()
+                        .fill(.red.gradient)
+                        .frame(height: 35)
+                }
+            }
+        }
     }
 }
 
