@@ -18,6 +18,11 @@ struct ScrollTransitionViewExample: View {
                 }
             }
             .padding(.horizontal, 30)
+            /// Scroll transitionn
+            .scrollTransition(topLeading: .interactive, bottomTrailing: .interactive) { view, phase in
+                view
+                    .opacity(1 - phase.value)
+            }
         }
     }
 }
