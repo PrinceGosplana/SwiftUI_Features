@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct CustomAnnimationsView: View {
+    @State private var showView: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            if showView {
+                Text("Hello")
+            }
+            
+            Button("Show View") {
+                withAnimation(.bouncy, completionCriteria: .removed) {
+                    showView.toggle()
+                } completion: {
+                    print("Completion but view not removed")
+                }
+            }
+        }
     }
 }
 
