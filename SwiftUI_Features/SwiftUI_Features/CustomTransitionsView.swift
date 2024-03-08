@@ -44,7 +44,10 @@ struct MyTransition: Transition {
 
 /// Custom animation
 struct MyAnimation: CustomAnimation {
+    var duration: CGFloat = 1
+    
     func animate<V>(value: V, time: TimeInterval, context: inout AnimationContext<V>) -> V? where V : VectorArithmetic {
+        if time > duration { return nil }
         return value.scaled(by: time)
     }
 }
