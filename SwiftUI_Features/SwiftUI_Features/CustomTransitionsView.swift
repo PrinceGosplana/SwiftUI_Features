@@ -35,7 +35,7 @@ struct MyTransition: Transition {
         /// Adding animation
 //            .opacity(phase != .identity ? 0 : 1)
             .rotation3DEffect(
-                .init(degrees: phase.value * 90),
+                .init(degrees: phase.value * (phase == .willAppear ? 90 : -90)),
                 axis: (x: 1.0, y: 0.0, z: 0.0)
             )
         
