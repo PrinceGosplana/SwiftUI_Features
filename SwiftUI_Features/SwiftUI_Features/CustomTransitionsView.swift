@@ -20,7 +20,7 @@ struct CustomTransitionsView: View {
             }
             
             Button("Show view") {
-                withAnimation(.bouncy) {
+                withAnimation(.init(MyAnimation())) {
                     showView.toggle()
                 }
             }
@@ -39,6 +39,13 @@ struct MyTransition: Transition {
                 axis: (x: 1.0, y: 0.0, z: 0.0)
             )
         
+    }
+}
+
+/// Custom animation
+struct MyAnimation: CustomAnimation {
+    func animate<V>(value: V, time: TimeInterval, context: inout AnimationContext<V>) -> V? where V : VectorArithmetic {
+        return value.scaled(by: time)
     }
 }
 
