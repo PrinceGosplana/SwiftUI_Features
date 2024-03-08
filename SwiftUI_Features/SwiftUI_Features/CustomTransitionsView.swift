@@ -16,6 +16,7 @@ struct CustomTransitionsView: View {
                 Rectangle()
                     .fill(.red.gradient)
                     .frame(width: 150, height: 150)
+                    .transition(MyTransition())
             }
             
             Button("Show view") {
@@ -24,6 +25,15 @@ struct CustomTransitionsView: View {
                 }
             }
         }
+    }
+}
+
+// Custom transition
+struct MyTransition: Transition {
+    func body(content: Content, phase: TransitionPhase) -> some View {
+        content
+        /// Adding animation
+            .opacity(phase != .identity ? 0 : 1)
     }
 }
 
