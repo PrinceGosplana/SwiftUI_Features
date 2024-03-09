@@ -7,14 +7,31 @@
 
 import SwiftUI
 
+//struct HapticFeedbackView: View {
+//    @State private var feedback: Bool = false
+//    
+//    var body: some View {
+//        Button("Send Haptic Feedback") {
+//            feedback.toggle()
+//        }
+//        .sensoryFeedback(.warning, trigger: feedback)
+//    }
+//}
+
 struct HapticFeedbackView: View {
-    @State private var feedback: Bool = false
-    
+    @State private var showAccessory = false
+
+
     var body: some View {
-        Button("Send Haptic Feedback") {
-            feedback.toggle()
+        if showAccessory == false {
+            Button("Send Haptic Feedback") {
+                showAccessory.toggle()
+            }
         }
-        .sensoryFeedback(.warning, trigger: feedback)
+        
+        if showAccessory {
+            ContentUnavailableView("Feedback send", systemImage: "sun.horizon.fill")
+        }
     }
 }
 
