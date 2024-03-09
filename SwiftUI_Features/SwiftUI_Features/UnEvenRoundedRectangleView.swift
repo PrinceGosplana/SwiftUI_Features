@@ -9,7 +9,16 @@ import SwiftUI
 
 struct UnEvenRoundedRectangleView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            UnevenRoundedRectangle(topLeadingRadius: 35, bottomLeadingRadius: 15, bottomTrailingRadius: 35, topTrailingRadius: 15, style: .circular)
+                .fill(.red.gradient)
+                .frame(width: 200, height: 200)
+            
+            Rectangle()
+                .fill(.black.gradient)
+                .frame(width: 200, height: 200)
+                .clipShape(.rect(topLeadingRadius: 35))
+        }
     }
 }
 
