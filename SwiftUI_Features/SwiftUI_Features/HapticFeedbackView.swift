@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct HapticFeedbackView: View {
+    @State private var feedback: Bool = false
+    
     var body: some View {
-        Text("Hello, World!")
+        Button("Send Haptic Feedback") {
+            feedback.toggle()
+        }
+        .sensoryFeedback(.warning, trigger: feedback)
     }
 }
 
