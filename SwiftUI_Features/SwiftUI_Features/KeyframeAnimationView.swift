@@ -17,6 +17,11 @@ struct KeyframeAnimationView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 200, height: 200)
+                .keyframeAnimator(initialValue: CGSize.zero, trigger: startKeyframeAnimation) { view, frame in
+                    
+                } keyframes: { frame in
+                    
+                }
             Spacer()
             
             Button("Keyframe animation") {
@@ -26,6 +31,12 @@ struct KeyframeAnimationView: View {
             
         }
     }
+}
+
+struct Keyframe {
+    var scale: CGFloat = 1
+    var offset: CGFloat = 0
+    var rotation: Angle = .zero
 }
 
 #Preview {
