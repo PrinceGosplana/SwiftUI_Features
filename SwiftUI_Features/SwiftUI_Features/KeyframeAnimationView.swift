@@ -23,13 +23,20 @@ struct KeyframeAnimationView: View {
                         .offset(y: frame.offsetY)
                 } keyframes: { frame in
                     KeyframeTrack(\.offsetY) {
-                        
+                        CubicKeyframe(10, duration: 0.15)
+                        SpringKeyframe(-100, duration: 0.3, spring: .bouncy)
                     }
                     KeyframeTrack(\.scale) {
-                        
+                        CubicKeyframe(0.9, duration: 0.15)
+                        CubicKeyframe(1.2, duration: 0.3)
                     }
                     KeyframeTrack(\.rotation) {
-                        
+                        CubicKeyframe(.zero, duration: 0.15)
+                        CubicKeyframe(.zero, duration: 0.3)
+                        CubicKeyframe(.init(degrees: -20), duration: 0.1)
+                        CubicKeyframe(.init(degrees: 20), duration: 0.1)
+                        CubicKeyframe(.init(degrees: -20), duration: 0.1)
+                        CubicKeyframe(.init(degrees: 0), duration: 0.15)
                     }
                 }
             Spacer()
