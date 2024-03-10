@@ -17,10 +17,20 @@ struct KeyframeAnimationView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 200, height: 200)
-                .keyframeAnimator(initialValue: CGSize.zero, trigger: startKeyframeAnimation) { view, frame in
-                    
+                .keyframeAnimator(initialValue: Keyframe(), trigger: startKeyframeAnimation) { view, frame in
+                    view.scaleEffect(frame.scale)
+                        .rotationEffect(frame.rotation, anchor: .bottom)
+                        .offset(y: frame.offsetY)
                 } keyframes: { frame in
-                    
+                    KeyframeTrack(\.offsetY) {
+                        
+                    }
+                    KeyframeTrack(\.scale) {
+                        
+                    }
+                    KeyframeTrack(\.rotation) {
+                        
+                    }
                 }
             Spacer()
             
@@ -35,7 +45,7 @@ struct KeyframeAnimationView: View {
 
 struct Keyframe {
     var scale: CGFloat = 1
-    var offset: CGFloat = 0
+    var offsetY: CGFloat = 0
     var rotation: Angle = .zero
 }
 
