@@ -25,6 +25,11 @@ struct KeyframeAnimationView: View {
                     KeyframeTrack(\.offsetY) {
                         CubicKeyframe(10, duration: 0.15)
                         SpringKeyframe(-100, duration: 0.3, spring: .bouncy)
+                        CubicKeyframe(-100, duration: 0.1)
+                        CubicKeyframe(-100, duration: 0.1)
+                        CubicKeyframe(-100, duration: 0.1)
+                        CubicKeyframe(-100, duration: 0.15)
+                        SpringKeyframe(0, duration: 0.3, spring: .bouncy)
                     }
                     KeyframeTrack(\.scale) {
                         CubicKeyframe(0.9, duration: 0.15)
