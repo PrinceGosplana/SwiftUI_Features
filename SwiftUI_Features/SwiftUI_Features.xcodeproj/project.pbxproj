@@ -14,6 +14,7 @@
 		956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */; };
 		956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */; };
 		956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087B02B9C567B00BAC9BA /* HapticFeedbackView.swift */; };
+		956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservBindableView.swift; sourceTree = "<group>"; };
 		956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnEvenRoundedRectangleView.swift; sourceTree = "<group>"; };
 		956087B02B9C567B00BAC9BA /* HapticFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackView.swift; sourceTree = "<group>"; };
+		956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationView.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */,
 				956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */,
 				956087B02B9C567B00BAC9BA /* HapticFeedbackView.swift */,
+				956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 			);
@@ -173,6 +176,7 @@
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnnimationsView.swift in Sources */,
 				956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */,
+				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
 			);
