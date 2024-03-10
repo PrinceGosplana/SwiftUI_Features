@@ -21,6 +21,24 @@ struct KeyframeAnimationView: View {
                     view.scaleEffect(frame.scale)
                         .rotationEffect(frame.rotation, anchor: .bottom)
                         .offset(y: frame.offsetY)
+                    /// Reflection
+                        .background {
+                            view
+                                .blur(radius: 3)
+                                .rotation3DEffect(.init(degrees: 180),
+                                                axis: (x: 1.0, y: 0.0, z: 0.0)
+                                )
+                            /// Masking with linear gradient for suttle reflection
+                                .mask({
+                                    LinearGradient(colors: [
+                                        .white.opacity(0.5),
+                                        .white.opacity(0.2),
+                                        .white.opacity(0.05),
+                                        .clear
+                                    ], startPoint: .top, endPoint: .bottom)
+                                })
+                                .offset(y: 165)
+                        }
                 } keyframes: { frame in
                     KeyframeTrack(\.offsetY) {
                         CubicKeyframe(10, duration: 0.15)
