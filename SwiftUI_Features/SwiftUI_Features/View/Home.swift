@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct Home: View {
+    /// View properties
+    @State private var intros: [Intro] = sampleIntros
+    @State private var activeIntro: Intro?
+    
     var body: some View {
-        Text("Hello, World!")
+        GeometryReader {
+            let size = $0.size
+            
+            VStack(spacing: 0) {
+                if let activeIntro {
+                    Rectangle()
+                        .fill(activeIntro.bgColor)
+                }
+            }
+        }
+        .task {
+            if activeIntro == nil {
+                activeIntro = sampleIntros.first
+            }
+        }
     }
 }
 
