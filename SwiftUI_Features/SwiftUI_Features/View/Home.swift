@@ -37,7 +37,11 @@ struct Home: View {
                                         .foregroundStyle(activeIntro.textColor)
                                         .frame(width: textSize(activeIntro.text))
                                         .offset(x: 10)
+                                    /// Moving Text based on text Offset
+                                        .offset(x: activeIntro.textOffset)
                                 }
+                            /// Moving Circle in the Opposite Direction
+                                .offset(x: -activeIntro.circleOffset)
                         }
                 }
             }
@@ -46,8 +50,17 @@ struct Home: View {
         .task {
             if activeIntro == nil {
                 activeIntro = sampleIntros.first
+                /// Delay 0.15s and Starting Animation
+                let oneSecond = UInt64(1_000_000_000)
+                try? await Task.sleep(nanoseconds: oneSecond * UInt64(0.15))
+                animate(0)
             }
         }
+    }
+    
+    /// Animating Intros
+    func animate(_ index: Int, _ loop: Bool = true) {
+        
     }
     
     /// Fetching text size based on fonts
