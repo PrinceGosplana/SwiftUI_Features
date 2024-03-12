@@ -25,10 +25,18 @@ struct Home: View {
                         .overlay {
                             Circle()
                                 .fill(activeIntro.circleColor)
-                                .frame(width: 35, height: 35)
-                                .background {
+                                .frame(width: 38, height: 38)
+                                .background(alignment: .leading, content: {
+                                    Capsule()
+                                        .fill(activeIntro.bgColor)
+                                        .frame(width: size.width)
+                                })
+                                .background(alignment: .leading) {
                                     Text(activeIntro.text)
                                         .font(.largeTitle)
+                                        .foregroundStyle(activeIntro.textColor)
+                                        .frame(width: textSize(activeIntro.text))
+                                        .offset(x: 10)
                                 }
                         }
                 }
@@ -40,6 +48,11 @@ struct Home: View {
                 activeIntro = sampleIntros.first
             }
         }
+    }
+    
+    /// Fetching text size based on fonts
+    func textSize(_ text: String) -> CGFloat {
+        NSString(string: text).size(withAttributes: [.font: UIFont.preferredFont(forTextStyle: .largeTitle)]).width
     }
 }
 
