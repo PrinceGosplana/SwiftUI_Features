@@ -77,7 +77,8 @@ struct Home: View {
                     activeIntro?.circleColor = intros[index + 1].circleColor
                     activeIntro?.bgColor = intros[index + 1].bgColor
                 } completion: {
-                    
+                    /// Going to Next Slide
+                    animate(index + 1, loop)
                 }
             }
         } else {
