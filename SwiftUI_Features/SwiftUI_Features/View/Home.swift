@@ -60,7 +60,21 @@ struct Home: View {
     
     /// Animating Intros
     func animate(_ index: Int, _ loop: Bool = true) {
-        
+        if intros.indices.contains(index + 1) {
+            /// Updating Text and Text Color
+            activeIntro?.text = intros[index].text
+            activeIntro?.textColor = intros[index].textColor
+            
+            /// Animating Offsets
+            withAnimation(.snappy(duration: 1), completionCriteria: .removed) {
+                activeIntro?.textOffset = -(textSize(intros[index].text) + 20)
+                activeIntro?.circleOffset = -(textSize(intros[index].text) + 20) / 2
+            } completion: {
+                
+            }
+        } else {
+            /// Looping
+        }
     }
     
     /// Fetching text size based on fonts
