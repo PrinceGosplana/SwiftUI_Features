@@ -70,7 +70,15 @@ struct Home: View {
                 activeIntro?.textOffset = -(textSize(intros[index].text) + 20)
                 activeIntro?.circleOffset = -(textSize(intros[index].text) + 20) / 2
             } completion: {
-                
+                /// Reseting the Offset with Next Slide Color Change
+                withAnimation(.snappy(duration: 0.8), completionCriteria: .logicallyComplete) {
+                    activeIntro?.textOffset = 0
+                    activeIntro?.circleOffset = 0
+                    activeIntro?.circleColor = intros[index + 1].circleColor
+                    activeIntro?.bgColor = intros[index + 1].bgColor
+                } completion: {
+                    
+                }
             }
         } else {
             /// Looping
