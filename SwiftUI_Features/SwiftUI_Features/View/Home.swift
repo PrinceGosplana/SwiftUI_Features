@@ -53,7 +53,7 @@ struct Home: View {
                 /// Delay 0.15s and Starting Animation
                 let oneSecond = UInt64(1_000_000_000)
                 try? await Task.sleep(nanoseconds: oneSecond * UInt64(0.15))
-                animate(0)
+                animate(0, false)
             }
         }
     }
