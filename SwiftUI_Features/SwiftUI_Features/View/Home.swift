@@ -44,6 +44,11 @@ struct Home: View {
                                 .offset(x: -activeIntro.circleOffset)
                         }
                 }
+                
+                /// Login Buttons
+                LoginButton()
+                    .padding(.bottom, safeArea.bottom)
+                    .padding(.top, 10)
             }
             .ignoresSafeArea()
         }
@@ -53,9 +58,23 @@ struct Home: View {
                 /// Delay 0.15s and Starting Animation
                 let oneSecond = UInt64(1_000_000_000)
                 try? await Task.sleep(nanoseconds: oneSecond * UInt64(0.15))
-                animate(0, false)
+//                animate(0)
             }
         }
+    }
+    
+    /// Login Buttons
+    func LoginButton() -> some View {
+        VStack(spacing: 12) {
+            Button {
+                
+            } label: {
+                Label("Continue WithApple", systemImage: "applelogo")
+                    .foregroundColor(.black)
+                    .fillButton(.white)
+            }
+        }
+        .padding(15)
     }
     
     /// Animating Intros
@@ -98,4 +117,16 @@ struct Home: View {
 
 #Preview {
     ContentView()
+}
+
+/// Custom Modifier
+extension View {
+    @ViewBuilder
+    func fillButton(_ color: Color) -> some View {
+        self
+            .fontWeight(.bold)
+            .frame(maxWidth:.infinity)
+            .padding(.vertical, 15)
+            .background(color, in: .rect(cornerRadius: 15))
+    }
 }
