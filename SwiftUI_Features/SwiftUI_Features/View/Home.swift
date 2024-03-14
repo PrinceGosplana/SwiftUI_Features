@@ -83,6 +83,10 @@ struct Home: View {
             }
         } else {
             /// Looping
+            /// If looping Applied, ThenReset the Index to 0
+            if loop {
+                animate(0, loop)
+            }
         }
     }
     
