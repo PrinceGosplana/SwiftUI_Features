@@ -82,6 +82,14 @@ struct Home: View {
                     .fillButton(.button)
             }
             
+            Button {
+                
+            } label: {
+                Label("Sign in with email", systemImage: "envelope.fill")
+                    .foregroundColor(.white)
+                    .fillButton(.button)
+            }
+            
         }
         .padding(15)
     }
