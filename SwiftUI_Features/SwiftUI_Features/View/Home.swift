@@ -69,10 +69,19 @@ struct Home: View {
             Button {
                 
             } label: {
-                Label("Continue WithApple", systemImage: "applelogo")
+                Label("Continue With Apple", systemImage: "applelogo")
                     .foregroundColor(.black)
                     .fillButton(.white)
             }
+            
+            Button {
+                
+            } label: {
+                Label("Continue With iPhone", systemImage: "phone.fill")
+                    .foregroundColor(.white)
+                    .fillButton(.button)
+            }
+            
         }
         .padding(15)
     }
