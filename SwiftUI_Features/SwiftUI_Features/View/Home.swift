@@ -90,6 +90,15 @@ struct Home: View {
                     .fillButton(.button)
             }
             
+            Button {
+                
+            } label: {
+                Text("Login")
+                    .foregroundColor(.white)
+                    .fillButton(.black)
+                    .shadow(color: .white, radius: 1)
+            }
+            
         }
         .padding(15)
     }
