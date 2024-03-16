@@ -49,6 +49,8 @@ struct Home: View {
                 LoginButton()
                     .padding(.bottom, safeArea.bottom)
                     .padding(.top, 10)
+                    .background(.black, in: .rect(topLeadingRadius: 25, topTrailingRadius: 25))
+                    .shadow(color: .black.opacity(0.1), radius: 5, x: 0, y: 8)
             }
             .ignoresSafeArea()
         }
