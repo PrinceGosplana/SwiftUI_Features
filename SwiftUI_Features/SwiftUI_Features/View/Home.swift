@@ -59,8 +59,8 @@ struct Home: View {
             if activeIntro == nil {
                 activeIntro = sampleIntros.first
                 /// Delay 0.15s and Starting Animation
-                let oneSecond = UInt64(1_000_000_000)
-                try? await Task.sleep(nanoseconds: oneSecond * UInt64(0.15))
+                let nanoSeconds = UInt64(1_000_000_000 * 0.5)
+                try? await Task.sleep(nanoseconds: nanoSeconds)
 //                animate(0)
             }
         }
