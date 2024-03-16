@@ -21,6 +21,7 @@ struct Home: View {
                 if let activeIntro {
                     Rectangle()
                         .fill(activeIntro.bgColor)
+                        .padding(.bottom, -30)
                     /// Cirecle and text
                         .overlay {
                             Circle()
