@@ -14,5 +14,5 @@ struct TransparentHomeView: View {
 }
 
 #Preview {
-    TransparentHomeView()
+    TransparenBlurEffectView()
 }
