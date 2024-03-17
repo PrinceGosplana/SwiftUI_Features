@@ -31,6 +31,12 @@ struct TransparentHomeView: View {
     }
 }
 
+/// Blur State
+enum BlurType: String, CaseIterable {
+    case clipped = "Clipped"
+    case freeStyle = "Free Style"
+}
+
 #Preview {
     TransparenBlurEffectView()
 }
