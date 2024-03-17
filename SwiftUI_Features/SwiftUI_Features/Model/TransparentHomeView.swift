@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct TransparentHomeView: View {
+    /// View Properties
+    @State private var activePic: String = "piggy"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.vertical) {
+            VStack(spacing: 15) {
+                GeometryReader {
+                    let size = $0.size
+                    
+                    Image(activePic)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: size.width, height: size.height)
+                        .clipShape(.rect(cornerRadius: 25))
+                }
+                .frame(height: 500)
+                .padding(15)
+            }
+        }
+        .scrollIndicators(.hidden)
     }
 }
 
