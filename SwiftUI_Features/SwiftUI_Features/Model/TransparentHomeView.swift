@@ -30,6 +30,14 @@ struct TransparentHomeView: View {
                     Text("Blur Type")
                         .font(.caption)
                         .foregroundStyle(.gray)
+                    
+                    Picker("", selection: $blurType) {
+                        ForEach(BlurType.allCases, id: \.self) { type in
+                            Text(type.rawValue)
+                                .tag(type)
+                        }
+                    }
+                    .pickerStyle(.segmented)
                 })
                 .padding(15)
             }
