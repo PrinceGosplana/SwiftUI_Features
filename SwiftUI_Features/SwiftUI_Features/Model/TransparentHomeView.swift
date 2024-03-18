@@ -22,6 +22,9 @@ struct TransparentHomeView: View {
                         view
                             .offset(y: (proxy.bounds(of: .scrollView)?.minY ?? 0))
                     }
+                /// Placing it above all the views
+                    .zIndex(1000)
+                
                 VStack(alignment: .leading, spacing: 10, content: {
                     GeometryReader {
                         let size = $0.size
