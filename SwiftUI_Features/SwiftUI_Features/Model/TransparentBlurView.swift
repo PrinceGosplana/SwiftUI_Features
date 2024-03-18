@@ -15,7 +15,11 @@ struct TransparentBlurView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIViewType, context: Context) {
-        
+        DispatchQueue.main.async {
+            if let backdropLayer = uiView.layer.sublayers?.first {
+                
+            }
+        }
     }
 }
 
