@@ -15,6 +15,13 @@ struct TransparentHomeView: View {
     var body: some View {
         ScrollView(.vertical) {
             VStack(spacing: 15) {
+                TransparentBlurView(removeAllFilters: false)
+                    .frame(height: 140)
+                    .visualEffect { view, proxy in
+                        /// Available from iOS 17 to read scroll offsets directly from SwiftUI view's
+                        view
+                            .offset(y: (proxy.bounds(of: .scrollView)?.minY ?? 0))
+                    }
                 VStack(alignment: .leading, spacing: 10, content: {
                     GeometryReader {
                         let size = $0.size
