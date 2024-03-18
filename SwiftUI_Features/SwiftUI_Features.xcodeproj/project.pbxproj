@@ -24,6 +24,7 @@
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
 		957D364F2B96DC9100E5E342 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364E2B96DC9100E5E342 /* Preview Assets.xcassets */; };
 		957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36552B9866F500E5E342 /* NewApiScrollView.swift */; };
+		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		957D364B2B96DC9100E5E342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		957D364E2B96DC9100E5E342 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		957D36552B9866F500E5E342 /* NewApiScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewApiScrollView.swift; sourceTree = "<group>"; };
+		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 			children = (
 				956087D42B9F6C4800BAC9BA /* Intro.swift */,
 				956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */,
+				95B7CE422BA8BE800030839E /* TransparentBlurView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
+				95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
