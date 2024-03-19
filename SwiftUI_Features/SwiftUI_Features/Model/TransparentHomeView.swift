@@ -70,4 +70,5 @@ enum BlurType: String, CaseIterable {
 
 #Preview {
     TransparenBlurEffectView()
+        .preferredColorScheme(.dark)
 }
