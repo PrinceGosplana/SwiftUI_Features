@@ -99,6 +99,7 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
+				95B7CE442BA9785C0030839E /* Glass Background Effect */,
 				956087D62B9F6EB500BAC9BA /* View */,
 				956087D32B9F6C3500BAC9BA /* Model */,
 				957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */,
@@ -126,6 +127,13 @@
 				957D364E2B96DC9100E5E342 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95B7CE442BA9785C0030839E /* Glass Background Effect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Glass Background Effect";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
