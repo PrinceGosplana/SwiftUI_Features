@@ -18,7 +18,9 @@ struct TransparentHomeView: View {
             
             ScrollView(.vertical) {
                 VStack(spacing: 15) {
-                    TransparentBlurView(removeAllFilters: false)
+                    TransparentBlurView(removeAllFilters: true)
+                        .blur(radius: 15, opaque: blurType == .clipped)
+                        .padding([.horizontal, .top], -30)
                         .frame(height: 100 + safeArea.top)
                         .visualEffect { view, proxy in
                             /// Available from iOS 17 to read scroll offsets directly from SwiftUI view's
@@ -54,6 +56,7 @@ struct TransparentHomeView: View {
                         .pickerStyle(.segmented)
                     })
                     .padding(15)
+                    .padding(.bottom, 500)
                 }
             }
             .scrollIndicators(.hidden)
