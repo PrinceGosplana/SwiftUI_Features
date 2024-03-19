@@ -25,6 +25,7 @@
 		957D364F2B96DC9100E5E342 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364E2B96DC9100E5E342 /* Preview Assets.xcassets */; };
 		957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36552B9866F500E5E342 /* NewApiScrollView.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
+		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		957D364E2B96DC9100E5E342 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		957D36552B9866F500E5E342 /* NewApiScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewApiScrollView.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
+		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 		95B7CE442BA9785C0030839E /* Glass Background Effect */ = {
 			isa = PBXGroup;
 			children = (
+				95B7CE452BA9799F0030839E /* HomeGlassView.swift */,
 			);
 			path = "Glass Background Effect";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
 				956087DA2BA6F7E300BAC9BA /* TransparenBlurEffectView.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
+				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
