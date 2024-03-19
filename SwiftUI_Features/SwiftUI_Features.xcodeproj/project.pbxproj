@@ -26,6 +26,7 @@
 		957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36552B9866F500E5E342 /* NewApiScrollView.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
+		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
 		95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		957D36552B9866F500E5E342 /* NewApiScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewApiScrollView.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
+		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
 		95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				95B7CE452BA9799F0030839E /* HomeGlassView.swift */,
+				95B7CE472BA97A840030839E /* GlassBackgroundView.swift */,
 			);
 			path = "Glass Background Effect";
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
+				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnnimationsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
