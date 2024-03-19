@@ -9,7 +9,15 @@ import SwiftUI
 
 struct HomeGlassView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background {
+            Rectangle()
+                .fill(.BG)
+                .ignoresSafeArea()
+        }
     }
 }
 
