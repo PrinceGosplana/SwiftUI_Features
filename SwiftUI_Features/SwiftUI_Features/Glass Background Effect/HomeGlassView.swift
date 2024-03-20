@@ -42,6 +42,7 @@ struct HomeGlassView: View {
                             .background(.white)
                             .clipShape(.rect(cornerRadius: 8, style: .continuous))
                     })
+                    .padding(.top, 30)
                 }
             }
         }
