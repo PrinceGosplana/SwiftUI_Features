@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct HomeGlassView: View {
+    
+    /// View properties
+    @State private var username: String = ""
+    @State private var password: String = ""
+    
     var body: some View {
         VStack {
             /// Login View
