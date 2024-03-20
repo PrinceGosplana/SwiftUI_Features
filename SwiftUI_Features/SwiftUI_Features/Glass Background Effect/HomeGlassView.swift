@@ -44,6 +44,19 @@ struct HomeGlassView: View {
                     })
                     .padding(.top, 30)
                 }
+                
+                /// Other login options
+                HStack(spacing: 12) {
+                    Button(action: {}, label: {
+                        Label("Email", systemImage: "envelope.fill")
+                            .fontWeight(.semibold)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 10)
+                            .background(.white.opacity(0.2))
+                            .clipShape(.rect(cornerRadius: 8, style: .continuous))
+                    })
+                }
+                .foregroundStyle(.white)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
