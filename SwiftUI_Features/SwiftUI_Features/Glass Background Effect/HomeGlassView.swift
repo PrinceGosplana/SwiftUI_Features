@@ -66,7 +66,11 @@ struct HomeGlassView: View {
                     })
                 }
                 .foregroundStyle(.white)
+                .padding(.top, 15)
             }
+            .padding(.horizontal, 30)
+            .padding(.top, 35)
+            .padding(.bottom, 25)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
