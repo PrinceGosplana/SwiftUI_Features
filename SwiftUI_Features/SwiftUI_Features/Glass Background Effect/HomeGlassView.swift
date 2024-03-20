@@ -44,12 +44,18 @@ struct HomeGlassView: View {
     
     /// Custom Text Field
     @ViewBuilder
-    func CustomTF(hint: String, value: Binding<String>) -> some View {
-        TextField(hint, text: value)
-            .padding(.vertical, 10)
-            .padding(.horizontal, 15)
-            .background(.white.opacity(0.12))
-            .clipShape(.rect(cornerRadius: 8, style: .continuous))
+    func CustomTF(hint: String, value: Binding<String>, isPassword: Bool = false) -> some View {
+        Group {
+            if isPassword {
+                SecureField(hint, text: value)
+            } else {
+                TextField(hint, text: value)
+            }
+        }
+        .padding(.vertical, 10)
+        .padding(.horizontal, 15)
+        .background(.white.opacity(0.12))
+        .clipShape(.rect(cornerRadius: 8, style: .continuous))
     }
 }
 
