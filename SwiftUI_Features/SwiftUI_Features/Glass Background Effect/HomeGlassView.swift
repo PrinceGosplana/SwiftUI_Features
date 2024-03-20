@@ -23,6 +23,14 @@ struct HomeGlassView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Username")
                         .font(.callout.bold())
+                    
+                    CustomTF(hint: "iJustine", value: $username)
+                    
+                    Text("Pasword")
+                        .font(.callout.bold())
+                        .padding(.top, 15)
+                    
+                    CustomTF(hint: "******", value: $password)
                 }
             }
         }
@@ -36,7 +44,7 @@ struct HomeGlassView: View {
     
     /// Custom Text Field
     @ViewBuilder
-    func customTF(hint: String, value: Binding<String>) -> some View {
+    func CustomTF(hint: String, value: Binding<String>) -> some View {
         TextField(hint, text: value)
             .padding(.vertical, 10)
             .padding(.horizontal, 15)
