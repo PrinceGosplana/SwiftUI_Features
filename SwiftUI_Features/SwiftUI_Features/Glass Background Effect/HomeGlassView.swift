@@ -30,7 +30,18 @@ struct HomeGlassView: View {
                         .font(.callout.bold())
                         .padding(.top, 15)
                     
-                    CustomTF(hint: "******", value: $password)
+                    CustomTF(hint: "******", value: $password, isPassword: true)
+                    
+                    Button(action: {}, label: {
+                        Text("Login")
+                            .font(.title3)
+                            .fontWeight(.semibold)
+                            .foregroundStyle(.BG)
+                            .padding(.vertical, 12)
+                            .frame(maxWidth: .infinity)
+                            .background(.white)
+                            .clipShape(.rect(cornerRadius: 8, style: .continuous))
+                    })
                 }
             }
         }
