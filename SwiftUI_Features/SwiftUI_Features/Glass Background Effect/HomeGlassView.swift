@@ -16,7 +16,7 @@ struct HomeGlassView: View {
     var body: some View {
         VStack {
             /// Login View
-            VStack(spacing: 12) {
+            LoginViewStack {
                 Text("Welcome!")
                     .font(.title.bold())
                 
@@ -55,9 +55,6 @@ struct HomeGlassView: View {
                 .foregroundStyle(.white)
                 .padding(.top, 15)
             }
-            .padding(.horizontal, 30)
-            .padding(.top, 35)
-            .padding(.bottom, 25)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
@@ -108,6 +105,20 @@ struct CustomLoginButtonStyle: ButtonStyle {
             .frame(maxWidth: .infinity)
             .background(.white)
             .clipShape(.rect(cornerRadius: 8, style: .continuous))
+    }
+}
+
+struct LoginViewStack<Content>: View where Content: View {
+    let content: () -> Content
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content
+    }
+    
+    var body: some View {
+        VStack(spacing: 12, content: content)
+            .padding(.horizontal, 30)
+            .padding(.top, 35)
+            .padding(.bottom, 25)
     }
 }
 #Preview {
