@@ -34,14 +34,8 @@ struct HomeGlassView: View {
                     
                     Button(action: {}, label: {
                         Text("Login")
-                            .font(.title3)
-                            .fontWeight(.semibold)
-                            .foregroundStyle(.BG)
-                            .padding(.vertical, 12)
-                            .frame(maxWidth: .infinity)
-                            .background(.white)
-                            .clipShape(.rect(cornerRadius: 8, style: .continuous))
                     })
+                    .buttonStyle(CustomLoginButtonStyle())
                     .padding(.top, 30)
                 }
                 
@@ -49,13 +43,14 @@ struct HomeGlassView: View {
                 HStack(spacing: 12) {
                     Button(action: {}, label: {
                         Label("Email", systemImage: "envelope.fill")
-                            .modifier(GrayButtonViewModifier())
                     })
+                    .buttonStyle(GrayButtonStyle())
                     
                     Button(action: {}, label: {
                         Label("Apple", systemImage: "applelogo")
-                            .modifier(GrayButtonViewModifier())
                     })
+                    .buttonStyle(GrayButtonStyle())
+                    
                 }
                 .foregroundStyle(.white)
                 .padding(.top, 15)
@@ -91,10 +86,10 @@ struct HomeGlassView: View {
     
 }
 
-struct GrayButtonViewModifier: ViewModifier {
+struct GrayButtonStyle: ButtonStyle {
 
-    func body(content: Content) -> some View {
-        content
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
             .fontWeight(.semibold)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 10)
@@ -103,6 +98,18 @@ struct GrayButtonViewModifier: ViewModifier {
     }
 }
 
+struct CustomLoginButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .font(.title3)
+            .fontWeight(.semibold)
+            .foregroundStyle(.BG)
+            .padding(.vertical, 12)
+            .frame(maxWidth: .infinity)
+            .background(.white)
+            .clipShape(.rect(cornerRadius: 8, style: .continuous))
+    }
+}
 #Preview {
     GlassBackgroundView()
 }
