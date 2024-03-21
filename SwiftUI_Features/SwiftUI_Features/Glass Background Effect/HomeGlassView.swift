@@ -49,20 +49,12 @@ struct HomeGlassView: View {
                 HStack(spacing: 12) {
                     Button(action: {}, label: {
                         Label("Email", systemImage: "envelope.fill")
-                            .fontWeight(.semibold)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 10)
-                            .background(.white.opacity(0.2))
-                            .clipShape(.rect(cornerRadius: 8, style: .continuous))
+                            .modifier(GrayButtonViewModifier())
                     })
                     
                     Button(action: {}, label: {
                         Label("Apple", systemImage: "applelogo")
-                            .fontWeight(.semibold)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 10)
-                            .background(.white.opacity(0.2))
-                            .clipShape(.rect(cornerRadius: 8, style: .continuous))
+                            .modifier(GrayButtonViewModifier())
                     })
                 }
                 .foregroundStyle(.white)
@@ -94,6 +86,20 @@ struct HomeGlassView: View {
         .padding(.horizontal, 15)
         .background(.white.opacity(0.12))
         .clipShape(.rect(cornerRadius: 8, style: .continuous))
+    }
+    
+    
+}
+
+struct GrayButtonViewModifier: ViewModifier {
+
+    func body(content: Content) -> some View {
+        content
+            .fontWeight(.semibold)
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 10)
+            .background(.white.opacity(0.2))
+            .clipShape(.rect(cornerRadius: 8, style: .continuous))
     }
 }
 
