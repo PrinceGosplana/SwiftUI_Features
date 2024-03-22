@@ -54,7 +54,9 @@ struct HomeGlassView: View {
                     .blur(radius: 9, opaque: true)
                     .background(.white.opacity(0.15))
             }
+            .clipShape(.rect(cornerRadius: 10, style: .continuous))
         }
+        .padding(.horizontal, 40)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
             Rectangle()
