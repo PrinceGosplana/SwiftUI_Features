@@ -49,6 +49,11 @@ struct HomeGlassView: View {
                 .foregroundStyle(.white)
                 .padding(.top, 15)
             }
+            .background {
+                TransparentBlurView(removeAllFilters: true)
+                    .blur(radius: 9, opaque: true)
+                    .background(.white.opacity(0.15))
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
@@ -88,6 +93,7 @@ struct LoginButtonView: View {
         .buttonStyle(GrayButtonStyle())
     }
 }
+
 struct GrayButtonStyle: ButtonStyle {
 
     func makeBody(configuration: Configuration) -> some View {
