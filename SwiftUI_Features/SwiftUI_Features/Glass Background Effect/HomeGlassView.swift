@@ -41,16 +41,10 @@ struct HomeGlassView: View {
                 
                 /// Other login options
                 HStack(spacing: 12) {
-                    Button(action: {}, label: {
-                        Label("Email", systemImage: "envelope.fill")
-                    })
-                    .buttonStyle(GrayButtonStyle())
-                    
-                    Button(action: {}, label: {
-                        Label("Apple", systemImage: "applelogo")
-                    })
-                    .buttonStyle(GrayButtonStyle())
-                    
+                    LoginButtonView(title: "Email",
+                                    imageName: "envelope.fill")
+                    LoginButtonView(title: "Apple",
+                                    imageName: "applelogo")
                 }
                 .foregroundStyle(.white)
                 .padding(.top, 15)
@@ -83,6 +77,17 @@ struct HomeGlassView: View {
     
 }
 
+struct LoginButtonView: View {
+    let title: String
+    let imageName: String
+    
+    var body: some View {
+        Button(action: {}, label: {
+            Label(title, systemImage: imageName)
+        })
+        .buttonStyle(GrayButtonStyle())
+    }
+}
 struct GrayButtonStyle: ButtonStyle {
 
     func makeBody(configuration: Configuration) -> some View {
