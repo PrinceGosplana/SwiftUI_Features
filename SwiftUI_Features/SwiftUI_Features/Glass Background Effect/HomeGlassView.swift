@@ -55,6 +55,11 @@ struct HomeGlassView: View {
                     .background(.white.opacity(0.15))
             }
             .clipShape(.rect(cornerRadius: 10, style: .continuous))
+            /// Light white border
+            .background {
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .stroke(.white.opacity(0.3), lineWidth: 2)
+            }
         }
         .padding(.horizontal, 40)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
