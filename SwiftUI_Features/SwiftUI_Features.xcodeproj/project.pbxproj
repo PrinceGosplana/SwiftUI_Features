@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */; };
+		8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */; };
 		952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */; };
 		952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C92B9A282C005E393F /* CustomTransitionsView.swift */; };
 		956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableiOS17Style.swift; sourceTree = "<group>"; };
+		8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorSymbolsView.swift; sourceTree = "<group>"; };
 		952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewExample.swift; sourceTree = "<group>"; };
 		952473C92B9A282C005E393F /* CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsView.swift; sourceTree = "<group>"; };
 		956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationsView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */,
 				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
 				8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */,
+				8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 			);
@@ -225,6 +228,7 @@
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
+				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
