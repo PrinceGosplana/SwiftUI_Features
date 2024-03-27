@@ -46,16 +46,15 @@ struct ObservableiOS17Style: View {
                                         bio: "My bio goes somewhere")*/
 
     @State var user = UserObserve(name: "Awesome Curt",
-                                        jobTitle: "iOS Dev Streamer", followersCount: 120,
+                                        jobTitle: "iOS Dev Streamer", followersCount: 1,
                                         bio: "My bio goes somewhere")
-
     var body: some View {
         VStack(alignment: .leading) {
             Text(user.name)
                 .font(.title.bold())
             Text(user.jobTitle)
                 .foregroundStyle(.secondary)
-            Text("\(user.followersCount) followers")
+            Text("^[\(user.followersCount) follower](inflect: true)")
                 .foregroundStyle(.secondary)
 
             Button {
