@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */; };
 		952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C92B9A282C005E393F /* CustomTransitionsView.swift */; };
-		956087A92B9B96A700BAC9BA /* CustomAnnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnnimationsView.swift */; };
+		956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */; };
 		956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */; };
 		956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */; };
 		956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */; };
@@ -17,7 +17,7 @@
 		956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */; };
 		956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D42B9F6C4800BAC9BA /* Intro.swift */; };
 		956087D82B9F6EC700BAC9BA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D72B9F6EC700BAC9BA /* Home.swift */; };
-		956087DA2BA6F7E300BAC9BA /* TransparenBlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D92BA6F7E300BAC9BA /* TransparenBlurEffectView.swift */; };
+		956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */; };
 		956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewExample.swift; sourceTree = "<group>"; };
 		952473C92B9A282C005E393F /* CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsView.swift; sourceTree = "<group>"; };
-		956087A82B9B96A700BAC9BA /* CustomAnnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnimationsView.swift; sourceTree = "<group>"; };
+		956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationsView.swift; sourceTree = "<group>"; };
 		956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeView.swift; sourceTree = "<group>"; };
 		956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservBindableView.swift; sourceTree = "<group>"; };
 		956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnEvenRoundedRectangleView.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationView.swift; sourceTree = "<group>"; };
 		956087D42B9F6C4800BAC9BA /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
 		956087D72B9F6EC700BAC9BA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		956087D92BA6F7E300BAC9BA /* TransparenBlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparenBlurEffectView.swift; sourceTree = "<group>"; };
+		956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurEffectView.swift; sourceTree = "<group>"; };
 		956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentHomeView.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
@@ -112,13 +112,13 @@
 				95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */,
 				952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */,
 				952473C92B9A282C005E393F /* CustomTransitionsView.swift */,
-				956087A82B9B96A700BAC9BA /* CustomAnnimationsView.swift */,
+				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
 				956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */,
 				956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */,
 				956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */,
 				956087B02B9C567B00BAC9BA /* HapticFeedbackView.swift */,
 				956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */,
-				956087D92BA6F7E300BAC9BA /* TransparenBlurEffectView.swift */,
+				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 			);
@@ -223,11 +223,11 @@
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
-				956087A92B9B96A700BAC9BA /* CustomAnnimationsView.swift in Sources */,
+				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
 				956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
-				956087DA2BA6F7E300BAC9BA /* TransparenBlurEffectView.swift in Sources */,
+				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,

@@ -9,7 +9,7 @@ import SwiftData
 import SwiftUI
 
 /// A new way to create an observable object in SwiftUI
-struct ObservBindableView: View {
+struct ObserveBindableView: View {
     @Bindable var user: User = .init()
     
     var body: some View {
@@ -21,7 +21,7 @@ struct ObservBindableView: View {
 }
 
 #Preview {
-    ObservBindableView()
+    ObserveBindableView()
 }
 
 @Observable

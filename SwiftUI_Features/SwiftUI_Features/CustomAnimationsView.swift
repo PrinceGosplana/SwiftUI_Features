@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomAnnimationsView: View {
+struct CustomAnimationsView: View {
     @State private var showView: Bool = false
     
     var body: some View {
@@ -28,5 +28,5 @@ struct CustomAnnimationsView: View {
 }
 
 #Preview {
-    CustomAnnimationsView()
+    CustomAnimationsView()
 }

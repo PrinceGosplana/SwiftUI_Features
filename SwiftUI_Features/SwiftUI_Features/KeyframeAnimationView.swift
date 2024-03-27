@@ -31,9 +31,9 @@ struct KeyframeAnimationView: View {
                             /// Masking with linear gradient for suttle reflection
                                 .mask({
                                     LinearGradient(colors: [
-                                        .white.opacity(frame.reflectinOpacity),
-                                        .white.opacity(frame.reflectinOpacity - 0.3),
-                                        .white.opacity(frame.reflectinOpacity - 0.45),
+                                        .white.opacity(frame.reflectionOpacity),
+                                        .white.opacity(frame.reflectionOpacity - 0.3),
+                                        .white.opacity(frame.reflectionOpacity - 0.45),
                                         .clear
                                     ], startPoint: .top, endPoint: .bottom)
                                 })
@@ -60,7 +60,7 @@ struct KeyframeAnimationView: View {
                         CubicKeyframe(.init(degrees: -10), duration: 0.1)
                         CubicKeyframe(.init(degrees: 0), duration: 0.15)
                     }
-                    KeyframeTrack(\.reflectinOpacity) {
+                    KeyframeTrack(\.reflectionOpacity) {
                         CubicKeyframe(0.5, duration: 0.15)
                         CubicKeyframe(0.3, duration: 0.75)
                         CubicKeyframe(0.5, duration: 0.3)
@@ -81,7 +81,7 @@ struct Keyframe {
     var scale: CGFloat = 1
     var offsetY: CGFloat = 0
     var rotation: Angle = .zero
-    var reflectinOpacity: CGFloat = 0.5
+    var reflectionOpacity: CGFloat = 0.5
 }
 
 #Preview {

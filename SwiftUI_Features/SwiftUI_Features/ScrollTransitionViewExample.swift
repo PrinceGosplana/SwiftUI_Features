@@ -18,7 +18,7 @@ struct ScrollTransitionViewExample: View {
                 }
             }
             .padding(.horizontal, 30)
-            /// Scroll transitionn
+            /// Scroll transition
             .scrollTransition(topLeading: .interactive, bottomTrailing: .interactive) { view, phase in
                 view
                     .opacity(1 - (phase.value < 0 ? -phase.value : phase.value))
