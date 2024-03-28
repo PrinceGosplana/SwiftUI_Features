@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_FeaturesApp: App {
     var body: some Scene {
         WindowGroup {
-            NewApiScrollView()
+            NavigationBarBaseSettingsView()
+//            NewApiScrollView()
 //            ContentView()
         }
     }
