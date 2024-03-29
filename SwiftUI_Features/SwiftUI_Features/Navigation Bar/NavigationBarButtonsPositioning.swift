@@ -13,7 +13,7 @@ struct NavigationBarButtonsPositioning: View {
     @State var searchableText = ""
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Image(systemName: "car")
                 .resizable()
                 .aspectRatio(contentMode: .fit)

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NavigationBarBaseSettingsView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Image(systemName: "car")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
