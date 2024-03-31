@@ -15,6 +15,8 @@
 		8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6F0F2BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift */; };
 		8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17602BB984E0002CC3AA /* MockData.swift */; };
 		8AFE17632BB985AB002CC3AA /* LazyVGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */; };
+		8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17642BB98E3A002CC3AA /* LazyHGridViewExample.swift */; };
+		8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17662BB98FCF002CC3AA /* StaticGridExampleView.swift */; };
 		8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */; };
 		952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */; };
 		952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C92B9A282C005E393F /* CustomTransitionsView.swift */; };
@@ -48,6 +50,8 @@
 		8ADD6F0F2BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonsPositioning.swift; sourceTree = "<group>"; };
 		8AFE17602BB984E0002CC3AA /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridViewExample.swift; sourceTree = "<group>"; };
+		8AFE17642BB98E3A002CC3AA /* LazyHGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridViewExample.swift; sourceTree = "<group>"; };
+		8AFE17662BB98FCF002CC3AA /* StaticGridExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticGridExampleView.swift; sourceTree = "<group>"; };
 		8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonsView.swift; sourceTree = "<group>"; };
 		952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewExample.swift; sourceTree = "<group>"; };
 		952473C92B9A282C005E393F /* CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */,
+				8AFE17642BB98E3A002CC3AA /* LazyHGridViewExample.swift */,
+				8AFE17662BB98FCF002CC3AA /* StaticGridExampleView.swift */,
 			);
 			path = Grids;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
+				8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */,
 				95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */,
 				8AFE17632BB985AB002CC3AA /* LazyVGridViewExample.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
@@ -289,6 +296,7 @@
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
+				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
 				956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */,
