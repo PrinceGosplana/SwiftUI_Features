@@ -17,6 +17,7 @@
 		8AFE17632BB985AB002CC3AA /* LazyVGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */; };
 		8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17642BB98E3A002CC3AA /* LazyHGridViewExample.swift */; };
 		8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17662BB98FCF002CC3AA /* StaticGridExampleView.swift */; };
+		8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17682BB99476002CC3AA /* ScrollExampleView.swift */; };
 		8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */; };
 		952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */; };
 		952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C92B9A282C005E393F /* CustomTransitionsView.swift */; };
@@ -52,6 +53,7 @@
 		8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridViewExample.swift; sourceTree = "<group>"; };
 		8AFE17642BB98E3A002CC3AA /* LazyHGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridViewExample.swift; sourceTree = "<group>"; };
 		8AFE17662BB98FCF002CC3AA /* StaticGridExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticGridExampleView.swift; sourceTree = "<group>"; };
+		8AFE17682BB99476002CC3AA /* ScrollExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollExampleView.swift; sourceTree = "<group>"; };
 		8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonsView.swift; sourceTree = "<group>"; };
 		952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewExample.swift; sourceTree = "<group>"; };
 		952473C92B9A282C005E393F /* CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */,
 				8AFE17642BB98E3A002CC3AA /* LazyHGridViewExample.swift */,
 				8AFE17662BB98FCF002CC3AA /* StaticGridExampleView.swift */,
+				8AFE17682BB99476002CC3AA /* ScrollExampleView.swift */,
 			);
 			path = Grids;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
+				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
