@@ -11,11 +11,13 @@ struct DateFormatterView: View {
 
     @State var measurementFormatter: MeasurementFormatter = {
         let formatter = MeasurementFormatter()
-        formatter.locale = Locale(identifier: "en_US")
+        formatter.locale = Locale(identifier: "en_EN")
         return formatter
     }()
 
     let measurement = Measurement(value: 1.2, unit: UnitLength.kilometers)
+    let massMeasurement = Measurement(value: 69, unit: UnitMass.grams)
+
 
     @State var dateComponentsFormatter: DateComponentsFormatter = {
         let formatter = DateComponentsFormatter()
@@ -65,6 +67,9 @@ struct DateFormatterView: View {
                 .foregroundStyle(.mint)
                 .font(.title)
             Text(measurementFormatter.string(from: measurement))
+                .font(.title)
+                .foregroundStyle(.indigo)
+            Text(measurementFormatter.string(from: massMeasurement.converted(to: .grams)))
                 .font(.title)
                 .foregroundStyle(.indigo)
             Text(byteCountFormatter.string(fromByteCount: 1_000_000_000))

@@ -22,3 +22,7 @@ struct AutomaticCountingView: View {
 #Preview {
     AutomaticCountingView()
 }
+
+//@Namespace private var nspace
+//
+//.matchedGeometryEffect(id: <#T##ID#>, in: <#T##SwiftUI.Namespace.ID#>, properties: <#T##SwiftUI.MatchedGeometryProperties#>, anchor: <#T##SwiftUI.UnitPoint#>, isSource: <#T##Bool#>)
