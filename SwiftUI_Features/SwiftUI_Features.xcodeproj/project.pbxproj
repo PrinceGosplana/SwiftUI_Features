@@ -118,6 +118,7 @@
 				8A3B99262BC518DC009B326E /* VibrationColorEffect.swift */,
 				8A3B992A2BC51BB4009B326E /* AppearEffect.swift */,
 				8A3B992C2BC51DBB009B326E /* ReplaceEffect.swift */,
+				8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */,
 			);
 			path = AnimationSFSymbols;
 			sourceTree = "<group>";
@@ -228,7 +229,6 @@
 				95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */,
 				952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */,
 				957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */,
-				8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */,
 				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
 				956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */,
 				956087D62B9F6EB500BAC9BA /* View */,

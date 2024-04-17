@@ -78,6 +78,8 @@ struct DateFormatterView: View {
             Text(personNameComponentsFormatter.string(from: nameComponents))
                 .font(.title)
                 .foregroundStyle(.indigo)
+
+            Text("^[\(5) like](inflect: true)")
         }
     }
 }
