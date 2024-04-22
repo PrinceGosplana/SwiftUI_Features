@@ -14,6 +14,7 @@
 		8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99282BC51AC4009B326E /* ScaleEffect.swift */; };
 		8A3B992B2BC51BB4009B326E /* AppearEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B992A2BC51BB4009B326E /* AppearEffect.swift */; };
 		8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B992C2BC51DBB009B326E /* ReplaceEffect.swift */; };
+		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */; };
 		8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */; };
 		8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */; };
@@ -59,6 +60,7 @@
 		8A3B99282BC51AC4009B326E /* ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect.swift; sourceTree = "<group>"; };
 		8A3B992A2BC51BB4009B326E /* AppearEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearEffect.swift; sourceTree = "<group>"; };
 		8A3B992C2BC51DBB009B326E /* ReplaceEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceEffect.swift; sourceTree = "<group>"; };
+		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableiOS17Style.swift; sourceTree = "<group>"; };
 		8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorSymbolsView.swift; sourceTree = "<group>"; };
 		8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticCountingView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,15 @@
 				8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */,
 			);
 			path = AnimationSFSymbols;
+			sourceTree = "<group>";
+		};
+		8A9CE5BB2BD66E7F002C8EB1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8A3B991F2BC4F067009B326E /* AnimationSFSymbols */,
+				8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		8ADD6EE52BB4521000C7D329 /* Extensions */ = {
@@ -205,7 +216,7 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
-				8A3B991F2BC4F067009B326E /* AnimationSFSymbols */,
+				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
 				957D36492B96DC8D00E5E342 /* ContentView.swift */,
@@ -329,6 +340,7 @@
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
+				8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
