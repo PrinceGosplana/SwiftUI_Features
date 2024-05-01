@@ -22,6 +22,7 @@
 		8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6F0D2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift */; };
 		8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6F0F2BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift */; };
 		8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */; };
+		8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */; };
 		8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */; };
 		8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17602BB984E0002CC3AA /* MockData.swift */; };
 		8AFE17632BB985AB002CC3AA /* LazyVGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */; };
@@ -69,6 +70,7 @@
 		8ADD6F0D2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarBaseSettingsView.swift; sourceTree = "<group>"; };
 		8ADD6F0F2BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonsPositioning.swift; sourceTree = "<group>"; };
 		8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingGeometryReader.swift; sourceTree = "<group>"; };
+		8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingSpacerView.swift; sourceTree = "<group>"; };
 		8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImageIconMaskView.swift; sourceTree = "<group>"; };
 		8AFE17602BB984E0002CC3AA /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridViewExample.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				8ADD6F0C2BB599EC00C7D329 /* Navigation Bar */,
 				957D36552B9866F500E5E342 /* NewApiScrollView.swift */,
 				8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */,
+				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
 				8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */,
 				956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */,
 				956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */,
@@ -360,6 +363,7 @@
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
+				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
 				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
