@@ -11,17 +11,15 @@ struct UsingSpacerView: View {
     var body: some View {
         VStack {
             Spacer()
-
             HStack {
                 Spacer()
-
                 WriteButton()
                     .padding()
-
             }
         }
     }
 }
+
 struct StopUsingSpacerView: View {
     var body: some View {
         WriteButton()

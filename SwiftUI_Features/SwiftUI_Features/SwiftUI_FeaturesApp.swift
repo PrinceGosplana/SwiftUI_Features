@@ -11,8 +11,9 @@ import SwiftUI
 struct SwiftUI_FeaturesApp: App {
     var body: some Scene {
         WindowGroup {
-            AnimateNumbers()
-                .preferredColorScheme(.dark)
+            StopUsingSpacerView()
+//            AnimateNumbers()
+//                .preferredColorScheme(.dark)
 //            NavigationBarBaseSettingsView()
 //            NewApiScrollView()
 //            ContentView()
