@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */; };
 		8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99202BC4F087009B326E /* BounceEffectView.swift */; };
 		8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99222BC4F213009B326E /* PulseEffectView.swift */; };
 		8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99242BC4F474009B326E /* ExtractedView.swift */; };
@@ -57,6 +58,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
 		8A3B99202BC4F087009B326E /* BounceEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceEffectView.swift; sourceTree = "<group>"; };
 		8A3B99222BC4F213009B326E /* PulseEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseEffectView.swift; sourceTree = "<group>"; };
 		8A3B99242BC4F474009B326E /* ExtractedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A20ED4F2C15A60000D5915D /* Animated transition */ = {
+			isa = PBXGroup;
+			children = (
+				8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */,
+			);
+			path = "Animated transition";
+			sourceTree = "<group>";
+		};
 		8A3B991F2BC4F067009B326E /* AnimationSFSymbols */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +146,7 @@
 		8A9CE5BB2BD66E7F002C8EB1 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				8A20ED4F2C15A60000D5915D /* Animated transition */,
 				8A3B991F2BC4F067009B326E /* AnimationSFSymbols */,
 				8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */,
 			);
@@ -388,6 +399,7 @@
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
+				8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
 				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
