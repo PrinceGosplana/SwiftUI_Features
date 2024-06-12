@@ -25,6 +25,11 @@
 		8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */; };
 		8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */; };
 		8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */; };
+		8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2FB4E2C198FDA00B98D74 /* NPMainView.swift */; };
+		8AF2FB512C198FF000B98D74 /* NPRecipesSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2FB502C198FF000B98D74 /* NPRecipesSearchView.swift */; };
+		8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2FB522C198FFD00B98D74 /* NPRecipesDetailView.swift */; };
+		8AF2FB552C19916300B98D74 /* NPRecipesFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2FB542C19916300B98D74 /* NPRecipesFeedView.swift */; };
+		8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2FB562C1991AD00B98D74 /* RecipesRouter.swift */; };
 		8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFA1CE82C0DE0C300EC7A39 /* BottomSheetView.swift */; };
 		8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17602BB984E0002CC3AA /* MockData.swift */; };
 		8AFE17632BB985AB002CC3AA /* LazyVGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */; };
@@ -76,6 +81,11 @@
 		8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingGeometryReader.swift; sourceTree = "<group>"; };
 		8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingSpacerView.swift; sourceTree = "<group>"; };
 		8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImageIconMaskView.swift; sourceTree = "<group>"; };
+		8AF2FB4E2C198FDA00B98D74 /* NPMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPMainView.swift; sourceTree = "<group>"; };
+		8AF2FB502C198FF000B98D74 /* NPRecipesSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPRecipesSearchView.swift; sourceTree = "<group>"; };
+		8AF2FB522C198FFD00B98D74 /* NPRecipesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPRecipesDetailView.swift; sourceTree = "<group>"; };
+		8AF2FB542C19916300B98D74 /* NPRecipesFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPRecipesFeedView.swift; sourceTree = "<group>"; };
+		8AF2FB562C1991AD00B98D74 /* RecipesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesRouter.swift; sourceTree = "<group>"; };
 		8AFA1CE82C0DE0C300EC7A39 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		8AFE17602BB984E0002CC3AA /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		8AFE17622BB985AB002CC3AA /* LazyVGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridViewExample.swift; sourceTree = "<group>"; };
@@ -168,6 +178,27 @@
 				8ADD6F0F2BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift */,
 			);
 			path = "Navigation Bar";
+			sourceTree = "<group>";
+		};
+		8AF2FB4A2C198E0A00B98D74 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2FB4B2C198E1600B98D74 /* NavigationPath */,
+				8ADD6F0C2BB599EC00C7D329 /* Navigation Bar */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		8AF2FB4B2C198E1600B98D74 /* NavigationPath */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2FB4E2C198FDA00B98D74 /* NPMainView.swift */,
+				8AF2FB502C198FF000B98D74 /* NPRecipesSearchView.swift */,
+				8AF2FB522C198FFD00B98D74 /* NPRecipesDetailView.swift */,
+				8AF2FB542C19916300B98D74 /* NPRecipesFeedView.swift */,
+				8AF2FB562C1991AD00B98D74 /* RecipesRouter.swift */,
+			);
+			path = NavigationPath;
 			sourceTree = "<group>";
 		};
 		8AFA1CE72C0DE08700EC7A39 /* Bottom Sheet */ = {
@@ -268,9 +299,9 @@
 				956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */,
 				956087D32B9F6C3500BAC9BA /* Model */,
 				8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */,
-				8ADD6F0C2BB599EC00C7D329 /* Navigation Bar */,
 				957D36552B9866F500E5E342 /* NewApiScrollView.swift */,
 				8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */,
+				8AF2FB4A2C198E0A00B98D74 /* Navigation */,
 				956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */,
 				956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
@@ -380,8 +411,11 @@
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
+				8AF2FB512C198FF000B98D74 /* NPRecipesSearchView.swift in Sources */,
 				8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
+				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
+				8AF2FB552C19916300B98D74 /* NPRecipesFeedView.swift in Sources */,
 				8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
@@ -395,6 +429,7 @@
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
+				8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */,
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
@@ -406,6 +441,7 @@
 				8A3B99272BC518DC009B326E /* VibrationColorEffect.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
+				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
