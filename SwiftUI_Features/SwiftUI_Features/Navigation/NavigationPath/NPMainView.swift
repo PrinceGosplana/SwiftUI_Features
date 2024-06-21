@@ -17,8 +17,7 @@ struct NPMainView: View {
                 .environment(router)
                 .navigationDestination(for: RecipesRouter.Route.self) { route in
                     switch route {
-                    case .recipesSearch:
-                        NPRecipesSearchView()
+                    case .recipesSearch: NPRecipesSearchView()
                             .environment(router)
                     case .recipeDetail(recipe: let recipe):
                         NPRecipesDetailView(recipe: recipe)

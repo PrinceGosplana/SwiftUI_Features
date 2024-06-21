@@ -25,6 +25,9 @@
 		8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */; };
 		8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */; };
 		8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */; };
+		8AF1C1712C256233003CABE6 /* ClaimButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1C1702C256233003CABE6 /* ClaimButton.swift */; };
+		8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1C1722C2562EF003CABE6 /* ClaimButtonViewModel.swift */; };
+		8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1C1742C25632F003CABE6 /* ClaimButtonContentView.swift */; };
 		8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2FB4E2C198FDA00B98D74 /* NPMainView.swift */; };
 		8AF2FB512C198FF000B98D74 /* NPRecipesSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2FB502C198FF000B98D74 /* NPRecipesSearchView.swift */; };
 		8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF2FB522C198FFD00B98D74 /* NPRecipesDetailView.swift */; };
@@ -81,6 +84,9 @@
 		8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingGeometryReader.swift; sourceTree = "<group>"; };
 		8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingSpacerView.swift; sourceTree = "<group>"; };
 		8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImageIconMaskView.swift; sourceTree = "<group>"; };
+		8AF1C1702C256233003CABE6 /* ClaimButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimButton.swift; sourceTree = "<group>"; };
+		8AF1C1722C2562EF003CABE6 /* ClaimButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimButtonViewModel.swift; sourceTree = "<group>"; };
+		8AF1C1742C25632F003CABE6 /* ClaimButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimButtonContentView.swift; sourceTree = "<group>"; };
 		8AF2FB4E2C198FDA00B98D74 /* NPMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPMainView.swift; sourceTree = "<group>"; };
 		8AF2FB502C198FF000B98D74 /* NPRecipesSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPRecipesSearchView.swift; sourceTree = "<group>"; };
 		8AF2FB522C198FFD00B98D74 /* NPRecipesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPRecipesDetailView.swift; sourceTree = "<group>"; };
@@ -180,6 +186,16 @@
 			path = "Navigation Bar";
 			sourceTree = "<group>";
 		};
+		8AF1C16F2C25620C003CABE6 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1C1702C256233003CABE6 /* ClaimButton.swift */,
+				8AF1C1742C25632F003CABE6 /* ClaimButtonContentView.swift */,
+				8AF1C1722C2562EF003CABE6 /* ClaimButtonViewModel.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		8AF2FB4A2C198E0A00B98D74 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +255,7 @@
 		8AFEBFDE2BB6F7910006C41A /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				8AF1C16F2C25620C003CABE6 /* Button */,
 				8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */,
 			);
 			path = Controls;
@@ -413,6 +430,7 @@
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
 				8AF2FB512C198FF000B98D74 /* NPRecipesSearchView.swift in Sources */,
 				8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */,
+				8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
 				8AF2FB552C19916300B98D74 /* NPRecipesFeedView.swift in Sources */,
@@ -427,6 +445,7 @@
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
 				8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */,
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
+				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
 				8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */,
@@ -446,6 +465,7 @@
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
 				956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */,
+				8AF1C1712C256233003CABE6 /* ClaimButton.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
