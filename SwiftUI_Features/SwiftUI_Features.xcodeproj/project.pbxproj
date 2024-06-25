@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A039CAD2C29BCD40014434E /* MenuView.swift */; };
 		8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */; };
 		8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99202BC4F087009B326E /* BounceEffectView.swift */; };
 		8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99222BC4F213009B326E /* PulseEffectView.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A039CAD2C29BCD40014434E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
 		8A3B99202BC4F087009B326E /* BounceEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceEffectView.swift; sourceTree = "<group>"; };
 		8A3B99222BC4F213009B326E /* PulseEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseEffectView.swift; sourceTree = "<group>"; };
@@ -283,8 +285,8 @@
 		957D363B2B96DC8D00E5E342 = {
 			isa = PBXGroup;
 			children = (
-				957D36462B96DC8D00E5E342 /* SwiftUI_Features */,
 				957D36452B96DC8D00E5E342 /* Products */,
+				957D36462B96DC8D00E5E342 /* SwiftUI_Features */,
 			);
 			sourceTree = "<group>";
 		};
@@ -330,6 +332,7 @@
 				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
 				956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */,
 				956087D62B9F6EB500BAC9BA /* View */,
+				8A039CAD2C29BCD40014434E /* MenuView.swift */,
 			);
 			path = SwiftUI_Features;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
+				8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
