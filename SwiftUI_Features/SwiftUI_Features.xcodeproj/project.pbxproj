@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A039CAD2C29BCD40014434E /* MenuView.swift */; };
+		8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */; };
+		8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */; };
+		8A12DFC82C33FD9C003DACE1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFC72C33FD9C003DACE1 /* Router.swift */; };
+		8A12DFCA2C33FDE1003DACE1 /* RoutingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFC92C33FDE1003DACE1 /* RoutingApp.swift */; };
+		8A12DFCC2C33FE1A003DACE1 /* RoutHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCB2C33FE1A003DACE1 /* RoutHomeView.swift */; };
+		8A12DFCE2C33FE8A003DACE1 /* RoutLivingroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCD2C33FE8A003DACE1 /* RoutLivingroomView.swift */; };
+		8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */; };
 		8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */; };
 		8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99202BC4F087009B326E /* BounceEffectView.swift */; };
 		8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99222BC4F213009B326E /* PulseEffectView.swift */; };
@@ -16,6 +23,11 @@
 		8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99282BC51AC4009B326E /* ScaleEffect.swift */; };
 		8A3B992B2BC51BB4009B326E /* AppearEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B992A2BC51BB4009B326E /* AppearEffect.swift */; };
 		8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B992C2BC51DBB009B326E /* ReplaceEffect.swift */; };
+		8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF152C33EDAE00AF9F9B /* RoomListNavLinkView.swift */; };
+		8A3FDF182C33EDCD00AF9F9B /* RoomInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF172C33EDCD00AF9F9B /* RoomInfo.swift */; };
+		8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF192C33EDFD00AF9F9B /* RoomDetail.swift */; };
+		8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF1C2C33F0CB00AF9F9B /* HomeListNavPathView.swift */; };
+		8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF1E2C33F0FE00AF9F9B /* PaintInfo.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */; };
 		8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */; };
@@ -26,6 +38,7 @@
 		8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */; };
 		8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */; };
 		8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */; };
+		8AF0A8D82C317D540063E82A /* KeyboardCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0A8D72C317D540063E82A /* KeyboardCheckView.swift */; };
 		8AF1C1712C256233003CABE6 /* ClaimButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1C1702C256233003CABE6 /* ClaimButton.swift */; };
 		8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1C1722C2562EF003CABE6 /* ClaimButtonViewModel.swift */; };
 		8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1C1742C25632F003CABE6 /* ClaimButtonContentView.swift */; };
@@ -68,6 +81,13 @@
 
 /* Begin PBXFileReference section */
 		8A039CAD2C29BCD40014434E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefullThoughts.swift; sourceTree = "<group>"; };
+		8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredConcurrency.swift; sourceTree = "<group>"; };
+		8A12DFC72C33FD9C003DACE1 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8A12DFC92C33FDE1003DACE1 /* RoutingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingApp.swift; sourceTree = "<group>"; };
+		8A12DFCB2C33FE1A003DACE1 /* RoutHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutHomeView.swift; sourceTree = "<group>"; };
+		8A12DFCD2C33FE8A003DACE1 /* RoutLivingroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutLivingroomView.swift; sourceTree = "<group>"; };
+		8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutBedroomView.swift; sourceTree = "<group>"; };
 		8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
 		8A3B99202BC4F087009B326E /* BounceEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceEffectView.swift; sourceTree = "<group>"; };
 		8A3B99222BC4F213009B326E /* PulseEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseEffectView.swift; sourceTree = "<group>"; };
@@ -76,6 +96,11 @@
 		8A3B99282BC51AC4009B326E /* ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect.swift; sourceTree = "<group>"; };
 		8A3B992A2BC51BB4009B326E /* AppearEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearEffect.swift; sourceTree = "<group>"; };
 		8A3B992C2BC51DBB009B326E /* ReplaceEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceEffect.swift; sourceTree = "<group>"; };
+		8A3FDF152C33EDAE00AF9F9B /* RoomListNavLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListNavLinkView.swift; sourceTree = "<group>"; };
+		8A3FDF172C33EDCD00AF9F9B /* RoomInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomInfo.swift; sourceTree = "<group>"; };
+		8A3FDF192C33EDFD00AF9F9B /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		8A3FDF1C2C33F0CB00AF9F9B /* HomeListNavPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListNavPathView.swift; sourceTree = "<group>"; };
+		8A3FDF1E2C33F0FE00AF9F9B /* PaintInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintInfo.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableiOS17Style.swift; sourceTree = "<group>"; };
 		8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorSymbolsView.swift; sourceTree = "<group>"; };
@@ -86,6 +111,7 @@
 		8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingGeometryReader.swift; sourceTree = "<group>"; };
 		8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingSpacerView.swift; sourceTree = "<group>"; };
 		8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImageIconMaskView.swift; sourceTree = "<group>"; };
+		8AF0A8D72C317D540063E82A /* KeyboardCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCheckView.swift; sourceTree = "<group>"; };
 		8AF1C1702C256233003CABE6 /* ClaimButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimButton.swift; sourceTree = "<group>"; };
 		8AF1C1722C2562EF003CABE6 /* ClaimButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimButtonViewModel.swift; sourceTree = "<group>"; };
 		8AF1C1742C25632F003CABE6 /* ClaimButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimButtonContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +164,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A097D9A2C31BA2300F03670 /* Swift Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */,
+				8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */,
+			);
+			path = "Swift Concurrency";
+			sourceTree = "<group>";
+		};
+		8A12DFC62C33FD89003DACE1 /* Routung */ = {
+			isa = PBXGroup;
+			children = (
+				8A12DFC72C33FD9C003DACE1 /* Router.swift */,
+				8A12DFC92C33FDE1003DACE1 /* RoutingApp.swift */,
+				8A12DFCB2C33FE1A003DACE1 /* RoutHomeView.swift */,
+				8A12DFCD2C33FE8A003DACE1 /* RoutLivingroomView.swift */,
+				8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */,
+			);
+			path = Routung;
+			sourceTree = "<group>";
+		};
 		8A20ED4F2C15A60000D5915D /* Animated transition */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +206,35 @@
 				8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */,
 			);
 			path = AnimationSFSymbols;
+			sourceTree = "<group>";
+		};
+		8A3FDF132C33ED8000AF9F9B /* NavigationTypes */ = {
+			isa = PBXGroup;
+			children = (
+				8A12DFC62C33FD89003DACE1 /* Routung */,
+				8A3FDF1B2C33F06A00AF9F9B /* NavigationPath */,
+				8A3FDF142C33ED9100AF9F9B /* NavigationLink */,
+			);
+			path = NavigationTypes;
+			sourceTree = "<group>";
+		};
+		8A3FDF142C33ED9100AF9F9B /* NavigationLink */ = {
+			isa = PBXGroup;
+			children = (
+				8A3FDF152C33EDAE00AF9F9B /* RoomListNavLinkView.swift */,
+				8A3FDF172C33EDCD00AF9F9B /* RoomInfo.swift */,
+				8A3FDF192C33EDFD00AF9F9B /* RoomDetail.swift */,
+			);
+			path = NavigationLink;
+			sourceTree = "<group>";
+		};
+		8A3FDF1B2C33F06A00AF9F9B /* NavigationPath */ = {
+			isa = PBXGroup;
+			children = (
+				8A3FDF1C2C33F0CB00AF9F9B /* HomeListNavPathView.swift */,
+				8A3FDF1E2C33F0FE00AF9F9B /* PaintInfo.swift */,
+			);
+			path = NavigationPath;
 			sourceTree = "<group>";
 		};
 		8A9CE5BB2BD66E7F002C8EB1 /* Animations */ = {
@@ -201,6 +277,7 @@
 		8AF2FB4A2C198E0A00B98D74 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				8A3FDF132C33ED8000AF9F9B /* NavigationTypes */,
 				8AF2FB4B2C198E1600B98D74 /* NavigationPath */,
 				8ADD6F0C2BB599EC00C7D329 /* Navigation Bar */,
 			);
@@ -301,11 +378,13 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
+				8A097D9A2C31BA2300F03670 /* Swift Concurrency */,
 				8AFA1CE72C0DE08700EC7A39 /* Bottom Sheet */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
+				8AF0A8D72C317D540063E82A /* KeyboardCheckView.swift */,
 				957D36492B96DC8D00E5E342 /* ContentView.swift */,
 				8AFEBFDE2BB6F7910006C41A /* Controls */,
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
@@ -438,14 +517,18 @@
 				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
 				8AF2FB552C19916300B98D74 /* NPRecipesFeedView.swift in Sources */,
 				8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */,
+				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
 				8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */,
 				95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */,
 				8AFE17632BB985AB002CC3AA /* LazyVGridViewExample.swift in Sources */,
+				8A12DFCE2C33FE8A003DACE1 /* RoutLivingroomView.swift in Sources */,
 				8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */,
+				8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
+				8A12DFCA2C33FDE1003DACE1 /* RoutingApp.swift in Sources */,
 				8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */,
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
@@ -456,15 +539,23 @@
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
+				8A12DFCC2C33FE1A003DACE1 /* RoutHomeView.swift in Sources */,
+				8A3FDF182C33EDCD00AF9F9B /* RoomInfo.swift in Sources */,
 				8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */,
+				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
 				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
+				8A12DFC82C33FD9C003DACE1 /* Router.swift in Sources */,
+				8AF0A8D82C317D540063E82A /* KeyboardCheckView.swift in Sources */,
+				8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */,
 				8A3B99272BC518DC009B326E /* VibrationColorEffect.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
 				8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */,
+				8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */,
+				8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
@@ -476,6 +567,7 @@
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
 				8ADD6EE72BB4522000C7D329 /* Color+Ext.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
+				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
 				8AFE178A2BBAC669002CC3AA /* DateFormatterView.swift in Sources */,
