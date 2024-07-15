@@ -16,6 +16,8 @@
 		8A12DFCE2C33FE8A003DACE1 /* RoutLivingroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCD2C33FE8A003DACE1 /* RoutLivingroomView.swift */; };
 		8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */; };
 		8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */; };
+		8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */; };
+		8A39C0E42C44065900A7F855 /* GeometryReaderParalaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */; };
 		8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99202BC4F087009B326E /* BounceEffectView.swift */; };
 		8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99222BC4F213009B326E /* PulseEffectView.swift */; };
 		8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99242BC4F474009B326E /* ExtractedView.swift */; };
@@ -89,6 +91,8 @@
 		8A12DFCD2C33FE8A003DACE1 /* RoutLivingroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutLivingroomView.swift; sourceTree = "<group>"; };
 		8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutBedroomView.swift; sourceTree = "<group>"; };
 		8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
+		8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTransition.swift; sourceTree = "<group>"; };
+		8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderParalaxView.swift; sourceTree = "<group>"; };
 		8A3B99202BC4F087009B326E /* BounceEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceEffectView.swift; sourceTree = "<group>"; };
 		8A3B99222BC4F213009B326E /* PulseEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseEffectView.swift; sourceTree = "<group>"; };
 		8A3B99242BC4F474009B326E /* ExtractedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedView.swift; sourceTree = "<group>"; };
@@ -193,6 +197,15 @@
 			path = "Animated transition";
 			sourceTree = "<group>";
 		};
+		8A39C0E22C44063800A7F855 /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */,
+				8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */,
+			);
+			path = GeometryReader;
+			sourceTree = "<group>";
+		};
 		8A3B991F2BC4F067009B326E /* AnimationSFSymbols */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +256,7 @@
 				8A20ED4F2C15A60000D5915D /* Animated transition */,
 				8A3B991F2BC4F067009B326E /* AnimationSFSymbols */,
 				8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */,
+				8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -405,7 +419,7 @@
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 				95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */,
 				952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */,
-				8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */,
+				8A39C0E22C44063800A7F855 /* GeometryReader */,
 				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
 				957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */,
 				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
@@ -522,6 +536,7 @@
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
 				8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */,
+				8A39C0E42C44065900A7F855 /* GeometryReaderParalaxView.swift in Sources */,
 				95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */,
 				8AFE17632BB985AB002CC3AA /* LazyVGridViewExample.swift in Sources */,
 				8A12DFCE2C33FE8A003DACE1 /* RoutLivingroomView.swift in Sources */,
@@ -540,6 +555,7 @@
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
 				8A12DFCC2C33FE1A003DACE1 /* RoutHomeView.swift in Sources */,
+				8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */,
 				8A3FDF182C33EDCD00AF9F9B /* RoomInfo.swift in Sources */,
 				8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */,
 				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
