@@ -33,7 +33,7 @@ struct MyTransition: Transition {
     func body(content: Content, phase: TransitionPhase) -> some View {
         content
         /// Adding animation
-//            .opacity(phase != .identity ? 0 : 1)
+            .opacity(phase != .identity ? 0 : 1)
             .rotation3DEffect(
                 .init(degrees: phase.value * (phase == .willAppear ? 90 : -90)),
                 axis: (x: 1.0, y: 0.0, z: 0.0)
