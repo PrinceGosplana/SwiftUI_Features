@@ -20,6 +20,7 @@
 		8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */; };
 		8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */; };
 		8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */; };
+		8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */; };
 		8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */; };
 		8A39C0E42C44065900A7F855 /* GeometryReaderParalaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */; };
 		8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B99202BC4F087009B326E /* BounceEffectView.swift */; };
@@ -62,6 +63,7 @@
 		8AFE178A2BBAC669002CC3AA /* DateFormatterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE17892BBAC669002CC3AA /* DateFormatterView.swift */; };
 		8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE7D682BF5FB4200BF1247 /* PickerAnimationView.swift */; };
 		8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */; };
+		8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */; };
 		952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */; };
 		952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C92B9A282C005E393F /* CustomTransitionsView.swift */; };
 		956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */; };
@@ -99,6 +101,7 @@
 		8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutBedroomView.swift; sourceTree = "<group>"; };
 		8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitherExampleView.swift; sourceTree = "<group>"; };
 		8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
+		8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsExampleView.swift; sourceTree = "<group>"; };
 		8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTransition.swift; sourceTree = "<group>"; };
 		8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderParalaxView.swift; sourceTree = "<group>"; };
 		8A3B99202BC4F087009B326E /* BounceEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceEffectView.swift; sourceTree = "<group>"; };
@@ -141,6 +144,7 @@
 		8AFE17892BBAC669002CC3AA /* DateFormatterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterView.swift; sourceTree = "<group>"; };
 		8AFE7D682BF5FB4200BF1247 /* PickerAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerAnimationView.swift; sourceTree = "<group>"; };
 		8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonsView.swift; sourceTree = "<group>"; };
+		8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffectView.swift; sourceTree = "<group>"; };
 		952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewExample.swift; sourceTree = "<group>"; };
 		952473C92B9A282C005E393F /* CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsView.swift; sourceTree = "<group>"; };
 		956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationsView.swift; sourceTree = "<group>"; };
@@ -371,6 +375,14 @@
 			path = Controls;
 			sourceTree = "<group>";
 		};
+		8AFF1ED52C5E4EBF0032C778 /* Transformation */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */,
+			);
+			path = Transformation;
+			sourceTree = "<group>";
+		};
 		956087D32B9F6C3500BAC9BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -409,6 +421,7 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
+				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
@@ -446,6 +459,7 @@
 				956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */,
 				956087D62B9F6EB500BAC9BA /* View */,
 				8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */,
+				8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */,
 			);
 			path = SwiftUI_Features;
 			sourceTree = "<group>";
@@ -598,6 +612,7 @@
 				8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
+				8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
 				956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */,
 				8AF1C1712C256233003CABE6 /* ClaimButton.swift in Sources */,
@@ -606,6 +621,7 @@
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
 				8ADD6EE72BB4522000C7D329 /* Color+Ext.swift in Sources */,
+				8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
