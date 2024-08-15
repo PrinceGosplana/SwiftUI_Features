@@ -27,6 +27,7 @@ struct ScrollViewFeaturesView: View {
             .frame(height: 200)
             .safeAreaPadding(.horizontal, 32)
             .scrollClipDisabled()
+            .scrollTargetBehavior(.paging)
 
             Spacer()
         }
