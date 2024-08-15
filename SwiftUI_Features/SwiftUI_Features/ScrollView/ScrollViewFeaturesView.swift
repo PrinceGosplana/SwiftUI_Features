@@ -40,7 +40,11 @@ struct ScrollViewFeaturesView: View {
                                     .opacity(1 - abs(phase.value))
                                     .rotation3DEffect(.degrees(phase.value * -90), axis: (x: 0, y: 1, z: 0))
                             }
-                            
+                            .onTapGesture {
+                                withAnimation {
+                                    self.image = image
+                                }
+                            }
                     }
                 }
                 .scrollTargetLayout()
