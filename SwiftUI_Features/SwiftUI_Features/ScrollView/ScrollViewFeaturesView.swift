@@ -20,11 +20,13 @@ struct ScrollViewFeaturesView: View {
                             .resizable()
                             .clipShape(RoundedRectangle(cornerRadius: 15))
                             .frame(width: 200, height: 200)
+                            .shadow(radius: 10, y: 10)
                     }
                 }
-                .frame(height: 200)
-                .safeAreaPadding(.horizontal, 32)
             }
+            .frame(height: 200)
+            .safeAreaPadding(.horizontal, 32)
+            .scrollClipDisabled()
 
             Spacer()
         }
