@@ -23,6 +23,17 @@ struct ScrollViewFeaturesView: View {
                             .shadow(radius: 10, y: 10)
                         // each photo take the whole width with containerRelativeFrame
 //                            .containerRelativeFrame(.horizontal)
+                            .scrollTransition(
+                                topLeading: .interactive,
+                                bottomTrailing: .interactive,
+                                axis: .horizontal
+                            ) { effect, phase in
+                                effect
+//                                    .scaleEffect(phase.value)
+                                    .scaleEffect(1 - abs(phase.value))
+                                    .opacity(1 - abs(phase.value))
+                                    .rotation3DEffect(.degrees(phase.value * -90), axis: (x: 0, y: 1, z: 0))
+                            }
                     }
                 }
                 .scrollTargetLayout()
