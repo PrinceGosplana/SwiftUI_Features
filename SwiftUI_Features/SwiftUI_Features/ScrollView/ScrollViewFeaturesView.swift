@@ -21,6 +21,8 @@ struct ScrollViewFeaturesView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 15))
                             .frame(width: 200, height: 200)
                             .shadow(radius: 10, y: 10)
+                        // each photo take the whole width with containerRelativeFrame
+                            .containerRelativeFrame(.horizontal)
                     }
                 }
             }
