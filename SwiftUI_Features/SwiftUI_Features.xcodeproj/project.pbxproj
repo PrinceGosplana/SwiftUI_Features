@@ -36,6 +36,7 @@
 		8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF1C2C33F0CB00AF9F9B /* HomeListNavPathView.swift */; };
 		8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF1E2C33F0FE00AF9F9B /* PaintInfo.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
+		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */; };
 		8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */; };
 		8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */; };
@@ -117,6 +118,7 @@
 		8A3FDF1C2C33F0CB00AF9F9B /* HomeListNavPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListNavPathView.swift; sourceTree = "<group>"; };
 		8A3FDF1E2C33F0FE00AF9F9B /* PaintInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintInfo.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
+		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableiOS17Style.swift; sourceTree = "<group>"; };
 		8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorSymbolsView.swift; sourceTree = "<group>"; };
 		8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticCountingView.swift; sourceTree = "<group>"; };
@@ -285,8 +287,17 @@
 		8AAD775E2C6DDF8E004E54D1 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				8AAD775F2C6DE0F0004E54D1 /* Model */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		8AAD775F2C6DE0F0004E54D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8ADD6EE52BB4521000C7D329 /* Extensions */ = {
@@ -428,8 +439,6 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
-				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
-				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
@@ -439,7 +448,9 @@
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
 				8A0DC8222C4A758E000428B9 /* CustomSegmentedControl.swift */,
 				952473C92B9A282C005E393F /* CustomTransitionsView.swift */,
+				8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */,
 				8ADD6EE52BB4521000C7D329 /* Extensions */,
+				8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */,
 				8AFE17882BBAC642002CC3AA /* Formatters */,
 				8A0DC81F2C4A6B2F000428B9 /* GeometryProxy */,
 				8A39C0E22C44063800A7F855 /* GeometryReader */,
@@ -460,14 +471,14 @@
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 				95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */,
 				952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */,
+				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
 				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
 				8A097D9A2C31BA2300F03670 /* Swift Concurrency */,
 				957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */,
+				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
 				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
 				956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */,
 				956087D62B9F6EB500BAC9BA /* View */,
-				8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */,
-				8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */,
 			);
 			path = SwiftUI_Features;
 			sourceTree = "<group>";
@@ -611,6 +622,7 @@
 				8A0DC8212C4A6C2C000428B9 /* GeometryProxyInSectionView.swift in Sources */,
 				8A3B99272BC518DC009B326E /* VibrationColorEffect.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
+				8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
