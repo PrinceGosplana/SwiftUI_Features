@@ -282,6 +282,13 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		8AAD775E2C6DDF8E004E54D1 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 		8ADD6EE52BB4521000C7D329 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -421,6 +428,7 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
+				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
 				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
