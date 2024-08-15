@@ -58,6 +58,40 @@ struct ScrollViewFeaturesView: View {
                 image = images[2]
             }
 
+
+            HStack(spacing: 20) {
+                Button {
+                    withAnimation {
+                        guard let image, let index = images.firstIndex(of: image), index > 0 else { return }
+                        self.image = images[index - 1]
+                    }
+                } label: {
+                    Image(systemName: "arrow.left.square.fill")
+                        .font(.largeTitle)
+                        .frame(width: 100, height: 44)
+                        .foregroundStyle(.white)
+                        .background(.red)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+                .disabled(image == images.first)
+
+                Button {
+                    withAnimation {
+                        guard let image, let index = images.firstIndex(of: image), index < images.count - 1 else { return }
+                        self.image = images[index + 1]
+                    }
+                } label: {
+                    Image(systemName: "arrow.right.square.fill")
+                        .font(.largeTitle)
+                        .frame(width: 100, height: 44)
+                        .foregroundStyle(.white)
+                        .background(.red)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+                .disabled(image == images.last)
+            }
+            .padding(.horizontal)
+
             Spacer()
         }
     }
