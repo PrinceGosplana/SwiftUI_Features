@@ -38,6 +38,7 @@
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
+		8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77652C6DFD09004E54D1 /* NetworkMonitor.swift */; };
 		8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */; };
 		8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */; };
 		8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */; };
@@ -121,6 +122,7 @@
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
+		8AAD77652C6DFD09004E54D1 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableiOS17Style.swift; sourceTree = "<group>"; };
 		8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorSymbolsView.swift; sourceTree = "<group>"; };
 		8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticCountingView.swift; sourceTree = "<group>"; };
@@ -303,6 +305,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		8AAD77642C6DFCF3004E54D1 /* Network Connection */ = {
+			isa = PBXGroup;
+			children = (
+				8AAD77652C6DFD09004E54D1 /* NetworkMonitor.swift */,
+			);
+			path = "Network Connection";
+			sourceTree = "<group>";
+		};
 		8ADD6EE52BB4521000C7D329 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +452,7 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
+				8AAD77642C6DFCF3004E54D1 /* Network Connection */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
@@ -610,6 +621,7 @@
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
+				8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
 				8A12DFCC2C33FE1A003DACE1 /* RoutHomeView.swift in Sources */,
 				8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */,
