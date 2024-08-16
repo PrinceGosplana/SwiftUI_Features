@@ -39,6 +39,8 @@
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
 		8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77652C6DFD09004E54D1 /* NetworkMonitor.swift */; };
+		8AAD77A62C6F12AD004E54D1 /* NMContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77A52C6F12AD004E54D1 /* NMContentView.swift */; };
+		8AAD77A82C6F12CC004E54D1 /* NMHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77A72C6F12CC004E54D1 /* NMHomeView.swift */; };
 		8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */; };
 		8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */; };
 		8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */; };
@@ -123,6 +125,8 @@
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
 		8AAD77652C6DFD09004E54D1 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		8AAD77A52C6F12AD004E54D1 /* NMContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMContentView.swift; sourceTree = "<group>"; };
+		8AAD77A72C6F12CC004E54D1 /* NMHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMHomeView.swift; sourceTree = "<group>"; };
 		8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableiOS17Style.swift; sourceTree = "<group>"; };
 		8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorSymbolsView.swift; sourceTree = "<group>"; };
 		8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticCountingView.swift; sourceTree = "<group>"; };
@@ -309,6 +313,8 @@
 			isa = PBXGroup;
 			children = (
 				8AAD77652C6DFD09004E54D1 /* NetworkMonitor.swift */,
+				8AAD77A52C6F12AD004E54D1 /* NMContentView.swift */,
+				8AAD77A72C6F12CC004E54D1 /* NMHomeView.swift */,
 			);
 			path = "Network Connection";
 			sourceTree = "<group>";
@@ -588,6 +594,7 @@
 				8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */,
 				8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */,
 				8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */,
+				8AAD77A82C6F12CC004E54D1 /* NMHomeView.swift in Sources */,
 				952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */,
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
@@ -631,6 +638,7 @@
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
 				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
+				8AAD77A62C6F12AD004E54D1 /* NMContentView.swift in Sources */,
 				8A12DFC82C33FD9C003DACE1 /* Router.swift in Sources */,
 				8AF0A8D82C317D540063E82A /* KeyboardCheckView.swift in Sources */,
 				8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */,
