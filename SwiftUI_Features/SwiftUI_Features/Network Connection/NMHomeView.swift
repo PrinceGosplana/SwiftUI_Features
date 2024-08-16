@@ -12,13 +12,18 @@ struct NMHomeView: View {
     @EnvironmentObject var monitor: NetworkMonitor
 
     var body: some View {
-        VStack(spacing: 10) {
-            if monitor.hasNetworkConnection {
-                Text("Online")
-            } else {
-                Text("Offline")
+        ZStack {
+            HStack(spacing: 10) {
+                Image(systemName: "network.slash")
+                Text("No connection")
             }
+            .padding()
+            .foregroundStyle(.white.opacity(0.8))
+            .background(.black.opacity(0.8))
+            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+        .padding()
     }
 }
 
