@@ -12,18 +12,10 @@ struct NMHomeView: View {
     @EnvironmentObject var monitor: NetworkMonitor
 
     var body: some View {
-        ZStack {
-            HStack(spacing: 10) {
-                Image(systemName: "network.slash")
-                Text("No connection")
-            }
-            .padding()
-            .foregroundStyle(.white.opacity(0.8))
-            .background(.black.opacity(0.8))
-            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+        HStack {
+            Text("Hello")
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-        .padding()
+        .offlineAlert()
     }
 }
 
