@@ -32,7 +32,20 @@ struct ScrollViewTransitions: View {
                     }
                     .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                     .padding(.horizontal)
+                    .scrollTransition { effect, phase in
+                        effect
+                            .scaleEffect(phase.isIdentity ? 1 : 0.8)
+                            .offset(x: offset(for: phase))
+                    }
             }
+        }
+    }
+
+    private func offset(for phase: ScrollTransitionPhase) -> Double {
+        switch phase {
+        case .topLeading: -200
+        case .identity: 0
+        case .bottomTrailing: 200
         }
     }
 }
