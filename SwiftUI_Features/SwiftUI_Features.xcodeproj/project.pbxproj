@@ -43,6 +43,7 @@
 		8AAD77A82C6F12CC004E54D1 /* NMHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77A72C6F12CC004E54D1 /* NMHomeView.swift */; };
 		8AAD77AA2C6F15BE004E54D1 /* OfflineAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77A92C6F15BE004E54D1 /* OfflineAlertView.swift */; };
 		8AAD77B42C6F48BA004E54D1 /* ScrollViewTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77B32C6F48BA004E54D1 /* ScrollViewTransitions.swift */; };
+		8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77B52C6F50B5004E54D1 /* AnimationCompletionCriteria.swift */; };
 		8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */; };
 		8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */; };
 		8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */; };
@@ -131,6 +132,7 @@
 		8AAD77A72C6F12CC004E54D1 /* NMHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMHomeView.swift; sourceTree = "<group>"; };
 		8AAD77A92C6F15BE004E54D1 /* OfflineAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineAlertView.swift; sourceTree = "<group>"; };
 		8AAD77B32C6F48BA004E54D1 /* ScrollViewTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTransitions.swift; sourceTree = "<group>"; };
+		8AAD77B52C6F50B5004E54D1 /* AnimationCompletionCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompletionCriteria.swift; sourceTree = "<group>"; };
 		8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableiOS17Style.swift; sourceTree = "<group>"; };
 		8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorSymbolsView.swift; sourceTree = "<group>"; };
 		8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticCountingView.swift; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 				8A3B991F2BC4F067009B326E /* AnimationSFSymbols */,
 				8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */,
 				8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */,
+				8AAD77B52C6F50B5004E54D1 /* AnimationCompletionCriteria.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 				8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */,
 				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
+				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
 				8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */,
