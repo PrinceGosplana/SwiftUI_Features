@@ -44,6 +44,7 @@
 		8AAD77AA2C6F15BE004E54D1 /* OfflineAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77A92C6F15BE004E54D1 /* OfflineAlertView.swift */; };
 		8AAD77B42C6F48BA004E54D1 /* ScrollViewTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77B32C6F48BA004E54D1 /* ScrollViewTransitions.swift */; };
 		8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77B52C6F50B5004E54D1 /* AnimationCompletionCriteria.swift */; };
+		8AAD77B82C6F5471004E54D1 /* WWDC24Invite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77B72C6F5471004E54D1 /* WWDC24Invite.swift */; };
 		8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */; };
 		8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */; };
 		8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */; };
@@ -133,6 +134,7 @@
 		8AAD77A92C6F15BE004E54D1 /* OfflineAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineAlertView.swift; sourceTree = "<group>"; };
 		8AAD77B32C6F48BA004E54D1 /* ScrollViewTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTransitions.swift; sourceTree = "<group>"; };
 		8AAD77B52C6F50B5004E54D1 /* AnimationCompletionCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompletionCriteria.swift; sourceTree = "<group>"; };
+		8AAD77B72C6F5471004E54D1 /* WWDC24Invite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC24Invite.swift; sourceTree = "<group>"; };
 		8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableiOS17Style.swift; sourceTree = "<group>"; };
 		8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorSymbolsView.swift; sourceTree = "<group>"; };
 		8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticCountingView.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */,
 				8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */,
 				8AAD77B52C6F50B5004E54D1 /* AnimationCompletionCriteria.swift */,
+				8AAD77B72C6F5471004E54D1 /* WWDC24Invite.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -605,6 +608,7 @@
 				8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */,
 				8AAD77A82C6F12CC004E54D1 /* NMHomeView.swift in Sources */,
 				8AAD77B42C6F48BA004E54D1 /* ScrollViewTransitions.swift in Sources */,
+				8AAD77B82C6F5471004E54D1 /* WWDC24Invite.swift in Sources */,
 				952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */,
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
