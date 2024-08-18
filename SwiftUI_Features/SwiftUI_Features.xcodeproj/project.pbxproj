@@ -21,6 +21,12 @@
 		8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */; };
 		8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */; };
 		8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E6962C7089E20003345B /* DisclosureGroupModuleView.swift */; };
+		8A22E69A2C70BCE80003345B /* CustomerDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E6992C70BCE80003345B /* CustomerDetailScreen.swift */; };
+		8A22E69C2C70BD030003345B /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E69B2C70BD030003345B /* CustomerModel.swift */; };
+		8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E69D2C70BF610003345B /* BasicListNavigation.swift */; };
+		8A22E6A02C70C0270003345B /* BasicListDestinationNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E69F2C70C0270003345B /* BasicListDestinationNavigation.swift */; };
+		8A22E6A22C70C1530003345B /* DynamicRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E6A12C70C1530003345B /* DynamicRoutingView.swift */; };
+		8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E6A42C70C55A0003345B /* MedicineRoute.swift */; };
 		8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */; };
 		8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */; };
 		8A39C0E42C44065900A7F855 /* GeometryReaderParalaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */; };
@@ -112,6 +118,12 @@
 		8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitherExampleView.swift; sourceTree = "<group>"; };
 		8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
 		8A22E6962C7089E20003345B /* DisclosureGroupModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupModuleView.swift; sourceTree = "<group>"; };
+		8A22E6992C70BCE80003345B /* CustomerDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailScreen.swift; sourceTree = "<group>"; };
+		8A22E69B2C70BD030003345B /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		8A22E69D2C70BF610003345B /* BasicListNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicListNavigation.swift; sourceTree = "<group>"; };
+		8A22E69F2C70C0270003345B /* BasicListDestinationNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicListDestinationNavigation.swift; sourceTree = "<group>"; };
+		8A22E6A12C70C1530003345B /* DynamicRoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicRoutingView.swift; sourceTree = "<group>"; };
+		8A22E6A42C70C55A0003345B /* MedicineRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineRoute.swift; sourceTree = "<group>"; };
 		8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsExampleView.swift; sourceTree = "<group>"; };
 		8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTransition.swift; sourceTree = "<group>"; };
 		8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderParalaxView.swift; sourceTree = "<group>"; };
@@ -246,6 +258,24 @@
 			path = "Disclosure Group";
 			sourceTree = "<group>";
 		};
+		8A22E6982C70BCC00003345B /* Bacid list navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8A22E69D2C70BF610003345B /* BasicListNavigation.swift */,
+				8A22E69F2C70C0270003345B /* BasicListDestinationNavigation.swift */,
+				8A22E6A12C70C1530003345B /* DynamicRoutingView.swift */,
+			);
+			path = "Bacid list navigation";
+			sourceTree = "<group>";
+		};
+		8A22E6A32C70C5440003345B /* Global Routing */ = {
+			isa = PBXGroup;
+			children = (
+				8A22E6A42C70C55A0003345B /* MedicineRoute.swift */,
+			);
+			path = "Global Routing";
+			sourceTree = "<group>";
+		};
 		8A39C0E22C44063800A7F855 /* GeometryReader */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,9 +303,13 @@
 		8A3FDF132C33ED8000AF9F9B /* NavigationTypes */ = {
 			isa = PBXGroup;
 			children = (
+				8A22E6A32C70C5440003345B /* Global Routing */,
+				8A22E6982C70BCC00003345B /* Bacid list navigation */,
 				8A12DFC62C33FD89003DACE1 /* Routung */,
 				8A3FDF1B2C33F06A00AF9F9B /* NavigationPath */,
 				8A3FDF142C33ED9100AF9F9B /* NavigationLink */,
+				8A22E6992C70BCE80003345B /* CustomerDetailScreen.swift */,
+				8A22E69B2C70BD030003345B /* CustomerModel.swift */,
 			);
 			path = NavigationTypes;
 			sourceTree = "<group>";
@@ -480,7 +514,6 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
-				8A22E6952C7089CA0003345B /* Disclosure Group */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
@@ -490,6 +523,7 @@
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
 				8A0DC8222C4A758E000428B9 /* CustomSegmentedControl.swift */,
 				952473C92B9A282C005E393F /* CustomTransitionsView.swift */,
+				8A22E6952C7089CA0003345B /* Disclosure Group */,
 				8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */,
 				8ADD6EE52BB4521000C7D329 /* Extensions */,
 				8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */,
@@ -624,8 +658,10 @@
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
+				8A22E69A2C70BCE80003345B /* CustomerDetailScreen.swift in Sources */,
 				8AF2FB512C198FF000B98D74 /* NPRecipesSearchView.swift in Sources */,
 				8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */,
+				8A22E6A22C70C1530003345B /* DynamicRoutingView.swift in Sources */,
 				8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
@@ -633,6 +669,7 @@
 				8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */,
 				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
+				8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */,
 				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
@@ -653,6 +690,7 @@
 				8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */,
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
+				8A22E69C2C70BD030003345B /* CustomerModel.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
 				8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
@@ -696,9 +734,11 @@
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */,
 				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
+				8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */,
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
 				8AFE178A2BBAC669002CC3AA /* DateFormatterView.swift in Sources */,
+				8A22E6A02C70C0270003345B /* BasicListDestinationNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
