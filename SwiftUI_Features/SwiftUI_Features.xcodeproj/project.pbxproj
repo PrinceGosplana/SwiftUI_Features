@@ -53,6 +53,7 @@
 		8A91A21E2C75DFBC007F7B7F /* TapGestureWithLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A21D2C75DFBC007F7B7F /* TapGestureWithLocation.swift */; };
 		8A91A2202C75E18D007F7B7F /* ScrollViewUpdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A21F2C75E18D007F7B7F /* ScrollViewUpdatesView.swift */; };
 		8A91A2222C75E320007F7B7F /* MultipleDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2212C75E320007F7B7F /* MultipleDatePickerView.swift */; };
+		8A91A2252C75E54B007F7B7F /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2242C75E54B007F7B7F /* PullToRefreshView.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
@@ -161,6 +162,7 @@
 		8A91A21D2C75DFBC007F7B7F /* TapGestureWithLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureWithLocation.swift; sourceTree = "<group>"; };
 		8A91A21F2C75E18D007F7B7F /* ScrollViewUpdatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUpdatesView.swift; sourceTree = "<group>"; };
 		8A91A2212C75E320007F7B7F /* MultipleDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDatePickerView.swift; sourceTree = "<group>"; };
+		8A91A2242C75E54B007F7B7F /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
@@ -373,6 +375,14 @@
 			path = "New in iOS 16";
 			sourceTree = "<group>";
 		};
+		8A91A2232C75E524007F7B7F /* New in iOS 15 */ = {
+			isa = PBXGroup;
+			children = (
+				8A91A2242C75E54B007F7B7F /* PullToRefreshView.swift */,
+			);
+			path = "New in iOS 15";
+			sourceTree = "<group>";
+		};
 		8A9CE5BB2BD66E7F002C8EB1 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -554,6 +564,7 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
+				8A91A2232C75E524007F7B7F /* New in iOS 15 */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
@@ -692,6 +703,7 @@
 				8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */,
 				8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */,
 				8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */,
+				8A91A2252C75E54B007F7B7F /* PullToRefreshView.swift in Sources */,
 				8AAD77A82C6F12CC004E54D1 /* NMHomeView.swift in Sources */,
 				8AAD77B42C6F48BA004E54D1 /* ScrollViewTransitions.swift in Sources */,
 				8AAD77B82C6F5471004E54D1 /* WWDC24Invite.swift in Sources */,
