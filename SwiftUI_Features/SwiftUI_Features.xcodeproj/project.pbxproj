@@ -42,6 +42,17 @@
 		8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF192C33EDFD00AF9F9B /* RoomDetail.swift */; };
 		8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF1C2C33F0CB00AF9F9B /* HomeListNavPathView.swift */; };
 		8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3FDF1E2C33F0FE00AF9F9B /* PaintInfo.swift */; };
+		8A91A20D2C75C394007F7B7F /* PresentationDetentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A20C2C75C394007F7B7F /* PresentationDetentsView.swift */; };
+		8A91A2102C75C484007F7B7F /* ShareLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A20F2C75C484007F7B7F /* ShareLinkView.swift */; };
+		8A91A2122C75CBB3007F7B7F /* ImageREndererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2112C75CBB3007F7B7F /* ImageREndererView.swift */; };
+		8A91A2142C75CD81007F7B7F /* ViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2132C75CD81007F7B7F /* ViewThatFitsView.swift */; };
+		8A91A2162C75CFB6007F7B7F /* NewGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2152C75CFB6007F7B7F /* NewGridView.swift */; };
+		8A91A2182C75D1EB007F7B7F /* CustomLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2172C75D1EB007F7B7F /* CustomLayoutView.swift */; };
+		8A91A21A2C75D4F0007F7B7F /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2192C75D4F0007F7B7F /* NavigationStackView.swift */; };
+		8A91A21C2C75DE59007F7B7F /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A21B2C75DE59007F7B7F /* GaugeView.swift */; };
+		8A91A21E2C75DFBC007F7B7F /* TapGestureWithLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A21D2C75DFBC007F7B7F /* TapGestureWithLocation.swift */; };
+		8A91A2202C75E18D007F7B7F /* ScrollViewUpdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A21F2C75E18D007F7B7F /* ScrollViewUpdatesView.swift */; };
+		8A91A2222C75E320007F7B7F /* MultipleDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2212C75E320007F7B7F /* MultipleDatePickerView.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
@@ -139,6 +150,17 @@
 		8A3FDF192C33EDFD00AF9F9B /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
 		8A3FDF1C2C33F0CB00AF9F9B /* HomeListNavPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListNavPathView.swift; sourceTree = "<group>"; };
 		8A3FDF1E2C33F0FE00AF9F9B /* PaintInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintInfo.swift; sourceTree = "<group>"; };
+		8A91A20C2C75C394007F7B7F /* PresentationDetentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetentsView.swift; sourceTree = "<group>"; };
+		8A91A20F2C75C484007F7B7F /* ShareLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkView.swift; sourceTree = "<group>"; };
+		8A91A2112C75CBB3007F7B7F /* ImageREndererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageREndererView.swift; sourceTree = "<group>"; };
+		8A91A2132C75CD81007F7B7F /* ViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsView.swift; sourceTree = "<group>"; };
+		8A91A2152C75CFB6007F7B7F /* NewGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGridView.swift; sourceTree = "<group>"; };
+		8A91A2172C75D1EB007F7B7F /* CustomLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutView.swift; sourceTree = "<group>"; };
+		8A91A2192C75D4F0007F7B7F /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		8A91A21B2C75DE59007F7B7F /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		8A91A21D2C75DFBC007F7B7F /* TapGestureWithLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureWithLocation.swift; sourceTree = "<group>"; };
+		8A91A21F2C75E18D007F7B7F /* ScrollViewUpdatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUpdatesView.swift; sourceTree = "<group>"; };
+		8A91A2212C75E320007F7B7F /* MultipleDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDatePickerView.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
@@ -331,6 +353,24 @@
 				8A3FDF1E2C33F0FE00AF9F9B /* PaintInfo.swift */,
 			);
 			path = NavigationPath;
+			sourceTree = "<group>";
+		};
+		8A91A20A2C75C0A1007F7B7F /* New in iOS 16 */ = {
+			isa = PBXGroup;
+			children = (
+				8A91A2172C75D1EB007F7B7F /* CustomLayoutView.swift */,
+				8A91A21B2C75DE59007F7B7F /* GaugeView.swift */,
+				8A91A2112C75CBB3007F7B7F /* ImageREndererView.swift */,
+				8A91A2212C75E320007F7B7F /* MultipleDatePickerView.swift */,
+				8A91A2192C75D4F0007F7B7F /* NavigationStackView.swift */,
+				8A91A2152C75CFB6007F7B7F /* NewGridView.swift */,
+				8A91A20C2C75C394007F7B7F /* PresentationDetentsView.swift */,
+				8A91A21F2C75E18D007F7B7F /* ScrollViewUpdatesView.swift */,
+				8A91A20F2C75C484007F7B7F /* ShareLinkView.swift */,
+				8A91A21D2C75DFBC007F7B7F /* TapGestureWithLocation.swift */,
+				8A91A2132C75CD81007F7B7F /* ViewThatFitsView.swift */,
+			);
+			path = "New in iOS 16";
 			sourceTree = "<group>";
 		};
 		8A9CE5BB2BD66E7F002C8EB1 /* Animations */ = {
@@ -540,6 +580,7 @@
 				8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */,
 				8AF2FB4A2C198E0A00B98D74 /* Navigation */,
 				8AAD77642C6DFCF3004E54D1 /* Network Connection */,
+				8A91A20A2C75C0A1007F7B7F /* New in iOS 16 */,
 				957D36552B9866F500E5E342 /* NewApiScrollView.swift */,
 				8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */,
 				956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */,
@@ -657,12 +698,15 @@
 				952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */,
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
+				8A91A21C2C75DE59007F7B7F /* GaugeView.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
+				8A91A2182C75D1EB007F7B7F /* CustomLayoutView.swift in Sources */,
 				8A22E69A2C70BCE80003345B /* CustomerDetailScreen.swift in Sources */,
 				8AF2FB512C198FF000B98D74 /* NPRecipesSearchView.swift in Sources */,
 				8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */,
 				8A22E6A22C70C1530003345B /* DynamicRoutingView.swift in Sources */,
 				8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */,
+				8A91A2162C75CFB6007F7B7F /* NewGridView.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
 				8AF2FB552C19916300B98D74 /* NPRecipesFeedView.swift in Sources */,
@@ -688,6 +732,7 @@
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
 				8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */,
+				8A91A2122C75CBB3007F7B7F /* ImageREndererView.swift in Sources */,
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
 				8A22E69C2C70BD030003345B /* CustomerModel.swift in Sources */,
@@ -701,12 +746,15 @@
 				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
 				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
+				8A91A20D2C75C394007F7B7F /* PresentationDetentsView.swift in Sources */,
+				8A91A2222C75E320007F7B7F /* MultipleDatePickerView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
 				8AAD77A62C6F12AD004E54D1 /* NMContentView.swift in Sources */,
 				8A12DFC82C33FD9C003DACE1 /* Router.swift in Sources */,
 				8AF0A8D82C317D540063E82A /* KeyboardCheckView.swift in Sources */,
 				8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */,
 				8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */,
+				8A91A21A2C75D4F0007F7B7F /* NavigationStackView.swift in Sources */,
 				8A0DC8212C4A6C2C000428B9 /* GeometryProxyInSectionView.swift in Sources */,
 				8A3B99272BC518DC009B326E /* VibrationColorEffect.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
@@ -718,19 +766,23 @@
 				8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */,
 				8A0DC81E2C4A64C6000428B9 /* GeometryProxyInScrollView.swift in Sources */,
 				8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */,
+				8A91A2102C75C484007F7B7F /* ShareLinkView.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */,
 				8AAD77AA2C6F15BE004E54D1 /* OfflineAlertView.swift in Sources */,
+				8A91A2142C75CD81007F7B7F /* ViewThatFitsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
 				956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */,
 				8AF1C1712C256233003CABE6 /* ClaimButton.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
+				8A91A21E2C75DFBC007F7B7F /* TapGestureWithLocation.swift in Sources */,
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
 				8ADD6EE72BB4522000C7D329 /* Color+Ext.swift in Sources */,
 				8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */,
+				8A91A2202C75E18D007F7B7F /* ScrollViewUpdatesView.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */,
 				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
