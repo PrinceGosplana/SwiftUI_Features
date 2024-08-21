@@ -11,6 +11,7 @@ struct PullToRefreshView: View {
 
     let url = URL(string: "https://jsonplaceholder.typicode.com/users")!
     @State var users: [PTRUser] = []
+    @State var searchText = ""
 
     var body: some View {
         NavigationStack {
@@ -25,6 +26,15 @@ struct PullToRefreshView: View {
             /// refresh control indicator will show until async task finished
             .refreshable {
                 await fetchUsers()
+            }
+            .searchable(text: $searchText) {
+                ForEach(users.filter{ user in
+                    searchText == "" ? true : user.email.lowercased().contains(searchText.lowercased())
+                }) { user in
+                    Text(user.email)
+                    // auto complete the text when its tapped
+                        .searchCompletion(user.name)
+                }
             }
             .navigationTitle("Pull to Refresh")
         }
