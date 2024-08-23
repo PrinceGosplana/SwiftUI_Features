@@ -20,6 +20,7 @@
 		8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */; };
 		8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */; };
 		8A202A322C7711C700509CB4 /* NewLayoutAPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A202A312C7711C700509CB4 /* NewLayoutAPIView.swift */; };
+		8A202A3C2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A202A3B2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift */; };
 		8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */; };
 		8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E6962C7089E20003345B /* DisclosureGroupModuleView.swift */; };
 		8A22E69A2C70BCE80003345B /* CustomerDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E6992C70BCE80003345B /* CustomerDetailScreen.swift */; };
@@ -130,6 +131,7 @@
 		8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutBedroomView.swift; sourceTree = "<group>"; };
 		8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitherExampleView.swift; sourceTree = "<group>"; };
 		8A202A312C7711C700509CB4 /* NewLayoutAPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLayoutAPIView.swift; sourceTree = "<group>"; };
+		8A202A3B2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicContainerRelativeFrameView.swift; sourceTree = "<group>"; };
 		8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
 		8A22E6962C7089E20003345B /* DisclosureGroupModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupModuleView.swift; sourceTree = "<group>"; };
 		8A22E6992C70BCE80003345B /* CustomerDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailScreen.swift; sourceTree = "<group>"; };
@@ -266,6 +268,14 @@
 				8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */,
 			);
 			path = Routung;
+			sourceTree = "<group>";
+		};
+		8A202A3D2C786DB800509CB4 /* New in iOS 17 */ = {
+			isa = PBXGroup;
+			children = (
+				8A202A3B2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift */,
+			);
+			path = "New in iOS 17";
 			sourceTree = "<group>";
 		};
 		8A20ED4F2C15A60000D5915D /* Animated transition */ = {
@@ -595,6 +605,7 @@
 				8AAD77642C6DFCF3004E54D1 /* Network Connection */,
 				8A91A2232C75E524007F7B7F /* New in iOS 15 */,
 				8A91A20A2C75C0A1007F7B7F /* New in iOS 16 */,
+				8A202A3D2C786DB800509CB4 /* New in iOS 17 */,
 				957D36552B9866F500E5E342 /* NewApiScrollView.swift */,
 				8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */,
 				956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */,
@@ -742,6 +753,7 @@
 				8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
 				8A12DFCA2C33FDE1003DACE1 /* RoutingApp.swift in Sources */,
+				8A202A3C2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift in Sources */,
 				8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */,
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
