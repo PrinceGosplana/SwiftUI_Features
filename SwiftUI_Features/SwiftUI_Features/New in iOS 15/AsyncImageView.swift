@@ -29,6 +29,7 @@ struct AsyncImageView: View {
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 300, height: 300)
                             .clipShape(RoundedRectangle(cornerRadius: 15))
+                            .overlay(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 15))
                     } else {
                         // Error or loading
                         Image(systemName: "house.fill")
