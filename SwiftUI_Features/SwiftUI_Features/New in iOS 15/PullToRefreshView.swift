@@ -35,6 +35,10 @@ struct PullToRefreshView: View {
                     // auto complete the text when its tapped
                         .searchCompletion(user.name)
                 }
+                // Row separator customization
+                .listRowSeparatorTint(.purple)
+                // hiding line
+                .listRowSeparator(.hidden, edges: .all)
             }
             .navigationTitle("Pull to Refresh")
         }
