@@ -15,12 +15,19 @@ struct PullToRefreshView: View {
 
     var body: some View {
         NavigationStack {
-            List(users) { user in
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(user.name)
+            List{
+                ForEach(users) { user in
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(user.name)
 
-                    Text(user.email)
-                        .font(.caption)
+                        Text(user.email)
+                            .font(.caption)
+                    }
+                    // There is a bus - work only with foreach
+                    // Row separator customization
+                    .listRowSeparatorTint(.purple)
+                    // hiding line
+                    //.listRowSeparator(.hidden, edges: .all)
                 }
             }
             /// refresh control indicator will show until async task finished
@@ -35,10 +42,6 @@ struct PullToRefreshView: View {
                     // auto complete the text when its tapped
                         .searchCompletion(user.name)
                 }
-                // Row separator customization
-                .listRowSeparatorTint(.purple)
-                // hiding line
-                .listRowSeparator(.hidden, edges: .all)
             }
             .navigationTitle("Pull to Refresh")
         }
