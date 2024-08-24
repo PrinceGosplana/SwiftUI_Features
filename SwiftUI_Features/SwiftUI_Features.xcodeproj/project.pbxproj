@@ -58,6 +58,7 @@
 		8A91A2252C75E54B007F7B7F /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91A2242C75E54B007F7B7F /* PullToRefreshView.swift */; };
 		8A96E31C2C79D64100712616 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E31B2C79D64100712616 /* AsyncImageView.swift */; };
 		8A96E31E2C79E03F00712616 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E31D2C79E03F00712616 /* BadgeView.swift */; };
+		8A96E3202C79E26C00712616 /* OnSubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E31F2C79E26C00712616 /* OnSubmitView.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
@@ -171,6 +172,7 @@
 		8A91A2242C75E54B007F7B7F /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
 		8A96E31B2C79D64100712616 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		8A96E31D2C79E03F00712616 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		8A96E31F2C79E26C00712616 /* OnSubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSubmitView.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
@@ -398,6 +400,7 @@
 				8A91A2242C75E54B007F7B7F /* PullToRefreshView.swift */,
 				8A96E31B2C79D64100712616 /* AsyncImageView.swift */,
 				8A96E31D2C79E03F00712616 /* BadgeView.swift */,
+				8A96E31F2C79E26C00712616 /* OnSubmitView.swift */,
 			);
 			path = "New in iOS 15";
 			sourceTree = "<group>";
@@ -733,6 +736,7 @@
 				8A91A21C2C75DE59007F7B7F /* GaugeView.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
 				8A91A2182C75D1EB007F7B7F /* CustomLayoutView.swift in Sources */,
+				8A96E3202C79E26C00712616 /* OnSubmitView.swift in Sources */,
 				8A22E69A2C70BCE80003345B /* CustomerDetailScreen.swift in Sources */,
 				8AF2FB512C198FF000B98D74 /* NPRecipesSearchView.swift in Sources */,
 				8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */,
