@@ -59,6 +59,7 @@
 		8A96E31C2C79D64100712616 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E31B2C79D64100712616 /* AsyncImageView.swift */; };
 		8A96E31E2C79E03F00712616 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E31D2C79E03F00712616 /* BadgeView.swift */; };
 		8A96E3202C79E26C00712616 /* OnSubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E31F2C79E26C00712616 /* OnSubmitView.swift */; };
+		8A96E3222C79F55C00712616 /* SafeAreaInsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E3212C79F55C00712616 /* SafeAreaInsetView.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
@@ -173,6 +174,7 @@
 		8A96E31B2C79D64100712616 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		8A96E31D2C79E03F00712616 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 		8A96E31F2C79E26C00712616 /* OnSubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSubmitView.swift; sourceTree = "<group>"; };
+		8A96E3212C79F55C00712616 /* SafeAreaInsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetView.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
@@ -401,6 +403,7 @@
 				8A96E31B2C79D64100712616 /* AsyncImageView.swift */,
 				8A96E31D2C79E03F00712616 /* BadgeView.swift */,
 				8A96E31F2C79E26C00712616 /* OnSubmitView.swift */,
+				8A96E3212C79F55C00712616 /* SafeAreaInsetView.swift */,
 			);
 			path = "New in iOS 15";
 			sourceTree = "<group>";
@@ -808,6 +811,7 @@
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */,
+				8A96E3222C79F55C00712616 /* SafeAreaInsetView.swift in Sources */,
 				8AAD77AA2C6F15BE004E54D1 /* OfflineAlertView.swift in Sources */,
 				8A91A2142C75CD81007F7B7F /* ViewThatFitsView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
