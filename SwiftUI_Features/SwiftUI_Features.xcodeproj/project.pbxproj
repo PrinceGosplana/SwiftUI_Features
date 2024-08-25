@@ -65,6 +65,7 @@
 		8A96E3292C7AFE9600712616 /* DepthButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E3282C7AFE9600712616 /* DepthButtonStyle.swift */; };
 		8A96E32B2C7B1D9900712616 /* DoulingoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E32A2C7B1D9900712616 /* DoulingoView.swift */; };
 		8A96E32D2C7B1DCE00712616 /* DoulingoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E32C2C7B1DCE00712616 /* DoulingoModel.swift */; };
+		8A96E32F2C7B25E100712616 /* DEllipseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E32E2C7B25E100712616 /* DEllipseButton.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
@@ -185,6 +186,7 @@
 		8A96E3282C7AFE9600712616 /* DepthButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthButtonStyle.swift; sourceTree = "<group>"; };
 		8A96E32A2C7B1D9900712616 /* DoulingoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoulingoView.swift; sourceTree = "<group>"; };
 		8A96E32C2C7B1DCE00712616 /* DoulingoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoulingoModel.swift; sourceTree = "<group>"; };
+		8A96E32E2C7B25E100712616 /* DEllipseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEllipseButton.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
@@ -426,6 +428,7 @@
 				8A96E3282C7AFE9600712616 /* DepthButtonStyle.swift */,
 				8A96E32A2C7B1D9900712616 /* DoulingoView.swift */,
 				8A96E32C2C7B1DCE00712616 /* DoulingoModel.swift */,
+				8A96E32E2C7B25E100712616 /* DEllipseButton.swift */,
 			);
 			path = "Doulingo Button style";
 			sourceTree = "<group>";
@@ -853,6 +856,7 @@
 				8A96E31E2C79E03F00712616 /* BadgeView.swift in Sources */,
 				8ADD6EE72BB4522000C7D329 /* Color+Ext.swift in Sources */,
 				8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */,
+				8A96E32F2C7B25E100712616 /* DEllipseButton.swift in Sources */,
 				8A91A2202C75E18D007F7B7F /* ScrollViewUpdatesView.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */,
