@@ -66,6 +66,7 @@
 		8A96E32B2C7B1D9900712616 /* DoulingoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E32A2C7B1D9900712616 /* DoulingoView.swift */; };
 		8A96E32D2C7B1DCE00712616 /* DoulingoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E32C2C7B1DCE00712616 /* DoulingoModel.swift */; };
 		8A96E32F2C7B25E100712616 /* DEllipseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E32E2C7B25E100712616 /* DEllipseButton.swift */; };
+		8A96E3332C7B640200712616 /* AppStorageRawRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E3322C7B640200712616 /* AppStorageRawRepresentableView.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
@@ -187,6 +188,7 @@
 		8A96E32A2C7B1D9900712616 /* DoulingoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoulingoView.swift; sourceTree = "<group>"; };
 		8A96E32C2C7B1DCE00712616 /* DoulingoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoulingoModel.swift; sourceTree = "<group>"; };
 		8A96E32E2C7B25E100712616 /* DEllipseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEllipseButton.swift; sourceTree = "<group>"; };
+		8A96E3322C7B640200712616 /* AppStorageRawRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageRawRepresentableView.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
@@ -418,6 +420,7 @@
 				8A91A2242C75E54B007F7B7F /* PullToRefreshView.swift */,
 				8A96E3212C79F55C00712616 /* SafeAreaInsetView.swift */,
 				8A96E3252C79FD8B00712616 /* SwipeActionsView.swift */,
+				8A96E3322C7B640200712616 /* AppStorageRawRepresentableView.swift */,
 			);
 			path = "New in iOS 15";
 			sourceTree = "<group>";
@@ -818,6 +821,7 @@
 				8A91A20D2C75C394007F7B7F /* PresentationDetentsView.swift in Sources */,
 				8A91A2222C75E320007F7B7F /* MultipleDatePickerView.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
+				8A96E3332C7B640200712616 /* AppStorageRawRepresentableView.swift in Sources */,
 				8AAD77A62C6F12AD004E54D1 /* NMContentView.swift in Sources */,
 				8A12DFC82C33FD9C003DACE1 /* Router.swift in Sources */,
 				8AF0A8D82C317D540063E82A /* KeyboardCheckView.swift in Sources */,
