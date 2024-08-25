@@ -301,8 +301,16 @@
 		8A202A3D2C786DB800509CB4 /* New in iOS 17 */ = {
 			isa = PBXGroup;
 			children = (
+				952473C92B9A282C005E393F /* CustomTransitionsView.swift */,
 				8A202A3B2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift */,
+				956087B02B9C567B00BAC9BA /* HapticFeedbackView.swift */,
+				8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */,
+				956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */,
+				956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */,
+				95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */,
+				952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */,
 				8A96E3382C7B6DC400712616 /* ScrollViewNewWWDC23.swift */,
+				956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */,
 			);
 			path = "New in iOS 17";
 			sourceTree = "<group>";
@@ -635,7 +643,6 @@
 				8AFEBFDE2BB6F7910006C41A /* Controls */,
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
 				8A0DC8222C4A758E000428B9 /* CustomSegmentedControl.swift */,
-				952473C92B9A282C005E393F /* CustomTransitionsView.swift */,
 				8A22E6952C7089CA0003345B /* Disclosure Group */,
 				8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */,
 				8ADD6EE52BB4521000C7D329 /* Extensions */,
@@ -645,7 +652,6 @@
 				8A39C0E22C44063800A7F855 /* GeometryReader */,
 				95B7CE442BA9785C0030839E /* Glass Background Effect */,
 				8AFE175F2BB9847D002CC3AA /* Grids */,
-				956087B02B9C567B00BAC9BA /* HapticFeedbackView.swift */,
 				8AF0A8D72C317D540063E82A /* KeyboardCheckView.swift */,
 				956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */,
 				8A039CAD2C29BCD40014434E /* MenuView.swift */,
@@ -657,20 +663,14 @@
 				8A91A20A2C75C0A1007F7B7F /* New in iOS 16 */,
 				8A202A3D2C786DB800509CB4 /* New in iOS 17 */,
 				957D36552B9866F500E5E342 /* NewApiScrollView.swift */,
-				8ADD6EDF2BB41A8500C7D329 /* ObservableiOS17Style.swift */,
-				956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */,
-				956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
-				95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */,
-				952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */,
 				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
 				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
 				8A097D9A2C31BA2300F03670 /* Swift Concurrency */,
 				957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */,
 				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
 				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
-				956087AE2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift */,
 				956087D62B9F6EB500BAC9BA /* View */,
 			);
 			path = SwiftUI_Features;
