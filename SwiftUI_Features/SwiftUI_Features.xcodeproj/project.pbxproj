@@ -62,6 +62,9 @@
 		8A96E3222C79F55C00712616 /* SafeAreaInsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E3212C79F55C00712616 /* SafeAreaInsetView.swift */; };
 		8A96E3242C79F96700712616 /* CustomSheetDismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E3232C79F96700712616 /* CustomSheetDismissView.swift */; };
 		8A96E3262C79FD8B00712616 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E3252C79FD8B00712616 /* SwipeActionsView.swift */; };
+		8A96E3292C7AFE9600712616 /* DepthButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E3282C7AFE9600712616 /* DepthButtonStyle.swift */; };
+		8A96E32B2C7B1D9900712616 /* DoulingoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E32A2C7B1D9900712616 /* DoulingoView.swift */; };
+		8A96E32D2C7B1DCE00712616 /* DoulingoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96E32C2C7B1DCE00712616 /* DoulingoModel.swift */; };
 		8A9CE5BD2BD66EAA002C8EB1 /* AnimateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */; };
 		8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */; };
 		8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */; };
@@ -179,6 +182,9 @@
 		8A96E3212C79F55C00712616 /* SafeAreaInsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetView.swift; sourceTree = "<group>"; };
 		8A96E3232C79F96700712616 /* CustomSheetDismissView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSheetDismissView.swift; sourceTree = "<group>"; };
 		8A96E3252C79FD8B00712616 /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
+		8A96E3282C7AFE9600712616 /* DepthButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthButtonStyle.swift; sourceTree = "<group>"; };
+		8A96E32A2C7B1D9900712616 /* DoulingoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoulingoView.swift; sourceTree = "<group>"; };
+		8A96E32C2C7B1DCE00712616 /* DoulingoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoulingoModel.swift; sourceTree = "<group>"; };
 		8A9CE5BC2BD66EAA002C8EB1 /* AnimateNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateNumbers.swift; sourceTree = "<group>"; };
 		8AAD77602C6DE11B004E54D1 /* FunnyPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyPicture.swift; sourceTree = "<group>"; };
 		8AAD77622C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewFeaturesView.swift; sourceTree = "<group>"; };
@@ -414,6 +420,16 @@
 			path = "New in iOS 15";
 			sourceTree = "<group>";
 		};
+		8A96E3272C7AFE7200712616 /* Doulingo Button style */ = {
+			isa = PBXGroup;
+			children = (
+				8A96E3282C7AFE9600712616 /* DepthButtonStyle.swift */,
+				8A96E32A2C7B1D9900712616 /* DoulingoView.swift */,
+				8A96E32C2C7B1DCE00712616 /* DoulingoModel.swift */,
+			);
+			path = "Doulingo Button style";
+			sourceTree = "<group>";
+		};
 		8A9CE5BB2BD66E7F002C8EB1 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -595,6 +611,7 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
+				8A96E3272C7AFE7200712616 /* Doulingo Button style */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
@@ -736,6 +753,7 @@
 				8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */,
 				8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */,
 				8A91A2252C75E54B007F7B7F /* PullToRefreshView.swift in Sources */,
+				8A96E3292C7AFE9600712616 /* DepthButtonStyle.swift in Sources */,
 				8AAD77A82C6F12CC004E54D1 /* NMHomeView.swift in Sources */,
 				8AAD77B42C6F48BA004E54D1 /* ScrollViewTransitions.swift in Sources */,
 				8AAD77B82C6F5471004E54D1 /* WWDC24Invite.swift in Sources */,
@@ -813,6 +831,7 @@
 				8A96E3242C79F96700712616 /* CustomSheetDismissView.swift in Sources */,
 				8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */,
 				8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */,
+				8A96E32B2C7B1D9900712616 /* DoulingoView.swift in Sources */,
 				8A0DC81E2C4A64C6000428B9 /* GeometryProxyInScrollView.swift in Sources */,
 				8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */,
 				8A91A2102C75C484007F7B7F /* ShareLinkView.swift in Sources */,
@@ -842,6 +861,7 @@
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
 				8AFE178A2BBAC669002CC3AA /* DateFormatterView.swift in Sources */,
+				8A96E32D2C7B1DCE00712616 /* DoulingoModel.swift in Sources */,
 				8A22E6A02C70C0270003345B /* BasicListDestinationNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
