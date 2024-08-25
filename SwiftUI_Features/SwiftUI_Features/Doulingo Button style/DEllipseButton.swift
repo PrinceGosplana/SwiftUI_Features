@@ -20,6 +20,9 @@ struct DEllipseButton: View {
                 .aspectRatio(contentMode: .fit)
                 .foregroundStyle(.white)
         }
+        .buttonStyle(DepthButtonStyle(foregroundColor: .greenPrimary ?? .green, backgroundColor: .greenSecondary ?? .green))
+        .frame(width: 80, height: 70)
+        .padding()
     }
 }
 
