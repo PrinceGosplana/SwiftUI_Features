@@ -109,6 +109,7 @@
 		8AFE447A2C81C3E80018E70F /* KeyboardAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE44792C81C3E80018E70F /* KeyboardAccessoryView.swift */; };
 		8AFE447C2C81D1920018E70F /* FocusedKeyboardResignRespView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE447B2C81D1920018E70F /* FocusedKeyboardResignRespView.swift */; };
 		8AFE447E2C81D3710018E70F /* IndividualBindingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE447D2C81D3710018E70F /* IndividualBindingsView.swift */; };
+		8AFE44802C81D6C10018E70F /* NewForegroundStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE447F2C81D6C10018E70F /* NewForegroundStyleView.swift */; };
 		8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE7D682BF5FB4200BF1247 /* PickerAnimationView.swift */; };
 		8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */; };
 		8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */; };
@@ -238,6 +239,7 @@
 		8AFE44792C81C3E80018E70F /* KeyboardAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAccessoryView.swift; sourceTree = "<group>"; };
 		8AFE447B2C81D1920018E70F /* FocusedKeyboardResignRespView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedKeyboardResignRespView.swift; sourceTree = "<group>"; };
 		8AFE447D2C81D3710018E70F /* IndividualBindingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualBindingsView.swift; sourceTree = "<group>"; };
+		8AFE447F2C81D6C10018E70F /* NewForegroundStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewForegroundStyleView.swift; sourceTree = "<group>"; };
 		8AFE7D682BF5FB4200BF1247 /* PickerAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerAnimationView.swift; sourceTree = "<group>"; };
 		8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButtonsView.swift; sourceTree = "<group>"; };
 		8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffectView.swift; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 				8AFE44792C81C3E80018E70F /* KeyboardAccessoryView.swift */,
 				8AFE447B2C81D1920018E70F /* FocusedKeyboardResignRespView.swift */,
 				8AFE447D2C81D3710018E70F /* IndividualBindingsView.swift */,
+				8AFE447F2C81D6C10018E70F /* NewForegroundStyleView.swift */,
 			);
 			path = "New in iOS 15";
 			sourceTree = "<group>";
@@ -821,6 +824,7 @@
 				8A202A3C2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift in Sources */,
 				8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */,
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
+				8AFE44802C81D6C10018E70F /* NewForegroundStyleView.swift in Sources */,
 				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
