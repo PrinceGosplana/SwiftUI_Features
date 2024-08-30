@@ -26,18 +26,19 @@ struct SwiftUI_FeaturesApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NavigationStack(path: $router.navPath) {
-                RoutHomeView()
-                    .navigationDestination(for: Router.Destination.self) { destination in
-                        switch destination {
-                        case .livingroom:
-                            RoutLivingroomView()
-                        case .bedroom(let owner):
-                            RoutBedroomView(ownerName: owner)
-                        }
-                    }
-            }
-            .environmentObject(router)
+            KeyboardAccessoryView()
+//            NavigationStack(path: $router.navPath) {
+//                RoutHomeView()
+//                    .navigationDestination(for: Router.Destination.self) { destination in
+//                        switch destination {
+//                        case .livingroom:
+//                            RoutLivingroomView()
+//                        case .bedroom(let owner):
+//                            RoutBedroomView(ownerName: owner)
+//                        }
+//                    }
+//            }
+//            .environmentObject(router)
         }
     }
 }
