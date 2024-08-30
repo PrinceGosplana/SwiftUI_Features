@@ -19,6 +19,7 @@
 		8A12DFCE2C33FE8A003DACE1 /* RoutLivingroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCD2C33FE8A003DACE1 /* RoutLivingroomView.swift */; };
 		8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */; };
 		8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */; };
+		8A16A9F92C81FC910047B40C /* TextCustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A16A9F82C81FC910047B40C /* TextCustomizationView.swift */; };
 		8A202A322C7711C700509CB4 /* NewLayoutAPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A202A312C7711C700509CB4 /* NewLayoutAPIView.swift */; };
 		8A202A3C2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A202A3B2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift */; };
 		8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */; };
@@ -150,6 +151,7 @@
 		8A12DFCD2C33FE8A003DACE1 /* RoutLivingroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutLivingroomView.swift; sourceTree = "<group>"; };
 		8A12DFCF2C33FEA8003DACE1 /* RoutBedroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutBedroomView.swift; sourceTree = "<group>"; };
 		8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EitherExampleView.swift; sourceTree = "<group>"; };
+		8A16A9F82C81FC910047B40C /* TextCustomizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCustomizationView.swift; sourceTree = "<group>"; };
 		8A202A312C7711C700509CB4 /* NewLayoutAPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLayoutAPIView.swift; sourceTree = "<group>"; };
 		8A202A3B2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicContainerRelativeFrameView.swift; sourceTree = "<group>"; };
 		8A20ED502C15A61C00D5915D /* AnimatedExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedExampleView.swift; sourceTree = "<group>"; };
@@ -457,6 +459,7 @@
 				8AFE447D2C81D3710018E70F /* IndividualBindingsView.swift */,
 				8AFE447F2C81D6C10018E70F /* NewForegroundStyleView.swift */,
 				8AFE44812C81D77E0018E70F /* SystemREnderingModesView.swift */,
+				8A16A9F82C81FC910047B40C /* TextCustomizationView.swift */,
 			);
 			path = "New in iOS 15";
 			sourceTree = "<group>";
@@ -877,6 +880,7 @@
 				8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */,
 				8A91A2102C75C484007F7B7F /* ShareLinkView.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
+				8A16A9F92C81FC910047B40C /* TextCustomizationView.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */,
 				8A96E3222C79F55C00712616 /* SafeAreaInsetView.swift in Sources */,
