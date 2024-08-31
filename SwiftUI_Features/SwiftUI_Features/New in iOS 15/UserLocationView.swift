@@ -57,4 +57,24 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
 
         region = MKCoordinateRegion(center: location, latitudinalMeters: 1000, longitudinalMeters: 1000)
     }
+
+    // Sample location search asynk task
+    func fetchCoffeeShops() async {
+        do {
+            let request = MKLocalSearch.Request()
+            request.region = region
+            request.naturalLanguageQuery = "Coffee Shops"
+
+            let query = MKLocalSearch(request: request)
+
+            let response = try await query.start()
+        } catch {
+            
+        }
+    }
+}
+
+struct Shop: Identifiable {
+    var id = UUID().uuidString
+    let mapItem: MKMapItem
 }
