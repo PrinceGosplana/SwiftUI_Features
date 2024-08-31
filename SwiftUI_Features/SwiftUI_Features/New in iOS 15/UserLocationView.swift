@@ -33,6 +33,14 @@ struct UserLocationView: View {
             .tint(.purple)
             .clipShape(RoundedRectangle(cornerRadius: 25, style: .continuous))
         }
+        .overlay(alignment: .top) {
+            Text("Coffee shop's")
+                .font(.title.bold())
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding()
+                .background(.ultraThinMaterial)
+        }
+
     }
 }
 
@@ -79,8 +87,10 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
 
             let response = try await query.start()
 
-            self.coffeeShops = response.mapItems.compactMap { item in
-                return Shop(mapItem: item)
+            await MainActor.run {
+                self.coffeeShops = response.mapItems.compactMap { item in
+                    return Shop(mapItem: item)
+                }
             }
         } catch {
             
