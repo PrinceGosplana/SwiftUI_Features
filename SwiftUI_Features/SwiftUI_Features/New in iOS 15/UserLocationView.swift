@@ -11,11 +11,23 @@ import MapKit
 import SwiftUI
 
 struct UserLocationView: View {
+
+    @StateObject var locationManager = LocationManager()
+
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
+
+            Map(coordinateRegion: $locationManager.region, showsUserLocation: true)
+                .ignoresSafeArea()
+
             LocationButton(.currentLocation) {
-                print("Location requested...")
+                locationManager.manager.requestLocation()
             }
+            .frame(width: 210, height: 50)
+            .symbolVariant(.fill)
+            .foregroundStyle(.white)
+            .tint(.purple)
+            .clipShape(RoundedRectangle(cornerRadius: 25, style: .continuous))
         }
     }
 }
@@ -24,7 +36,7 @@ struct UserLocationView: View {
     UserLocationView()
 }
 
-fileprivate class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
+class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
 
     @Published var manager = CLLocationManager()
     // Region
@@ -35,7 +47,7 @@ fileprivate class LocationManager: NSObject, ObservableObject, CLLocationManager
         super.init()
         manager.delegate = self
     }
-    
+
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print(error.localizedDescription)
     }
@@ -43,6 +55,6 @@ fileprivate class LocationManager: NSObject, ObservableObject, CLLocationManager
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last?.coordinate else { return }
 
-        print(location)
+        region = MKCoordinateRegion(center: location, latitudinalMeters: 1000, longitudinalMeters: 1000)
     }
 }
