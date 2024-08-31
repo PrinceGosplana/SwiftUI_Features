@@ -13,11 +13,15 @@ import SwiftUI
 struct UserLocationView: View {
 
     @StateObject var locationManager = LocationManager()
-
+    
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
 
-            Map(coordinateRegion: $locationManager.region, showsUserLocation: true)
+            Map(coordinateRegion: $locationManager.region, showsUserLocation: true, annotationItems: locationManager.coffeeShops, annotationContent: { shop in
+
+                MapMarker(coordinate: shop.mapItem.placemark.coordinate, tint: .purple)
+
+            })
                 .ignoresSafeArea()
 
             LocationButton(.currentLocation) {
@@ -42,6 +46,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     // Region
     @Published var region: MKCoordinateRegion = .init()
 
+    @Published var coffeeShops: [Shop] = []
+
     // Setting delegate
     override init() {
         super.init()
@@ -56,6 +62,10 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         guard let location = locations.last?.coordinate else { return }
 
         region = MKCoordinateRegion(center: location, latitudinalMeters: 1000, longitudinalMeters: 1000)
+
+        Task {
+            await fetchCoffeeShops()
+        }
     }
 
     // Sample location search asynk task
@@ -68,6 +78,10 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
             let query = MKLocalSearch(request: request)
 
             let response = try await query.start()
+
+            self.coffeeShops = response.mapItems.compactMap { item in
+                return Shop(mapItem: item)
+            }
         } catch {
             
         }
