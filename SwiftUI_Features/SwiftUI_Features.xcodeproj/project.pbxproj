@@ -34,6 +34,7 @@
 		8A27C9C12C8C795100DFAFE1 /* CheckmarkToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C9C02C8C795100DFAFE1 /* CheckmarkToggleStyle.swift */; };
 		8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C9C22C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift */; };
 		8A27C9C52C8C79AB00DFAFE1 /* CustomToggleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C9C42C8C79AB00DFAFE1 /* CustomToggleContentView.swift */; };
+		8A27C9C72C8C7CE200DFAFE1 /* ListOffsetfixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C9C62C8C7CE200DFAFE1 /* ListOffsetfixView.swift */; };
 		8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */; };
 		8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */; };
 		8A39C0E42C44065900A7F855 /* GeometryReaderParalaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */; };
@@ -172,6 +173,7 @@
 		8A27C9C02C8C795100DFAFE1 /* CheckmarkToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkToggleStyle.swift; sourceTree = "<group>"; };
 		8A27C9C22C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkToggleStyle2.swift; sourceTree = "<group>"; };
 		8A27C9C42C8C79AB00DFAFE1 /* CustomToggleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleContentView.swift; sourceTree = "<group>"; };
+		8A27C9C62C8C7CE200DFAFE1 /* ListOffsetfixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOffsetfixView.swift; sourceTree = "<group>"; };
 		8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsExampleView.swift; sourceTree = "<group>"; };
 		8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTransition.swift; sourceTree = "<group>"; };
 		8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderParalaxView.swift; sourceTree = "<group>"; };
@@ -686,6 +688,7 @@
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
+				8A27C9C62C8C7CE200DFAFE1 /* ListOffsetfixView.swift */,
 				8AFA1CE72C0DE08700EC7A39 /* Bottom Sheet */,
 				957D36492B96DC8D00E5E342 /* ContentView.swift */,
 				8AFEBFDE2BB6F7910006C41A /* Controls */,
@@ -861,6 +864,7 @@
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				8AFE44802C81D6C10018E70F /* NewForegroundStyleView.swift in Sources */,
 				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
+				8A27C9C72C8C7CE200DFAFE1 /* ListOffsetfixView.swift in Sources */,
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
 				8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */,
