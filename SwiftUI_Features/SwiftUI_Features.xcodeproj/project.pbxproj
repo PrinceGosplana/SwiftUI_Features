@@ -30,6 +30,10 @@
 		8A22E6A02C70C0270003345B /* BasicListDestinationNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E69F2C70C0270003345B /* BasicListDestinationNavigation.swift */; };
 		8A22E6A22C70C1530003345B /* DynamicRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E6A12C70C1530003345B /* DynamicRoutingView.swift */; };
 		8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22E6A42C70C55A0003345B /* MedicineRoute.swift */; };
+		8A27C9BF2C8C792A00DFAFE1 /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C9BE2C8C792A00DFAFE1 /* CustomToggleStyle.swift */; };
+		8A27C9C12C8C795100DFAFE1 /* CheckmarkToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C9C02C8C795100DFAFE1 /* CheckmarkToggleStyle.swift */; };
+		8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C9C22C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift */; };
+		8A27C9C52C8C79AB00DFAFE1 /* CustomToggleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A27C9C42C8C79AB00DFAFE1 /* CustomToggleContentView.swift */; };
 		8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */; };
 		8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */; };
 		8A39C0E42C44065900A7F855 /* GeometryReaderParalaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */; };
@@ -164,6 +168,10 @@
 		8A22E69F2C70C0270003345B /* BasicListDestinationNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicListDestinationNavigation.swift; sourceTree = "<group>"; };
 		8A22E6A12C70C1530003345B /* DynamicRoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicRoutingView.swift; sourceTree = "<group>"; };
 		8A22E6A42C70C55A0003345B /* MedicineRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineRoute.swift; sourceTree = "<group>"; };
+		8A27C9BE2C8C792A00DFAFE1 /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
+		8A27C9C02C8C795100DFAFE1 /* CheckmarkToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkToggleStyle.swift; sourceTree = "<group>"; };
+		8A27C9C22C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkToggleStyle2.swift; sourceTree = "<group>"; };
+		8A27C9C42C8C79AB00DFAFE1 /* CustomToggleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleContentView.swift; sourceTree = "<group>"; };
 		8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsExampleView.swift; sourceTree = "<group>"; };
 		8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTransition.swift; sourceTree = "<group>"; };
 		8A39C0E32C44065900A7F855 /* GeometryReaderParalaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderParalaxView.swift; sourceTree = "<group>"; };
@@ -367,6 +375,17 @@
 				8A22E6A42C70C55A0003345B /* MedicineRoute.swift */,
 			);
 			path = "Global Routing";
+			sourceTree = "<group>";
+		};
+		8A27C9BD2C8C791800DFAFE1 /* Custom toggle */ = {
+			isa = PBXGroup;
+			children = (
+				8A27C9BE2C8C792A00DFAFE1 /* CustomToggleStyle.swift */,
+				8A27C9C02C8C795100DFAFE1 /* CheckmarkToggleStyle.swift */,
+				8A27C9C22C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift */,
+				8A27C9C42C8C79AB00DFAFE1 /* CustomToggleContentView.swift */,
+			);
+			path = "Custom toggle";
 			sourceTree = "<group>";
 		};
 		8A39C0E22C44063800A7F855 /* GeometryReader */ = {
@@ -610,6 +629,7 @@
 		8AFEBFDE2BB6F7910006C41A /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				8A27C9BD2C8C791800DFAFE1 /* Custom toggle */,
 				8AF1C16F2C25620C003CABE6 /* Button */,
 				8AFEBFDF2BB6F7AC0006C41A /* ToggleButtonsView.swift */,
 			);
@@ -804,6 +824,7 @@
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
 				8A91A21C2C75DE59007F7B7F /* GaugeView.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
+				8A27C9C12C8C795100DFAFE1 /* CheckmarkToggleStyle.swift in Sources */,
 				8A91A2182C75D1EB007F7B7F /* CustomLayoutView.swift in Sources */,
 				8A96E3202C79E26C00712616 /* OnSubmitView.swift in Sources */,
 				8A22E69A2C70BCE80003345B /* CustomerDetailScreen.swift in Sources */,
@@ -812,6 +833,7 @@
 				8A22E6A22C70C1530003345B /* DynamicRoutingView.swift in Sources */,
 				8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */,
 				8A91A2162C75CFB6007F7B7F /* NewGridView.swift in Sources */,
+				8A27C9BF2C8C792A00DFAFE1 /* CustomToggleStyle.swift in Sources */,
 				8A4001432C83304C00A633A5 /* UserLocationView.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
@@ -876,6 +898,7 @@
 				8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */,
 				8AFE447E2C81D3710018E70F /* IndividualBindingsView.swift in Sources */,
 				8AFE447C2C81D1920018E70F /* FocusedKeyboardResignRespView.swift in Sources */,
+				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
@@ -912,6 +935,7 @@
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */,
 				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
+				8A27C9C52C8C79AB00DFAFE1 /* CustomToggleContentView.swift in Sources */,
 				8A867E552C7B76E000E75AF9 /* NewVisualEffectModifierView.swift in Sources */,
 				8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */,
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
