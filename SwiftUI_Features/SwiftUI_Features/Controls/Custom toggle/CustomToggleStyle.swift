@@ -9,12 +9,17 @@ import SwiftUI
 
 struct CustomToggleStyle: ToggleStyle {
 
-    var onImage: String
-    var offImage: String
-    var onColor: Color
-    var offColor: Color
+    let onImage: String
+    let offImage: String
+    let onColor: Color
+    let offColor: Color
 
-    init(onImage: String = "checkmark", offImage: String = "xmark", onColor: Color = .green, offColor: Color = .black) {
+    init(
+        onImage: String = "checkmark",
+        offImage: String = "xmark",
+        onColor: Color = .green,
+        offColor: Color = .black
+    ) {
         self.onImage = onImage
         self.offImage = offImage
         self.onColor = onColor
