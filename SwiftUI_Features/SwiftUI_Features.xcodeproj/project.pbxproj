@@ -95,6 +95,7 @@
 		8ADD6EE72BB4522000C7D329 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6EE62BB4522000C7D329 /* Color+Ext.swift */; };
 		8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6F0D2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift */; };
 		8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD6F0F2BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift */; };
+		8ADDED232C937197002C42C6 /* ReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADDED222C937197002C42C6 /* ReactionsView.swift */; };
 		8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */; };
 		8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */; };
 		8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */; };
@@ -234,6 +235,7 @@
 		8ADD6EE62BB4522000C7D329 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		8ADD6F0D2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarBaseSettingsView.swift; sourceTree = "<group>"; };
 		8ADD6F0F2BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonsPositioning.swift; sourceTree = "<group>"; };
+		8ADDED222C937197002C42C6 /* ReactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsView.swift; sourceTree = "<group>"; };
 		8ADF1AA92BE20C6000F0C67F /* StopUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingGeometryReader.swift; sourceTree = "<group>"; };
 		8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopUsingSpacerView.swift; sourceTree = "<group>"; };
 		8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImageIconMaskView.swift; sourceTree = "<group>"; };
@@ -511,6 +513,7 @@
 				8A39C0E02C4403FC00A7F855 /* AnimateTransition.swift */,
 				8AAD77B52C6F50B5004E54D1 /* AnimationCompletionCriteria.swift */,
 				8AAD77B72C6F5471004E54D1 /* WWDC24Invite.swift */,
+				8ADDED222C937197002C42C6 /* ReactionsView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -871,6 +874,7 @@
 				8A96E3392C7B6DC400712616 /* ScrollViewNewWWDC23.swift in Sources */,
 				8A96E3372C7B6B6900712616 /* CanvasView.swift in Sources */,
 				8A91A2122C75CBB3007F7B7F /* ImageREndererView.swift in Sources */,
+				8ADDED232C937197002C42C6 /* ReactionsView.swift in Sources */,
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
 				8A22E69C2C70BD030003345B /* CustomerModel.swift in Sources */,
