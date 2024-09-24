@@ -16,7 +16,7 @@ struct SFIconSample<T: View>: View {
     }
 
     var body: some View {
-        VStack {
+        VStack(spacing: 10) {
             content
                 .font(.system(size: 48))
                 .padding(24)

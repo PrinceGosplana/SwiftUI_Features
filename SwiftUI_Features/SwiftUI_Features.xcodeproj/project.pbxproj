@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A00A9E22CA2BC060042C2FC /* SFIconSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00A9E12CA2BC060042C2FC /* SFIconSample.swift */; };
+		8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00A9E32CA2BD0E0042C2FC /* WiggleEffect.swift */; };
 		8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A039CAD2C29BCD40014434E /* MenuView.swift */; };
 		8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */; };
 		8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */; };
@@ -149,6 +150,7 @@
 
 /* Begin PBXFileReference section */
 		8A00A9E12CA2BC060042C2FC /* SFIconSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFIconSample.swift; sourceTree = "<group>"; };
+		8A00A9E32CA2BD0E0042C2FC /* WiggleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleEffect.swift; sourceTree = "<group>"; };
 		8A039CAD2C29BCD40014434E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefullThoughts.swift; sourceTree = "<group>"; };
 		8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredConcurrency.swift; sourceTree = "<group>"; };
@@ -422,6 +424,7 @@
 				8A3B992A2BC51BB4009B326E /* AppearEffect.swift */,
 				8A3B992C2BC51DBB009B326E /* ReplaceEffect.swift */,
 				8AE449982BC4577900406747 /* SystemImageIconMaskView.swift */,
+				8A00A9E32CA2BD0E0042C2FC /* WiggleEffect.swift */,
 			);
 			path = AnimationSFSymbols;
 			sourceTree = "<group>";
@@ -941,6 +944,7 @@
 				8AF1C1712C256233003CABE6 /* ClaimButton.swift in Sources */,
 				8A96E31C2C79D64100712616 /* AsyncImageView.swift in Sources */,
 				8A4001412C83203700A633A5 /* NewButtonCustomizationView.swift in Sources */,
+				8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
 				8A91A21E2C75DFBC007F7B7F /* TapGestureWithLocation.swift in Sources */,
