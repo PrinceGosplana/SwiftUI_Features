@@ -10,6 +10,7 @@
 		8A00A9E22CA2BC060042C2FC /* SFIconSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00A9E12CA2BC060042C2FC /* SFIconSample.swift */; };
 		8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00A9E32CA2BD0E0042C2FC /* WiggleEffect.swift */; };
 		8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A039CAD2C29BCD40014434E /* MenuView.swift */; };
+		8A0663522CAC4A7500937F63 /* BasicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0663512CAC4A7500937F63 /* BasicAnimationView.swift */; };
 		8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */; };
 		8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */; };
 		8A0DC81E2C4A64C6000428B9 /* GeometryProxyInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0DC81D2C4A64C6000428B9 /* GeometryProxyInScrollView.swift */; };
@@ -152,6 +153,7 @@
 		8A00A9E12CA2BC060042C2FC /* SFIconSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFIconSample.swift; sourceTree = "<group>"; };
 		8A00A9E32CA2BD0E0042C2FC /* WiggleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleEffect.swift; sourceTree = "<group>"; };
 		8A039CAD2C29BCD40014434E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8A0663512CAC4A7500937F63 /* BasicAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationView.swift; sourceTree = "<group>"; };
 		8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefullThoughts.swift; sourceTree = "<group>"; };
 		8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredConcurrency.swift; sourceTree = "<group>"; };
 		8A0DC81D2C4A64C6000428B9 /* GeometryProxyInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryProxyInScrollView.swift; sourceTree = "<group>"; };
@@ -528,6 +530,7 @@
 				8AAD77B52C6F50B5004E54D1 /* AnimationCompletionCriteria.swift */,
 				8AAD77B72C6F5471004E54D1 /* WWDC24Invite.swift */,
 				8ADDED222C937197002C42C6 /* ReactionsView.swift */,
+				8A0663512CAC4A7500937F63 /* BasicAnimationView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -948,6 +951,7 @@
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
 				8A91A21E2C75DFBC007F7B7F /* TapGestureWithLocation.swift in Sources */,
+				8A0663522CAC4A7500937F63 /* BasicAnimationView.swift in Sources */,
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
 				8A96E31E2C79E03F00712616 /* BadgeView.swift in Sources */,
