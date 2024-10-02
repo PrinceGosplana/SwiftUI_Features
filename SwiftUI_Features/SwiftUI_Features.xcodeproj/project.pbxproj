@@ -11,6 +11,7 @@
 		8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00A9E32CA2BD0E0042C2FC /* WiggleEffect.swift */; };
 		8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A039CAD2C29BCD40014434E /* MenuView.swift */; };
 		8A0663522CAC4A7500937F63 /* BasicAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0663512CAC4A7500937F63 /* BasicAnimationView.swift */; };
+		8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0663532CAD2BF700937F63 /* PhaseAnimationView.swift */; };
 		8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */; };
 		8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */; };
 		8A0DC81E2C4A64C6000428B9 /* GeometryProxyInScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0DC81D2C4A64C6000428B9 /* GeometryProxyInScrollView.swift */; };
@@ -154,6 +155,7 @@
 		8A00A9E32CA2BD0E0042C2FC /* WiggleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiggleEffect.swift; sourceTree = "<group>"; };
 		8A039CAD2C29BCD40014434E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		8A0663512CAC4A7500937F63 /* BasicAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationView.swift; sourceTree = "<group>"; };
+		8A0663532CAD2BF700937F63 /* PhaseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimationView.swift; sourceTree = "<group>"; };
 		8A097D9B2C31BA6000F03670 /* UsefullThoughts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefullThoughts.swift; sourceTree = "<group>"; };
 		8A097D9D2C31BBCA00F03670 /* StructuredConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredConcurrency.swift; sourceTree = "<group>"; };
 		8A0DC81D2C4A64C6000428B9 /* GeometryProxyInScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryProxyInScrollView.swift; sourceTree = "<group>"; };
@@ -531,6 +533,7 @@
 				8AAD77B72C6F5471004E54D1 /* WWDC24Invite.swift */,
 				8ADDED222C937197002C42C6 /* ReactionsView.swift */,
 				8A0663512CAC4A7500937F63 /* BasicAnimationView.swift */,
+				8A0663532CAD2BF700937F63 /* PhaseAnimationView.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -857,6 +860,7 @@
 				8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */,
 				8A91A2162C75CFB6007F7B7F /* NewGridView.swift in Sources */,
 				8A27C9BF2C8C792A00DFAFE1 /* CustomToggleStyle.swift in Sources */,
+				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
 				8A4001432C83304C00A633A5 /* UserLocationView.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
