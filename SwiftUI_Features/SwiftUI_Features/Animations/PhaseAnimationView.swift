@@ -32,5 +32,5 @@ struct PhaseAnimationView: View {
 }
 
 #Preview {
-    BasicAnimationView()
+    PhaseAnimationView()
 }
