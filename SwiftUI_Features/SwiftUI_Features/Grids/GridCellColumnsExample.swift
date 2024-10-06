@@ -29,6 +29,11 @@ struct GridCellColumnsExample: View {
                 Color.purple.opacity(0.3)
                     .gridCellColumns(2)
             }
+            GridRow {
+                Color.indigo.opacity(0.3)
+                    .gridCellColumns(2)
+                Color.purple.opacity(0.3)
+            }
         }
     }
 }
