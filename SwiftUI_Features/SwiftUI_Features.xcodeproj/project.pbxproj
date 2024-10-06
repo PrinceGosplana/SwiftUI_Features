@@ -141,6 +141,7 @@
 		956087D82B9F6EC700BAC9BA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D72B9F6EC700BAC9BA /* Home.swift */; };
 		956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */; };
 		956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */; };
+		956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -287,6 +288,7 @@
 		956087D72B9F6EC700BAC9BA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurEffectView.swift; sourceTree = "<group>"; };
 		956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentHomeView.swift; sourceTree = "<group>"; };
+		956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellColumnsExample.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -637,6 +639,7 @@
 				8AFE17642BB98E3A002CC3AA /* LazyHGridViewExample.swift */,
 				8AFE17662BB98FCF002CC3AA /* StaticGridExampleView.swift */,
 				8AFE17682BB99476002CC3AA /* ScrollExampleView.swift */,
+				956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */,
 			);
 			path = Grids;
 			sourceTree = "<group>";
@@ -854,6 +857,7 @@
 				952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */,
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
+				956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */,
 				8A91A21C2C75DE59007F7B7F /* GaugeView.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
 				8A27C9C12C8C795100DFAFE1 /* CheckmarkToggleStyle.swift in Sources */,
