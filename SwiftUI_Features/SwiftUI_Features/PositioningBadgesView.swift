@@ -7,15 +7,30 @@
 
 import SwiftUI
 
-struct BadgeValue {
+struct BadgeValue: Identifiable {
     var view: AnyView
     var position: Anchor<CGPoint>
+    var id: Namespace.ID
 }
 
 struct BadgePreferenceKey: PreferenceKey {
     static var defaultValue: [BadgeValue] = []
     static func reduce(value: inout [BadgeValue], nextValue: () -> [BadgeValue]) {
         value.append(contentsOf: nextValue())
+    }
+}
+
+extension View {
+    func overlayBadges() -> some View {
+        overlayPreferenceValue(BadgePreferenceKey.self, { badges in
+            GeometryReader { proxy in
+                ForEach(badges) { badge in
+                    let p = proxy[badge.position]
+                    badge.view
+                        .position(p)
+                }
+            }
+        })
     }
 }
 
@@ -32,18 +47,25 @@ extension View {
 }
 
 extension View {
-    func badge(_ value: Int, alignment: Alignment) -> some View {
-        overlay(alignment: alignment) {
-            Badge(value: value)
-                .alignmentGuide(alignment.vertical, computeValue: { dimension in
-                    dimension[VerticalAlignment.center]
-                })
-                .alignmentGuide(alignment.horizontal, computeValue: { dimension in
-                    dimension[HorizontalAlignment.center]
-                })
-                .fixedSize()
+    func inlineBadge(_ value: Int, alignment: Alignment) -> some View {
+            overlay(alignment: alignment) {
+                Badge(value: value)
+                    .alignmentGuide(alignment.vertical, computeValue: { dimension in
+                        dimension[VerticalAlignment.center]
+                    })
+                    .alignmentGuide(alignment.horizontal, computeValue: { dimension in
+                        dimension[HorizontalAlignment.center]
+                    })
+                    .fixedSize()
+            }
         }
-    }
+
+        func badge(_ value: Int, alignment: Anchor<CGPoint>.Source = .topTrailing) -> some View {
+            anchorPreference(key: BadgePreferenceKey.self, value: alignment) { anchor in
+                return [BadgeValue(view: AnyView(Badge(value: value).fixedSize()),
+                                   position: anchor)]
+            }
+        }
 }
 
 struct Badge: View {
