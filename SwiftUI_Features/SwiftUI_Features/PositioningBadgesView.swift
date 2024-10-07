@@ -20,6 +20,18 @@ struct BadgePreferenceKey: PreferenceKey {
     }
 }
 
+struct BadgeHelper: ViewModifier {
+    var alignment: Anchor<CGPoint>.Source
+    var view: AnyView
+    @Namespace private var ns
+    
+    func body(content: Content) -> some View {
+        content.anchorPreference(key: BadgePreferenceKey.self, value: alignment, transform: { anchor in
+            return [BadgeValue(view: view, position: anchor, id: ns)]
+        })
+    }
+}
+
 extension View {
     func overlayBadges() -> some View {
         overlayPreferenceValue(BadgePreferenceKey.self, { badges in
@@ -48,24 +60,21 @@ extension View {
 
 extension View {
     func inlineBadge(_ value: Int, alignment: Alignment) -> some View {
-            overlay(alignment: alignment) {
-                Badge(value: value)
-                    .alignmentGuide(alignment.vertical, computeValue: { dimension in
-                        dimension[VerticalAlignment.center]
-                    })
-                    .alignmentGuide(alignment.horizontal, computeValue: { dimension in
-                        dimension[HorizontalAlignment.center]
-                    })
-                    .fixedSize()
-            }
+        overlay(alignment: alignment) {
+            Badge(value: value)
+                .alignmentGuide(alignment.vertical, computeValue: { dimension in
+                    dimension[VerticalAlignment.center]
+                })
+                .alignmentGuide(alignment.horizontal, computeValue: { dimension in
+                    dimension[HorizontalAlignment.center]
+                })
+                .fixedSize()
         }
-
-        func badge(_ value: Int, alignment: Anchor<CGPoint>.Source = .topTrailing) -> some View {
-            anchorPreference(key: BadgePreferenceKey.self, value: alignment) { anchor in
-                return [BadgeValue(view: AnyView(Badge(value: value).fixedSize()),
-                                   position: anchor)]
-            }
-        }
+    }
+    
+    func badge(_ value: Int, alignment: Anchor<CGPoint>.Source = .topTrailing) -> some View {
+        modifier(BadgeHelper(alignment: alignment, view: AnyView(Badge(value: value).fixedSize())))
+    }
 }
 
 struct Badge: View {
@@ -85,18 +94,30 @@ struct Badge: View {
 }
 
 struct PositioningBadgesView: View {
-    var body: some View {
-        HStack {
-            Image(systemName: "phone")
-                .asIcon(color: .green)
-            Image(systemName: "message")
-                .asIcon(color: .green)
-                .badge(1000, alignment: .topTrailing)
-            Image(systemName: "book")
-                .asIcon(color: .orange)
+    @State var showWorld = false
+        
+        var body: some View {
+            HStack {
+                if showWorld {
+                    Image(systemName: "globe")
+                        .asIcon(color: .blue)
+                }
+                Image(systemName: "phone")
+                    .asIcon(color: .green)
+                    .badge(1000, alignment: .topTrailing)
+                Image(systemName: "message")
+                    .asIcon(color: .green)
+                Image(systemName: "book")
+                    .asIcon(color: .orange)
+                    .onTapGesture {
+                        withAnimation {
+                            showWorld.toggle()
+                        }
+                    }
+            }
+            .padding()
+            .overlayBadges()
         }
-        .padding()
-    }
 }
 
 #Preview {
