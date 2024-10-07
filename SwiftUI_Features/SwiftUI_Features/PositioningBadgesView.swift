@@ -12,6 +12,13 @@ struct BadgeValue {
     var position: Anchor<CGPoint>
 }
 
+struct BadgePreferenceKey: PreferenceKey {
+    static var defaultValue: [BadgeValue] = []
+    static func reduce(value: inout [BadgeValue], nextValue: () -> [BadgeValue]) {
+        value.append(contentsOf: nextValue())
+    }
+}
+
 extension View {
     func asIcon(color: Color) -> some View {
         self
