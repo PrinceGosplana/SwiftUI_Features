@@ -142,6 +142,7 @@
 		956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */; };
 		956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */; };
 		956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */; };
+		956C9B8A2CB2703E004898DB /* PositioningBadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B892CB2703E004898DB /* PositioningBadgesView.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -289,6 +290,7 @@
 		956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurEffectView.swift; sourceTree = "<group>"; };
 		956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentHomeView.swift; sourceTree = "<group>"; };
 		956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellColumnsExample.swift; sourceTree = "<group>"; };
+		956C9B892CB2703E004898DB /* PositioningBadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositioningBadgesView.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -749,6 +751,7 @@
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
 				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
+				956C9B892CB2703E004898DB /* PositioningBadgesView.swift */,
 				8A097D9A2C31BA2300F03670 /* Swift Concurrency */,
 				957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */,
 				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
@@ -944,6 +947,7 @@
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
 				8A96E3242C79F96700712616 /* CustomSheetDismissView.swift in Sources */,
+				956C9B8A2CB2703E004898DB /* PositioningBadgesView.swift in Sources */,
 				8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */,
 				8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */,
 				8A96E32B2C7B1D9900712616 /* DoulingoView.swift in Sources */,
