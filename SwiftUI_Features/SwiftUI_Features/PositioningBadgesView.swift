@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+struct BadgeValue {
+    var view: AnyView
+    var position: Anchor<CGPoint>
+}
+
 extension View {
     func asIcon(color: Color) -> some View {
         self
