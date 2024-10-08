@@ -145,6 +145,7 @@
 		956C9B8A2CB2703E004898DB /* PositioningBadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B892CB2703E004898DB /* PositioningBadgesView.swift */; };
 		956C9B8C2CB528B3004898DB /* SpanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B8B2CB528B2004898DB /* SpanView.swift */; };
 		956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */; };
+		956C9B922CB5478E004898DB /* PagingOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B912CB5478E004898DB /* PagingOnboardView.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -295,6 +296,7 @@
 		956C9B892CB2703E004898DB /* PositioningBadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositioningBadgesView.swift; sourceTree = "<group>"; };
 		956C9B8B2CB528B2004898DB /* SpanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanView.swift; sourceTree = "<group>"; };
 		956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLogicForSizeView.swift; sourceTree = "<group>"; };
+		956C9B912CB5478E004898DB /* PagingOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingOnboardView.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -723,21 +725,20 @@
 		957D36462B96DC8D00E5E342 /* SwiftUI_Features */ = {
 			isa = PBXGroup;
 			children = (
-				8A96E3272C7AFE7200712616 /* Doulingo Button style */,
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
-				8A27C9C62C8C7CE200DFAFE1 /* ListOffsetfixView.swift */,
 				8AFA1CE72C0DE08700EC7A39 /* Bottom Sheet */,
 				957D36492B96DC8D00E5E342 /* ContentView.swift */,
 				8AFEBFDE2BB6F7910006C41A /* Controls */,
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
+				956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */,
 				8A0DC8222C4A758E000428B9 /* CustomSegmentedControl.swift */,
 				8A22E6952C7089CA0003345B /* Disclosure Group */,
+				8A96E3272C7AFE7200712616 /* Doulingo Button style */,
 				8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */,
 				8ADD6EE52BB4521000C7D329 /* Extensions */,
 				8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */,
-				956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */,
 				8AFE17882BBAC642002CC3AA /* Formatters */,
 				8A0DC81F2C4A6B2F000428B9 /* GeometryProxy */,
 				8A39C0E22C44063800A7F855 /* GeometryReader */,
@@ -745,6 +746,7 @@
 				8AFE175F2BB9847D002CC3AA /* Grids */,
 				8AF0A8D72C317D540063E82A /* KeyboardCheckView.swift */,
 				956087B22B9DD6B400BAC9BA /* KeyframeAnimationView.swift */,
+				8A27C9C62C8C7CE200DFAFE1 /* ListOffsetfixView.swift */,
 				8A039CAD2C29BCD40014434E /* MenuView.swift */,
 				956087D32B9F6C3500BAC9BA /* Model */,
 				8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */,
@@ -754,10 +756,11 @@
 				8A91A20A2C75C0A1007F7B7F /* New in iOS 16 */,
 				8A202A3D2C786DB800509CB4 /* New in iOS 17 */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
+				956C9B892CB2703E004898DB /* PositioningBadgesView.swift */,
+				956C9B912CB5478E004898DB /* PagingOnboardView.swift */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
 				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
-				956C9B892CB2703E004898DB /* PositioningBadgesView.swift */,
 				8A097D9A2C31BA2300F03670 /* Swift Concurrency */,
 				957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */,
 				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
@@ -970,6 +973,7 @@
 				8A96E3222C79F55C00712616 /* SafeAreaInsetView.swift in Sources */,
 				8AAD77AA2C6F15BE004E54D1 /* OfflineAlertView.swift in Sources */,
 				8A91A2142C75CD81007F7B7F /* ViewThatFitsView.swift in Sources */,
+				956C9B922CB5478E004898DB /* PagingOnboardView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
 				956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */,
 				8AF1C1712C256233003CABE6 /* ClaimButton.swift in Sources */,
