@@ -144,6 +144,7 @@
 		956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */; };
 		956C9B8A2CB2703E004898DB /* PositioningBadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B892CB2703E004898DB /* PositioningBadgesView.swift */; };
 		956C9B8C2CB528B3004898DB /* SpanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B8B2CB528B2004898DB /* SpanView.swift */; };
+		956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -293,6 +294,7 @@
 		956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellColumnsExample.swift; sourceTree = "<group>"; };
 		956C9B892CB2703E004898DB /* PositioningBadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositioningBadgesView.swift; sourceTree = "<group>"; };
 		956C9B8B2CB528B2004898DB /* SpanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanView.swift; sourceTree = "<group>"; };
+		956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLogicForSizeView.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -735,6 +737,7 @@
 				8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */,
 				8ADD6EE52BB4521000C7D329 /* Extensions */,
 				8A2F1A572C60F75E003DB628 /* FontsExampleView.swift */,
+				956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */,
 				8AFE17882BBAC642002CC3AA /* Formatters */,
 				8A0DC81F2C4A6B2F000428B9 /* GeometryProxy */,
 				8A39C0E22C44063800A7F855 /* GeometryReader */,
@@ -884,6 +887,7 @@
 				8AF2FB552C19916300B98D74 /* NPRecipesFeedView.swift in Sources */,
 				8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */,
 				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
+				956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
 				8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */,
 				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
