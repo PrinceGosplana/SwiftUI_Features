@@ -104,26 +104,30 @@ extension View {
     }
 }
 
+struct Wobble: ViewModifier, Animatable {
+    var value: Double
+    var active: Bool
+
+    var animatableData: Double {
+            get { value }
+            set { value = newValue }
+        }
+
+        func body(content: Content) -> some View {
+            let rotation = sin(value * 2 * .pi) * 10
+            return content
+                .rotationEffect(active ? .degrees(rotation) : .zero)
+                .transaction { transaction in
+                    transaction.animation = nil
+                }
+        }
+}
+
 extension View {
     func wobbleAlt(active: Bool) -> some View {
         self
-            .modifier(Wobble(value: active ? 1 : 0))
+            .modifier(Wobble(value: active ? 1 : 0, active: active))
             .animation(active ? .linear.repeatForever(autoreverses: false) : .linear, value: active)
-    }
-}
-
-struct Wobble: ViewModifier, Animatable {
-    var value: Double
-    
-    var animatableData: Double {
-        get { value }
-        set { value = newValue }
-    }
-    
-    func body(content: Content) -> some View {
-        let rotation = sin(value * 2 * .pi) * 10
-        return content
-            .rotationEffect(.degrees(rotation))
     }
 }
 
