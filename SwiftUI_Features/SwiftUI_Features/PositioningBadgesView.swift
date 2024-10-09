@@ -97,7 +97,7 @@ extension View {
     func wobble(active: Bool) -> some View {
         self.phaseAnimator([-10, 10]) { content, phase in
             content
-                .rotationEffect(.degrees(phase))
+                .rotationEffect(.degrees(active ? phase : 0))
         } animation: { _ in
             .default
         }
