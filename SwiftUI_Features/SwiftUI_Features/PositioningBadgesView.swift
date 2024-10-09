@@ -94,30 +94,27 @@ struct Badge: View {
 }
 
 struct PositioningBadgesView: View {
-    @State var showWorld = false
+    @State private var editing = false
         
-        var body: some View {
-            HStack {
-                if showWorld {
-                    Image(systemName: "globe")
-                        .asIcon(color: .blue)
+    var body: some View {
+        HStack {
+            Image(systemName: "globe")
+                .asIcon(color: .blue)
+                .onLongPressGesture {
+                    editing = true
                 }
-                Image(systemName: "phone")
-                    .asIcon(color: .green)
-                    .badge(1000, alignment: .topTrailing)
-                Image(systemName: "message")
-                    .asIcon(color: .green)
-                Image(systemName: "book")
-                    .asIcon(color: .orange)
-                    .onTapGesture {
-                        withAnimation {
-                            showWorld.toggle()
-                        }
-                    }
-            }
-            .padding()
-            .overlayBadges()
+            Image(systemName: "phone")
+                .asIcon(color: .green)
+                .badge(1000, alignment: .topTrailing)
+            Image(systemName: "message")
+                .asIcon(color: .green)
+            Image(systemName: "book")
+                .asIcon(color: .orange)
+            
         }
+        .padding()
+        .overlayBadges()
+    }
 }
 
 #Preview {
