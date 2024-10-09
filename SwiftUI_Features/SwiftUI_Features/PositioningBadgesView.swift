@@ -93,6 +93,17 @@ struct Badge: View {
     }
 }
 
+extension View {
+    func wobble(active: Bool) -> some View {
+        self.phaseAnimator([-10, 10]) { content, phase in
+            content
+                .rotationEffect(.degrees(phase))
+        } animation: { _ in
+            .default
+        }
+    }
+}
+
 struct PositioningBadgesView: View {
     @State private var editing = false
         
@@ -100,6 +111,7 @@ struct PositioningBadgesView: View {
         HStack {
             Image(systemName: "globe")
                 .asIcon(color: .blue)
+                .wobble(active: editing)
                 .onLongPressGesture {
                     editing = true
                 }
@@ -114,6 +126,10 @@ struct PositioningBadgesView: View {
         }
         .padding()
         .overlayBadges()
+        .contentShape(.rect)
+        .onTapGesture {
+            editing = false
+        }
     }
 }
 
