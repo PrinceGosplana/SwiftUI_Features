@@ -104,6 +104,29 @@ extension View {
     }
 }
 
+extension View {
+    func wobbleAlt(active: Bool) -> some View {
+        self
+            .modifier(Wobble(value: active ? 1 : 0))
+            .animation(active ? .linear.repeatForever(autoreverses: false) : .linear, value: active)
+    }
+}
+
+struct Wobble: ViewModifier, Animatable {
+    var value: Double
+    
+    var animatableData: Double {
+        get { value }
+        set { value = newValue }
+    }
+    
+    func body(content: Content) -> some View {
+        let rotation = sin(value * 2 * .pi) * 10
+        return content
+            .rotationEffect(.degrees(rotation))
+    }
+}
+
 struct PositioningBadgesView: View {
     @State private var editing = false
         
@@ -122,10 +145,11 @@ struct PositioningBadgesView: View {
                 .asIcon(color: .green)
             Image(systemName: "book")
                 .asIcon(color: .orange)
+                .wobbleAlt(active: editing)
             
         }
-        .padding()
         .overlayBadges()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .contentShape(.rect)
         .onTapGesture {
             editing = false
