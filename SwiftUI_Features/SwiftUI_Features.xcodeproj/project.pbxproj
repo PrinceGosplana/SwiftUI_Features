@@ -147,6 +147,7 @@
 		956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */; };
 		956C9B922CB5478E004898DB /* PagingOnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B912CB5478E004898DB /* PagingOnboardView.swift */; };
 		956C9B942CB54BCC004898DB /* ButtonRepeatBehaviorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B932CB54BCC004898DB /* ButtonRepeatBehaviorView.swift */; };
+		956C9BA22CB85154004898DB /* DebuggingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -299,6 +300,7 @@
 		956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLogicForSizeView.swift; sourceTree = "<group>"; };
 		956C9B912CB5478E004898DB /* PagingOnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingOnboardView.swift; sourceTree = "<group>"; };
 		956C9B932CB54BCC004898DB /* ButtonRepeatBehaviorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRepeatBehaviorView.swift; sourceTree = "<group>"; };
+		956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingAnimationView.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -769,6 +771,7 @@
 				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
 				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
 				956087D62B9F6EB500BAC9BA /* View */,
+				956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */,
 			);
 			path = SwiftUI_Features;
 			sourceTree = "<group>";
@@ -938,6 +941,7 @@
 				8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */,
 				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
+				956C9BA22CB85154004898DB /* DebuggingAnimationView.swift in Sources */,
 				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
 				8A91A20D2C75C394007F7B7F /* PresentationDetentsView.swift in Sources */,
 				8A91A2222C75E320007F7B7F /* MultipleDatePickerView.swift in Sources */,
