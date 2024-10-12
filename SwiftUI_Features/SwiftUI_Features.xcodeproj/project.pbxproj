@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -314,6 +314,10 @@
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
 		95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9547F6F62CBA5275009648DF /* PreferenceKey */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = PreferenceKey; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		957D36412B96DC8D00E5E342 /* Frameworks */ = {
@@ -734,13 +738,15 @@
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
-				956C9B932CB54BCC004898DB /* ButtonRepeatBehaviorView.swift */,
 				8AFA1CE72C0DE08700EC7A39 /* Bottom Sheet */,
+				956C9B932CB54BCC004898DB /* ButtonRepeatBehaviorView.swift */,
 				957D36492B96DC8D00E5E342 /* ContentView.swift */,
 				8AFEBFDE2BB6F7910006C41A /* Controls */,
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
 				956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */,
 				8A0DC8222C4A758E000428B9 /* CustomSegmentedControl.swift */,
+				956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */,
+				956C9BA32CB986D4004898DB /* DetectingVisibleCells.swift */,
 				8A22E6952C7089CA0003345B /* Disclosure Group */,
 				8A96E3272C7AFE7200712616 /* Doulingo Button style */,
 				8A14C43F2C53D2F300118B13 /* EitherExampleView.swift */,
@@ -762,9 +768,10 @@
 				8A91A2232C75E524007F7B7F /* New in iOS 15 */,
 				8A91A20A2C75C0A1007F7B7F /* New in iOS 16 */,
 				8A202A3D2C786DB800509CB4 /* New in iOS 17 */,
+				956C9B912CB5478E004898DB /* PagingOnboardView.swift */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
 				956C9B892CB2703E004898DB /* PositioningBadgesView.swift */,
-				956C9B912CB5478E004898DB /* PagingOnboardView.swift */,
+				9547F6F62CBA5275009648DF /* PreferenceKey */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
 				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
@@ -773,8 +780,6 @@
 				8AFF1ED52C5E4EBF0032C778 /* Transformation */,
 				956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */,
 				956087D62B9F6EB500BAC9BA /* View */,
-				956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */,
-				956C9BA32CB986D4004898DB /* DetectingVisibleCells.swift */,
 			);
 			path = SwiftUI_Features;
 			sourceTree = "<group>";
@@ -810,6 +815,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9547F6F62CBA5275009648DF /* PreferenceKey */,
 			);
 			name = SwiftUI_Features;
 			productName = SwiftUI_Features;
