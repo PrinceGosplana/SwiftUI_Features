@@ -131,6 +131,7 @@
 		8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */; };
 		952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */; };
 		952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C92B9A282C005E393F /* CustomTransitionsView.swift */; };
+		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */; };
 		956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */; };
 		956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */; };
@@ -285,6 +286,7 @@
 		8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffectView.swift; sourceTree = "<group>"; };
 		952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewExample.swift; sourceTree = "<group>"; };
 		952473C92B9A282C005E393F /* CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsView.swift; sourceTree = "<group>"; };
+		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationsView.swift; sourceTree = "<group>"; };
 		956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeView.swift; sourceTree = "<group>"; };
 		956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservBindableView.swift; sourceTree = "<group>"; };
@@ -738,6 +740,7 @@
 				8A9CE5BB2BD66E7F002C8EB1 /* Animations */,
 				957D364B2B96DC9100E5E342 /* Assets.xcassets */,
 				8ADD6EE32BB44AD200C7D329 /* AutomaticCountingView.swift */,
+				9547F6FB2CBC3C17009648DF /* TooltipsView.swift */,
 				8AFA1CE72C0DE08700EC7A39 /* Bottom Sheet */,
 				956C9B932CB54BCC004898DB /* ButtonRepeatBehaviorView.swift */,
 				957D36492B96DC8D00E5E342 /* ContentView.swift */,
@@ -943,6 +946,7 @@
 				8AFE44822C81D77E0018E70F /* SystemREnderingModesView.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
 				8A0663562CAD2C6300937F63 /* KeyframeAnimationExampleView.swift in Sources */,
+				9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */,
 				8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
 				956C9B8C2CB528B3004898DB /* SpanView.swift in Sources */,
