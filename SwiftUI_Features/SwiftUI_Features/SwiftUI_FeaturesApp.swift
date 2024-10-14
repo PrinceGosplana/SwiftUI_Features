@@ -26,7 +26,7 @@ struct SwiftUI_FeaturesApp: App {
 
     var body: some Scene {
         WindowGroup {
-            KeyboardAccessoryView()
+            TooltipsView()
 //            NavigationStack(path: $router.navPath) {
 //                RoutHomeView()
 //                    .navigationDestination(for: Router.Destination.self) { destination in
