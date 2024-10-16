@@ -16,6 +16,13 @@ struct Nested: View {
     }
 }
 
+struct TestKey: PreferenceKey {
+    static let defaultValue = false
+    static func reduce(value: inout Bool, nextValue: () -> Bool) {
+        fatalError()
+    }
+}
+
 struct EnvironmentObservationView: View {
     var body: some View {
         VStack {
