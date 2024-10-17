@@ -19,16 +19,27 @@ struct Nested: View {
 struct TestKey: PreferenceKey {
     static let defaultValue = false
     static func reduce(value: inout Bool, nextValue: () -> Bool) {
-        fatalError()
+        let new = nextValue()
+        print("Reduce", value, new)
+        value = new
     }
 }
-
 struct EnvironmentObservationView: View {
+    @State var foo = false
+    
     var body: some View {
         VStack {
-            Nested()
+            ZStack {
+                Text("Hi")
+                    .id("")
+            }
+            Color.blue
+                .preference(key: TestKey.self, value: true)
         }
         .padding()
+        .onPreferenceChange(TestKey.self, perform: { value in
+            print("On change: \(value)")
+        })
     }
 }
 
