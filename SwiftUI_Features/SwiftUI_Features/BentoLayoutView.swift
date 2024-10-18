@@ -54,8 +54,12 @@ struct Bento: View {
     
     var body: some View {
         VStack {
-            ForEach(0..<split.children.count, id: \.self) { idx in
-                Bento(split: split.children[idx], axis: axis.other)
+            if split.children.isEmpty {
+                Color.blue
+            } else {
+                ForEach(0..<split.children.count, id: \.self) { idx in
+                    Bento(split: split.children[idx], axis: axis.other)
+                }
             }
         }
     }
@@ -63,18 +67,7 @@ struct Bento: View {
 
 struct BentoLayoutView: View {
     var body: some View {
-        Split {
-            Split {
-                Color.red
-                Split {
-                    Color.blue
-                    Color.yellow
-                }
-                Color.teal
-            }
-            Color.green
-            Color.cyan
-        }
+        Bento(split: sample)
     }
 }
 
