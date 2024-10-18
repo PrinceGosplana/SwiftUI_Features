@@ -48,6 +48,18 @@ let sample = SplitItem(children: [
     .init(),
 ])
 
+struct Bento: View {
+    var split: SplitItem
+    var axis: Axis = .vertical
+    
+    var body: some View {
+        VStack {
+            ForEach(0..<split.children.count, id: \.self) { idx in
+                Bento(split: split.children[idx], axis: axis.other)
+            }
+        }
+    }
+}
 
 struct BentoLayoutView: View {
     var body: some View {
