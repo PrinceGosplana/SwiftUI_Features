@@ -32,6 +32,10 @@ extension EnvironmentValues {
     @Entry var direction: Axis = .vertical
 }
 
+struct SplitItem {
+    var children: [SplitItem] = []
+}
+
 struct BentoLayoutView: View {
     var body: some View {
         Split {
