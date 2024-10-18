@@ -36,6 +36,19 @@ struct SplitItem {
     var children: [SplitItem] = []
 }
 
+let sample = SplitItem(children: [
+    .init(children: [
+        .init(),
+        .init(children: [
+            .init(),
+            .init(),
+        ])
+    ]),
+    .init(),
+    .init(),
+])
+
+
 struct BentoLayoutView: View {
     var body: some View {
         Split {
