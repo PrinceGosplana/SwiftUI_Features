@@ -51,9 +51,10 @@ let sample = SplitItem(children: [
 struct Bento: View {
     var split: SplitItem
     var axis: Axis = .vertical
-    
+
     var body: some View {
-        VStack {
+        let layout = axis == .vertical ? AnyLayout(VStackLayout()) : AnyLayout(HStackLayout())
+        layout {
             if split.children.isEmpty {
                 Color.blue
             } else {
