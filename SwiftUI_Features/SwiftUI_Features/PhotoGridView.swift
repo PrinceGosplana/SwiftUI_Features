@@ -13,6 +13,8 @@ struct PhotosView: View {
             LazyVGrid(columns: [.init(.adaptive(minimum: 100, maximum: .infinity), spacing: 3)]) {
                 ForEach(1..<8) { ix in
                     Image("previewSample\(ix)")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
                 }
             }
         }
