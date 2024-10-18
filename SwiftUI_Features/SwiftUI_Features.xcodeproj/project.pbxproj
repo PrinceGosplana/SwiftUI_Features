@@ -134,6 +134,7 @@
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
 		9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */; };
+		9547F7022CC2D67A009648DF /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F7012CC2D67A009648DF /* PhotoGridView.swift */; };
 		956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */; };
 		956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */; };
 		956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */; };
@@ -291,6 +292,7 @@
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
 		9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoLayoutView.swift; sourceTree = "<group>"; };
+		9547F7012CC2D67A009648DF /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
 		956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationsView.swift; sourceTree = "<group>"; };
 		956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeView.swift; sourceTree = "<group>"; };
 		956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservBindableView.swift; sourceTree = "<group>"; };
@@ -780,6 +782,7 @@
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
 				956C9B892CB2703E004898DB /* PositioningBadgesView.swift */,
 				9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */,
+				9547F7012CC2D67A009648DF /* PhotoGridView.swift */,
 				9547F6F62CBA5275009648DF /* PreferenceKey */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
@@ -943,6 +946,7 @@
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
 				8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */,
+				9547F7022CC2D67A009648DF /* PhotoGridView.swift in Sources */,
 				8A96E3392C7B6DC400712616 /* ScrollViewNewWWDC23.swift in Sources */,
 				8A96E3372C7B6B6900712616 /* CanvasView.swift in Sources */,
 				8A91A2122C75CBB3007F7B7F /* ImageREndererView.swift in Sources */,
