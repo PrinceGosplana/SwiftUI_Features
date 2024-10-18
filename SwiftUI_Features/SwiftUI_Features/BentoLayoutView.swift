@@ -50,16 +50,24 @@ let sample = SplitItem(children: [
 
 struct Bento: View {
     var split: SplitItem
+    
+    var body: some View {
+        BentoHelper(split: split)
+    }
+}
+
+struct BentoHelper: View {
+    var split: SplitItem
     var axis: Axis = .vertical
 
     var body: some View {
-        let layout = axis == .vertical ? AnyLayout(VStackLayout()) : AnyLayout(HStackLayout())
+        let layout = axis == .vertical ? AnyLayout(VStackLayout()) : .init(HStackLayout())
         layout {
-            if split.children.isEmpty {
+            if split.children.count == 0 {
                 Color.blue
             } else {
                 ForEach(0..<split.children.count, id: \.self) { idx in
-                    Bento(split: split.children[idx], axis: axis.other)
+                    BentoHelper(split: split.children[idx], axis: axis.other)
                 }
             }
         }
