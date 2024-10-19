@@ -7,20 +7,47 @@
 
 import SwiftUI
 
+
 struct PhotosView: View {
+    @State private var detail: Int? = nil
+    
     var body: some View {
+        ZStack {
+            photoGrid
+            detailView
+        }
+    }
+    
+    @ViewBuilder
+    var detailView: some View {
+        if let d = detail {
+            Image("previewSample\(d)")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .onTapGesture {
+                    detail = nil
+                }
+        }
+    }
+    
+    var photoGrid: some View {
         ScrollView {
-            LazyVGrid(columns: [.init(.adaptive(minimum: 100, maximum: .infinity), spacing: 3)]) {
-                ForEach(1..<8) { ix in
+            LazyVGrid(columns: [.init(.adaptive(minimum: 100, maximum: .infinity), spacing: 3)], spacing: 3) {
+                ForEach(1..<11) { ix in
                     Image("previewSample\(ix)")
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
+                        .aspectRatio(contentMode: .fill)
+                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                        .clipped()
+                        .aspectRatio(1, contentMode: .fit)
+                        .onTapGesture {
+                            detail = ix
+                        }
                 }
             }
         }
     }
 }
-
 
 struct PhotoGridView: View {
     var body: some View {
@@ -28,6 +55,7 @@ struct PhotoGridView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
+
 
 #Preview {
     PhotoGridView()
