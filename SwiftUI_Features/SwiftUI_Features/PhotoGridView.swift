@@ -11,7 +11,7 @@ import SwiftUI
 struct PhotosView: View {
     @State private var detail: Int? = nil
     @State private var slowAnimations = false
-    
+    @Namespace private var dummyNS
     @Namespace private var namespace
     
     var body: some View {
@@ -31,7 +31,7 @@ struct PhotosView: View {
         if let d = detail {
             Image("previewSample\(d)")
                 .resizable()
-                .matchedGeometryEffect(id: d, in: namespace, isSource: false)
+                .matchedGeometryEffect(id: d, in: detail == nil ? namespace : dummyNS, isSource: false)
                 .aspectRatio(contentMode: .fit)
                 .onTapGesture {
                     detail = nil
