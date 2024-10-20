@@ -12,6 +12,8 @@ struct PhotosView: View {
     @State private var detail: Int? = nil
     @State private var slowAnimations = false
     
+    @Namespace private var namespace
+    
     var body: some View {
         VStack {
             Toggle("Slow Animations", isOn: $slowAnimations)
@@ -29,6 +31,7 @@ struct PhotosView: View {
         if let d = detail {
             Image("previewSample\(d)")
                 .resizable()
+                .matchedGeometryEffect(id: d, in: namespace)
                 .aspectRatio(contentMode: .fit)
                 .onTapGesture {
                     detail = nil
@@ -42,6 +45,7 @@ struct PhotosView: View {
                 ForEach(1..<11) { ix in
                     Image("previewSample\(ix)")
                         .resizable()
+                        .matchedGeometryEffect(id: ix, in: namespace)
                         .aspectRatio(contentMode: .fill)
                         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                         .clipped()
