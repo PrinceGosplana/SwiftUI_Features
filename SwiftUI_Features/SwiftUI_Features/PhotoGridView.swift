@@ -36,6 +36,7 @@ struct PhotosView: View {
                 .onTapGesture {
                     detail = nil
                 }
+                .transition(.modifier(active: TransitionActive(active: true), identity: TransitionActive(active: false)))
         }
     }
     
