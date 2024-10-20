@@ -29,14 +29,18 @@ struct PhotosView: View {
     @ViewBuilder
     var detailView: some View {
         if let d = detail {
-            Image("previewSample\(d)")
-                .resizable()
-                .matchedGeometryEffect(id: d, in: detail == nil ? namespace : dummyNS, isSource: false)
-                .aspectRatio(contentMode: .fit)
-                .onTapGesture {
-                    detail = nil
+            ZStack {
+                TransitionReader { active in
+                    Image("beach_\(d)")
+                        .resizable()
+                        .matchedGeometryEffect(id: d, in: active ? namespace : dummyNS, isSource: false)
+                        .aspectRatio(contentMode: .fit)
+                        .onTapGesture {
+                            detail = nil
+                        }
                 }
-                .transition(.modifier(active: TransitionActive(active: true), identity: TransitionActive(active: false)))
+            }
+            .transition(.modifier(active: TransitionActive(active: true), identity: TransitionActive(active: false)))
         }
     }
     
@@ -61,11 +65,11 @@ struct PhotosView: View {
 }
 
 struct TransitionActive: ViewModifier {
-    let active: Bool
+    var active: Bool
     
     func body(content: Content) -> some View {
         content
-            .overlay(active ? Color.cyan : Color.clear)
+            .environment(\.transitionIsActive, active)
     }
 }
 
@@ -86,6 +90,16 @@ extension EnvironmentValues {
         set { self[TransitionIsActiveKey.self] = newValue }
     }
 }
+
+struct TransitionReader<Content: View>: View {
+    var content: (Bool) -> Content
+    @Environment(\.transitionIsActive) var active
+    
+    var body: some View {
+        content(active)
+    }
+}
+
 #Preview {
     PhotoGridView()
 }
