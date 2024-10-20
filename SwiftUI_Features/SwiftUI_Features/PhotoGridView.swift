@@ -14,8 +14,10 @@ struct PhotosView: View {
     var body: some View {
         ZStack {
             photoGrid
+                .opacity(detail == nil ? 1 : 0)
             detailView
         }
+        .animation(.default, value: detail)
     }
     
     @ViewBuilder
