@@ -10,14 +10,18 @@ import SwiftUI
 
 struct PhotosView: View {
     @State private var detail: Int? = nil
+    @State private var slowAnimations = false
     
     var body: some View {
-        ZStack {
-            photoGrid
-                .opacity(detail == nil ? 1 : 0)
-            detailView
+        VStack {
+            Toggle("Slow Animations", isOn: $slowAnimations)
+            ZStack {
+                photoGrid
+                    .opacity(detail == nil ? 1 : 0)
+                detailView
+            }
+            .animation(.default.speed(slowAnimations ? 0.2 : 1), value: detail)
         }
-        .animation(.default, value: detail)
     }
     
     @ViewBuilder
