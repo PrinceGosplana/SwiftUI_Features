@@ -31,7 +31,7 @@ struct PhotosView: View {
         if let d = detail {
             Image("previewSample\(d)")
                 .resizable()
-                .matchedGeometryEffect(id: d, in: namespace)
+                .matchedGeometryEffect(id: d, in: namespace, isSource: false)
                 .aspectRatio(contentMode: .fit)
                 .onTapGesture {
                     detail = nil
