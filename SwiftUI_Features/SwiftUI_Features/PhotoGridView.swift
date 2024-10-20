@@ -59,6 +59,15 @@ struct PhotosView: View {
     }
 }
 
+struct TransitionActive: ViewModifier {
+    let active: Bool
+    
+    func body(content: Content) -> some View {
+        content
+            .overlay(active ? Color.cyan : Color.clear)
+    }
+}
+
 struct PhotoGridView: View {
     var body: some View {
         PhotosView()
