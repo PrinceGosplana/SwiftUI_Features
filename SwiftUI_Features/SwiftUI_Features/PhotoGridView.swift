@@ -76,7 +76,16 @@ struct PhotoGridView: View {
     }
 }
 
+struct TransitionIsActiveKey: EnvironmentKey {
+    static let defaultValue: Bool = false
+}
 
+extension EnvironmentValues {
+    public var transitionIsActive: Bool {
+        get { self[TransitionIsActiveKey.self] }
+        set { self[TransitionIsActiveKey.self] = newValue }
+    }
+}
 #Preview {
     PhotoGridView()
 }
