@@ -49,6 +49,7 @@ struct PhotosView: View {
                                 Rectangle().aspectRatio(1, contentMode: active ? .fit : .fill)
                             }
                         .offset(offset)
+                        .animation(.default, value: offset)
                         .matchedGeometryEffect(id: d, in: active ? namespace : dummyNS, isSource: false)
                         .aspectRatio(contentMode: .fit)
                         .gesture(detailGesture)
