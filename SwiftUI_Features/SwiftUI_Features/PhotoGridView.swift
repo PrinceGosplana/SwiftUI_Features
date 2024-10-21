@@ -13,6 +13,7 @@ struct PhotosView: View {
     @State private var slowAnimations = false
     @Namespace private var dummyNS
     @Namespace private var namespace
+    @GestureState private var offset: CGSize = .zero
     
     var body: some View {
         VStack {
@@ -27,13 +28,15 @@ struct PhotosView: View {
     }
     
     var detailGesture: some Gesture {
-            let tap = TapGesture().onEnded {
-                detail = nil
-            }
-            let drag = DragGesture()
-
-            return drag.simultaneously(with: tap)
+        let tap = TapGesture().onEnded {
+            detail = nil
         }
+        let drag = DragGesture().updating($offset) { value, state, _ in
+            state = value.translation
+        }
+        
+        return drag.simultaneously(with: tap)
+    }
     
     @ViewBuilder
     var detailView: some View {
@@ -48,9 +51,6 @@ struct PhotosView: View {
                         .matchedGeometryEffect(id: d, in: active ? namespace : dummyNS, isSource: false)
                         .aspectRatio(contentMode: .fit)
                         .gesture(detailGesture)
-//                        .onTapGesture {
-//                            detail = nil
-//                        }
                 }
             }
             .zIndex(2)
