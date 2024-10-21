@@ -60,6 +60,7 @@ struct PhotosView: View {
                         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                         .clipped()
                         .aspectRatio(1, contentMode: .fit)
+                        .contentShape(Rectangle())
                         .onTapGesture {
                             detail = ix
                         }
