@@ -44,6 +44,7 @@ struct PhotosView: View {
                 }
             }
             .zIndex(2)
+            .id(d)
             .transition(.modifier(active: TransitionActive(active: true), identity: TransitionActive(active: false)))
         }
     }
