@@ -40,6 +40,7 @@ struct PhotosView: View {
                         }
                 }
             }
+            .zIndex(2)
             .transition(.modifier(active: TransitionActive(active: true), identity: TransitionActive(active: false)))
         }
     }
