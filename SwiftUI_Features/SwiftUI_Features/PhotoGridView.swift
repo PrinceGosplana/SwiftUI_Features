@@ -31,8 +31,11 @@ struct PhotosView: View {
         if let d = detail {
             ZStack {
                 TransitionReader { active in
-                    Image("beach_\(d)")
+                    Image("previewSample\(d)")
                         .resizable()
+                        .mask {
+                                Rectangle().aspectRatio(1, contentMode: active ? .fit : .fill)
+                            }
                         .matchedGeometryEffect(id: d, in: active ? namespace : dummyNS, isSource: false)
                         .aspectRatio(contentMode: .fit)
                         .onTapGesture {
