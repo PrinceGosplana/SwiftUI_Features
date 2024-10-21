@@ -26,6 +26,15 @@ struct PhotosView: View {
         }
     }
     
+    var detailGesture: some Gesture {
+            let tap = TapGesture().onEnded {
+                detail = nil
+            }
+            let drag = DragGesture()
+
+            return drag.simultaneously(with: tap)
+        }
+    
     @ViewBuilder
     var detailView: some View {
         if let d = detail {
@@ -38,9 +47,10 @@ struct PhotosView: View {
                             }
                         .matchedGeometryEffect(id: d, in: active ? namespace : dummyNS, isSource: false)
                         .aspectRatio(contentMode: .fit)
-                        .onTapGesture {
-                            detail = nil
-                        }
+                        .gesture(detailGesture)
+//                        .onTapGesture {
+//                            detail = nil
+//                        }
                 }
             }
             .zIndex(2)
