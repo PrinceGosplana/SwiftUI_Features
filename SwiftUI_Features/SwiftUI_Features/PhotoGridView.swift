@@ -31,6 +31,11 @@ struct PhotosView: View {
         .default.speed(slowAnimations ? 0.2 : 1)
     }
     
+    var dragScale: CGFloat {
+        guard offset.height > 0 else { return 1 }
+        return 1 - offset.height/1000
+    }
+    
     var detailGesture: some Gesture {
         let tap = TapGesture().onEnded {
             detail = nil
