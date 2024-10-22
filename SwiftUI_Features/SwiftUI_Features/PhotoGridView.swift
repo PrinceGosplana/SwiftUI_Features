@@ -23,8 +23,12 @@ struct PhotosView: View {
                     .opacity(detail == nil ? 1 : 0)
                 detailView
             }
-            .animation(.default.speed(slowAnimations ? 0.2 : 1), value: detail)
+            .animation(animation, value: detail)
         }
+    }
+    
+    var animation: Animation {
+        .default.speed(slowAnimations ? 0.2 : 1)
     }
     
     var detailGesture: some Gesture {
