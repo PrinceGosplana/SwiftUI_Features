@@ -48,6 +48,11 @@ struct PhotosView: View {
         }
         let drag = DragGesture().updating($offset) { value, state, _ in
             state = value.translation
+        }.onEnded { value in
+            let diff = value.predictedEndTranslation.height-value.translation.height
+            if diff > 0 {
+                detail = nil
+            }
         }
         
         return drag.simultaneously(with: tap)
