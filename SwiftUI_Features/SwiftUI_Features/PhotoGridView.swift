@@ -36,6 +36,11 @@ struct PhotosView: View {
         return 1 - offset.height/1000
     }
     
+    var gridOpacity: CGFloat {
+        guard detail != nil else { return 1 }
+        return (1 - dragScale) * 1.3
+    }
+    
     var detailGesture: some Gesture {
         let tap = TapGesture().onEnded {
             detail = nil
