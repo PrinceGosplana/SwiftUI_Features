@@ -20,7 +20,8 @@ struct PhotosView: View {
             Toggle("Slow Animations", isOn: $slowAnimations)
             ZStack {
                 photoGrid
-                    .opacity(detail == nil ? 1 : 0)
+                    .opacity(gridOpacity)
+                    .animation(animation, value: gridOpacity == 0)
                 detailView
             }
             .animation(animation, value: detail)
