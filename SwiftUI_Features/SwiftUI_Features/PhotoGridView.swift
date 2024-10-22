@@ -68,11 +68,11 @@ struct PhotosView: View {
                         .mask {
                             Rectangle().aspectRatio(1, contentMode: active ? .fit : .fill)
                         }
-                        .offset(offset)
-                        .scaleEffect(dragScale)
-                        .animation(animation, value: offset == .zero)
                         .matchedGeometryEffect(id: d, in: active ? namespace : dummyNS, isSource: false)
                         .aspectRatio(contentMode: .fit)
+                        .offset(offset)
+                        .scaleEffect(active ? 1 : dragScale)
+                        .animation(animation, value: offset == .zero)
                         .gesture(detailGesture)
                 }
             }
