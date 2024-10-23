@@ -53,7 +53,7 @@ struct PhotosView: View {
             offset = value.translation
         }.onEnded { value in
             let diff = value.predictedEndTranslation.height-value.translation.height
-            withAnimation(animation) {
+            withAnimation(.interpolatingSpring(mass: 1, stiffness: 200, damping: 100, initialVelocity: 0).speed(slowAnimations ? 0.2 : 1)) {
                 offset = .zero
                 if diff > 0 {
                     detail = nil
