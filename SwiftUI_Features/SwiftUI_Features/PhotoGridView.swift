@@ -46,12 +46,15 @@ struct PhotosView: View {
         let tap = TapGesture().onEnded {
             detail = nil
         }
+        
         let drag = DragGesture().updating($offset) { value, state, _ in
             state = value.translation
         }.onEnded { value in
             let diff = value.predictedEndTranslation.height-value.translation.height
-            if diff > 0 {
-                detail = nil
+            withAnimation(animation) {
+                if diff > 0 {
+                    detail = nil
+                }
             }
         }
         
