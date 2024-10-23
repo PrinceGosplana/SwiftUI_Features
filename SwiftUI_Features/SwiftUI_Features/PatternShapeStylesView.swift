@@ -15,6 +15,14 @@ struct HLine: View {
     }
 }
 
+struct DiagonalPattern: View {
+    var body: some View {
+        HLine()
+            .rotationEffect(.degrees(-45))
+            .frame(width: 20, height: 20)
+    }
+}
+
 struct PatternShapeStylesView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
