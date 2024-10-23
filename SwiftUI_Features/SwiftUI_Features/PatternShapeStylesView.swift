@@ -25,6 +25,14 @@ struct DiagonalPattern: View {
     }
 }
 
+struct DiagonalStripes: ShapeStyle {
+    var size: CGFloat = 30
+    
+    @MainActor func resolve(in environment: EnvironmentValues) -> some ShapeStyle {
+        .image(Image.striped(size: size, scale: environment.displayScale))
+    }
+}
+
 struct PatternShapeStylesView: View {
     var body: some View {
         DiagonalPattern()
@@ -33,4 +41,17 @@ struct PatternShapeStylesView: View {
 
 #Preview {
     PatternShapeStylesView()
+}
+
+
+extension Image {
+    @MainActor static func striped(size: CGFloat, scale: CGFloat) -> Image {
+        let content = DiagonalPattern()
+            .foregroundColor(.primary)
+            .frame(width: size, height: size)
+        let renderer =  ImageRenderer(content: content
+        )
+        renderer.scale = scale
+        return Image(renderer.cgImage!, scale: scale, label: Text(""))
+    }
 }
