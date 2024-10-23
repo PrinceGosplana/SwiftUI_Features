@@ -13,7 +13,7 @@ struct PhotosView: View {
     @State private var slowAnimations = false
     @Namespace private var dummyNS
     @Namespace private var namespace
-    @GestureState private var offset: CGSize = .zero
+//    @GestureState private var offset: CGSize = .zero
     
     var body: some View {
         VStack {
@@ -42,16 +42,19 @@ struct PhotosView: View {
         return (1 - dragScale) * 1.3
     }
     
+    @State private var offset: CGSize = .zero
+    
     var detailGesture: some Gesture {
         let tap = TapGesture().onEnded {
             detail = nil
         }
         
-        let drag = DragGesture().updating($offset) { value, state, _ in
-            state = value.translation
+        let drag = DragGesture().onChanged { value in
+            offset = value.translation
         }.onEnded { value in
             let diff = value.predictedEndTranslation.height-value.translation.height
             withAnimation(animation) {
+                offset = .zero
                 if diff > 0 {
                     detail = nil
                 }
