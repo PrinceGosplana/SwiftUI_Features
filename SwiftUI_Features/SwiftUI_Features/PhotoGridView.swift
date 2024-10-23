@@ -42,6 +42,7 @@ struct PhotosView: View {
         return (1 - dragScale) * 1.3
     }
     
+    
     @State private var offset: CGSize = .zero
     
     var detailGesture: some Gesture {
@@ -142,6 +143,14 @@ struct TransitionReader<Content: View>: View {
     
     var body: some View {
         content(active)
+    }
+}
+
+struct DragState {
+    var value: DragGesture.Value
+
+    mutating func update(_ newValue: DragGesture.Value) {
+        value = newValue
     }
 }
 
