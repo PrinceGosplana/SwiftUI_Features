@@ -162,6 +162,7 @@
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
 		95BF22A82CC952C200326432 /* PatternShapeStylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */; };
+		95BF22AC2CCABDB000326432 /* CubicBezieKeyframesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BF22AB2CCABDB000326432 /* CubicBezieKeyframesView.swift */; };
 		95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */; };
 /* End PBXBuildFile section */
 
@@ -322,6 +323,7 @@
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
 		95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternShapeStylesView.swift; sourceTree = "<group>"; };
+		95BF22AB2CCABDB000326432 /* CubicBezieKeyframesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicBezieKeyframesView.swift; sourceTree = "<group>"; };
 		95EF736E2B988CBB00EF8C6A /* ReadingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -784,6 +786,7 @@
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
 				956C9B892CB2703E004898DB /* PositioningBadgesView.swift */,
 				9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */,
+				95BF22AB2CCABDB000326432 /* CubicBezieKeyframesView.swift */,
 				9547F7012CC2D67A009648DF /* PhotoGridView.swift */,
 				95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */,
 				9547F6F62CBA5275009648DF /* PreferenceKey */,
@@ -983,6 +986,7 @@
 				8AF0A8D82C317D540063E82A /* KeyboardCheckView.swift in Sources */,
 				8A12DFD02C33FEA8003DACE1 /* RoutBedroomView.swift in Sources */,
 				8AFE447A2C81C3E80018E70F /* KeyboardAccessoryView.swift in Sources */,
+				95BF22AC2CCABDB000326432 /* CubicBezieKeyframesView.swift in Sources */,
 				8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */,
 				8A91A21A2C75D4F0007F7B7F /* NavigationStackView.swift in Sources */,
 				8A0DC8212C4A6C2C000428B9 /* GeometryProxyInSectionView.swift in Sources */,
