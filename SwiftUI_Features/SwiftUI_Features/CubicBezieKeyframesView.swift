@@ -31,16 +31,38 @@ struct CubicBezieKeyframesView: View {
     var body: some View {
         let c = CubicBezier<CGPoint>(
             p0: .init(x: 0, y: 0),
-            p1: .init(x: 1/3, y: 0),
-            p2: .init(x: 2/3, y: 1),
+            p1: .init(x: 1/3.0, y: 0),
+            p2: .init(x: 2/3.0, y: 1),
             p3: .init(x: 1, y: 1)
         )
         let xs = Array(stride(from: 0, through: 1, by: 0.01))
         Chart {
             ForEach(xs, id: \.self) { x in
-                LineMark(x: .value("x", x), y: .value("y", c.value(for: x).y), series: .value("1", "1"))
+                LineMark(x: .value("x", Double(x)), y: .value("y", Double(c.value(for: x).y)), series: .value("1", "1"))
             }
         }
+    }
+}
+
+extension CGPoint: VectorArithmetic {
+    public mutating func scale(by rhs: Double) {
+        animatableData.scale(by: rhs)
+    }
+    
+    public var magnitudeSquared: Double {
+        animatableData.magnitudeSquared
+    }
+    
+    public static func + (lhs: CGPoint, rhs: CGPoint) -> CGPoint {
+        var copy = lhs
+        copy.animatableData += rhs.animatableData
+        return copy
+    }
+    
+    public static func - (lhs: CGPoint, rhs: CGPoint) -> CGPoint {
+        var copy = lhs
+        copy.animatableData -= rhs.animatableData
+        return copy
     }
 }
 
