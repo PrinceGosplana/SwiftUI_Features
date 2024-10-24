@@ -20,6 +20,12 @@ struct CubicBezier<Value: VectorArithmetic> {
     }
 }
 
+extension VectorArithmetic {
+    static func *(lhs: Double, rhs: Self) -> Self {
+        rhs.scaled(by: lhs)
+    }
+}
+
 struct CubicBezieKeyframesView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
