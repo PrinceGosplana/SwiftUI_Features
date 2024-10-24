@@ -46,6 +46,17 @@ struct CubicBezieKeyframesView: View {
     }
 }
 
+extension CubicBezier where Value == Double {
+    func map<V: VectorArithmetic>(transform: (Value) -> V) -> CubicBezier<V> {
+            CubicBezier<V>(
+                p0: transform(p0),
+                p1: transform(p1),
+                p2: transform(p2),
+                p3: transform(p3)
+            )
+        }
+}
+
 extension CGPoint: VectorArithmetic {
     public mutating func scale(by rhs: Double) {
         animatableData.scale(by: rhs)
