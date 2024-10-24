@@ -35,9 +35,12 @@ struct CubicBezieKeyframesView: View {
             p2: .init(x: 2/3, y: 1),
             p3: .init(x: 1, y: 1)
         )
-//        Chart {
-//            
-//        }
+        let xs = Array(stride(from: 0, through: 1, by: 0.01))
+        Chart {
+            ForEach(xs, id: \.self) { x in
+                LineMark(x: .value("x", x), y: .value("y", c.value(for: x).y), series: .value("1", "1"))
+            }
+        }
     }
 }
 
