@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Charts
 
 struct CubicBezier<Value: VectorArithmetic> {
     var p0, p1, p2, p3: Value
@@ -28,7 +29,15 @@ extension VectorArithmetic {
 
 struct CubicBezieKeyframesView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let c = CubicBezier<CGPoint>(
+            p0: .init(x: 0, y: 0),
+            p1: .init(x: 1/3, y: 0),
+            p2: .init(x: 2/3, y: 1),
+            p3: .init(x: 1, y: 1)
+        )
+//        Chart {
+//            
+//        }
     }
 }
 
