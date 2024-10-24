@@ -29,18 +29,14 @@ extension VectorArithmetic {
 
 struct CubicBezieKeyframesView: View {
     var body: some View {
-        let c = CubicBezier<CGPoint>(
-            p0: .init(x: 0, y: 0),
-            p1: .init(x: 1/3.0, y: 0),
-            p2: .init(x: 2/3.0, y: 1),
-            p3: .init(x: 1, y: 1)
-        )
+        let c = CubicBezier<AnimatablePair>(p0: .init(0, 0), p1: .init(1, 0), p2: .init(2/3.0, 1), p3: .init(1, 1))
+        
         let u = UnitCurve.bezier(startControlPoint: .init(x: 1, y: 0), endControlPoint: .init(x: 2/3.0, y: 1))
         let xs = Array(stride(from: 0, through: 1, by: 0.01))
         Chart {
             ForEach(xs, id: \.self) { t in
                 let p = c.value(for: t)
-                LineMark(x: .value("x", Double(p.x)), y: .value("y", Double(p.y)), series: .value("1", "1"))
+                LineMark(x: .value("x", Double(p.first)), y: .value("y", Double(p.second)), series: .value("1", "1"))
             }
             ForEach(xs, id: \.self) { x in
                 LineMark(x: .value("x", Double(x)), y: .value("y", Double(u.value(at: x))), series: .value("2", "2"))
