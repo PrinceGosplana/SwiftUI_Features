@@ -88,6 +88,14 @@ struct CubicBezieKeyframesView: View {
         }
     }
     
+    let t1 = MyKeyframeTimeline(initialValue: 0, tracks:
+                                    [
+                                        MyKeyframeTrack(\.self, points.map { p in
+                                            MyCubicKeyframe(p.0, duration: p.duration)
+                                        })
+                                    ]
+    )
+    
     var body: some View {
         let c = CubicBezier<AnimatablePair>(p0: .init(0, 0), p1: .init(0.5, 0), p2: .init(2/3.0, 1), p3: .init(1, 1))
         let timeBezier = c.map { $0.first }
