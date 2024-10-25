@@ -82,6 +82,12 @@ let points: [(Double, duration: TimeInterval)] = [
 ]
 
 struct CubicBezieKeyframesView: View {
+    let t0 = KeyframeTimeline(initialValue: 0) {
+        for point in points {
+            CubicKeyframe(point.0, duration: point.duration)
+        }
+    }
+    
     var body: some View {
         let c = CubicBezier<AnimatablePair>(p0: .init(0, 0), p1: .init(0.5, 0), p2: .init(2/3.0, 1), p3: .init(1, 1))
         let timeBezier = c.map { $0.first }
