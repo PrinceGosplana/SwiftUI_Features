@@ -99,6 +99,8 @@ struct CubicBezieKeyframesView: View {
             let times = stride(from: 0, through: t0.duration, by: 0.01)
             ForEach(Array(times), id: \.self) { time in
                 LineMark(x: .value("x", time), y: .value("y", t0.value(time: time)), series: .value("1", "1"))
+                LineMark(x: .value("x", time), y: .value("y", t1.value(time: time)), series: .value("2", "2"))
+                    .foregroundStyle(.green)
             }
         }
         .aspectRatio(1, contentMode: .fit)
