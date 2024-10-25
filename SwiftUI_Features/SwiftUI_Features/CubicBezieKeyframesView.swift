@@ -79,6 +79,26 @@ extension CGPoint: VectorArithmetic {
     }
 }
 
+extension CubicBezier where Value == Double {
+    func findT(time: Double) -> Double {
+        let epsilon = 0.01
+        var lower = 0.0
+        var upper = 1.0
+        var mid = 0.5
+        var result = value(for: mid)
+        repeat {
+            if result-time > 0 {
+                upper = mid
+            } else {
+                lower = mid
+            }
+            mid = (lower + upper)/2
+            result = value(for: mid)
+        } while abs(result-time) > epsilon
+        return mid
+    }
+}
+
 #Preview {
     CubicBezieKeyframesView()
 }
