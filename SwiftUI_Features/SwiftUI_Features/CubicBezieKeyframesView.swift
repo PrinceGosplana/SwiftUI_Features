@@ -75,6 +75,12 @@ extension CGPoint: VectorArithmetic {
     
 }
 
+let points: [(Double, duration: TimeInterval)] = [
+    (-30, duration: 0.5),
+    (30, duration: 1),
+    (0, duration: 0.5),
+]
+
 struct CubicBezieKeyframesView: View {
     var body: some View {
         let c = CubicBezier<AnimatablePair>(p0: .init(0, 0), p1: .init(0.5, 0), p2: .init(2/3.0, 1), p3: .init(1, 1))
