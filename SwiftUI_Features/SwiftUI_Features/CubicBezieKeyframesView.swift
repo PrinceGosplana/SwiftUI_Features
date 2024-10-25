@@ -34,7 +34,7 @@ extension CubicBezier {
 
 extension CubicBezier where Value == Double {
     func findT(time: Double) -> Double {
-        let epsilon = 0.01
+        let epsilon = 0.0001
         var lower = 0.0
         var upper = 1.0
         var mid = 0.5
