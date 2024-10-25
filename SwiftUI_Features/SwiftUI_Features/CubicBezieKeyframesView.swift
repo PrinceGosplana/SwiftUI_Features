@@ -82,36 +82,27 @@ let points: [(Double, duration: TimeInterval)] = [
 ]
 
 struct CubicBezieKeyframesView: View {
-    let t0 = KeyframeTimeline(initialValue: 0) {
-        for point in points {
-            CubicKeyframe(point.0, duration: point.duration)
-        }
-    }
-    
-    let t1 = MyKeyframeTimeline(initialValue: 0, tracks:
-                                    [
-                                        MyKeyframeTrack(\.self, points.map { p in
-                                            MyCubicKeyframe(p.0, duration: p.duration)
-                                        })
-                                    ]
-    )
-    
     var body: some View {
-        let c = CubicBezier<AnimatablePair>(p0: .init(0, 0), p1: .init(0.5, 0), p2: .init(2/3.0, 1), p3: .init(1, 1))
-        let timeBezier = c.map { $0.first }
-        let u = UnitCurve.bezier(startControlPoint: .init(x: 0.5, y: 0), endControlPoint: .init(x: 2/3.0, y: 1))
-        let xs = Array(stride(from: 0, through: 1, by: 0.01))
-        Chart {
-            ForEach(xs, id: \.self) { x in
-                let t = timeBezier.value(for: x)
-                let p = c.value(for: t)
-                LineMark(x: .value("x", Double(p.first)), y: .value("y", Double(p.second)), series: .value("1", "1"))
-            }
-            ForEach(xs, id: \.self) { x in
-                LineMark(x: .value("x", Double(x)), y: .value("y", Double(u.value(at: x))), series: .value("2", "2"))
-                    .foregroundStyle(.green)
+        let t0 = KeyframeTimeline(initialValue: 0) {
+            for point in points {
+                CubicKeyframe(point.0, duration: point.duration)
             }
         }
+        let t1 = MyKeyframeTimeline(initialValue: 0, tracks:
+                                        [
+                                            MyKeyframeTrack(\.self, points.map { p in
+                                                MyCubicKeyframe(p.0, duration: p.duration)
+                                            })
+                                        ]
+        )
+        Chart {
+            let times = stride(from: 0, through: t0.duration, by: 0.01)
+            ForEach(Array(times), id: \.self) { time in
+                LineMark(x: .value("x", time), y: .value("y", t0.value(time: time)), series: .value("1", "1"))
+            }
+        }
+        .aspectRatio(1, contentMode: .fit)
+        .padding()
     }
 }
 
