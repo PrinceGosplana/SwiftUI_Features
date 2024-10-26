@@ -790,8 +790,7 @@
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
 				956C9B892CB2703E004898DB /* PositioningBadgesView.swift */,
 				9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */,
-				957E21402CCD61B9004A34D6 /* GaugeExampleView.swift */,
-				957E21422CCD6327004A34D6 /* GaugeCircularExample.swift */,
+				957E21452CCD63C3004A34D6 /* Gauge */,
 				95BF22AB2CCABDB000326432 /* CubicBezieKeyframesView.swift */,
 				9547F7012CC2D67A009648DF /* PhotoGridView.swift */,
 				95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */,
@@ -814,6 +813,15 @@
 				957D364E2B96DC9100E5E342 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		957E21452CCD63C3004A34D6 /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				957E21422CCD6327004A34D6 /* GaugeCircularExample.swift */,
+				957E21402CCD61B9004A34D6 /* GaugeExampleView.swift */,
+			);
+			path = Gauge;
 			sourceTree = "<group>";
 		};
 		95B7CE442BA9785C0030839E /* Glass Background Effect */ = {
