@@ -160,6 +160,7 @@
 		957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36552B9866F500E5E342 /* NewApiScrollView.swift */; };
 		957E21412CCD61B9004A34D6 /* GaugeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21402CCD61B9004A34D6 /* GaugeExampleView.swift */; };
 		957E21432CCD6327004A34D6 /* GaugeCircularExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21422CCD6327004A34D6 /* GaugeCircularExample.swift */; };
+		957E21472CCD63F0004A34D6 /* GaugeCircularSizeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21462CCD63F0004A34D6 /* GaugeCircularSizeExample.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -323,6 +324,7 @@
 		957D36552B9866F500E5E342 /* NewApiScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewApiScrollView.swift; sourceTree = "<group>"; };
 		957E21402CCD61B9004A34D6 /* GaugeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeExampleView.swift; sourceTree = "<group>"; };
 		957E21422CCD6327004A34D6 /* GaugeCircularExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeCircularExample.swift; sourceTree = "<group>"; };
+		957E21462CCD63F0004A34D6 /* GaugeCircularSizeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeCircularSizeExample.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -820,6 +822,7 @@
 			children = (
 				957E21422CCD6327004A34D6 /* GaugeCircularExample.swift */,
 				957E21402CCD61B9004A34D6 /* GaugeExampleView.swift */,
+				957E21462CCD63F0004A34D6 /* GaugeCircularSizeExample.swift */,
 			);
 			path = Gauge;
 			sourceTree = "<group>";
@@ -1062,6 +1065,7 @@
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
 				8AFE178A2BBAC669002CC3AA /* DateFormatterView.swift in Sources */,
 				8A96E32D2C7B1DCE00712616 /* DoulingoModel.swift in Sources */,
+				957E21472CCD63F0004A34D6 /* GaugeCircularSizeExample.swift in Sources */,
 				8A22E6A02C70C0270003345B /* BasicListDestinationNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
