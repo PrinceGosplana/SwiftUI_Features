@@ -162,6 +162,7 @@
 		957E21432CCD6327004A34D6 /* GaugeCircularExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21422CCD6327004A34D6 /* GaugeCircularExample.swift */; };
 		957E21472CCD63F0004A34D6 /* GaugeCircularSizeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21462CCD63F0004A34D6 /* GaugeCircularSizeExample.swift */; };
 		957E21492CCD6467004A34D6 /* GaugeRangeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21482CCD6467004A34D6 /* GaugeRangeExample.swift */; };
+		957E21822CD01684004A34D6 /* HideAndShowLabelComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21812CD01684004A34D6 /* HideAndShowLabelComponents.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -327,6 +328,7 @@
 		957E21422CCD6327004A34D6 /* GaugeCircularExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeCircularExample.swift; sourceTree = "<group>"; };
 		957E21462CCD63F0004A34D6 /* GaugeCircularSizeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeCircularSizeExample.swift; sourceTree = "<group>"; };
 		957E21482CCD6467004A34D6 /* GaugeRangeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeRangeExample.swift; sourceTree = "<group>"; };
+		957E21812CD01684004A34D6 /* HideAndShowLabelComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideAndShowLabelComponents.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -796,6 +798,7 @@
 				9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */,
 				957E21452CCD63C3004A34D6 /* Gauge */,
 				95BF22AB2CCABDB000326432 /* CubicBezieKeyframesView.swift */,
+				957E21812CD01684004A34D6 /* HideAndShowLabelComponents.swift */,
 				9547F7012CC2D67A009648DF /* PhotoGridView.swift */,
 				95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */,
 				9547F6F62CBA5275009648DF /* PreferenceKey */,
@@ -942,6 +945,7 @@
 				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
 				8A0663582CAD2D7C00937F63 /* TimeLineAnimationView.swift in Sources */,
 				8A4001432C83304C00A633A5 /* UserLocationView.swift in Sources */,
+				957E21822CD01684004A34D6 /* HideAndShowLabelComponents.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
 				8AF2FB552C19916300B98D74 /* NPRecipesFeedView.swift in Sources */,
