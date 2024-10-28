@@ -35,6 +35,17 @@ struct HideAndShowLabelComponents: View {
                 }
             }
             .padding()
+            
+//            Be careful of how much content you add. As it gets bigger, it will start to collide with the label.
+            Form {
+                LabeledContent("Opt in to") {
+                    GroupBox {
+                        Toggle("Emails", isOn: .constant(false))
+                        Toggle("Texts", isOn: .constant(true))
+                        
+                    }
+                }
+            }
         }
         .font(.title)
     }
