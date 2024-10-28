@@ -9,7 +9,22 @@ import SwiftUI
 
 struct StaticListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            Text("Line One")
+            Text("Line Two")
+            Text("Line Three")
+            Image(.cola)
+                .resizable()
+                .scaledToFit()
+            Button("Click Here", action: {})
+                .foregroundStyle(.green)
+            HStack {
+                Spacer()
+                Text("Centered Text")
+                Spacer()
+            }.padding()
+        }
+        .font(.title)
     }
 }
 
