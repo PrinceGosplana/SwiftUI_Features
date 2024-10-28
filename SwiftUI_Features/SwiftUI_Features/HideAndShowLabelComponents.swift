@@ -18,6 +18,23 @@ struct HideAndShowLabelComponents: View {
                 .labelStyle(.titleOnly)
             Label("Title & Icon", systemImage: "camera.badge.ellipsis")
                 .labelStyle(.titleAndIcon)
+            
+            VStack(spacing: 24.0) {
+                LabeledContent("Label", value: "Value")
+                LabeledContent("Label") {
+                    Label("Value", systemImage: "camera.macro")
+                }
+                LabeledContent("Label", value: 55, format: .percent)
+                LabeledContent {
+//  With LabeledContent, you provide your own custom Label and content. It’s really like a template that will get handled just like other controls indifferent layoutsituations.
+                    Text("Value")
+                        .font(.title.weight(.thin))
+                } label: {
+                    Text("Label")
+                        .fontWeight(.bold)
+                }
+            }
+            .padding()
         }
         .font(.title)
     }
