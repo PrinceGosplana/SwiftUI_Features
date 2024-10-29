@@ -173,6 +173,7 @@
 		957E21942CD1633A004A34D6 /* ListRowBackgroundonSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21932CD1633A004A34D6 /* ListRowBackgroundonSections.swift */; };
 		957E21962CD16398004A34D6 /* ListRowInsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21952CD16398004A34D6 /* ListRowInsetView.swift */; };
 		957E21982CD1643E004A34D6 /* ListWithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21972CD1643E004A34D6 /* ListWithChildren.swift */; };
+		957E219A2CD16531004A34D6 /* HeaderProminence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21992CD16531004A34D6 /* HeaderProminence.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -349,6 +350,7 @@
 		957E21932CD1633A004A34D6 /* ListRowBackgroundonSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowBackgroundonSections.swift; sourceTree = "<group>"; };
 		957E21952CD16398004A34D6 /* ListRowInsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowInsetView.swift; sourceTree = "<group>"; };
 		957E21972CD1643E004A34D6 /* ListWithChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithChildren.swift; sourceTree = "<group>"; };
+		957E21992CD16531004A34D6 /* HeaderProminence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderProminence.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -859,6 +861,7 @@
 			isa = PBXGroup;
 			children = (
 				957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */,
+				957E21992CD16531004A34D6 /* HeaderProminence.swift */,
 				957E21972CD1643E004A34D6 /* ListWithChildren.swift */,
 				957E21952CD16398004A34D6 /* ListRowInsetView.swift */,
 				957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */,
@@ -1063,6 +1066,7 @@
 				8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */,
 				8AFE447E2C81D3710018E70F /* IndividualBindingsView.swift in Sources */,
 				8AFE447C2C81D1920018E70F /* FocusedKeyboardResignRespView.swift in Sources */,
+				957E219A2CD16531004A34D6 /* HeaderProminence.swift in Sources */,
 				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
 				957E21922CD162B6004A34D6 /* ListRowBackground.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
