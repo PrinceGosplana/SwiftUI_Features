@@ -165,6 +165,9 @@
 		957E21822CD01684004A34D6 /* HideAndShowLabelComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21812CD01684004A34D6 /* HideAndShowLabelComponents.swift */; };
 		957E21842CD018F9004A34D6 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21832CD018F9004A34D6 /* LinkView.swift */; };
 		957E21862CD019F3004A34D6 /* StaticListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21852CD019F3004A34D6 /* StaticListView.swift */; };
+		957E21882CD01ADD004A34D6 /* SelectingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21872CD01ADD004A34D6 /* SelectingRowView.swift */; };
+		957E218A2CD01B7E004A34D6 /* ListSelectionSingleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */; };
+		957E218C2CD16157004A34D6 /* SelectingMultipleRowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -333,6 +336,9 @@
 		957E21812CD01684004A34D6 /* HideAndShowLabelComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideAndShowLabelComponents.swift; sourceTree = "<group>"; };
 		957E21832CD018F9004A34D6 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		957E21852CD019F3004A34D6 /* StaticListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListView.swift; sourceTree = "<group>"; };
+		957E21872CD01ADD004A34D6 /* SelectingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectingRowView.swift; sourceTree = "<group>"; };
+		957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionSingleObject.swift; sourceTree = "<group>"; };
+		957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectingMultipleRowsView.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -806,6 +812,9 @@
 				9547F7012CC2D67A009648DF /* PhotoGridView.swift */,
 				957E21832CD018F9004A34D6 /* LinkView.swift */,
 				957E21852CD019F3004A34D6 /* StaticListView.swift */,
+				957E21872CD01ADD004A34D6 /* SelectingRowView.swift */,
+				957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */,
+				957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */,
 				95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */,
 				9547F6F62CBA5275009648DF /* PreferenceKey */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
@@ -972,6 +981,7 @@
 				8A12DFCE2C33FE8A003DACE1 /* RoutLivingroomView.swift in Sources */,
 				8A96E3262C79FD8B00712616 /* SwipeActionsView.swift in Sources */,
 				8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */,
+				957E218A2CD01B7E004A34D6 /* ListSelectionSingleObject.swift in Sources */,
 				8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
 				8A12DFCA2C33FDE1003DACE1 /* RoutingApp.swift in Sources */,
@@ -1059,6 +1069,7 @@
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
 				8A91A21E2C75DFBC007F7B7F /* TapGestureWithLocation.swift in Sources */,
 				8A0663522CAC4A7500937F63 /* BasicAnimationView.swift in Sources */,
+				957E218C2CD16157004A34D6 /* SelectingMultipleRowsView.swift in Sources */,
 				9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */,
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
@@ -1071,6 +1082,7 @@
 				8A96E32F2C7B25E100712616 /* DEllipseButton.swift in Sources */,
 				8A91A2202C75E18D007F7B7F /* ScrollViewUpdatesView.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
+				957E21882CD01ADD004A34D6 /* SelectingRowView.swift in Sources */,
 				8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */,
 				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
 				956C9B942CB54BCC004898DB /* ButtonRepeatBehaviorView.swift in Sources */,
