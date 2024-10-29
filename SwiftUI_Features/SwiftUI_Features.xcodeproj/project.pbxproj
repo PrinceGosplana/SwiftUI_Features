@@ -170,6 +170,7 @@
 		957E218C2CD16157004A34D6 /* SelectingMultipleRowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */; };
 		957E218E2CD1620C004A34D6 /* SelectionDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E218D2CD1620C004A34D6 /* SelectionDisabled.swift */; };
 		957E21922CD162B6004A34D6 /* ListRowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21912CD162B6004A34D6 /* ListRowBackground.swift */; };
+		957E21942CD1633A004A34D6 /* ListRowBackgroundonSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21932CD1633A004A34D6 /* ListRowBackgroundonSections.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -343,6 +344,7 @@
 		957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectingMultipleRowsView.swift; sourceTree = "<group>"; };
 		957E218D2CD1620C004A34D6 /* SelectionDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionDisabled.swift; sourceTree = "<group>"; };
 		957E21912CD162B6004A34D6 /* ListRowBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowBackground.swift; sourceTree = "<group>"; };
+		957E21932CD1633A004A34D6 /* ListRowBackgroundonSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowBackgroundonSections.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -858,6 +860,7 @@
 				957E218D2CD1620C004A34D6 /* SelectionDisabled.swift */,
 				957E21852CD019F3004A34D6 /* StaticListView.swift */,
 				957E21912CD162B6004A34D6 /* ListRowBackground.swift */,
+				957E21932CD1633A004A34D6 /* ListRowBackgroundonSections.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -1104,6 +1107,7 @@
 				956C9B942CB54BCC004898DB /* ButtonRepeatBehaviorView.swift in Sources */,
 				8A27C9C52C8C79AB00DFAFE1 /* CustomToggleContentView.swift in Sources */,
 				8A867E552C7B76E000E75AF9 /* NewVisualEffectModifierView.swift in Sources */,
+				957E21942CD1633A004A34D6 /* ListRowBackgroundonSections.swift in Sources */,
 				8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */,
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
