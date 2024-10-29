@@ -169,6 +169,7 @@
 		957E218A2CD01B7E004A34D6 /* ListSelectionSingleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */; };
 		957E218C2CD16157004A34D6 /* SelectingMultipleRowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */; };
 		957E218E2CD1620C004A34D6 /* SelectionDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E218D2CD1620C004A34D6 /* SelectionDisabled.swift */; };
+		957E21922CD162B6004A34D6 /* ListRowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21912CD162B6004A34D6 /* ListRowBackground.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -341,6 +342,7 @@
 		957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionSingleObject.swift; sourceTree = "<group>"; };
 		957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectingMultipleRowsView.swift; sourceTree = "<group>"; };
 		957E218D2CD1620C004A34D6 /* SelectionDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionDisabled.swift; sourceTree = "<group>"; };
+		957E21912CD162B6004A34D6 /* ListRowBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowBackground.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -813,11 +815,7 @@
 				957E21812CD01684004A34D6 /* HideAndShowLabelComponents.swift */,
 				9547F7012CC2D67A009648DF /* PhotoGridView.swift */,
 				957E21832CD018F9004A34D6 /* LinkView.swift */,
-				957E21852CD019F3004A34D6 /* StaticListView.swift */,
-				957E21872CD01ADD004A34D6 /* SelectingRowView.swift */,
-				957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */,
-				957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */,
-				957E218D2CD1620C004A34D6 /* SelectionDisabled.swift */,
+				957E21902CD1629E004A34D6 /* List */,
 				95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */,
 				9547F6F62CBA5275009648DF /* PreferenceKey */,
 				957D364D2B96DC9100E5E342 /* Preview Content */,
@@ -849,6 +847,19 @@
 				957E21482CCD6467004A34D6 /* GaugeRangeExample.swift */,
 			);
 			path = Gauge;
+			sourceTree = "<group>";
+		};
+		957E21902CD1629E004A34D6 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */,
+				957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */,
+				957E21872CD01ADD004A34D6 /* SelectingRowView.swift */,
+				957E218D2CD1620C004A34D6 /* SelectionDisabled.swift */,
+				957E21852CD019F3004A34D6 /* StaticListView.swift */,
+				957E21912CD162B6004A34D6 /* ListRowBackground.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		95B7CE442BA9785C0030839E /* Glass Background Effect */ = {
@@ -1043,6 +1054,7 @@
 				8AFE447E2C81D3710018E70F /* IndividualBindingsView.swift in Sources */,
 				8AFE447C2C81D1920018E70F /* FocusedKeyboardResignRespView.swift in Sources */,
 				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
+				957E21922CD162B6004A34D6 /* ListRowBackground.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
