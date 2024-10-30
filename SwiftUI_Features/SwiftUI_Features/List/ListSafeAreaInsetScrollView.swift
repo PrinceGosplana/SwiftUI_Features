@@ -9,7 +9,28 @@ import SwiftUI
 
 struct ListSafeAreaInsetScrollView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 0) {
+            ScrollView {
+                //        Change List to
+                //        ScrollView.
+                ForEach(1..<21) { number in
+                    Text("\(number)")
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(.green, in: RoundedRectangle(cornerRadius: 10))
+                }
+            }
+            .padding(.horizontal)
+            .safeAreaInset(edge: .bottom) {
+                VStack {
+                    Divider()
+                    Text("Total: 20")
+                        .foregroundStyle(.secondary)
+                }
+                .background(.bar)
+            }
+        }
+        .font(.title)
     }
 }
 
