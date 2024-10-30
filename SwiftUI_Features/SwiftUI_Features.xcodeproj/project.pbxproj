@@ -175,6 +175,7 @@
 		957E21982CD1643E004A34D6 /* ListWithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21972CD1643E004A34D6 /* ListWithChildren.swift */; };
 		957E219A2CD16531004A34D6 /* HeaderProminence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21992CD16531004A34D6 /* HeaderProminence.swift */; };
 		957E219E2CD166AB004A34D6 /* SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E219D2CD166AB004A34D6 /* SafeAreaInset.swift */; };
+		957E21DD2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -353,6 +354,7 @@
 		957E21972CD1643E004A34D6 /* ListWithChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithChildren.swift; sourceTree = "<group>"; };
 		957E21992CD16531004A34D6 /* HeaderProminence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderProminence.swift; sourceTree = "<group>"; };
 		957E219D2CD166AB004A34D6 /* SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInset.swift; sourceTree = "<group>"; };
+		957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSafeAreaInsetScrollView.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -864,6 +866,7 @@
 			children = (
 				957E21892CD01B7E004A34D6 /* ListSelectionSingleObject.swift */,
 				957E219D2CD166AB004A34D6 /* SafeAreaInset.swift */,
+				957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */,
 				957E21992CD16531004A34D6 /* HeaderProminence.swift */,
 				957E21972CD1643E004A34D6 /* ListWithChildren.swift */,
 				957E21952CD16398004A34D6 /* ListRowInsetView.swift */,
@@ -977,6 +980,7 @@
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
 				8A27C9C12C8C795100DFAFE1 /* CheckmarkToggleStyle.swift in Sources */,
 				8A91A2182C75D1EB007F7B7F /* CustomLayoutView.swift in Sources */,
+				957E21DD2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift in Sources */,
 				8A96E3202C79E26C00712616 /* OnSubmitView.swift in Sources */,
 				8A22E69A2C70BCE80003345B /* CustomerDetailScreen.swift in Sources */,
 				8AF2FB512C198FF000B98D74 /* NPRecipesSearchView.swift in Sources */,
