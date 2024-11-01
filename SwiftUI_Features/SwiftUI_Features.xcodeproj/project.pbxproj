@@ -177,6 +177,7 @@
 		957E219E2CD166AB004A34D6 /* SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E219D2CD166AB004A34D6 /* SafeAreaInset.swift */; };
 		957E21DD2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */; };
 		957E21DF2CD36734004A34D6 /* BindingWithinTheListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21DE2CD36734004A34D6 /* BindingWithinTheListView.swift */; };
+		957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -357,6 +358,7 @@
 		957E219D2CD166AB004A34D6 /* SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInset.swift; sourceTree = "<group>"; };
 		957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSafeAreaInsetScrollView.swift; sourceTree = "<group>"; };
 		957E21DE2CD36734004A34D6 /* BindingWithinTheListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithinTheListView.swift; sourceTree = "<group>"; };
+		957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVisibilityView.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -872,6 +874,7 @@
 				957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */,
 				957E21992CD16531004A34D6 /* HeaderProminence.swift */,
 				957E21972CD1643E004A34D6 /* ListWithChildren.swift */,
+				957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */,
 				957E21952CD16398004A34D6 /* ListRowInsetView.swift */,
 				957E218B2CD16157004A34D6 /* SelectingMultipleRowsView.swift */,
 				957E21872CD01ADD004A34D6 /* SelectingRowView.swift */,
@@ -1081,6 +1084,7 @@
 				957E219A2CD16531004A34D6 /* HeaderProminence.swift in Sources */,
 				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
 				957E21922CD162B6004A34D6 /* ListRowBackground.swift in Sources */,
+				957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
