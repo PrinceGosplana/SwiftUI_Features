@@ -184,6 +184,7 @@
 		9593F6112CD6AAD8009C6D70 /* MenuMenuPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6102CD6AAD8009C6D70 /* MenuMenuPosition.swift */; };
 		9593F6132CD6AB66009C6D70 /* MaximumItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6122CD6AB66009C6D70 /* MaximumItems.swift */; };
 		9593F6152CD6ABE2009C6D70 /* OtherViewsWithin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6142CD6ABE2009C6D70 /* OtherViewsWithin.swift */; };
+		9593F6172CD6AC3F009C6D70 /* WithSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6162CD6AC3F009C6D70 /* WithSections.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -371,6 +372,7 @@
 		9593F6102CD6AAD8009C6D70 /* MenuMenuPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMenuPosition.swift; sourceTree = "<group>"; };
 		9593F6122CD6AB66009C6D70 /* MaximumItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumItems.swift; sourceTree = "<group>"; };
 		9593F6142CD6ABE2009C6D70 /* OtherViewsWithin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewsWithin.swift; sourceTree = "<group>"; };
+		9593F6162CD6AC3F009C6D70 /* WithSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithSections.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -908,6 +910,7 @@
 				9593F6142CD6ABE2009C6D70 /* OtherViewsWithin.swift */,
 				9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */,
 				9593F6102CD6AAD8009C6D70 /* MenuMenuPosition.swift */,
+				9593F6162CD6AC3F009C6D70 /* WithSections.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -1027,6 +1030,7 @@
 				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
 				8A0663582CAD2D7C00937F63 /* TimeLineAnimationView.swift in Sources */,
 				8A4001432C83304C00A633A5 /* UserLocationView.swift in Sources */,
+				9593F6172CD6AC3F009C6D70 /* WithSections.swift in Sources */,
 				957E21822CD01684004A34D6 /* HideAndShowLabelComponents.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
 				8AF2FB4F2C198FDA00B98D74 /* NPMainView.swift in Sources */,
