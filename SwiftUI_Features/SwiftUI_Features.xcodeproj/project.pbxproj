@@ -182,6 +182,7 @@
 		9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */; };
 		9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */; };
 		9593F6112CD6AAD8009C6D70 /* MenuMenuPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6102CD6AAD8009C6D70 /* MenuMenuPosition.swift */; };
+		9593F6132CD6AB66009C6D70 /* MaximumItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6122CD6AB66009C6D70 /* MaximumItems.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -367,6 +368,7 @@
 		9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInsideMenu.swift; sourceTree = "<group>"; };
 		9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomizing.swift; sourceTree = "<group>"; };
 		9593F6102CD6AAD8009C6D70 /* MenuMenuPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMenuPosition.swift; sourceTree = "<group>"; };
+		9593F6122CD6AB66009C6D70 /* MaximumItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumItems.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -899,6 +901,7 @@
 			isa = PBXGroup;
 			children = (
 				9593F60A2CD6992D009C6D70 /* MenuIntro.swift */,
+				9593F6122CD6AB66009C6D70 /* MaximumItems.swift */,
 				9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */,
 				9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */,
 				9593F6102CD6AAD8009C6D70 /* MenuMenuPosition.swift */,
@@ -1139,6 +1142,7 @@
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
 				8A91A21E2C75DFBC007F7B7F /* TapGestureWithLocation.swift in Sources */,
 				8A0663522CAC4A7500937F63 /* BasicAnimationView.swift in Sources */,
+				9593F6132CD6AB66009C6D70 /* MaximumItems.swift in Sources */,
 				957E218C2CD16157004A34D6 /* SelectingMultipleRowsView.swift in Sources */,
 				9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */,
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
