@@ -189,6 +189,7 @@
 		9593F61C2CD6AD60009C6D70 /* MultiDatePickerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F61B2CD6AD60009C6D70 /* MultiDatePickerIntro.swift */; };
 		9593F61E2CD7983D009C6D70 /* MultiDatePickerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */; };
 		9593F6202CD79913009C6D70 /* MultiDatePickerDateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F61F2CD79913009C6D70 /* MultiDatePickerDateRange.swift */; };
+		9593F6222CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6212CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -381,6 +382,7 @@
 		9593F61B2CD6AD60009C6D70 /* MultiDatePickerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerIntro.swift; sourceTree = "<group>"; };
 		9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerLabel.swift; sourceTree = "<group>"; };
 		9593F61F2CD79913009C6D70 /* MultiDatePickerDateRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerDateRange.swift; sourceTree = "<group>"; };
+		9593F6212CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerCustomizations.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -923,6 +925,7 @@
 				9593F6162CD6AC3F009C6D70 /* WithSections.swift */,
 				9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */,
 				9593F61F2CD79913009C6D70 /* MultiDatePickerDateRange.swift */,
+				9593F6212CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -1178,6 +1181,7 @@
 				9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */,
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
+				9593F6222CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift in Sources */,
 				8A96E31E2C79E03F00712616 /* BadgeView.swift in Sources */,
 				957E21862CD019F3004A34D6 /* StaticListView.swift in Sources */,
 				8ADD6EE72BB4522000C7D329 /* Color+Ext.swift in Sources */,
