@@ -195,6 +195,7 @@
 		9593F6282CD79D74009C6D70 /* NavigationToolbarBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6272CD79D74009C6D70 /* NavigationToolbarBackground.swift */; };
 		9593F62A2CD79DE0009C6D70 /* NavigationCustomBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6292CD79DE0009C6D70 /* NavigationCustomBackground.swift */; };
 		9593F62C2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F62B2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift */; };
+		9593F62E2CD79F54009C6D70 /* NavigationBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F62D2CD79F54009C6D70 /* NavigationBarHidden.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -393,6 +394,7 @@
 		9593F6272CD79D74009C6D70 /* NavigationToolbarBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToolbarBackground.swift; sourceTree = "<group>"; };
 		9593F6292CD79DE0009C6D70 /* NavigationCustomBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustomBackground.swift; sourceTree = "<group>"; };
 		9593F62B2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUINavigationBarAppearance.swift; sourceTree = "<group>"; };
+		9593F62D2CD79F54009C6D70 /* NavigationBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHidden.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -717,6 +719,7 @@
 				9593F6272CD79D74009C6D70 /* NavigationToolbarBackground.swift */,
 				9593F6292CD79DE0009C6D70 /* NavigationCustomBackground.swift */,
 				9593F62B2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift */,
+				9593F62D2CD79F54009C6D70 /* NavigationBarHidden.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -1079,6 +1082,7 @@
 				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
 				956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
+				9593F62E2CD79F54009C6D70 /* NavigationBarHidden.swift in Sources */,
 				957E21982CD1643E004A34D6 /* ListWithChildren.swift in Sources */,
 				8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */,
 				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
