@@ -194,6 +194,7 @@
 		9593F6262CD79C9C009C6D70 /* NavigationBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6252CD79C9C009C6D70 /* NavigationBackgroundColor.swift */; };
 		9593F6282CD79D74009C6D70 /* NavigationToolbarBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6272CD79D74009C6D70 /* NavigationToolbarBackground.swift */; };
 		9593F62A2CD79DE0009C6D70 /* NavigationCustomBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6292CD79DE0009C6D70 /* NavigationCustomBackground.swift */; };
+		9593F62C2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F62B2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -391,6 +392,7 @@
 		9593F6252CD79C9C009C6D70 /* NavigationBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBackgroundColor.swift; sourceTree = "<group>"; };
 		9593F6272CD79D74009C6D70 /* NavigationToolbarBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToolbarBackground.swift; sourceTree = "<group>"; };
 		9593F6292CD79DE0009C6D70 /* NavigationCustomBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustomBackground.swift; sourceTree = "<group>"; };
+		9593F62B2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUINavigationBarAppearance.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -714,6 +716,7 @@
 				9593F6252CD79C9C009C6D70 /* NavigationBackgroundColor.swift */,
 				9593F6272CD79D74009C6D70 /* NavigationToolbarBackground.swift */,
 				9593F6292CD79DE0009C6D70 /* NavigationCustomBackground.swift */,
+				9593F62B2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -1161,6 +1164,7 @@
 				957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
+				9593F62C2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
 				8A96E3242C79F96700712616 /* CustomSheetDismissView.swift in Sources */,
 				956C9B8A2CB2703E004898DB /* PositioningBadgesView.swift in Sources */,
