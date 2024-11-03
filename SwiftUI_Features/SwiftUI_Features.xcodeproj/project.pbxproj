@@ -190,6 +190,7 @@
 		9593F61E2CD7983D009C6D70 /* MultiDatePickerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */; };
 		9593F6202CD79913009C6D70 /* MultiDatePickerDateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F61F2CD79913009C6D70 /* MultiDatePickerDateRange.swift */; };
 		9593F6222CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6212CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift */; };
+		9593F6242CD79B1F009C6D70 /* MultiDatePickerPresentingInSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6232CD79B1F009C6D70 /* MultiDatePickerPresentingInSheet.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -383,6 +384,7 @@
 		9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerLabel.swift; sourceTree = "<group>"; };
 		9593F61F2CD79913009C6D70 /* MultiDatePickerDateRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerDateRange.swift; sourceTree = "<group>"; };
 		9593F6212CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerCustomizations.swift; sourceTree = "<group>"; };
+		9593F6232CD79B1F009C6D70 /* MultiDatePickerPresentingInSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerPresentingInSheet.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -926,6 +928,7 @@
 				9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */,
 				9593F61F2CD79913009C6D70 /* MultiDatePickerDateRange.swift */,
 				9593F6212CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift */,
+				9593F6232CD79B1F009C6D70 /* MultiDatePickerPresentingInSheet.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -1079,6 +1082,7 @@
 				8A96E3262C79FD8B00712616 /* SwipeActionsView.swift in Sources */,
 				8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */,
 				957E218A2CD01B7E004A34D6 /* ListSelectionSingleObject.swift in Sources */,
+				9593F6242CD79B1F009C6D70 /* MultiDatePickerPresentingInSheet.swift in Sources */,
 				8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
 				8A12DFCA2C33FDE1003DACE1 /* RoutingApp.swift in Sources */,
