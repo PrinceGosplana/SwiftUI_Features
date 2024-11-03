@@ -187,6 +187,7 @@
 		9593F6172CD6AC3F009C6D70 /* WithSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6162CD6AC3F009C6D70 /* WithSections.swift */; };
 		9593F6192CD6ACC9009C6D70 /* MenгOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F6182CD6ACC9009C6D70 /* MenгOrder.swift */; };
 		9593F61C2CD6AD60009C6D70 /* MultiDatePickerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F61B2CD6AD60009C6D70 /* MultiDatePickerIntro.swift */; };
+		9593F61E2CD7983D009C6D70 /* MultiDatePickerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -377,6 +378,7 @@
 		9593F6162CD6AC3F009C6D70 /* WithSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithSections.swift; sourceTree = "<group>"; };
 		9593F6182CD6ACC9009C6D70 /* MenгOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenгOrder.swift"; sourceTree = "<group>"; };
 		9593F61B2CD6AD60009C6D70 /* MultiDatePickerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerIntro.swift; sourceTree = "<group>"; };
+		9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerLabel.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -917,6 +919,7 @@
 				9593F6102CD6AAD8009C6D70 /* MenuMenuPosition.swift */,
 				9593F6182CD6ACC9009C6D70 /* MenгOrder.swift */,
 				9593F6162CD6AC3F009C6D70 /* WithSections.swift */,
+				9593F61D2CD7983D009C6D70 /* MultiDatePickerLabel.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -1132,6 +1135,7 @@
 				8AFE447C2C81D1920018E70F /* FocusedKeyboardResignRespView.swift in Sources */,
 				957E219A2CD16531004A34D6 /* HeaderProminence.swift in Sources */,
 				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
+				9593F61E2CD7983D009C6D70 /* MultiDatePickerLabel.swift in Sources */,
 				957E21922CD162B6004A34D6 /* ListRowBackground.swift in Sources */,
 				957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
