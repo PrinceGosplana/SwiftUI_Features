@@ -206,6 +206,7 @@
 		95F860C42CD95BFC0076005E /* NavigationCustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C32CD95BFC0076005E /* NavigationCustomBackButton.swift */; };
 		95F860C72CD95CB50076005E /* NavLinkIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C62CD95CB50076005E /* NavLinkIntro.swift */; };
 		95F860C92CD95D3A0076005E /* NavLinkCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */; };
+		95F860CB2CD95E840076005E /* NavLinkWithNavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -409,6 +410,7 @@
 		95F860C32CD95BFC0076005E /* NavigationCustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustomBackButton.swift; sourceTree = "<group>"; };
 		95F860C62CD95CB50076005E /* NavLinkIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkIntro.swift; sourceTree = "<group>"; };
 		95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkCustomization.swift; sourceTree = "<group>"; };
+		95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkWithNavigationDestination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -981,6 +983,7 @@
 			children = (
 				95F860C62CD95CB50076005E /* NavLinkIntro.swift */,
 				95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */,
+				95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -1132,6 +1135,7 @@
 				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
 				8A27C9C72C8C7CE200DFAFE1 /* ListOffsetfixView.swift in Sources */,
 				9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */,
+				95F860CB2CD95E840076005E /* NavLinkWithNavigationDestination.swift in Sources */,
 				95F860C42CD95BFC0076005E /* NavigationCustomBackButton.swift in Sources */,
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
