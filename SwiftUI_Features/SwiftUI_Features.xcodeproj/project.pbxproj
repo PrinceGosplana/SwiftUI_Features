@@ -210,6 +210,7 @@
 		95F860CD2CD95ED80076005E /* NavLinkWithDifferentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */; };
 		95F860CF2CD95F4A0076005E /* NavLinkisPresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */; };
 		95F860D12CD95FAD0076005E /* NavWithPathAndEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */; };
+		95F860D32CD960540076005E /* NavWithNavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D22CD960540076005E /* NavWithNavigationPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -417,6 +418,7 @@
 		95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkWithDifferentTypes.swift; sourceTree = "<group>"; };
 		95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkisPresented.swift; sourceTree = "<group>"; };
 		95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavWithPathAndEnum.swift; sourceTree = "<group>"; };
+		95F860D22CD960540076005E /* NavWithNavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavWithNavigationPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -993,6 +995,7 @@
 				95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */,
 				95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */,
 				95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */,
+				95F860D22CD960540076005E /* NavWithNavigationPath.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -1170,6 +1173,7 @@
 				956C9B8C2CB528B3004898DB /* SpanView.swift in Sources */,
 				8A12DFCC2C33FE1A003DACE1 /* RoutHomeView.swift in Sources */,
 				8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */,
+				95F860D32CD960540076005E /* NavWithNavigationPath.swift in Sources */,
 				8A3FDF182C33EDCD00AF9F9B /* RoomInfo.swift in Sources */,
 				8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */,
 				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
