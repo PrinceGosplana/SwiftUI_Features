@@ -207,6 +207,7 @@
 		95F860C72CD95CB50076005E /* NavLinkIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C62CD95CB50076005E /* NavLinkIntro.swift */; };
 		95F860C92CD95D3A0076005E /* NavLinkCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */; };
 		95F860CB2CD95E840076005E /* NavLinkWithNavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */; };
+		95F860CD2CD95ED80076005E /* NavLinkWithDifferentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -411,6 +412,7 @@
 		95F860C62CD95CB50076005E /* NavLinkIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkIntro.swift; sourceTree = "<group>"; };
 		95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkCustomization.swift; sourceTree = "<group>"; };
 		95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkWithNavigationDestination.swift; sourceTree = "<group>"; };
+		95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkWithDifferentTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -984,6 +986,7 @@
 				95F860C62CD95CB50076005E /* NavLinkIntro.swift */,
 				95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */,
 				95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */,
+				95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -1064,6 +1067,7 @@
 				8A3B992B2BC51BB4009B326E /* AppearEffect.swift in Sources */,
 				8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */,
 				8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */,
+				95F860CD2CD95ED80076005E /* NavLinkWithDifferentTypes.swift in Sources */,
 				8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */,
 				8A91A2252C75E54B007F7B7F /* PullToRefreshView.swift in Sources */,
 				8A96E3292C7AFE9600712616 /* DepthButtonStyle.swift in Sources */,
