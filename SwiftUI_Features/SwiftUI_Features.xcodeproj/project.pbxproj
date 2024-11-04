@@ -205,6 +205,7 @@
 		95F860C22CD947950076005E /* Navigation_NavBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C12CD947950076005E /* Navigation_NavBarItems.swift */; };
 		95F860C42CD95BFC0076005E /* NavigationCustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C32CD95BFC0076005E /* NavigationCustomBackButton.swift */; };
 		95F860C72CD95CB50076005E /* NavLinkIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C62CD95CB50076005E /* NavLinkIntro.swift */; };
+		95F860C92CD95D3A0076005E /* NavLinkCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -407,6 +408,7 @@
 		95F860C12CD947950076005E /* Navigation_NavBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_NavBarItems.swift; sourceTree = "<group>"; };
 		95F860C32CD95BFC0076005E /* NavigationCustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustomBackButton.swift; sourceTree = "<group>"; };
 		95F860C62CD95CB50076005E /* NavLinkIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkIntro.swift; sourceTree = "<group>"; };
+		95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkCustomization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -978,6 +980,7 @@
 			isa = PBXGroup;
 			children = (
 				95F860C62CD95CB50076005E /* NavLinkIntro.swift */,
+				95F860C82CD95D3A0076005E /* NavLinkCustomization.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -1117,6 +1120,7 @@
 				8A96E3262C79FD8B00712616 /* SwipeActionsView.swift in Sources */,
 				8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */,
 				957E218A2CD01B7E004A34D6 /* ListSelectionSingleObject.swift in Sources */,
+				95F860C92CD95D3A0076005E /* NavLinkCustomization.swift in Sources */,
 				9593F6242CD79B1F009C6D70 /* MultiDatePickerPresentingInSheet.swift in Sources */,
 				8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
