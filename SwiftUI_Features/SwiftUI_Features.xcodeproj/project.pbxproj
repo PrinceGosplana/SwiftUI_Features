@@ -209,6 +209,7 @@
 		95F860CB2CD95E840076005E /* NavLinkWithNavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */; };
 		95F860CD2CD95ED80076005E /* NavLinkWithDifferentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */; };
 		95F860CF2CD95F4A0076005E /* NavLinkisPresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */; };
+		95F860D12CD95FAD0076005E /* NavWithPathAndEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -415,6 +416,7 @@
 		95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkWithNavigationDestination.swift; sourceTree = "<group>"; };
 		95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkWithDifferentTypes.swift; sourceTree = "<group>"; };
 		95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkisPresented.swift; sourceTree = "<group>"; };
+		95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavWithPathAndEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -990,6 +992,7 @@
 				95F860CA2CD95E840076005E /* NavLinkWithNavigationDestination.swift */,
 				95F860CC2CD95ED80076005E /* NavLinkWithDifferentTypes.swift */,
 				95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */,
+				95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -1189,6 +1192,7 @@
 				95BF22AC2CCABDB000326432 /* CubicBezieKeyframesView.swift in Sources */,
 				8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */,
 				8A91A21A2C75D4F0007F7B7F /* NavigationStackView.swift in Sources */,
+				95F860D12CD95FAD0076005E /* NavWithPathAndEnum.swift in Sources */,
 				8A0DC8212C4A6C2C000428B9 /* GeometryProxyInSectionView.swift in Sources */,
 				8A3B99272BC518DC009B326E /* VibrationColorEffect.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
