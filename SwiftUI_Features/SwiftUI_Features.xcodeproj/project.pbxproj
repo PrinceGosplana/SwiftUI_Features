@@ -211,6 +211,7 @@
 		95F860CF2CD95F4A0076005E /* NavLinkisPresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */; };
 		95F860D12CD95FAD0076005E /* NavWithPathAndEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */; };
 		95F860D32CD960540076005E /* NavWithNavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D22CD960540076005E /* NavWithNavigationPath.swift */; };
+		95F860D52CDAAD5D0076005E /* NavLinkPopToRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D42CDAAD5D0076005E /* NavLinkPopToRoot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -419,6 +420,7 @@
 		95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkisPresented.swift; sourceTree = "<group>"; };
 		95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavWithPathAndEnum.swift; sourceTree = "<group>"; };
 		95F860D22CD960540076005E /* NavWithNavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavWithNavigationPath.swift; sourceTree = "<group>"; };
+		95F860D42CDAAD5D0076005E /* NavLinkPopToRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkPopToRoot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -996,6 +998,7 @@
 				95F860CE2CD95F4A0076005E /* NavLinkisPresented.swift */,
 				95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */,
 				95F860D22CD960540076005E /* NavWithNavigationPath.swift */,
+				95F860D42CDAAD5D0076005E /* NavLinkPopToRoot.swift */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -1103,6 +1106,7 @@
 				957E21432CCD6327004A34D6 /* GaugeCircularExample.swift in Sources */,
 				8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */,
 				8A91A2162C75CFB6007F7B7F /* NewGridView.swift in Sources */,
+				95F860D52CDAAD5D0076005E /* NavLinkPopToRoot.swift in Sources */,
 				8A27C9BF2C8C792A00DFAFE1 /* CustomToggleStyle.swift in Sources */,
 				9593F6152CD6ABE2009C6D70 /* OtherViewsWithin.swift in Sources */,
 				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
