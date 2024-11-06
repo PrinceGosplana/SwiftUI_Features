@@ -212,6 +212,7 @@
 		95F860D12CD95FAD0076005E /* NavWithPathAndEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */; };
 		95F860D32CD960540076005E /* NavWithNavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D22CD960540076005E /* NavWithNavigationPath.swift */; };
 		95F860D52CDAAD5D0076005E /* NavLinkPopToRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D42CDAAD5D0076005E /* NavLinkPopToRoot.swift */; };
+		95F860D82CDBF2D80076005E /* OutlineGroupIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D72CDBF2D80076005E /* OutlineGroupIntro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -421,6 +422,7 @@
 		95F860D02CD95FAD0076005E /* NavWithPathAndEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavWithPathAndEnum.swift; sourceTree = "<group>"; };
 		95F860D22CD960540076005E /* NavWithNavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavWithNavigationPath.swift; sourceTree = "<group>"; };
 		95F860D42CDAAD5D0076005E /* NavLinkPopToRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkPopToRoot.swift; sourceTree = "<group>"; };
+		95F860D72CDBF2D80076005E /* OutlineGroupIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupIntro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -879,6 +881,7 @@
 				8A039CAD2C29BCD40014434E /* MenuView.swift */,
 				956087D32B9F6C3500BAC9BA /* Model */,
 				8ADD6EE12BB4492F00C7D329 /* MulticolorSymbolsView.swift */,
+				95F860D62CDBF29C0076005E /* OutlineGroup */,
 				95F860C52CD95C9A0076005E /* NavigationLink */,
 				8AF2FB4A2C198E0A00B98D74 /* Navigation */,
 				8AAD77642C6DFCF3004E54D1 /* Network Connection */,
@@ -1001,6 +1004,14 @@
 				95F860D42CDAAD5D0076005E /* NavLinkPopToRoot.swift */,
 			);
 			path = NavigationLink;
+			sourceTree = "<group>";
+		};
+		95F860D62CDBF29C0076005E /* OutlineGroup */ = {
+			isa = PBXGroup;
+			children = (
+				95F860D72CDBF2D80076005E /* OutlineGroupIntro.swift */,
+			);
+			path = OutlineGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1199,6 +1210,7 @@
 				8AFE447A2C81C3E80018E70F /* KeyboardAccessoryView.swift in Sources */,
 				95BF22AC2CCABDB000326432 /* CubicBezieKeyframesView.swift in Sources */,
 				8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */,
+				95F860D82CDBF2D80076005E /* OutlineGroupIntro.swift in Sources */,
 				8A91A21A2C75D4F0007F7B7F /* NavigationStackView.swift in Sources */,
 				95F860D12CD95FAD0076005E /* NavWithPathAndEnum.swift in Sources */,
 				8A0DC8212C4A6C2C000428B9 /* GeometryProxyInSectionView.swift in Sources */,
