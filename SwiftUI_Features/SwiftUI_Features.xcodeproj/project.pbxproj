@@ -219,6 +219,7 @@
 		95F860E12CDD43CE0076005E /* PickerProgrammaticSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */; };
 		95F860E32CDD444A0076005E /* PickerCustomized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E22CDD444A0076005E /* PickerCustomized.swift */; };
 		95F860E52CDD450A0076005E /* PickerRowsWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */; };
+		95F860E72CDD456C0076005E /* PickerBindingToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E62CDD456C0076005E /* PickerBindingToData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -435,6 +436,7 @@
 		95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerProgrammaticSelection.swift; sourceTree = "<group>"; };
 		95F860E22CDD444A0076005E /* PickerCustomized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCustomized.swift; sourceTree = "<group>"; };
 		95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerRowsWithImages.swift; sourceTree = "<group>"; };
+		95F860E62CDD456C0076005E /* PickerBindingToData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBindingToData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1036,6 +1038,7 @@
 				95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */,
 				95F860E22CDD444A0076005E /* PickerCustomized.swift */,
 				95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */,
+				95F860E62CDD456C0076005E /* PickerBindingToData.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -1232,6 +1235,7 @@
 				8A96E3332C7B640200712616 /* AppStorageRawRepresentableView.swift in Sources */,
 				95F860C22CD947950076005E /* Navigation_NavBarItems.swift in Sources */,
 				9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */,
+				95F860E72CDD456C0076005E /* PickerBindingToData.swift in Sources */,
 				8AAD77A62C6F12AD004E54D1 /* NMContentView.swift in Sources */,
 				956C9BA42CB986D4004898DB /* DetectingVisibleCells.swift in Sources */,
 				8A12DFC82C33FD9C003DACE1 /* Router.swift in Sources */,
