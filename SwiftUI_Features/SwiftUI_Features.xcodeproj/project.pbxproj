@@ -218,6 +218,7 @@
 		95F860DF2CDD43350076005E /* PickerWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860DE2CDD43350076005E /* PickerWheel.swift */; };
 		95F860E12CDD43CE0076005E /* PickerProgrammaticSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */; };
 		95F860E32CDD444A0076005E /* PickerCustomized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E22CDD444A0076005E /* PickerCustomized.swift */; };
+		95F860E52CDD450A0076005E /* PickerRowsWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -433,6 +434,7 @@
 		95F860DE2CDD43350076005E /* PickerWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWheel.swift; sourceTree = "<group>"; };
 		95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerProgrammaticSelection.swift; sourceTree = "<group>"; };
 		95F860E22CDD444A0076005E /* PickerCustomized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCustomized.swift; sourceTree = "<group>"; };
+		95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerRowsWithImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1033,6 +1035,7 @@
 				95F860DE2CDD43350076005E /* PickerWheel.swift */,
 				95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */,
 				95F860E22CDD444A0076005E /* PickerCustomized.swift */,
+				95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -1302,6 +1305,7 @@
 				8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */,
 				8A96E32F2C7B25E100712616 /* DEllipseButton.swift in Sources */,
 				8A91A2202C75E18D007F7B7F /* ScrollViewUpdatesView.swift in Sources */,
+				95F860E52CDD450A0076005E /* PickerRowsWithImages.swift in Sources */,
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				957E21882CD01ADD004A34D6 /* SelectingRowView.swift in Sources */,
 				8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */,
