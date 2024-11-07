@@ -220,6 +220,7 @@
 		95F860E32CDD444A0076005E /* PickerCustomized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E22CDD444A0076005E /* PickerCustomized.swift */; };
 		95F860E52CDD450A0076005E /* PickerRowsWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */; };
 		95F860E72CDD456C0076005E /* PickerBindingToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E62CDD456C0076005E /* PickerBindingToData.swift */; };
+		95F860E92CDD45D90076005E /* PickerInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E82CDD45D90076005E /* PickerInForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -437,6 +438,7 @@
 		95F860E22CDD444A0076005E /* PickerCustomized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCustomized.swift; sourceTree = "<group>"; };
 		95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerRowsWithImages.swift; sourceTree = "<group>"; };
 		95F860E62CDD456C0076005E /* PickerBindingToData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBindingToData.swift; sourceTree = "<group>"; };
+		95F860E82CDD45D90076005E /* PickerInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerInForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1039,6 +1041,7 @@
 				95F860E22CDD444A0076005E /* PickerCustomized.swift */,
 				95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */,
 				95F860E62CDD456C0076005E /* PickerBindingToData.swift */,
+				95F860E82CDD45D90076005E /* PickerInForm.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -1190,6 +1193,7 @@
 				8A202A3C2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift in Sources */,
 				8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */,
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
+				95F860E92CDD45D90076005E /* PickerInForm.swift in Sources */,
 				8AFE44802C81D6C10018E70F /* NewForegroundStyleView.swift in Sources */,
 				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
 				8A27C9C72C8C7CE200DFAFE1 /* ListOffsetfixView.swift in Sources */,
