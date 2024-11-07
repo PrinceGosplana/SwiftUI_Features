@@ -217,6 +217,7 @@
 		95F860DD2CDD42D10076005E /* PickerSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860DC2CDD42D10076005E /* PickerSections.swift */; };
 		95F860DF2CDD43350076005E /* PickerWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860DE2CDD43350076005E /* PickerWheel.swift */; };
 		95F860E12CDD43CE0076005E /* PickerProgrammaticSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */; };
+		95F860E32CDD444A0076005E /* PickerCustomized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E22CDD444A0076005E /* PickerCustomized.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -431,6 +432,7 @@
 		95F860DC2CDD42D10076005E /* PickerSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSections.swift; sourceTree = "<group>"; };
 		95F860DE2CDD43350076005E /* PickerWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWheel.swift; sourceTree = "<group>"; };
 		95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerProgrammaticSelection.swift; sourceTree = "<group>"; };
+		95F860E22CDD444A0076005E /* PickerCustomized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCustomized.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1030,6 +1032,7 @@
 				95F860DC2CDD42D10076005E /* PickerSections.swift */,
 				95F860DE2CDD43350076005E /* PickerWheel.swift */,
 				95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */,
+				95F860E22CDD444A0076005E /* PickerCustomized.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -1120,6 +1123,7 @@
 				8AAD77B82C6F5471004E54D1 /* WWDC24Invite.swift in Sources */,
 				952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */,
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
+				95F860E32CDD444A0076005E /* PickerCustomized.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
 				9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */,
 				956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */,
