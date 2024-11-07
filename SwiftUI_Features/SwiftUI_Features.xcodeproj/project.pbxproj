@@ -221,6 +221,7 @@
 		95F860E52CDD450A0076005E /* PickerRowsWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */; };
 		95F860E72CDD456C0076005E /* PickerBindingToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E62CDD456C0076005E /* PickerBindingToData.swift */; };
 		95F860E92CDD45D90076005E /* PickerInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E82CDD45D90076005E /* PickerInForm.swift */; };
+		95F860EB2CDD463D0076005E /* PickerNavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860EA2CDD463D0076005E /* PickerNavigationLinkStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -439,6 +440,7 @@
 		95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerRowsWithImages.swift; sourceTree = "<group>"; };
 		95F860E62CDD456C0076005E /* PickerBindingToData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBindingToData.swift; sourceTree = "<group>"; };
 		95F860E82CDD45D90076005E /* PickerInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerInForm.swift; sourceTree = "<group>"; };
+		95F860EA2CDD463D0076005E /* PickerNavigationLinkStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerNavigationLinkStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1042,6 +1044,7 @@
 				95F860E42CDD450A0076005E /* PickerRowsWithImages.swift */,
 				95F860E62CDD456C0076005E /* PickerBindingToData.swift */,
 				95F860E82CDD45D90076005E /* PickerInForm.swift */,
+				95F860EA2CDD463D0076005E /* PickerNavigationLinkStyle.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -1174,6 +1177,7 @@
 				8A202A322C7711C700509CB4 /* NewLayoutAPIView.swift in Sources */,
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
+				95F860EB2CDD463D0076005E /* PickerNavigationLinkStyle.swift in Sources */,
 				957E21412CCD61B9004A34D6 /* GaugeExampleView.swift in Sources */,
 				8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */,
 				95F860C72CD95CB50076005E /* NavLinkIntro.swift in Sources */,
