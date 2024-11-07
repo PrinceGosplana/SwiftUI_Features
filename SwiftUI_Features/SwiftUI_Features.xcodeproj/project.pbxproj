@@ -216,6 +216,7 @@
 		95F860DB2CDD415D0076005E /* PickerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860DA2CDD415D0076005E /* PickerIntro.swift */; };
 		95F860DD2CDD42D10076005E /* PickerSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860DC2CDD42D10076005E /* PickerSections.swift */; };
 		95F860DF2CDD43350076005E /* PickerWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860DE2CDD43350076005E /* PickerWheel.swift */; };
+		95F860E12CDD43CE0076005E /* PickerProgrammaticSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -429,6 +430,7 @@
 		95F860DA2CDD415D0076005E /* PickerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerIntro.swift; sourceTree = "<group>"; };
 		95F860DC2CDD42D10076005E /* PickerSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSections.swift; sourceTree = "<group>"; };
 		95F860DE2CDD43350076005E /* PickerWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWheel.swift; sourceTree = "<group>"; };
+		95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerProgrammaticSelection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1027,6 +1029,7 @@
 				95F860DA2CDD415D0076005E /* PickerIntro.swift */,
 				95F860DC2CDD42D10076005E /* PickerSections.swift */,
 				95F860DE2CDD43350076005E /* PickerWheel.swift */,
+				95F860E02CDD43CE0076005E /* PickerProgrammaticSelection.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -1208,6 +1211,7 @@
 				8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */,
 				95F860D32CD960540076005E /* NavWithNavigationPath.swift in Sources */,
 				8A3FDF182C33EDCD00AF9F9B /* RoomInfo.swift in Sources */,
+				95F860E12CDD43CE0076005E /* PickerProgrammaticSelection.swift in Sources */,
 				8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */,
 				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
