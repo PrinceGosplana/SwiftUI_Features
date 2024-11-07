@@ -214,6 +214,7 @@
 		95F860D52CDAAD5D0076005E /* NavLinkPopToRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D42CDAAD5D0076005E /* NavLinkPopToRoot.swift */; };
 		95F860D82CDBF2D80076005E /* OutlineGroupIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860D72CDBF2D80076005E /* OutlineGroupIntro.swift */; };
 		95F860DB2CDD415D0076005E /* PickerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860DA2CDD415D0076005E /* PickerIntro.swift */; };
+		95F860DD2CDD42D10076005E /* PickerSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F860DC2CDD42D10076005E /* PickerSections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -425,6 +426,7 @@
 		95F860D42CDAAD5D0076005E /* NavLinkPopToRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkPopToRoot.swift; sourceTree = "<group>"; };
 		95F860D72CDBF2D80076005E /* OutlineGroupIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupIntro.swift; sourceTree = "<group>"; };
 		95F860DA2CDD415D0076005E /* PickerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerIntro.swift; sourceTree = "<group>"; };
+		95F860DC2CDD42D10076005E /* PickerSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSections.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -1021,6 +1023,7 @@
 			isa = PBXGroup;
 			children = (
 				95F860DA2CDD415D0076005E /* PickerIntro.swift */,
+				95F860DC2CDD42D10076005E /* PickerSections.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -1167,6 +1170,7 @@
 				8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
 				8A12DFCA2C33FDE1003DACE1 /* RoutingApp.swift in Sources */,
+				95F860DD2CDD42D10076005E /* PickerSections.swift in Sources */,
 				8A202A3C2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift in Sources */,
 				8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */,
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
