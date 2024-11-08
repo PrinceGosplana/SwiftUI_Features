@@ -160,6 +160,7 @@
 		9576FC672CDE7CEE0082C662 /* ProgressViewShowingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC662CDE7CEE0082C662 /* ProgressViewShowingProgress.swift */; };
 		9576FC692CDE7D7A0082C662 /* ProgressViewTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC682CDE7D7A0082C662 /* ProgressViewTotal.swift */; };
 		9576FC6D2CDE7DE90082C662 /* ProgressViewCurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC6C2CDE7DE90082C662 /* ProgressViewCurrentValue.swift */; };
+		9576FC6F2CDE7E340082C662 /* ProgressViewCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC6E2CDE7E340082C662 /* ProgressViewCustomizing.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -385,6 +386,7 @@
 		9576FC662CDE7CEE0082C662 /* ProgressViewShowingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewShowingProgress.swift; sourceTree = "<group>"; };
 		9576FC682CDE7D7A0082C662 /* ProgressViewTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewTotal.swift; sourceTree = "<group>"; };
 		9576FC6C2CDE7DE90082C662 /* ProgressViewCurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewCurrentValue.swift; sourceTree = "<group>"; };
+		9576FC6E2CDE7E340082C662 /* ProgressViewCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewCustomizing.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -881,6 +883,7 @@
 				9576FC662CDE7CEE0082C662 /* ProgressViewShowingProgress.swift */,
 				9576FC682CDE7D7A0082C662 /* ProgressViewTotal.swift */,
 				9576FC6C2CDE7DE90082C662 /* ProgressViewCurrentValue.swift */,
+				9576FC6E2CDE7E340082C662 /* ProgressViewCustomizing.swift */,
 			);
 			path = ProgressView;
 			sourceTree = "<group>";
@@ -1372,6 +1375,7 @@
 				9593F6112CD6AAD8009C6D70 /* MenuMenuPosition.swift in Sources */,
 				957E21942CD1633A004A34D6 /* ListRowBackgroundonSections.swift in Sources */,
 				8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */,
+				9576FC6F2CDE7E340082C662 /* ProgressViewCustomizing.swift in Sources */,
 				9576FC6D2CDE7DE90082C662 /* ProgressViewCurrentValue.swift in Sources */,
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
