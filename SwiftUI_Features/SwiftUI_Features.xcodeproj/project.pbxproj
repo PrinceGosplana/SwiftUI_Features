@@ -161,6 +161,7 @@
 		9576FC692CDE7D7A0082C662 /* ProgressViewTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC682CDE7D7A0082C662 /* ProgressViewTotal.swift */; };
 		9576FC6D2CDE7DE90082C662 /* ProgressViewCurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC6C2CDE7DE90082C662 /* ProgressViewCurrentValue.swift */; };
 		9576FC6F2CDE7E340082C662 /* ProgressViewCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC6E2CDE7E340082C662 /* ProgressViewCustomizing.swift */; };
+		9576FC712CDE7EB80082C662 /* ProgressViewTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC702CDE7EB80082C662 /* ProgressViewTint.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -387,6 +388,7 @@
 		9576FC682CDE7D7A0082C662 /* ProgressViewTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewTotal.swift; sourceTree = "<group>"; };
 		9576FC6C2CDE7DE90082C662 /* ProgressViewCurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewCurrentValue.swift; sourceTree = "<group>"; };
 		9576FC6E2CDE7E340082C662 /* ProgressViewCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewCustomizing.swift; sourceTree = "<group>"; };
+		9576FC702CDE7EB80082C662 /* ProgressViewTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewTint.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -884,6 +886,7 @@
 				9576FC682CDE7D7A0082C662 /* ProgressViewTotal.swift */,
 				9576FC6C2CDE7DE90082C662 /* ProgressViewCurrentValue.swift */,
 				9576FC6E2CDE7E340082C662 /* ProgressViewCustomizing.swift */,
+				9576FC702CDE7EB80082C662 /* ProgressViewTint.swift */,
 			);
 			path = ProgressView;
 			sourceTree = "<group>";
@@ -1352,6 +1355,7 @@
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
 				9593F6222CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift in Sources */,
+				9576FC712CDE7EB80082C662 /* ProgressViewTint.swift in Sources */,
 				8A96E31E2C79E03F00712616 /* BadgeView.swift in Sources */,
 				957E21862CD019F3004A34D6 /* StaticListView.swift in Sources */,
 				95F860DF2CDD43350076005E /* PickerWheel.swift in Sources */,
