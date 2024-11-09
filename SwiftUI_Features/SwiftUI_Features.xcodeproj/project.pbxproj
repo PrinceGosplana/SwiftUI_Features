@@ -166,6 +166,7 @@
 		9576FC752CDFEC640082C662 /* ScrollviewIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC742CDFEC640082C662 /* ScrollviewIntro.swift */; };
 		9576FC772CDFECD60082C662 /* ScrollViewSafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC762CDFECD60082C662 /* ScrollViewSafeAreaInset.swift */; };
 		9576FC792CDFED360082C662 /* ScrollviewHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC782CDFED360082C662 /* ScrollviewHorizontal.swift */; };
+		9576FC7B2CDFED730082C662 /* ScrollViewHorizontalSafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC7A2CDFED730082C662 /* ScrollViewHorizontalSafeAreaInset.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -397,6 +398,7 @@
 		9576FC742CDFEC640082C662 /* ScrollviewIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewIntro.swift; sourceTree = "<group>"; };
 		9576FC762CDFECD60082C662 /* ScrollViewSafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSafeAreaInset.swift; sourceTree = "<group>"; };
 		9576FC782CDFED360082C662 /* ScrollviewHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewHorizontal.swift; sourceTree = "<group>"; };
+		9576FC7A2CDFED730082C662 /* ScrollViewHorizontalSafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewHorizontalSafeAreaInset.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -726,6 +728,7 @@
 				8AAD77B32C6F48BA004E54D1 /* ScrollViewTransitions.swift */,
 				956C9B8B2CB528B2004898DB /* SpanView.swift */,
 				9576FC782CDFED360082C662 /* ScrollviewHorizontal.swift */,
+				9576FC7A2CDFED730082C662 /* ScrollViewHorizontalSafeAreaInset.swift */,
 				9576FC762CDFECD60082C662 /* ScrollViewSafeAreaInset.swift */,
 				9576FC742CDFEC640082C662 /* ScrollviewIntro.swift */,
 			);
@@ -1300,6 +1303,7 @@
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
 				8A96E3332C7B640200712616 /* AppStorageRawRepresentableView.swift in Sources */,
 				95F860C22CD947950076005E /* Navigation_NavBarItems.swift in Sources */,
+				9576FC7B2CDFED730082C662 /* ScrollViewHorizontalSafeAreaInset.swift in Sources */,
 				9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */,
 				95F860E72CDD456C0076005E /* PickerBindingToData.swift in Sources */,
 				8AAD77A62C6F12AD004E54D1 /* NMContentView.swift in Sources */,
