@@ -162,6 +162,7 @@
 		9576FC6D2CDE7DE90082C662 /* ProgressViewCurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC6C2CDE7DE90082C662 /* ProgressViewCurrentValue.swift */; };
 		9576FC6F2CDE7E340082C662 /* ProgressViewCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC6E2CDE7E340082C662 /* ProgressViewCustomizing.swift */; };
 		9576FC712CDE7EB80082C662 /* ProgressViewTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC702CDE7EB80082C662 /* ProgressViewTint.swift */; };
+		9576FC732CDFEBA80082C662 /* RenameButtonEditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC722CDFEBA80082C662 /* RenameButtonEditText.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -389,6 +390,7 @@
 		9576FC6C2CDE7DE90082C662 /* ProgressViewCurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewCurrentValue.swift; sourceTree = "<group>"; };
 		9576FC6E2CDE7E340082C662 /* ProgressViewCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewCustomizing.swift; sourceTree = "<group>"; };
 		9576FC702CDE7EB80082C662 /* ProgressViewTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewTint.swift; sourceTree = "<group>"; };
+		9576FC722CDFEBA80082C662 /* RenameButtonEditText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameButtonEditText.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -916,6 +918,7 @@
 				9547F6FB2CBC3C17009648DF /* TooltipsView.swift */,
 				8AFA1CE72C0DE08700EC7A39 /* Bottom Sheet */,
 				956C9B932CB54BCC004898DB /* ButtonRepeatBehaviorView.swift */,
+				9576FC722CDFEBA80082C662 /* RenameButtonEditText.swift */,
 				957D36492B96DC8D00E5E342 /* ContentView.swift */,
 				8AFEBFDE2BB6F7910006C41A /* Controls */,
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
@@ -1372,6 +1375,7 @@
 				957E21882CD01ADD004A34D6 /* SelectingRowView.swift in Sources */,
 				8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */,
 				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
+				9576FC732CDFEBA80082C662 /* RenameButtonEditText.swift in Sources */,
 				956C9B942CB54BCC004898DB /* ButtonRepeatBehaviorView.swift in Sources */,
 				9593F61C2CD6AD60009C6D70 /* MultiDatePickerIntro.swift in Sources */,
 				8A27C9C52C8C79AB00DFAFE1 /* CustomToggleContentView.swift in Sources */,
