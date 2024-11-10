@@ -175,6 +175,7 @@
 		9576FC872CE143F70082C662 /* ScrollviewContentMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC862CE143F70082C662 /* ScrollviewContentMargins.swift */; };
 		9576FC8B2CE1465B0082C662 /* NavigationSearchableSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC8A2CE1465B0082C662 /* NavigationSearchableSearch.swift */; };
 		9576FC8F2CE1478A0082C662 /* NavigationSearchableCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC8E2CE1478A0082C662 /* NavigationSearchableCancel.swift */; };
+		9576FC932CE148D50082C662 /* SearchableDismissSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC922CE148D50082C662 /* SearchableDismissSearch.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -415,6 +416,7 @@
 		9576FC862CE143F70082C662 /* ScrollviewContentMargins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewContentMargins.swift; sourceTree = "<group>"; };
 		9576FC8A2CE1465B0082C662 /* NavigationSearchableSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearchableSearch.swift; sourceTree = "<group>"; };
 		9576FC8E2CE1478A0082C662 /* NavigationSearchableCancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearchableCancel.swift; sourceTree = "<group>"; };
+		9576FC922CE148D50082C662 /* SearchableDismissSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableDismissSearch.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -932,6 +934,7 @@
 			children = (
 				9576FC8A2CE1465B0082C662 /* NavigationSearchableSearch.swift */,
 				9576FC8E2CE1478A0082C662 /* NavigationSearchableCancel.swift */,
+				9576FC922CE148D50082C662 /* SearchableDismissSearch.swift */,
 			);
 			path = Searchable;
 			sourceTree = "<group>";
@@ -1326,6 +1329,7 @@
 				95F860D32CD960540076005E /* NavWithNavigationPath.swift in Sources */,
 				8A3FDF182C33EDCD00AF9F9B /* RoomInfo.swift in Sources */,
 				95F860E12CDD43CE0076005E /* PickerProgrammaticSelection.swift in Sources */,
+				9576FC932CE148D50082C662 /* SearchableDismissSearch.swift in Sources */,
 				8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */,
 				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
