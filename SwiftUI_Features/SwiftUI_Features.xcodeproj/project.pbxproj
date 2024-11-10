@@ -178,6 +178,7 @@
 		9576FC932CE148D50082C662 /* SearchableDismissSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC922CE148D50082C662 /* SearchableDismissSearch.swift */; };
 		9576FC952CE1497C0082C662 /* NavigationSearchableFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC942CE1497C0082C662 /* NavigationSearchableFilter.swift */; };
 		9576FC982CE14A3E0082C662 /* SecureFieldIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC972CE14A3E0082C662 /* SecureFieldIntro.swift */; };
+		9576FC9A2CE14AD70082C662 /* SecureTextFieldCustomizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC992CE14AD70082C662 /* SecureTextFieldCustomizations.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -421,6 +422,7 @@
 		9576FC922CE148D50082C662 /* SearchableDismissSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableDismissSearch.swift; sourceTree = "<group>"; };
 		9576FC942CE1497C0082C662 /* NavigationSearchableFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearchableFilter.swift; sourceTree = "<group>"; };
 		9576FC972CE14A3E0082C662 /* SecureFieldIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldIntro.swift; sourceTree = "<group>"; };
+		9576FC992CE14AD70082C662 /* SecureTextFieldCustomizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextFieldCustomizations.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -948,6 +950,7 @@
 			isa = PBXGroup;
 			children = (
 				9576FC972CE14A3E0082C662 /* SecureFieldIntro.swift */,
+				9576FC992CE14AD70082C662 /* SecureTextFieldCustomizations.swift */,
 			);
 			path = SecureField;
 			sourceTree = "<group>";
@@ -1418,6 +1421,7 @@
 				8A4001412C83203700A633A5 /* NewButtonCustomizationView.swift in Sources */,
 				8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
+				9576FC9A2CE14AD70082C662 /* SecureTextFieldCustomizations.swift in Sources */,
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
 				9593F6282CD79D74009C6D70 /* NavigationToolbarBackground.swift in Sources */,
 				9593F6202CD79913009C6D70 /* MultiDatePickerDateRange.swift in Sources */,
