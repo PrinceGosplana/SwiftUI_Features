@@ -31,8 +31,6 @@ struct ScrollViewBehaviorPaging: View {
             .scrollTargetLayout()
         }
         .scrollTargetBehavior(.paging)
-        .font(.title)
-        
     }
 }
 
