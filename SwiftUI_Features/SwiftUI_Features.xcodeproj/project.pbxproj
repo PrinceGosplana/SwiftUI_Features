@@ -173,6 +173,7 @@
 		9576FC832CDFEF180082C662 /* ScrollViewBehaviorViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC822CDFEF180082C662 /* ScrollViewBehaviorViewAligned.swift */; };
 		9576FC852CE143500082C662 /* ScrollViewScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC842CE143500082C662 /* ScrollViewScrollPosition.swift */; };
 		9576FC872CE143F70082C662 /* ScrollviewContentMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC862CE143F70082C662 /* ScrollviewContentMargins.swift */; };
+		9576FC8B2CE1465B0082C662 /* NavigationSearchableSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC8A2CE1465B0082C662 /* NavigationSearchableSearch.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -411,6 +412,7 @@
 		9576FC822CDFEF180082C662 /* ScrollViewBehaviorViewAligned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBehaviorViewAligned.swift; sourceTree = "<group>"; };
 		9576FC842CE143500082C662 /* ScrollViewScrollPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewScrollPosition.swift; sourceTree = "<group>"; };
 		9576FC862CE143F70082C662 /* ScrollviewContentMargins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewContentMargins.swift; sourceTree = "<group>"; };
+		9576FC8A2CE1465B0082C662 /* NavigationSearchableSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSearchableSearch.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -923,6 +925,14 @@
 			path = ProgressView;
 			sourceTree = "<group>";
 		};
+		9576FC892CE146150082C662 /* Searchable */ = {
+			isa = PBXGroup;
+			children = (
+				9576FC8A2CE1465B0082C662 /* NavigationSearchableSearch.swift */,
+			);
+			path = Searchable;
+			sourceTree = "<group>";
+		};
 		957D363B2B96DC8D00E5E342 = {
 			isa = PBXGroup;
 			children = (
@@ -997,6 +1007,7 @@
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 				9576FC632CDE7C080082C662 /* ProgressView */,
 				9576FC722CDFEBA80082C662 /* RenameButtonEditText.swift */,
+				9576FC892CE146150082C662 /* Searchable */,
 				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
 				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
 				8A097D9A2C31BA2300F03670 /* Swift Concurrency */,
@@ -1358,6 +1369,7 @@
 				956C9B8A2CB2703E004898DB /* PositioningBadgesView.swift in Sources */,
 				8A039CAE2C29BCD50014434E /* MenuView.swift in Sources */,
 				8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */,
+				9576FC8B2CE1465B0082C662 /* NavigationSearchableSearch.swift in Sources */,
 				8A96E32B2C7B1D9900712616 /* DoulingoView.swift in Sources */,
 				8A0DC81E2C4A64C6000428B9 /* GeometryProxyInScrollView.swift in Sources */,
 				8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */,
