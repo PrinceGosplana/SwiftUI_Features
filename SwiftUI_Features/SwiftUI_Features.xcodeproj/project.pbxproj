@@ -182,6 +182,7 @@
 		9576FC9C2CE14B4A0082C662 /* SecureTextFieldCustomizationLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC9B2CE14B4A0082C662 /* SecureTextFieldCustomizationLayers.swift */; };
 		9576FC9E2CE26D740082C662 /* SecureFieldKeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC9D2CE26D740082C662 /* SecureFieldKeyboardSafeArea.swift */; };
 		9576FCA12CE3E47C0082C662 /* NoSegmentSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA02CE3E47C0082C662 /* NoSegmentSelected.swift */; };
+		9576FCA32CE52B290082C662 /* SegmentedControlColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA22CE52B290082C662 /* SegmentedControlColors.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -429,6 +430,7 @@
 		9576FC9B2CE14B4A0082C662 /* SecureTextFieldCustomizationLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextFieldCustomizationLayers.swift; sourceTree = "<group>"; };
 		9576FC9D2CE26D740082C662 /* SecureFieldKeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldKeyboardSafeArea.swift; sourceTree = "<group>"; };
 		9576FCA02CE3E47C0082C662 /* NoSegmentSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSegmentSelected.swift; sourceTree = "<group>"; };
+		9576FCA22CE52B290082C662 /* SegmentedControlColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlColors.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -967,6 +969,7 @@
 			isa = PBXGroup;
 			children = (
 				9576FCA02CE3E47C0082C662 /* NoSegmentSelected.swift */,
+				9576FCA22CE52B290082C662 /* SegmentedControlColors.swift */,
 			);
 			path = "Segment control";
 			sourceTree = "<group>";
@@ -1403,6 +1406,7 @@
 				8AFE447C2C81D1920018E70F /* FocusedKeyboardResignRespView.swift in Sources */,
 				957E219A2CD16531004A34D6 /* HeaderProminence.swift in Sources */,
 				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
+				9576FCA32CE52B290082C662 /* SegmentedControlColors.swift in Sources */,
 				9593F61E2CD7983D009C6D70 /* MultiDatePickerLabel.swift in Sources */,
 				957E21922CD162B6004A34D6 /* ListRowBackground.swift in Sources */,
 				957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */,
