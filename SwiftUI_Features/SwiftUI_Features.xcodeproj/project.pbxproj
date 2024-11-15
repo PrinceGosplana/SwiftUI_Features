@@ -184,6 +184,7 @@
 		9576FCA12CE3E47C0082C662 /* NoSegmentSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA02CE3E47C0082C662 /* NoSegmentSelected.swift */; };
 		9576FCA32CE52B290082C662 /* SegmentedControlColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA22CE52B290082C662 /* SegmentedControlColors.swift */; };
 		9576FCA52CE670BD0082C662 /* ShareLinkIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA42CE670BD0082C662 /* ShareLinkIntro.swift */; };
+		9576FCA72CE7D73A0082C662 /* SignInWithAppleIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -433,6 +434,7 @@
 		9576FCA02CE3E47C0082C662 /* NoSegmentSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSegmentSelected.swift; sourceTree = "<group>"; };
 		9576FCA22CE52B290082C662 /* SegmentedControlColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlColors.swift; sourceTree = "<group>"; };
 		9576FCA42CE670BD0082C662 /* ShareLinkIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkIntro.swift; sourceTree = "<group>"; };
+		9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleIntro.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1007,6 +1009,7 @@
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
 				956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */,
 				8A0DC8222C4A758E000428B9 /* CustomSegmentedControl.swift */,
+				9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */,
 				956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */,
 				956C9BA32CB986D4004898DB /* DetectingVisibleCells.swift */,
 				8A22E6952C7089CA0003345B /* Disclosure Group */,
@@ -1293,6 +1296,7 @@
 				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
 				8A0663582CAD2D7C00937F63 /* TimeLineAnimationView.swift in Sources */,
 				8A4001432C83304C00A633A5 /* UserLocationView.swift in Sources */,
+				9576FCA72CE7D73A0082C662 /* SignInWithAppleIntro.swift in Sources */,
 				9593F6172CD6AC3F009C6D70 /* WithSections.swift in Sources */,
 				957E21822CD01684004A34D6 /* HideAndShowLabelComponents.swift in Sources */,
 				957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */,
