@@ -233,6 +233,7 @@
 		95AE9D542CE924A7002510C1 /* SliderIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D532CE924A7002510C1 /* SliderIntro.swift */; };
 		95AE9D562CE9250C002510C1 /* SliderRangeOfValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D552CE9250C002510C1 /* SliderRangeOfValues.swift */; };
 		95AE9D582CE92588002510C1 /* SliderCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D572CE92588002510C1 /* SliderCustomization.swift */; };
+		95AE9D5A2CE928A5002510C1 /* SliderWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D592CE928A5002510C1 /* SliderWithImages.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -489,6 +490,7 @@
 		95AE9D532CE924A7002510C1 /* SliderIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIntro.swift; sourceTree = "<group>"; };
 		95AE9D552CE9250C002510C1 /* SliderRangeOfValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRangeOfValues.swift; sourceTree = "<group>"; };
 		95AE9D572CE92588002510C1 /* SliderCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCustomization.swift; sourceTree = "<group>"; };
+		95AE9D592CE928A5002510C1 /* SliderWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderWithImages.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -1155,6 +1157,7 @@
 				95AE9D532CE924A7002510C1 /* SliderIntro.swift */,
 				95AE9D552CE9250C002510C1 /* SliderRangeOfValues.swift */,
 				95AE9D572CE92588002510C1 /* SliderCustomization.swift */,
+				95AE9D592CE928A5002510C1 /* SliderWithImages.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -1427,6 +1430,7 @@
 				8AFE447A2C81C3E80018E70F /* KeyboardAccessoryView.swift in Sources */,
 				95BF22AC2CCABDB000326432 /* CubicBezieKeyframesView.swift in Sources */,
 				8A14C4402C53D2F300118B13 /* EitherExampleView.swift in Sources */,
+				95AE9D5A2CE928A5002510C1 /* SliderWithImages.swift in Sources */,
 				95F860D82CDBF2D80076005E /* OutlineGroupIntro.swift in Sources */,
 				8A91A21A2C75D4F0007F7B7F /* NavigationStackView.swift in Sources */,
 				95F860D12CD95FAD0076005E /* NavWithPathAndEnum.swift in Sources */,
