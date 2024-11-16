@@ -230,6 +230,7 @@
 		9593F62E2CD79F54009C6D70 /* NavigationBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F62D2CD79F54009C6D70 /* NavigationBarHidden.swift */; };
 		95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */; };
 		95AE9D512CE92423002510C1 /* SignInWithAppleSizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */; };
+		95AE9D542CE924A7002510C1 /* SliderIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D532CE924A7002510C1 /* SliderIntro.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -483,6 +484,7 @@
 		9593F62D2CD79F54009C6D70 /* NavigationBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHidden.swift; sourceTree = "<group>"; };
 		95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCustomizing.swift; sourceTree = "<group>"; };
 		95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleSizeChanges.swift; sourceTree = "<group>"; };
+		95AE9D532CE924A7002510C1 /* SliderIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIntro.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -1013,9 +1015,6 @@
 				956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */,
 				956C9B8D2CB52A35004898DB /* CustomLogicForSizeView.swift */,
 				8A0DC8222C4A758E000428B9 /* CustomSegmentedControl.swift */,
-				9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */,
-				95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */,
-				95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */,
 				956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */,
 				956C9BA32CB986D4004898DB /* DetectingVisibleCells.swift */,
 				8A22E6952C7089CA0003345B /* Disclosure Group */,
@@ -1050,8 +1049,6 @@
 				95F860D62CDBF29C0076005E /* OutlineGroup */,
 				956C9B912CB5478E004898DB /* PagingOnboardView.swift */,
 				95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */,
-				9576FCA42CE670BD0082C662 /* ShareLinkIntro.swift */,
-				9576FC9F2CE3E4670082C662 /* Segment control */,
 				9547F7012CC2D67A009648DF /* PhotoGridView.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
@@ -1061,9 +1058,15 @@
 				957D364D2B96DC9100E5E342 /* Preview Content */,
 				9576FC632CDE7C080082C662 /* ProgressView */,
 				9576FC722CDFEBA80082C662 /* RenameButtonEditText.swift */,
-				9576FC962CE14A080082C662 /* SecureField */,
-				9576FC892CE146150082C662 /* Searchable */,
 				8AAD775E2C6DDF8E004E54D1 /* ScrollView */,
+				9576FC892CE146150082C662 /* Searchable */,
+				9576FC962CE14A080082C662 /* SecureField */,
+				9576FC9F2CE3E4670082C662 /* Segment control */,
+				9576FCA42CE670BD0082C662 /* ShareLinkIntro.swift */,
+				95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */,
+				95AE9D522CE92499002510C1 /* Slider */,
+				9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */,
+				95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */,
 				8ADF1AAB2BE210A100F0C67F /* StopUsingSpacerView.swift */,
 				8A097D9A2C31BA2300F03670 /* Swift Concurrency */,
 				957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */,
@@ -1140,6 +1143,14 @@
 				9593F61B2CD6AD60009C6D70 /* MultiDatePickerIntro.swift */,
 			);
 			path = MultiDatePicker;
+			sourceTree = "<group>";
+		};
+		95AE9D522CE92499002510C1 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				95AE9D532CE924A7002510C1 /* SliderIntro.swift */,
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 		95B7CE442BA9785C0030839E /* Glass Background Effect */ = {
@@ -1451,6 +1462,7 @@
 				8A96E3222C79F55C00712616 /* SafeAreaInsetView.swift in Sources */,
 				9576FC622CDE7B9A0082C662 /* PhotosPickerMultipleItems.swift in Sources */,
 				8AAD77AA2C6F15BE004E54D1 /* OfflineAlertView.swift in Sources */,
+				95AE9D542CE924A7002510C1 /* SliderIntro.swift in Sources */,
 				8A91A2142C75CD81007F7B7F /* ViewThatFitsView.swift in Sources */,
 				956C9B922CB5478E004898DB /* PagingOnboardView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
