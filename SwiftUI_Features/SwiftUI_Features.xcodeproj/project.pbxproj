@@ -231,6 +231,7 @@
 		95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */; };
 		95AE9D512CE92423002510C1 /* SignInWithAppleSizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */; };
 		95AE9D542CE924A7002510C1 /* SliderIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D532CE924A7002510C1 /* SliderIntro.swift */; };
+		95AE9D562CE9250C002510C1 /* SliderRangeOfValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D552CE9250C002510C1 /* SliderRangeOfValues.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -485,6 +486,7 @@
 		95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCustomizing.swift; sourceTree = "<group>"; };
 		95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleSizeChanges.swift; sourceTree = "<group>"; };
 		95AE9D532CE924A7002510C1 /* SliderIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIntro.swift; sourceTree = "<group>"; };
+		95AE9D552CE9250C002510C1 /* SliderRangeOfValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRangeOfValues.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -1149,6 +1151,7 @@
 			isa = PBXGroup;
 			children = (
 				95AE9D532CE924A7002510C1 /* SliderIntro.swift */,
+				95AE9D552CE9250C002510C1 /* SliderRangeOfValues.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -1402,6 +1405,7 @@
 				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
 				8A91A20D2C75C394007F7B7F /* PresentationDetentsView.swift in Sources */,
 				8A91A2222C75E320007F7B7F /* MultipleDatePickerView.swift in Sources */,
+				95AE9D562CE9250C002510C1 /* SliderRangeOfValues.swift in Sources */,
 				95BF22A82CC952C200326432 /* PatternShapeStylesView.swift in Sources */,
 				95F860DB2CDD415D0076005E /* PickerIntro.swift in Sources */,
 				9576FC692CDE7D7A0082C662 /* ProgressViewTotal.swift in Sources */,
