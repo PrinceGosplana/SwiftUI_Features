@@ -236,6 +236,7 @@
 		95AE9D5A2CE928A5002510C1 /* SliderWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D592CE928A5002510C1 /* SliderWithImages.swift */; };
 		95AE9D5C2CE929A8002510C1 /* SliderTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D5B2CE929A8002510C1 /* SliderTint.swift */; };
 		95AE9D5E2CE92A5F002510C1 /* SliderInMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D5D2CE92A5F002510C1 /* SliderInMenu.swift */; };
+		95AE9D612CE92AF3002510C1 /* StepperIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D602CE92AF3002510C1 /* StepperIntro.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -495,6 +496,7 @@
 		95AE9D592CE928A5002510C1 /* SliderWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderWithImages.swift; sourceTree = "<group>"; };
 		95AE9D5B2CE929A8002510C1 /* SliderTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTint.swift; sourceTree = "<group>"; };
 		95AE9D5D2CE92A5F002510C1 /* SliderInMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderInMenu.swift; sourceTree = "<group>"; };
+		95AE9D602CE92AF3002510C1 /* StepperIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperIntro.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -1074,6 +1076,7 @@
 				9576FC9F2CE3E4670082C662 /* Segment control */,
 				9576FCA42CE670BD0082C662 /* ShareLinkIntro.swift */,
 				95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */,
+				95AE9D5F2CE92AE6002510C1 /* Stepper */,
 				95AE9D522CE92499002510C1 /* Slider */,
 				9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */,
 				95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */,
@@ -1166,6 +1169,14 @@
 				95AE9D5D2CE92A5F002510C1 /* SliderInMenu.swift */,
 			);
 			path = Slider;
+			sourceTree = "<group>";
+		};
+		95AE9D5F2CE92AE6002510C1 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				95AE9D602CE92AF3002510C1 /* StepperIntro.swift */,
+			);
+			path = Stepper;
 			sourceTree = "<group>";
 		};
 		95B7CE442BA9785C0030839E /* Glass Background Effect */ = {
@@ -1382,6 +1393,7 @@
 				9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */,
 				95F860CB2CD95E840076005E /* NavLinkWithNavigationDestination.swift in Sources */,
 				95F860C42CD95BFC0076005E /* NavigationCustomBackButton.swift in Sources */,
+				95AE9D612CE92AF3002510C1 /* StepperIntro.swift in Sources */,
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
 				8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */,
