@@ -235,6 +235,7 @@
 		95AE9D582CE92588002510C1 /* SliderCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D572CE92588002510C1 /* SliderCustomization.swift */; };
 		95AE9D5A2CE928A5002510C1 /* SliderWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D592CE928A5002510C1 /* SliderWithImages.swift */; };
 		95AE9D5C2CE929A8002510C1 /* SliderTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D5B2CE929A8002510C1 /* SliderTint.swift */; };
+		95AE9D5E2CE92A5F002510C1 /* SliderInMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D5D2CE92A5F002510C1 /* SliderInMenu.swift */; };
 		95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE422BA8BE800030839E /* TransparentBlurView.swift */; };
 		95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE452BA9799F0030839E /* HomeGlassView.swift */; };
 		95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B7CE472BA97A840030839E /* GlassBackgroundView.swift */; };
@@ -493,6 +494,7 @@
 		95AE9D572CE92588002510C1 /* SliderCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCustomization.swift; sourceTree = "<group>"; };
 		95AE9D592CE928A5002510C1 /* SliderWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderWithImages.swift; sourceTree = "<group>"; };
 		95AE9D5B2CE929A8002510C1 /* SliderTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTint.swift; sourceTree = "<group>"; };
+		95AE9D5D2CE92A5F002510C1 /* SliderInMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderInMenu.swift; sourceTree = "<group>"; };
 		95B7CE422BA8BE800030839E /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 		95B7CE452BA9799F0030839E /* HomeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGlassView.swift; sourceTree = "<group>"; };
 		95B7CE472BA97A840030839E /* GlassBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassBackgroundView.swift; sourceTree = "<group>"; };
@@ -1161,6 +1163,7 @@
 				95AE9D572CE92588002510C1 /* SliderCustomization.swift */,
 				95AE9D592CE928A5002510C1 /* SliderWithImages.swift */,
 				95AE9D5B2CE929A8002510C1 /* SliderTint.swift */,
+				95AE9D5D2CE92A5F002510C1 /* SliderInMenu.swift */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -1490,6 +1493,7 @@
 				8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
 				9576FC9A2CE14AD70082C662 /* SecureTextFieldCustomizations.swift in Sources */,
+				95AE9D5E2CE92A5F002510C1 /* SliderInMenu.swift in Sources */,
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
 				9593F6282CD79D74009C6D70 /* NavigationToolbarBackground.swift in Sources */,
 				9593F6202CD79913009C6D70 /* MultiDatePickerDateRange.swift in Sources */,
