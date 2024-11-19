@@ -231,6 +231,7 @@
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
+		95A635772CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635762CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift */; };
 		95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */; };
 		95AE9D512CE92423002510C1 /* SignInWithAppleSizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */; };
 		95AE9D542CE924A7002510C1 /* SliderIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D532CE924A7002510C1 /* SliderIntro.swift */; };
@@ -496,6 +497,7 @@
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
+		95A635762CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyleIndexViewStyle.swift; sourceTree = "<group>"; };
 		95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCustomizing.swift; sourceTree = "<group>"; };
 		95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleSizeChanges.swift; sourceTree = "<group>"; };
 		95AE9D532CE924A7002510C1 /* SliderIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIntro.swift; sourceTree = "<group>"; };
@@ -1173,6 +1175,7 @@
 			isa = PBXGroup;
 			children = (
 				95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */,
+				95A635762CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -1330,6 +1333,7 @@
 				95F860CD2CD95ED80076005E /* NavLinkWithDifferentTypes.swift in Sources */,
 				8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */,
 				8A91A2252C75E54B007F7B7F /* PullToRefreshView.swift in Sources */,
+				95A635772CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift in Sources */,
 				8A96E3292C7AFE9600712616 /* DepthButtonStyle.swift in Sources */,
 				8AAD77A82C6F12CC004E54D1 /* NMHomeView.swift in Sources */,
 				8AAD77B42C6F48BA004E54D1 /* ScrollViewTransitions.swift in Sources */,
