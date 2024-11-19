@@ -232,6 +232,7 @@
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
 		95A635772CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635762CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift */; };
+		95A6357B2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6357A2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift */; };
 		95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */; };
 		95AE9D512CE92423002510C1 /* SignInWithAppleSizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */; };
 		95AE9D542CE924A7002510C1 /* SliderIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D532CE924A7002510C1 /* SliderIntro.swift */; };
@@ -498,6 +499,7 @@
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
 		95A635762CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyleIndexViewStyle.swift; sourceTree = "<group>"; };
+		95A6357A2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyleIndexDisplayMode.swift; sourceTree = "<group>"; };
 		95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCustomizing.swift; sourceTree = "<group>"; };
 		95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleSizeChanges.swift; sourceTree = "<group>"; };
 		95AE9D532CE924A7002510C1 /* SliderIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIntro.swift; sourceTree = "<group>"; };
@@ -1176,6 +1178,7 @@
 			children = (
 				95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */,
 				95A635762CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift */,
+				95A6357A2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -1385,6 +1388,7 @@
 				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
 				957E218E2CD1620C004A34D6 /* SelectionDisabled.swift in Sources */,
 				9576FC602CDE7AD00082C662 /* PhotosPickerIntro.swift in Sources */,
+				95A6357B2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift in Sources */,
 				8A202A322C7711C700509CB4 /* NewLayoutAPIView.swift in Sources */,
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
