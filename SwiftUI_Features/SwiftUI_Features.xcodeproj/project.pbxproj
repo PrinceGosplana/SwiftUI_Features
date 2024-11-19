@@ -233,6 +233,7 @@
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
 		95A635772CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635762CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift */; };
 		95A6357B2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6357A2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift */; };
+		95A6357D2CED02CD000CE914 /* FontWeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6357C2CED02CD000CE914 /* FontWeights.swift */; };
 		95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */; };
 		95AE9D512CE92423002510C1 /* SignInWithAppleSizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */; };
 		95AE9D542CE924A7002510C1 /* SliderIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE9D532CE924A7002510C1 /* SliderIntro.swift */; };
@@ -500,6 +501,7 @@
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
 		95A635762CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyleIndexViewStyle.swift; sourceTree = "<group>"; };
 		95A6357A2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyleIndexDisplayMode.swift; sourceTree = "<group>"; };
+		95A6357C2CED02CD000CE914 /* FontWeights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeights.swift; sourceTree = "<group>"; };
 		95AE9D4E2CE9236A002510C1 /* SignInWithAppleCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCustomizing.swift; sourceTree = "<group>"; };
 		95AE9D502CE92423002510C1 /* SignInWithAppleSizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleSizeChanges.swift; sourceTree = "<group>"; };
 		95AE9D532CE924A7002510C1 /* SliderIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderIntro.swift; sourceTree = "<group>"; };
@@ -1076,6 +1078,7 @@
 				956C9B912CB5478E004898DB /* PagingOnboardView.swift */,
 				95BF22A72CC952C200326432 /* PatternShapeStylesView.swift */,
 				9547F7012CC2D67A009648DF /* PhotoGridView.swift */,
+				95A6357C2CED02CD000CE914 /* FontWeights.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
@@ -1408,6 +1411,7 @@
 				8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */,
 				957E218A2CD01B7E004A34D6 /* ListSelectionSingleObject.swift in Sources */,
 				95F860C92CD95D3A0076005E /* NavLinkCustomization.swift in Sources */,
+				95A6357D2CED02CD000CE914 /* FontWeights.swift in Sources */,
 				9593F6242CD79B1F009C6D70 /* MultiDatePickerPresentingInSheet.swift in Sources */,
 				8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
