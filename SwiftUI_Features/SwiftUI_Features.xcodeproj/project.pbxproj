@@ -229,6 +229,7 @@
 		9593F62C2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F62B2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift */; };
 		9593F62E2CD79F54009C6D70 /* NavigationBarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F62D2CD79F54009C6D70 /* NavigationBarHidden.swift */; };
 		959C2D2E2CEE5661006D4602 /* FontWidths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2D2CEE5661006D4602 /* FontWidths.swift */; };
+		959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2F2CEEF254006D4602 /* FontFormatting.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -500,6 +501,7 @@
 		9593F62B2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUINavigationBarAppearance.swift; sourceTree = "<group>"; };
 		9593F62D2CD79F54009C6D70 /* NavigationBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHidden.swift; sourceTree = "<group>"; };
 		959C2D2D2CEE5661006D4602 /* FontWidths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWidths.swift; sourceTree = "<group>"; };
+		959C2D2F2CEEF254006D4602 /* FontFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFormatting.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1088,6 +1090,7 @@
 				95A6357E2CED032C000CE914 /* FontTextWeightsTextStyles.swift */,
 				95A635802CED037A000CE914 /* FontDesign.swift */,
 				959C2D2D2CEE5661006D4602 /* FontWidths.swift */,
+				959C2D2F2CEEF254006D4602 /* FontFormatting.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
@@ -1517,6 +1520,7 @@
 				957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
+				959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */,
 				9576FC952CE1497C0082C662 /* NavigationSearchableFilter.swift in Sources */,
 				9593F62C2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
