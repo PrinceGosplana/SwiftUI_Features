@@ -218,6 +218,7 @@
 		9586B3692CF111E600F68C55 /* FontCombiningModifiedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3682CF111E600F68C55 /* FontCombiningModifiedText.swift */; };
 		9586B36B2CF112DB00F68C55 /* FontTextBaselineOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B36A2CF112DB00F68C55 /* FontTextBaselineOffset.swift */; };
 		9586B36D2CF114B200F68C55 /* FontLayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B36C2CF114B200F68C55 /* FontLayoutPriority.swift */; };
+		9586B36F2CF1155F00F68C55 /* FontTextCustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B36E2CF1155F00F68C55 /* FontTextCustomFont.swift */; };
 		9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60A2CD6992D009C6D70 /* MenuIntro.swift */; };
 		9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */; };
 		9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */; };
@@ -498,6 +499,7 @@
 		9586B3682CF111E600F68C55 /* FontCombiningModifiedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontCombiningModifiedText.swift; sourceTree = "<group>"; };
 		9586B36A2CF112DB00F68C55 /* FontTextBaselineOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextBaselineOffset.swift; sourceTree = "<group>"; };
 		9586B36C2CF114B200F68C55 /* FontLayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLayoutPriority.swift; sourceTree = "<group>"; };
+		9586B36E2CF1155F00F68C55 /* FontTextCustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextCustomFont.swift; sourceTree = "<group>"; };
 		9593F60A2CD6992D009C6D70 /* MenuIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIntro.swift; sourceTree = "<group>"; };
 		9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInsideMenu.swift; sourceTree = "<group>"; };
 		9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomizing.swift; sourceTree = "<group>"; };
@@ -1115,6 +1117,7 @@
 				9586B3682CF111E600F68C55 /* FontCombiningModifiedText.swift */,
 				9586B36A2CF112DB00F68C55 /* FontTextBaselineOffset.swift */,
 				9586B36C2CF114B200F68C55 /* FontLayoutPriority.swift */,
+				9586B36E2CF1155F00F68C55 /* FontTextCustomFont.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
@@ -1404,6 +1407,7 @@
 				957E21432CCD6327004A34D6 /* GaugeCircularExample.swift in Sources */,
 				8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */,
 				8A91A2162C75CFB6007F7B7F /* NewGridView.swift in Sources */,
+				9586B36F2CF1155F00F68C55 /* FontTextCustomFont.swift in Sources */,
 				95AE9D512CE92423002510C1 /* SignInWithAppleSizeChanges.swift in Sources */,
 				95F860D52CDAAD5D0076005E /* NavLinkPopToRoot.swift in Sources */,
 				8A27C9BF2C8C792A00DFAFE1 /* CustomToggleStyle.swift in Sources */,
