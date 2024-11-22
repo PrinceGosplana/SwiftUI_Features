@@ -213,6 +213,7 @@
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
 		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
 		9586B3632CF1105700F68C55 /* FontLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3622CF1105700F68C55 /* FontLineSpacing.swift */; };
+		9586B3652CF110F000F68C55 /* FontAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3642CF110F000F68C55 /* FontAlignment.swift */; };
 		9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60A2CD6992D009C6D70 /* MenuIntro.swift */; };
 		9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */; };
 		9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */; };
@@ -488,6 +489,7 @@
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
 		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
 		9586B3622CF1105700F68C55 /* FontLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLineSpacing.swift; sourceTree = "<group>"; };
+		9586B3642CF110F000F68C55 /* FontAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAlignment.swift; sourceTree = "<group>"; };
 		9593F60A2CD6992D009C6D70 /* MenuIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIntro.swift; sourceTree = "<group>"; };
 		9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInsideMenu.swift; sourceTree = "<group>"; };
 		9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomizing.swift; sourceTree = "<group>"; };
@@ -1100,6 +1102,7 @@
 				9586B35E2CF10F6A00F68C55 /* FontTightening.swift */,
 				9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */,
 				9586B3622CF1105700F68C55 /* FontLineSpacing.swift */,
+				9586B3642CF110F000F68C55 /* FontAlignment.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
@@ -1502,6 +1505,7 @@
 				9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */,
 				95F860E72CDD456C0076005E /* PickerBindingToData.swift in Sources */,
 				8AAD77A62C6F12AD004E54D1 /* NMContentView.swift in Sources */,
+				9586B3652CF110F000F68C55 /* FontAlignment.swift in Sources */,
 				956C9BA42CB986D4004898DB /* DetectingVisibleCells.swift in Sources */,
 				8A12DFC82C33FD9C003DACE1 /* Router.swift in Sources */,
 				8AF0A8D82C317D540063E82A /* KeyboardCheckView.swift in Sources */,
