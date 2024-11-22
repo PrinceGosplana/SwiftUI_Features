@@ -211,6 +211,7 @@
 		957E21DF2CD36734004A34D6 /* BindingWithinTheListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21DE2CD36734004A34D6 /* BindingWithinTheListView.swift */; };
 		957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */; };
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
+		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
 		9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60A2CD6992D009C6D70 /* MenuIntro.swift */; };
 		9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */; };
 		9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */; };
@@ -484,6 +485,7 @@
 		957E21DE2CD36734004A34D6 /* BindingWithinTheListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithinTheListView.swift; sourceTree = "<group>"; };
 		957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVisibilityView.swift; sourceTree = "<group>"; };
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
+		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
 		9593F60A2CD6992D009C6D70 /* MenuIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIntro.swift; sourceTree = "<group>"; };
 		9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInsideMenu.swift; sourceTree = "<group>"; };
 		9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomizing.swift; sourceTree = "<group>"; };
@@ -1094,6 +1096,7 @@
 				959C2D2D2CEE5661006D4602 /* FontWidths.swift */,
 				959C2D2F2CEEF254006D4602 /* FontFormatting.swift */,
 				9586B35E2CF10F6A00F68C55 /* FontTightening.swift */,
+				9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
@@ -1401,6 +1404,7 @@
 				956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
 				9593F62E2CD79F54009C6D70 /* NavigationBarHidden.swift in Sources */,
+				9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */,
 				957E21982CD1643E004A34D6 /* ListWithChildren.swift in Sources */,
 				8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */,
 				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
