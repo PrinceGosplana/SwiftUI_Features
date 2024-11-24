@@ -221,6 +221,7 @@
 		9586B36F2CF1155F00F68C55 /* FontTextCustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B36E2CF1155F00F68C55 /* FontTextCustomFont.swift */; };
 		95919E2C2CF39A06006C8355 /* FontTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2B2CF39A06006C8355 /* FontTracking.swift */; };
 		95919E2E2CF39ABE006C8355 /* FontShowingDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */; };
+		95919E302CF39B13006C8355 /* FontTextCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2F2CF39B13006C8355 /* FontTextCase.swift */; };
 		9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60A2CD6992D009C6D70 /* MenuIntro.swift */; };
 		9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */; };
 		9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */; };
@@ -505,6 +506,7 @@
 		9586B36E2CF1155F00F68C55 /* FontTextCustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextCustomFont.swift; sourceTree = "<group>"; };
 		95919E2B2CF39A06006C8355 /* FontTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTracking.swift; sourceTree = "<group>"; };
 		95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontShowingDates.swift; sourceTree = "<group>"; };
+		95919E2F2CF39B13006C8355 /* FontTextCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextCase.swift; sourceTree = "<group>"; };
 		9593F60A2CD6992D009C6D70 /* MenuIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIntro.swift; sourceTree = "<group>"; };
 		9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInsideMenu.swift; sourceTree = "<group>"; };
 		9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomizing.swift; sourceTree = "<group>"; };
@@ -1126,6 +1128,7 @@
 				9586B36E2CF1155F00F68C55 /* FontTextCustomFont.swift */,
 				95919E2B2CF39A06006C8355 /* FontTracking.swift */,
 				95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */,
+				95919E2F2CF39B13006C8355 /* FontTextCase.swift */,
 				95CF29212CF2013500A1210E /* FontCapitalLetterOptions.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
@@ -1388,6 +1391,7 @@
 				8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */,
 				8A91A2252C75E54B007F7B7F /* PullToRefreshView.swift in Sources */,
 				95A635772CED01B6000CE914 /* TabView_PageTabViewStyleIndexViewStyle.swift in Sources */,
+				95919E302CF39B13006C8355 /* FontTextCase.swift in Sources */,
 				8A96E3292C7AFE9600712616 /* DepthButtonStyle.swift in Sources */,
 				8AAD77A82C6F12CC004E54D1 /* NMHomeView.swift in Sources */,
 				8AAD77B42C6F48BA004E54D1 /* ScrollViewTransitions.swift in Sources */,
