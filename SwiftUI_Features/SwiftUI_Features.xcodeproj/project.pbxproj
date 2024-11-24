@@ -223,6 +223,7 @@
 		95919E2E2CF39ABE006C8355 /* FontShowingDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */; };
 		95919E302CF39B13006C8355 /* FontTextCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2F2CF39B13006C8355 /* FontTextCase.swift */; };
 		95919E322CF39B6A006C8355 /* FontTextScaledMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E312CF39B6A006C8355 /* FontTextScaledMetric.swift */; };
+		95919E342CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E332CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift */; };
 		9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60A2CD6992D009C6D70 /* MenuIntro.swift */; };
 		9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */; };
 		9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */; };
@@ -509,6 +510,7 @@
 		95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontShowingDates.swift; sourceTree = "<group>"; };
 		95919E2F2CF39B13006C8355 /* FontTextCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextCase.swift; sourceTree = "<group>"; };
 		95919E312CF39B6A006C8355 /* FontTextScaledMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextScaledMetric.swift; sourceTree = "<group>"; };
+		95919E332CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextScaledMetricRelativeTo.swift; sourceTree = "<group>"; };
 		9593F60A2CD6992D009C6D70 /* MenuIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIntro.swift; sourceTree = "<group>"; };
 		9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInsideMenu.swift; sourceTree = "<group>"; };
 		9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomizing.swift; sourceTree = "<group>"; };
@@ -1132,6 +1134,7 @@
 				95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */,
 				95919E2F2CF39B13006C8355 /* FontTextCase.swift */,
 				95919E312CF39B6A006C8355 /* FontTextScaledMetric.swift */,
+				95919E332CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift */,
 				95CF29212CF2013500A1210E /* FontCapitalLetterOptions.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
@@ -1572,6 +1575,7 @@
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
 				959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */,
 				9576FC952CE1497C0082C662 /* NavigationSearchableFilter.swift in Sources */,
+				95919E342CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift in Sources */,
 				9593F62C2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
 				95A635812CED037A000CE914 /* FontDesign.swift in Sources */,
