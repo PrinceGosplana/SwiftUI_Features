@@ -224,6 +224,7 @@
 		95919E302CF39B13006C8355 /* FontTextCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2F2CF39B13006C8355 /* FontTextCase.swift */; };
 		95919E322CF39B6A006C8355 /* FontTextScaledMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E312CF39B6A006C8355 /* FontTextScaledMetric.swift */; };
 		95919E342CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E332CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift */; };
+		95919E362CF39DED006C8355 /* FjontTextWrappingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E352CF39DED006C8355 /* FjontTextWrappingImages.swift */; };
 		9593F60B2CD6992D009C6D70 /* MenuIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60A2CD6992D009C6D70 /* MenuIntro.swift */; };
 		9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */; };
 		9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */; };
@@ -511,6 +512,7 @@
 		95919E2F2CF39B13006C8355 /* FontTextCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextCase.swift; sourceTree = "<group>"; };
 		95919E312CF39B6A006C8355 /* FontTextScaledMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextScaledMetric.swift; sourceTree = "<group>"; };
 		95919E332CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextScaledMetricRelativeTo.swift; sourceTree = "<group>"; };
+		95919E352CF39DED006C8355 /* FjontTextWrappingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FjontTextWrappingImages.swift; sourceTree = "<group>"; };
 		9593F60A2CD6992D009C6D70 /* MenuIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIntro.swift; sourceTree = "<group>"; };
 		9593F60C2CD699CD009C6D70 /* MenuInsideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInsideMenu.swift; sourceTree = "<group>"; };
 		9593F60E2CD69A46009C6D70 /* MenuCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCustomizing.swift; sourceTree = "<group>"; };
@@ -1136,6 +1138,7 @@
 				95919E312CF39B6A006C8355 /* FontTextScaledMetric.swift */,
 				95919E332CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift */,
 				95CF29212CF2013500A1210E /* FontCapitalLetterOptions.swift */,
+				95919E352CF39DED006C8355 /* FjontTextWrappingImages.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
@@ -1458,6 +1461,7 @@
 				9586B3692CF111E600F68C55 /* FontCombiningModifiedText.swift in Sources */,
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
+				95919E362CF39DED006C8355 /* FjontTextWrappingImages.swift in Sources */,
 				9576FC8F2CE1478A0082C662 /* NavigationSearchableCancel.swift in Sources */,
 				9576FC832CDFEF180082C662 /* ScrollViewBehaviorViewAligned.swift in Sources */,
 				95F860EB2CDD463D0076005E /* PickerNavigationLinkStyle.swift in Sources */,
