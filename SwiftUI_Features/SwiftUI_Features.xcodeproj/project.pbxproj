@@ -210,6 +210,7 @@
 		957E21DD2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */; };
 		957E21DF2CD36734004A34D6 /* BindingWithinTheListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21DE2CD36734004A34D6 /* BindingWithinTheListView.swift */; };
 		957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */; };
+		95801D5C2CF4EB2E00949E61 /* FontTextFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */; };
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
 		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
 		9586B3632CF1105700F68C55 /* FontLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3622CF1105700F68C55 /* FontLineSpacing.swift */; };
@@ -501,6 +502,7 @@
 		957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSafeAreaInsetScrollView.swift; sourceTree = "<group>"; };
 		957E21DE2CD36734004A34D6 /* BindingWithinTheListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithinTheListView.swift; sourceTree = "<group>"; };
 		957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVisibilityView.swift; sourceTree = "<group>"; };
+		95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextFormat.swift; sourceTree = "<group>"; };
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
 		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
 		9586B3622CF1105700F68C55 /* FontLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLineSpacing.swift; sourceTree = "<group>"; };
@@ -1148,6 +1150,7 @@
 				95919E372CF39E5E006C8355 /* FontTextMarkdown.swift */,
 				95919E392CF39ECE006C8355 /* FontTextDynamicTypeSize.swift */,
 				95919E3B2CF39F8F006C8355 /* FontTextTextSelection.swift */,
+				95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
 				8AFE7D672BF5FB2900BF1247 /* Picker Animation */,
@@ -1548,6 +1551,7 @@
 				8AFE17692BB99476002CC3AA /* ScrollExampleView.swift in Sources */,
 				8A91A20D2C75C394007F7B7F /* PresentationDetentsView.swift in Sources */,
 				8A91A2222C75E320007F7B7F /* MultipleDatePickerView.swift in Sources */,
+				95801D5C2CF4EB2E00949E61 /* FontTextFormat.swift in Sources */,
 				95AE9D562CE9250C002510C1 /* SliderRangeOfValues.swift in Sources */,
 				95BF22A82CC952C200326432 /* PatternShapeStylesView.swift in Sources */,
 				95F860DB2CDD415D0076005E /* PickerIntro.swift in Sources */,
