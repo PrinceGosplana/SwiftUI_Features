@@ -135,6 +135,7 @@
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
 		9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */; };
 		9547F7022CC2D67A009648DF /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F7012CC2D67A009648DF /* PhotoGridView.swift */; };
+		95533CEF2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95533CEE2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift */; };
 		956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */; };
 		956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */; };
 		956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */; };
@@ -427,6 +428,7 @@
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
 		9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoLayoutView.swift; sourceTree = "<group>"; };
 		9547F7012CC2D67A009648DF /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		95533CEE2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonDateFormatSpecific.swift; sourceTree = "<group>"; };
 		956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationsView.swift; sourceTree = "<group>"; };
 		956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeView.swift; sourceTree = "<group>"; };
 		956087AC2B9C536B00BAC9BA /* ObservBindableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservBindableView.swift; sourceTree = "<group>"; };
@@ -1138,6 +1140,7 @@
 				9586B3622CF1105700F68C55 /* FontLineSpacing.swift */,
 				9586B3642CF110F000F68C55 /* FontAlignment.swift */,
 				956A53192CF65772008745D3 /* FontDateFormatting.swift */,
+				95533CEE2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift */,
 				9586B3662CF1119300F68C55 /* FontTruncationMode.swift */,
 				9586B3682CF111E600F68C55 /* FontCombiningModifiedText.swift */,
 				9586B36A2CF112DB00F68C55 /* FontTextBaselineOffset.swift */,
@@ -1536,6 +1539,7 @@
 				957E219E2CD166AB004A34D6 /* SafeAreaInset.swift in Sources */,
 				8A0663562CAD2C6300937F63 /* KeyframeAnimationExampleView.swift in Sources */,
 				9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */,
+				95533CEF2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift in Sources */,
 				8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */,
 				9593F62A2CD79DE0009C6D70 /* NavigationCustomBackground.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
