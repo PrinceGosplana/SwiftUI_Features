@@ -257,6 +257,7 @@
 		95954BB82CFA4EEC009C6773 /* FontText_Inflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BB72CFA4EEC009C6773 /* FontText_Inflection.swift */; };
 		95954BBA2CFA4F6C009C6773 /* FontText_ReferenceTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BB92CFA4F6C009C6773 /* FontText_ReferenceTo.swift */; };
 		95954BBC2CFA501F009C6773 /* FontText_OffsetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BBB2CFA501F009C6773 /* FontText_OffsetStyle.swift */; };
+		95954BBE2CFA509A009C6773 /* FontText_StopwatchStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BBD2CFA509A009C6773 /* FontText_StopwatchStyle.swift */; };
 		959C2D2E2CEE5661006D4602 /* FontWidths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2D2CEE5661006D4602 /* FontWidths.swift */; };
 		959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2F2CEEF254006D4602 /* FontFormatting.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
@@ -559,6 +560,7 @@
 		95954BB72CFA4EEC009C6773 /* FontText_Inflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_Inflection.swift; sourceTree = "<group>"; };
 		95954BB92CFA4F6C009C6773 /* FontText_ReferenceTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_ReferenceTo.swift; sourceTree = "<group>"; };
 		95954BBB2CFA501F009C6773 /* FontText_OffsetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_OffsetStyle.swift; sourceTree = "<group>"; };
+		95954BBD2CFA509A009C6773 /* FontText_StopwatchStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_StopwatchStyle.swift; sourceTree = "<group>"; };
 		959C2D2D2CEE5661006D4602 /* FontWidths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWidths.swift; sourceTree = "<group>"; };
 		959C2D2F2CEEF254006D4602 /* FontFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFormatting.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
@@ -1180,6 +1182,7 @@
 				95954BB72CFA4EEC009C6773 /* FontText_Inflection.swift */,
 				95954BB92CFA4F6C009C6773 /* FontText_ReferenceTo.swift */,
 				95954BBB2CFA501F009C6773 /* FontText_OffsetStyle.swift */,
+				95954BBD2CFA509A009C6773 /* FontText_StopwatchStyle.swift */,
 				95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
@@ -1502,6 +1505,7 @@
 				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
 				957E218E2CD1620C004A34D6 /* SelectionDisabled.swift in Sources */,
 				9576FC602CDE7AD00082C662 /* PhotosPickerIntro.swift in Sources */,
+				95954BBE2CFA509A009C6773 /* FontText_StopwatchStyle.swift in Sources */,
 				95A6357B2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift in Sources */,
 				8A202A322C7711C700509CB4 /* NewLayoutAPIView.swift in Sources */,
 				9586B3692CF111E600F68C55 /* FontCombiningModifiedText.swift in Sources */,
