@@ -254,6 +254,7 @@
 		95954BB02CFA4C77009C6773 /* FontText_Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BAF2CFA4C77009C6773 /* FontText_Currency.swift */; };
 		95954BB22CFA4CC3009C6773 /* FontText_PersonNameComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BB12CFA4CC3009C6773 /* FontText_PersonNameComponents.swift */; };
 		95954BB42CFA4D34009C6773 /* FontText_ListFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BB32CFA4D34009C6773 /* FontText_ListFormatting.swift */; };
+		95954BB82CFA4EEC009C6773 /* FontText_Inflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BB72CFA4EEC009C6773 /* FontText_Inflection.swift */; };
 		959C2D2E2CEE5661006D4602 /* FontWidths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2D2CEE5661006D4602 /* FontWidths.swift */; };
 		959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2F2CEEF254006D4602 /* FontFormatting.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
@@ -553,6 +554,7 @@
 		95954BAF2CFA4C77009C6773 /* FontText_Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_Currency.swift; sourceTree = "<group>"; };
 		95954BB12CFA4CC3009C6773 /* FontText_PersonNameComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_PersonNameComponents.swift; sourceTree = "<group>"; };
 		95954BB32CFA4D34009C6773 /* FontText_ListFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_ListFormatting.swift; sourceTree = "<group>"; };
+		95954BB72CFA4EEC009C6773 /* FontText_Inflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_Inflection.swift; sourceTree = "<group>"; };
 		959C2D2D2CEE5661006D4602 /* FontWidths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWidths.swift; sourceTree = "<group>"; };
 		959C2D2F2CEEF254006D4602 /* FontFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFormatting.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
@@ -1171,6 +1173,7 @@
 				95954BAF2CFA4C77009C6773 /* FontText_Currency.swift */,
 				95954BB12CFA4CC3009C6773 /* FontText_PersonNameComponents.swift */,
 				95954BB32CFA4D34009C6773 /* FontText_ListFormatting.swift */,
+				95954BB72CFA4EEC009C6773 /* FontText_Inflection.swift */,
 				95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */,
 				9576FC5E2CDE7AA50082C662 /* PhotosPicker */,
 				95F860D92CDD41490076005E /* Picker */,
@@ -1524,6 +1527,7 @@
 				95CC639C2CEBCD8000F9B098 /* RangeStepper.swift in Sources */,
 				9576FC792CDFED360082C662 /* ScrollviewHorizontal.swift in Sources */,
 				8A202A3C2C786B1C00509CB4 /* DynamicContainerRelativeFrameView.swift in Sources */,
+				95954BB82CFA4EEC009C6773 /* FontText_Inflection.swift in Sources */,
 				8AFE7D692BF5FB4200BF1247 /* PickerAnimationView.swift in Sources */,
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				95F860E92CDD45D90076005E /* PickerInForm.swift in Sources */,
