@@ -228,6 +228,7 @@
 		958F109F2CFCF40700003DA6 /* TextEditorCustomizingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F109E2CFCF40700003DA6 /* TextEditorCustomizingText.swift */; };
 		958F10A12CFCF49300003DA6 /* TextEditorBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10A02CFCF49300003DA6 /* TextEditorBackground.swift */; };
 		958F10A32CFCF89A00003DA6 /* TextEditorAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10A22CFCF89A00003DA6 /* TextEditorAlignment.swift */; };
+		958F10A52CFCF95500003DA6 /* TextEditorDismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10A42CFCF95500003DA6 /* TextEditorDismissKeyboard.swift */; };
 		959078A52CFB9FEC006AF73E /* TextEditorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959078A42CFB9FEC006AF73E /* TextEditorIntro.swift */; };
 		95919E2C2CF39A06006C8355 /* FontTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2B2CF39A06006C8355 /* FontTracking.swift */; };
 		95919E2E2CF39ABE006C8355 /* FontShowingDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */; };
@@ -538,6 +539,7 @@
 		958F109E2CFCF40700003DA6 /* TextEditorCustomizingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorCustomizingText.swift; sourceTree = "<group>"; };
 		958F10A02CFCF49300003DA6 /* TextEditorBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBackground.swift; sourceTree = "<group>"; };
 		958F10A22CFCF89A00003DA6 /* TextEditorAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorAlignment.swift; sourceTree = "<group>"; };
+		958F10A42CFCF95500003DA6 /* TextEditorDismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDismissKeyboard.swift; sourceTree = "<group>"; };
 		959078A42CFB9FEC006AF73E /* TextEditorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorIntro.swift; sourceTree = "<group>"; };
 		95919E2B2CF39A06006C8355 /* FontTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTracking.swift; sourceTree = "<group>"; };
 		95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontShowingDates.swift; sourceTree = "<group>"; };
@@ -1278,6 +1280,7 @@
 				958F10982CFCF0DC00003DA6 /* TextEditorLineLimit.swift */,
 				958F109C2CFCF19800003DA6 /* TextEditorLineSpacing.swift */,
 				958F109E2CFCF40700003DA6 /* TextEditorCustomizingText.swift */,
+				958F10A42CFCF95500003DA6 /* TextEditorDismissKeyboard.swift */,
 				958F10A02CFCF49300003DA6 /* TextEditorBackground.swift */,
 			);
 			path = TextEditor;
@@ -1509,6 +1512,7 @@
 				95AE9D512CE92423002510C1 /* SignInWithAppleSizeChanges.swift in Sources */,
 				95F860D52CDAAD5D0076005E /* NavLinkPopToRoot.swift in Sources */,
 				8A27C9BF2C8C792A00DFAFE1 /* CustomToggleStyle.swift in Sources */,
+				958F10A52CFCF95500003DA6 /* TextEditorDismissKeyboard.swift in Sources */,
 				9593F6152CD6ABE2009C6D70 /* OtherViewsWithin.swift in Sources */,
 				95AE9D582CE92588002510C1 /* SliderCustomization.swift in Sources */,
 				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
