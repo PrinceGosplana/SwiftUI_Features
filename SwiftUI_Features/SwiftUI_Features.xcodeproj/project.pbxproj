@@ -231,6 +231,7 @@
 		958F10A52CFCF95500003DA6 /* TextEditorDismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10A42CFCF95500003DA6 /* TextEditorDismissKeyboard.swift */; };
 		958F10A72CFCF9F100003DA6 /* TextEditorKeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10A62CFCF9F100003DA6 /* TextEditorKeyboardSafeArea.swift */; };
 		958F10AA2CFCFAB100003DA6 /* TextFieldIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10A92CFCFAB100003DA6 /* TextFieldIntro.swift */; };
+		958F10AC2CFCFB2100003DA6 /* TextFieldPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10AB2CFCFB2100003DA6 /* TextFieldPlaceholder.swift */; };
 		959078A52CFB9FEC006AF73E /* TextEditorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959078A42CFB9FEC006AF73E /* TextEditorIntro.swift */; };
 		95919E2C2CF39A06006C8355 /* FontTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2B2CF39A06006C8355 /* FontTracking.swift */; };
 		95919E2E2CF39ABE006C8355 /* FontShowingDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */; };
@@ -544,6 +545,7 @@
 		958F10A42CFCF95500003DA6 /* TextEditorDismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorDismissKeyboard.swift; sourceTree = "<group>"; };
 		958F10A62CFCF9F100003DA6 /* TextEditorKeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorKeyboardSafeArea.swift; sourceTree = "<group>"; };
 		958F10A92CFCFAB100003DA6 /* TextFieldIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldIntro.swift; sourceTree = "<group>"; };
+		958F10AB2CFCFB2100003DA6 /* TextFieldPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPlaceholder.swift; sourceTree = "<group>"; };
 		959078A42CFB9FEC006AF73E /* TextEditorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorIntro.swift; sourceTree = "<group>"; };
 		95919E2B2CF39A06006C8355 /* FontTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTracking.swift; sourceTree = "<group>"; };
 		95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontShowingDates.swift; sourceTree = "<group>"; };
@@ -1281,6 +1283,7 @@
 			isa = PBXGroup;
 			children = (
 				958F10A92CFCFAB100003DA6 /* TextFieldIntro.swift */,
+				958F10AB2CFCFB2100003DA6 /* TextFieldPlaceholder.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1565,6 +1568,7 @@
 				9576FC832CDFEF180082C662 /* ScrollViewBehaviorViewAligned.swift in Sources */,
 				95F860EB2CDD463D0076005E /* PickerNavigationLinkStyle.swift in Sources */,
 				95AE9D5C2CE929A8002510C1 /* SliderTint.swift in Sources */,
+				958F10AC2CFCFB2100003DA6 /* TextFieldPlaceholder.swift in Sources */,
 				957E21412CCD61B9004A34D6 /* GaugeExampleView.swift in Sources */,
 				95954BBA2CFA4F6C009C6773 /* FontText_ReferenceTo.swift in Sources */,
 				8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */,
