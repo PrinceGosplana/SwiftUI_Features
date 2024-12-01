@@ -226,6 +226,7 @@
 		958F10992CFCF0DC00003DA6 /* TextEditorLineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10982CFCF0DC00003DA6 /* TextEditorLineLimit.swift */; };
 		958F109D2CFCF19800003DA6 /* TextEditorLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F109C2CFCF19800003DA6 /* TextEditorLineSpacing.swift */; };
 		958F109F2CFCF40700003DA6 /* TextEditorCustomizingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F109E2CFCF40700003DA6 /* TextEditorCustomizingText.swift */; };
+		958F10A12CFCF49300003DA6 /* TextEditorBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10A02CFCF49300003DA6 /* TextEditorBackground.swift */; };
 		959078A52CFB9FEC006AF73E /* TextEditorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959078A42CFB9FEC006AF73E /* TextEditorIntro.swift */; };
 		95919E2C2CF39A06006C8355 /* FontTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2B2CF39A06006C8355 /* FontTracking.swift */; };
 		95919E2E2CF39ABE006C8355 /* FontShowingDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */; };
@@ -534,6 +535,7 @@
 		958F10982CFCF0DC00003DA6 /* TextEditorLineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorLineLimit.swift; sourceTree = "<group>"; };
 		958F109C2CFCF19800003DA6 /* TextEditorLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorLineSpacing.swift; sourceTree = "<group>"; };
 		958F109E2CFCF40700003DA6 /* TextEditorCustomizingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorCustomizingText.swift; sourceTree = "<group>"; };
+		958F10A02CFCF49300003DA6 /* TextEditorBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBackground.swift; sourceTree = "<group>"; };
 		959078A42CFB9FEC006AF73E /* TextEditorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorIntro.swift; sourceTree = "<group>"; };
 		95919E2B2CF39A06006C8355 /* FontTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTracking.swift; sourceTree = "<group>"; };
 		95919E2D2CF39ABE006C8355 /* FontShowingDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontShowingDates.swift; sourceTree = "<group>"; };
@@ -1273,6 +1275,7 @@
 				958F10982CFCF0DC00003DA6 /* TextEditorLineLimit.swift */,
 				958F109C2CFCF19800003DA6 /* TextEditorLineSpacing.swift */,
 				958F109E2CFCF40700003DA6 /* TextEditorCustomizingText.swift */,
+				958F10A02CFCF49300003DA6 /* TextEditorBackground.swift */,
 			);
 			path = TextEditor;
 			sourceTree = "<group>";
@@ -1549,6 +1552,7 @@
 				8A39C0E42C44065900A7F855 /* GeometryReaderParalaxView.swift in Sources */,
 				95B7CE432BA8BE800030839E /* TransparentBlurView.swift in Sources */,
 				8AFE17632BB985AB002CC3AA /* LazyVGridViewExample.swift in Sources */,
+				958F10A12CFCF49300003DA6 /* TextEditorBackground.swift in Sources */,
 				8A12DFCE2C33FE8A003DACE1 /* RoutLivingroomView.swift in Sources */,
 				8A96E3262C79FD8B00712616 /* SwipeActionsView.swift in Sources */,
 				8A3B99232BC4F213009B326E /* PulseEffectView.swift in Sources */,
