@@ -271,6 +271,7 @@
 		95954BC02CFA511F009C6773 /* FontText_TimerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BBF2CFA511F009C6773 /* FontText_TimerStyle.swift */; };
 		959C2D2E2CEE5661006D4602 /* FontWidths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2D2CEE5661006D4602 /* FontWidths.swift */; };
 		959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2F2CEEF254006D4602 /* FontFormatting.swift */; };
+		95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -585,6 +586,7 @@
 		95954BBF2CFA511F009C6773 /* FontText_TimerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_TimerStyle.swift; sourceTree = "<group>"; };
 		959C2D2D2CEE5661006D4602 /* FontWidths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWidths.swift; sourceTree = "<group>"; };
 		959C2D2F2CEEF254006D4602 /* FontFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFormatting.swift; sourceTree = "<group>"; };
+		95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlignment.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1284,6 +1286,7 @@
 			children = (
 				958F10A92CFCFAB100003DA6 /* TextFieldIntro.swift */,
 				958F10AB2CFCFB2100003DA6 /* TextFieldPlaceholder.swift */,
+				95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1710,6 +1713,7 @@
 				8A91A2102C75C484007F7B7F /* ShareLinkView.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				8A16A9F92C81FC910047B40C /* TextCustomizationView.swift in Sources */,
+				95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */,
 				95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				9576FC812CDFEEB30082C662 /* ScrollViewBehaviorPaging.swift in Sources */,
