@@ -147,6 +147,7 @@
 		956087D82B9F6EC700BAC9BA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D72B9F6EC700BAC9BA /* Home.swift */; };
 		956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */; };
 		956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */; };
+		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
 		956A531A2CF65772008745D3 /* FontDateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956A53192CF65772008745D3 /* FontDateFormatting.swift */; };
 		956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */; };
 		956C9B8A2CB2703E004898DB /* PositioningBadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B892CB2703E004898DB /* PositioningBadgesView.swift */; };
@@ -462,6 +463,7 @@
 		956087D72B9F6EC700BAC9BA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		956087D92BA6F7E300BAC9BA /* TransparentBlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurEffectView.swift; sourceTree = "<group>"; };
 		956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentHomeView.swift; sourceTree = "<group>"; };
+		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
 		956A53192CF65772008745D3 /* FontDateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDateFormatting.swift; sourceTree = "<group>"; };
 		956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellColumnsExample.swift; sourceTree = "<group>"; };
 		956C9B892CB2703E004898DB /* PositioningBadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositioningBadgesView.swift; sourceTree = "<group>"; };
@@ -1290,6 +1292,7 @@
 				958F10AB2CFCFB2100003DA6 /* TextFieldPlaceholder.swift */,
 				95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */,
 				952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */,
+				9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1591,6 +1594,7 @@
 				95F860C92CD95D3A0076005E /* NavLinkCustomization.swift in Sources */,
 				95A6357D2CED02CD000CE914 /* FontWeights.swift in Sources */,
 				9593F6242CD79B1F009C6D70 /* MultiDatePickerPresentingInSheet.swift in Sources */,
+				9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */,
 				8A097D9C2C31BA6000F03670 /* UsefullThoughts.swift in Sources */,
 				956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */,
 				8A12DFCA2C33FDE1003DACE1 /* RoutingApp.swift in Sources */,
