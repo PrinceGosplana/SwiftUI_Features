@@ -271,6 +271,7 @@
 		95954BBC2CFA501F009C6773 /* FontText_OffsetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BBB2CFA501F009C6773 /* FontText_OffsetStyle.swift */; };
 		95954BBE2CFA509A009C6773 /* FontText_StopwatchStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BBD2CFA509A009C6773 /* FontText_StopwatchStyle.swift */; };
 		95954BC02CFA511F009C6773 /* FontText_TimerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95954BBF2CFA511F009C6773 /* FontText_TimerStyle.swift */; };
+		9596786B2D016D93003BC95C /* TextFieldBorde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596786A2D016D93003BC95C /* TextFieldBorde.swift */; };
 		959C2D2E2CEE5661006D4602 /* FontWidths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2D2CEE5661006D4602 /* FontWidths.swift */; };
 		959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2F2CEEF254006D4602 /* FontFormatting.swift */; };
 		95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */; };
@@ -588,6 +589,7 @@
 		95954BBB2CFA501F009C6773 /* FontText_OffsetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_OffsetStyle.swift; sourceTree = "<group>"; };
 		95954BBD2CFA509A009C6773 /* FontText_StopwatchStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_StopwatchStyle.swift; sourceTree = "<group>"; };
 		95954BBF2CFA511F009C6773 /* FontText_TimerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontText_TimerStyle.swift; sourceTree = "<group>"; };
+		9596786A2D016D93003BC95C /* TextFieldBorde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBorde.swift; sourceTree = "<group>"; };
 		959C2D2D2CEE5661006D4602 /* FontWidths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWidths.swift; sourceTree = "<group>"; };
 		959C2D2F2CEEF254006D4602 /* FontFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFormatting.swift; sourceTree = "<group>"; };
 		95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlignment.swift; sourceTree = "<group>"; };
@@ -1293,6 +1295,7 @@
 				95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */,
 				952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */,
 				9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */,
+				9596786A2D016D93003BC95C /* TextFieldBorde.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1688,6 +1691,7 @@
 				8A3B99272BC518DC009B326E /* VibrationColorEffect.swift in Sources */,
 				95EF736F2B988CBB00EF8C6A /* ReadingScrollView.swift in Sources */,
 				8AAD77612C6DE11B004E54D1 /* FunnyPicture.swift in Sources */,
+				9596786B2D016D93003BC95C /* TextFieldBorde.swift in Sources */,
 				8AFE447E2C81D3710018E70F /* IndividualBindingsView.swift in Sources */,
 				9576FCA12CE3E47C0082C662 /* NoSegmentSelected.swift in Sources */,
 				957E21DF2CD36734004A34D6 /* BindingWithinTheListView.swift in Sources */,
