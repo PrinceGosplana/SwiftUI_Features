@@ -276,6 +276,7 @@
 		959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2F2CEEF254006D4602 /* FontFormatting.swift */; };
 		95A0350D2D03852F0089EEDE /* TextFieldCustomPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0350C2D03852F0089EEDE /* TextFieldCustomPlaceholder.swift */; };
 		95A0350F2D0386240089EEDE /* TextFieldCustomComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0350E2D0386240089EEDE /* TextFieldCustomComposition.swift */; };
+		95A035112D0387490089EEDE /* TextFieldKeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A035102D0387490089EEDE /* TextFieldKeyboardType.swift */; };
 		95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
@@ -596,6 +597,7 @@
 		959C2D2F2CEEF254006D4602 /* FontFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFormatting.swift; sourceTree = "<group>"; };
 		95A0350C2D03852F0089EEDE /* TextFieldCustomPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomPlaceholder.swift; sourceTree = "<group>"; };
 		95A0350E2D0386240089EEDE /* TextFieldCustomComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomComposition.swift; sourceTree = "<group>"; };
+		95A035102D0387490089EEDE /* TextFieldKeyboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardType.swift; sourceTree = "<group>"; };
 		95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlignment.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
@@ -1302,6 +1304,7 @@
 				9596786A2D016D93003BC95C /* TextFieldBorde.swift */,
 				95A0350C2D03852F0089EEDE /* TextFieldCustomPlaceholder.swift */,
 				95A0350E2D0386240089EEDE /* TextFieldCustomComposition.swift */,
+				95A035102D0387490089EEDE /* TextFieldKeyboardType.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1590,6 +1593,7 @@
 				95AE9D5C2CE929A8002510C1 /* SliderTint.swift in Sources */,
 				958F10AC2CFCFB2100003DA6 /* TextFieldPlaceholder.swift in Sources */,
 				957E21412CCD61B9004A34D6 /* GaugeExampleView.swift in Sources */,
+				95A035112D0387490089EEDE /* TextFieldKeyboardType.swift in Sources */,
 				95954BBA2CFA4F6C009C6773 /* FontText_ReferenceTo.swift in Sources */,
 				8AFE17652BB98E3A002CC3AA /* LazyHGridViewExample.swift in Sources */,
 				95F860C72CD95CB50076005E /* NavLinkIntro.swift in Sources */,
