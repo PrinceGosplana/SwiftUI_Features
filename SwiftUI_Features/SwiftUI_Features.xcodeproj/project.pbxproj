@@ -282,6 +282,7 @@
 		95A035192D0388C70089EEDE /* TextFieldDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A035182D0388C70089EEDE /* TextFieldDisabled.swift */; };
 		95A0351B2D0389220089EEDE /* TextFieldOnEditingChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0351A2D0389220089EEDE /* TextFieldOnEditingChanged.swift */; };
 		95A0351D2D0389A10089EEDE /* TextFieldAutocapitalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0351C2D0389A10089EEDE /* TextFieldAutocapitalization.swift */; };
+		95A0351F2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0351E2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift */; };
 		95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
@@ -608,6 +609,7 @@
 		95A035182D0388C70089EEDE /* TextFieldDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDisabled.swift; sourceTree = "<group>"; };
 		95A0351A2D0389220089EEDE /* TextFieldOnEditingChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnEditingChanged.swift; sourceTree = "<group>"; };
 		95A0351C2D0389A10089EEDE /* TextFieldAutocapitalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAutocapitalization.swift; sourceTree = "<group>"; };
+		95A0351E2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardSafeArea.swift; sourceTree = "<group>"; };
 		95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlignment.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
@@ -1320,6 +1322,7 @@
 				95A035182D0388C70089EEDE /* TextFieldDisabled.swift */,
 				95A0351A2D0389220089EEDE /* TextFieldOnEditingChanged.swift */,
 				95A0351C2D0389A10089EEDE /* TextFieldAutocapitalization.swift */,
+				95A0351E2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1780,6 +1783,7 @@
 				8A4001412C83203700A633A5 /* NewButtonCustomizationView.swift in Sources */,
 				8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
+				95A0351F2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift in Sources */,
 				9576FC9A2CE14AD70082C662 /* SecureTextFieldCustomizations.swift in Sources */,
 				95AE9D5E2CE92A5F002510C1 /* SliderInMenu.swift in Sources */,
 				956087DA2BA6F7E300BAC9BA /* TransparentBlurEffectView.swift in Sources */,
