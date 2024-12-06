@@ -281,6 +281,7 @@
 		95A035152D0388490089EEDE /* TextFieldTextContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A035142D0388490089EEDE /* TextFieldTextContentType.swift */; };
 		95A035192D0388C70089EEDE /* TextFieldDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A035182D0388C70089EEDE /* TextFieldDisabled.swift */; };
 		95A0351B2D0389220089EEDE /* TextFieldOnEditingChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0351A2D0389220089EEDE /* TextFieldOnEditingChanged.swift */; };
+		95A0351D2D0389A10089EEDE /* TextFieldAutocapitalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0351C2D0389A10089EEDE /* TextFieldAutocapitalization.swift */; };
 		95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
@@ -606,6 +607,7 @@
 		95A035142D0388490089EEDE /* TextFieldTextContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTextContentType.swift; sourceTree = "<group>"; };
 		95A035182D0388C70089EEDE /* TextFieldDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDisabled.swift; sourceTree = "<group>"; };
 		95A0351A2D0389220089EEDE /* TextFieldOnEditingChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnEditingChanged.swift; sourceTree = "<group>"; };
+		95A0351C2D0389A10089EEDE /* TextFieldAutocapitalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAutocapitalization.swift; sourceTree = "<group>"; };
 		95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlignment.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
@@ -1317,6 +1319,7 @@
 				95A035142D0388490089EEDE /* TextFieldTextContentType.swift */,
 				95A035182D0388C70089EEDE /* TextFieldDisabled.swift */,
 				95A0351A2D0389220089EEDE /* TextFieldOnEditingChanged.swift */,
+				95A0351C2D0389A10089EEDE /* TextFieldAutocapitalization.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1544,6 +1547,7 @@
 				9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */,
 				9576FCA52CE670BD0082C662 /* ShareLinkIntro.swift in Sources */,
 				9586B36D2CF114B200F68C55 /* FontLayoutPriority.swift in Sources */,
+				95A0351D2D0389A10089EEDE /* TextFieldAutocapitalization.swift in Sources */,
 				956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */,
 				8A91A21C2C75DE59007F7B7F /* GaugeView.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
