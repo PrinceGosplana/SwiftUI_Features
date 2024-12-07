@@ -194,6 +194,7 @@
 		957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */; };
 		957AF0E02D04D5F700606944 /* TextFieldFocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DF2D04D5F700606944 /* TextFieldFocusState.swift */; };
 		957AF0E22D04D69800606944 /* TextFieldFocusStateWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0E12D04D69800606944 /* TextFieldFocusStateWithEnum.swift */; };
+		957AF0E42D04D74600606944 /* TextFieldPersonNameComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0E32D04D74600606944 /* TextFieldPersonNameComponents.swift */; };
 		957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */; };
 		957D364A2B96DC8D00E5E342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D36492B96DC8D00E5E342 /* ContentView.swift */; };
 		957D364C2B96DC9100E5E342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D364B2B96DC9100E5E342 /* Assets.xcassets */; };
@@ -524,6 +525,7 @@
 		957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnSubmit.swift; sourceTree = "<group>"; };
 		957AF0DF2D04D5F700606944 /* TextFieldFocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocusState.swift; sourceTree = "<group>"; };
 		957AF0E12D04D69800606944 /* TextFieldFocusStateWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFocusStateWithEnum.swift; sourceTree = "<group>"; };
+		957AF0E32D04D74600606944 /* TextFieldPersonNameComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPersonNameComponents.swift; sourceTree = "<group>"; };
 		957D36442B96DC8D00E5E342 /* SwiftUI_Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957D36472B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_FeaturesApp.swift; sourceTree = "<group>"; };
 		957D36492B96DC8D00E5E342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1335,6 +1337,7 @@
 				957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */,
 				957AF0DF2D04D5F700606944 /* TextFieldFocusState.swift */,
 				957AF0E12D04D69800606944 /* TextFieldFocusStateWithEnum.swift */,
+				957AF0E32D04D74600606944 /* TextFieldPersonNameComponents.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1845,6 +1848,7 @@
 				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
 				9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */,
 				9576FC732CDFEBA80082C662 /* RenameButtonEditText.swift in Sources */,
+				957AF0E42D04D74600606944 /* TextFieldPersonNameComponents.swift in Sources */,
 				9576FC752CDFEC640082C662 /* ScrollviewIntro.swift in Sources */,
 				956C9B942CB54BCC004898DB /* ButtonRepeatBehaviorView.swift in Sources */,
 				9593F61C2CD6AD60009C6D70 /* MultiDatePickerIntro.swift in Sources */,
