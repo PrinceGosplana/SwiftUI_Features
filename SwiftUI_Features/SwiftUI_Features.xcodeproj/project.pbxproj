@@ -134,6 +134,7 @@
 		9529FDE32D0621B4000B1E0E /* ToggleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE22D0621B4000B1E0E /* ToggleColor.swift */; };
 		9529FDE52D0622E0000B1E0E /* ToggleTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE42D0622E0000B1E0E /* ToggleTint.swift */; };
 		9529FDE72D06232F000B1E0E /* ToggleToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE62D06232F000B1E0E /* ToggleToggleStyle.swift */; };
+		9529FDEA2D06249B000B1E0E /* CanvasIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */; };
 		952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */; };
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
@@ -472,6 +473,7 @@
 		9529FDE22D0621B4000B1E0E /* ToggleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleColor.swift; sourceTree = "<group>"; };
 		9529FDE42D0622E0000B1E0E /* ToggleTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTint.swift; sourceTree = "<group>"; };
 		9529FDE62D06232F000B1E0E /* ToggleToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleToggleStyle.swift; sourceTree = "<group>"; };
+		9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasIntroduction.swift; sourceTree = "<group>"; };
 		952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFontSize.swift; sourceTree = "<group>"; };
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
@@ -1082,6 +1084,14 @@
 			path = Transformation;
 			sourceTree = "<group>";
 		};
+		9529FDE82D06248D000B1E0E /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
 		956087D32B9F6C3500BAC9BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -1264,6 +1274,7 @@
 				958F10A82CFCFAA300003DA6 /* TextField */,
 				959078A32CFB9FDC006AF73E /* TextEditor */,
 				95954BB32CFA4D34009C6773 /* FontText_ListFormatting.swift */,
+				9529FDE82D06248D000B1E0E /* Drawing */,
 				957AF0EB2D04DA7100606944 /* Toggle */,
 				95954BB72CFA4EEC009C6773 /* FontText_Inflection.swift */,
 				95954BB92CFA4F6C009C6773 /* FontText_ReferenceTo.swift */,
@@ -1777,6 +1788,7 @@
 				9596786B2D016D93003BC95C /* TextFieldBorde.swift in Sources */,
 				8AFE447E2C81D3710018E70F /* IndividualBindingsView.swift in Sources */,
 				9576FCA12CE3E47C0082C662 /* NoSegmentSelected.swift in Sources */,
+				9529FDEA2D06249B000B1E0E /* CanvasIntroduction.swift in Sources */,
 				957E21DF2CD36734004A34D6 /* BindingWithinTheListView.swift in Sources */,
 				8AFE447C2C81D1920018E70F /* FocusedKeyboardResignRespView.swift in Sources */,
 				952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */,
