@@ -131,6 +131,7 @@
 		8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */; };
 		952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */; };
 		952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952473C92B9A282C005E393F /* CustomTransitionsView.swift */; };
+		9529FDE32D0621B4000B1E0E /* ToggleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE22D0621B4000B1E0E /* ToggleColor.swift */; };
 		952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */; };
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
@@ -466,6 +467,7 @@
 		8AFF1ED62C5E4EDF0032C778 /* Rotation3DEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffectView.swift; sourceTree = "<group>"; };
 		952473C72B9A2607005E393F /* ScrollTransitionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTransitionViewExample.swift; sourceTree = "<group>"; };
 		952473C92B9A282C005E393F /* CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsView.swift; sourceTree = "<group>"; };
+		9529FDE22D0621B4000B1E0E /* ToggleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleColor.swift; sourceTree = "<group>"; };
 		952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFontSize.swift; sourceTree = "<group>"; };
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
@@ -1152,6 +1154,7 @@
 			isa = PBXGroup;
 			children = (
 				957AF0EC2D04DA8800606944 /* ToggleIntro.swift */,
+				9529FDE22D0621B4000B1E0E /* ToggleColor.swift */,
 			);
 			path = Toggle;
 			sourceTree = "<group>";
@@ -1876,6 +1879,7 @@
 				956C9B942CB54BCC004898DB /* ButtonRepeatBehaviorView.swift in Sources */,
 				9593F61C2CD6AD60009C6D70 /* MultiDatePickerIntro.swift in Sources */,
 				959C2D2E2CEE5661006D4602 /* FontWidths.swift in Sources */,
+				9529FDE32D0621B4000B1E0E /* ToggleColor.swift in Sources */,
 				8A27C9C52C8C79AB00DFAFE1 /* CustomToggleContentView.swift in Sources */,
 				957AF0ED2D04DA8800606944 /* ToggleIntro.swift in Sources */,
 				8A867E552C7B76E000E75AF9 /* NewVisualEffectModifierView.swift in Sources */,
