@@ -136,6 +136,7 @@
 		9529FDE72D06232F000B1E0E /* ToggleToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE62D06232F000B1E0E /* ToggleToggleStyle.swift */; };
 		9529FDEA2D06249B000B1E0E /* CanvasIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */; };
 		9529FDEC2D0626FC000B1E0E /* CircularShapesIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */; };
+		9529FDEE2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */; };
 		952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */; };
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
@@ -476,6 +477,7 @@
 		9529FDE62D06232F000B1E0E /* ToggleToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleToggleStyle.swift; sourceTree = "<group>"; };
 		9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasIntroduction.swift; sourceTree = "<group>"; };
 		9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesIntro.swift; sourceTree = "<group>"; };
+		9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleRoundedCornerStyle.swift; sourceTree = "<group>"; };
 		952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFontSize.swift; sourceTree = "<group>"; };
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
@@ -1091,6 +1093,7 @@
 			children = (
 				9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */,
 				9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */,
+				9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1598,6 +1601,7 @@
 				8AAD77B42C6F48BA004E54D1 /* ScrollViewTransitions.swift in Sources */,
 				9593F6262CD79C9C009C6D70 /* NavigationBackgroundColor.swift in Sources */,
 				95A035132D0387BB0089EEDE /* TextFieldAutocorrection.swift in Sources */,
+				9529FDEE2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift in Sources */,
 				8AAD77B82C6F5471004E54D1 /* WWDC24Invite.swift in Sources */,
 				95954BB22CFA4CC3009C6773 /* FontText_PersonNameComponents.swift in Sources */,
 				952473CA2B9A282C005E393F /* CustomTransitionsView.swift in Sources */,
