@@ -138,6 +138,7 @@
 		9529FDEC2D0626FC000B1E0E /* CircularShapesIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */; };
 		9529FDEE2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */; };
 		9529FDF02D0627D5000B1E0E /* CircularShapesColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDEF2D0627D5000B1E0E /* CircularShapesColors.swift */; };
+		9529FDF22D062866000B1E0E /* StrokeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDF12D062866000B1E0E /* StrokeColors.swift */; };
 		952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */; };
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
@@ -480,6 +481,7 @@
 		9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesIntro.swift; sourceTree = "<group>"; };
 		9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleRoundedCornerStyle.swift; sourceTree = "<group>"; };
 		9529FDEF2D0627D5000B1E0E /* CircularShapesColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesColors.swift; sourceTree = "<group>"; };
+		9529FDF12D062866000B1E0E /* StrokeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeColors.swift; sourceTree = "<group>"; };
 		952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFontSize.swift; sourceTree = "<group>"; };
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
@@ -1097,6 +1099,7 @@
 				9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */,
 				9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */,
 				9529FDEF2D0627D5000B1E0E /* CircularShapesColors.swift */,
+				9529FDF12D062866000B1E0E /* StrokeColors.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1827,6 +1830,7 @@
 				8A96E32B2C7B1D9900712616 /* DoulingoView.swift in Sources */,
 				8A0DC81E2C4A64C6000428B9 /* GeometryProxyInScrollView.swift in Sources */,
 				8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */,
+				9529FDF22D062866000B1E0E /* StrokeColors.swift in Sources */,
 				957E21962CD16398004A34D6 /* ListRowInsetView.swift in Sources */,
 				9576FC772CDFECD60082C662 /* ScrollViewSafeAreaInset.swift in Sources */,
 				8A91A2102C75C484007F7B7F /* ShareLinkView.swift in Sources */,
