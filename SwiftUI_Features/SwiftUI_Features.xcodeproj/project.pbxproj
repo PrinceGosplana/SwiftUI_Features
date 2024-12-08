@@ -135,6 +135,7 @@
 		9529FDE52D0622E0000B1E0E /* ToggleTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE42D0622E0000B1E0E /* ToggleTint.swift */; };
 		9529FDE72D06232F000B1E0E /* ToggleToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE62D06232F000B1E0E /* ToggleToggleStyle.swift */; };
 		9529FDEA2D06249B000B1E0E /* CanvasIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */; };
+		9529FDEC2D0626FC000B1E0E /* CircularShapesIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */; };
 		952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */; };
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
@@ -474,6 +475,7 @@
 		9529FDE42D0622E0000B1E0E /* ToggleTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTint.swift; sourceTree = "<group>"; };
 		9529FDE62D06232F000B1E0E /* ToggleToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleToggleStyle.swift; sourceTree = "<group>"; };
 		9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasIntroduction.swift; sourceTree = "<group>"; };
+		9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesIntro.swift; sourceTree = "<group>"; };
 		952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFontSize.swift; sourceTree = "<group>"; };
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
@@ -1088,6 +1090,7 @@
 			isa = PBXGroup;
 			children = (
 				9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */,
+				9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1793,6 +1796,7 @@
 				8AFE447C2C81D1920018E70F /* FocusedKeyboardResignRespView.swift in Sources */,
 				952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */,
 				95AE9D632CEA4477002510C1 /* StepperLabelsHidden.swift in Sources */,
+				9529FDEC2D0626FC000B1E0E /* CircularShapesIntro.swift in Sources */,
 				957E219A2CD16531004A34D6 /* HeaderProminence.swift in Sources */,
 				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
 				957AF0E22D04D69800606944 /* TextFieldFocusStateWithEnum.swift in Sources */,
