@@ -137,6 +137,7 @@
 		9529FDEA2D06249B000B1E0E /* CanvasIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */; };
 		9529FDEC2D0626FC000B1E0E /* CircularShapesIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */; };
 		9529FDEE2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */; };
+		9529FDF02D0627D5000B1E0E /* CircularShapesColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDEF2D0627D5000B1E0E /* CircularShapesColors.swift */; };
 		952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */; };
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
@@ -478,6 +479,7 @@
 		9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasIntroduction.swift; sourceTree = "<group>"; };
 		9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesIntro.swift; sourceTree = "<group>"; };
 		9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleRoundedCornerStyle.swift; sourceTree = "<group>"; };
+		9529FDEF2D0627D5000B1E0E /* CircularShapesColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesColors.swift; sourceTree = "<group>"; };
 		952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFontSize.swift; sourceTree = "<group>"; };
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
@@ -1094,6 +1096,7 @@
 				9529FDE92D06249B000B1E0E /* CanvasIntroduction.swift */,
 				9529FDEB2D0626FC000B1E0E /* CircularShapesIntro.swift */,
 				9529FDED2D06277F000B1E0E /* CapsuleRoundedCornerStyle.swift */,
+				9529FDEF2D0627D5000B1E0E /* CircularShapesColors.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1890,6 +1893,7 @@
 				9576FC672CDE7CEE0082C662 /* ProgressViewShowingProgress.swift in Sources */,
 				95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */,
 				95CF29222CF2013500A1210E /* FontCapitalLetterOptions.swift in Sources */,
+				9529FDF02D0627D5000B1E0E /* CircularShapesColors.swift in Sources */,
 				957E21492CCD6467004A34D6 /* GaugeRangeExample.swift in Sources */,
 				8A2F1A582C60F75E003DB628 /* FontsExampleView.swift in Sources */,
 				9576FC652CDE7C270082C662 /* ProgressViewIntro.swift in Sources */,
