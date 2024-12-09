@@ -141,6 +141,7 @@
 		9529FDF22D062866000B1E0E /* StrokeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDF12D062866000B1E0E /* StrokeColors.swift */; };
 		9529FDF42D0628B9000B1E0E /* CircularShapesStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDF32D0628B9000B1E0E /* CircularShapesStrokeBorder.swift */; };
 		952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */; };
+		9531763A2D07718900132C46 /* PaddingandFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953176392D07718900132C46 /* PaddingandFrame.swift */; };
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
 		9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */; };
@@ -485,6 +486,7 @@
 		9529FDF12D062866000B1E0E /* StrokeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeColors.swift; sourceTree = "<group>"; };
 		9529FDF32D0628B9000B1E0E /* CircularShapesStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesStrokeBorder.swift; sourceTree = "<group>"; };
 		952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFontSize.swift; sourceTree = "<group>"; };
+		953176392D07718900132C46 /* PaddingandFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingandFrame.swift; sourceTree = "<group>"; };
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
 		9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoLayoutView.swift; sourceTree = "<group>"; };
@@ -1103,6 +1105,7 @@
 				9529FDEF2D0627D5000B1E0E /* CircularShapesColors.swift */,
 				9529FDF12D062866000B1E0E /* StrokeColors.swift */,
 				9529FDF32D0628B9000B1E0E /* CircularShapesStrokeBorder.swift */,
+				953176392D07718900132C46 /* PaddingandFrame.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1599,6 +1602,7 @@
 				8A3B992B2BC51BB4009B326E /* AppearEffect.swift in Sources */,
 				8AAD77632C6DE2CE004E54D1 /* ScrollViewFeaturesView.swift in Sources */,
 				8ADF1AAA2BE20C6000F0C67F /* StopUsingGeometryReader.swift in Sources */,
+				9531763A2D07718900132C46 /* PaddingandFrame.swift in Sources */,
 				95F860CD2CD95ED80076005E /* NavLinkWithDifferentTypes.swift in Sources */,
 				8AFEBFE02BB6F7AC0006C41A /* ToggleButtonsView.swift in Sources */,
 				8A91A2252C75E54B007F7B7F /* PullToRefreshView.swift in Sources */,
