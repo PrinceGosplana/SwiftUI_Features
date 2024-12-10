@@ -293,6 +293,7 @@
 		9596786B2D016D93003BC95C /* TextFieldBorde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596786A2D016D93003BC95C /* TextFieldBorde.swift */; };
 		959C2D2E2CEE5661006D4602 /* FontWidths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2D2CEE5661006D4602 /* FontWidths.swift */; };
 		959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959C2D2F2CEEF254006D4602 /* FontFormatting.swift */; };
+		959D426D2D08CB9B00DED256 /* CircularShapesSizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959D426C2D08CB9B00DED256 /* CircularShapesSizeModifier.swift */; };
 		95A0350D2D03852F0089EEDE /* TextFieldCustomPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0350C2D03852F0089EEDE /* TextFieldCustomPlaceholder.swift */; };
 		95A0350F2D0386240089EEDE /* TextFieldCustomComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0350E2D0386240089EEDE /* TextFieldCustomComposition.swift */; };
 		95A035112D0387490089EEDE /* TextFieldKeyboardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A035102D0387490089EEDE /* TextFieldKeyboardType.swift */; };
@@ -639,6 +640,7 @@
 		9596786A2D016D93003BC95C /* TextFieldBorde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBorde.swift; sourceTree = "<group>"; };
 		959C2D2D2CEE5661006D4602 /* FontWidths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWidths.swift; sourceTree = "<group>"; };
 		959C2D2F2CEEF254006D4602 /* FontFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFormatting.swift; sourceTree = "<group>"; };
+		959D426C2D08CB9B00DED256 /* CircularShapesSizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesSizeModifier.swift; sourceTree = "<group>"; };
 		95A0350C2D03852F0089EEDE /* TextFieldCustomPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomPlaceholder.swift; sourceTree = "<group>"; };
 		95A0350E2D0386240089EEDE /* TextFieldCustomComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomComposition.swift; sourceTree = "<group>"; };
 		95A035102D0387490089EEDE /* TextFieldKeyboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardType.swift; sourceTree = "<group>"; };
@@ -1106,6 +1108,7 @@
 				9529FDF12D062866000B1E0E /* StrokeColors.swift */,
 				9529FDF32D0628B9000B1E0E /* CircularShapesStrokeBorder.swift */,
 				953176392D07718900132C46 /* PaddingandFrame.swift */,
+				959D426C2D08CB9B00DED256 /* CircularShapesSizeModifier.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1630,6 +1633,7 @@
 				8A91A21C2C75DE59007F7B7F /* GaugeView.swift in Sources */,
 				8ADD6EE42BB44AD200C7D329 /* AutomaticCountingView.swift in Sources */,
 				9586B36B2CF112DB00F68C55 /* FontTextBaselineOffset.swift in Sources */,
+				959D426D2D08CB9B00DED256 /* CircularShapesSizeModifier.swift in Sources */,
 				8A27C9C12C8C795100DFAFE1 /* CheckmarkToggleStyle.swift in Sources */,
 				9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */,
 				8A91A2182C75D1EB007F7B7F /* CustomLayoutView.swift in Sources */,
