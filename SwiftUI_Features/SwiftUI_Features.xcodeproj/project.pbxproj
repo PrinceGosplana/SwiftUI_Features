@@ -146,6 +146,7 @@
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
 		9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */; };
 		9547F7022CC2D67A009648DF /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F7012CC2D67A009648DF /* PhotoGridView.swift */; };
+		954B18D22D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B18D12D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift */; };
 		95533CEF2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95533CEE2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift */; };
 		956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */; };
 		956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */; };
@@ -493,6 +494,7 @@
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
 		9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoLayoutView.swift; sourceTree = "<group>"; };
 		9547F7012CC2D67A009648DF /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		954B18D12D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesTrimSolidShapes.swift; sourceTree = "<group>"; };
 		95533CEE2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonDateFormatSpecific.swift; sourceTree = "<group>"; };
 		956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationsView.swift; sourceTree = "<group>"; };
 		956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeView.swift; sourceTree = "<group>"; };
@@ -1112,6 +1114,7 @@
 				953176392D07718900132C46 /* PaddingandFrame.swift */,
 				959D426C2D08CB9B00DED256 /* CircularShapesSizeModifier.swift */,
 				956FACA92D0A16FA008DE100 /* TrimOutlineView.swift */,
+				954B18D12D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1671,6 +1674,7 @@
 				9593F6192CD6ACC9009C6D70 /* MenгOrder.swift in Sources */,
 				95919E382CF39E5E006C8355 /* FontTextMarkdown.swift in Sources */,
 				8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */,
+				954B18D22D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift in Sources */,
 				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
 				956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */,
 				958F10992CFCF0DC00003DA6 /* TextEditorLineLimit.swift in Sources */,
