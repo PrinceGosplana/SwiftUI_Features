@@ -147,6 +147,7 @@
 		9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */; };
 		9547F7022CC2D67A009648DF /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F7012CC2D67A009648DF /* PhotoGridView.swift */; };
 		954B18D22D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B18D12D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift */; };
+		954B18D42D0BFF45003A3C2C /* CircularShapesWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B18D32D0BFF45003A3C2C /* CircularShapesWithButtons.swift */; };
 		95533CEF2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95533CEE2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift */; };
 		956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */; };
 		956087AB2B9C4EAB00BAC9BA /* OnChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */; };
@@ -495,6 +496,7 @@
 		9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoLayoutView.swift; sourceTree = "<group>"; };
 		9547F7012CC2D67A009648DF /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
 		954B18D12D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesTrimSolidShapes.swift; sourceTree = "<group>"; };
+		954B18D32D0BFF45003A3C2C /* CircularShapesWithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesWithButtons.swift; sourceTree = "<group>"; };
 		95533CEE2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonDateFormatSpecific.swift; sourceTree = "<group>"; };
 		956087A82B9B96A700BAC9BA /* CustomAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationsView.swift; sourceTree = "<group>"; };
 		956087AA2B9C4EAB00BAC9BA /* OnChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangeView.swift; sourceTree = "<group>"; };
@@ -1115,6 +1117,7 @@
 				959D426C2D08CB9B00DED256 /* CircularShapesSizeModifier.swift */,
 				956FACA92D0A16FA008DE100 /* TrimOutlineView.swift */,
 				954B18D12D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift */,
+				954B18D32D0BFF45003A3C2C /* CircularShapesWithButtons.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1750,6 +1753,7 @@
 				8A96E3372C7B6B6900712616 /* CanvasView.swift in Sources */,
 				8A91A2122C75CBB3007F7B7F /* ImageREndererView.swift in Sources */,
 				9576FC7D2CDFEDEE0082C662 /* ScrollviewDisabled.swift in Sources */,
+				954B18D42D0BFF45003A3C2C /* CircularShapesWithButtons.swift in Sources */,
 				8ADDED232C937197002C42C6 /* ReactionsView.swift in Sources */,
 				95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */,
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
