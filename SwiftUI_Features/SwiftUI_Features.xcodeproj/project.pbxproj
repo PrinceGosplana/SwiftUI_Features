@@ -165,6 +165,7 @@
 		9561D3E92D0CBF8500C62B71 /* ColorColorMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E82D0CBF8500C62B71 /* ColorColorMultiply.swift */; };
 		9561D3ED2D0CC01500C62B71 /* Opacitylpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3EC2D0CC01500C62B71 /* Opacitylpha.swift */; };
 		9561D3EF2D0CC05C00C62B71 /* OpacityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3EE2D0CC05C00C62B71 /* OpacityModifier.swift */; };
+		9561D3F12D0CC0C000C62B71 /* ColorWithUIColorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
 		956A531A2CF65772008745D3 /* FontDateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956A53192CF65772008745D3 /* FontDateFormatting.swift */; };
 		956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */; };
@@ -520,6 +521,7 @@
 		9561D3E82D0CBF8500C62B71 /* ColorColorMultiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorColorMultiply.swift; sourceTree = "<group>"; };
 		9561D3EC2D0CC01500C62B71 /* Opacitylpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opacitylpha.swift; sourceTree = "<group>"; };
 		9561D3EE2D0CC05C00C62B71 /* OpacityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityModifier.swift; sourceTree = "<group>"; };
+		9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWithUIColorSystem.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
 		956A53192CF65772008745D3 /* FontDateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDateFormatting.swift; sourceTree = "<group>"; };
 		956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellColumnsExample.swift; sourceTree = "<group>"; };
@@ -1162,6 +1164,7 @@
 				9561D3E82D0CBF8500C62B71 /* ColorColorMultiply.swift */,
 				9561D3EC2D0CC01500C62B71 /* Opacitylpha.swift */,
 				9561D3EE2D0CC05C00C62B71 /* OpacityModifier.swift */,
+				9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */,
 			);
 			path = Color;
 			sourceTree = "<group>";
@@ -1799,6 +1802,7 @@
 				8A0663562CAD2C6300937F63 /* KeyframeAnimationExampleView.swift in Sources */,
 				9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */,
 				95533CEF2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift in Sources */,
+				9561D3F12D0CC0C000C62B71 /* ColorWithUIColorSystem.swift in Sources */,
 				8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */,
 				9593F62A2CD79DE0009C6D70 /* NavigationCustomBackground.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
