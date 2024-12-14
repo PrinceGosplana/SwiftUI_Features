@@ -255,6 +255,7 @@
 		9586B36B2CF112DB00F68C55 /* FontTextBaselineOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B36A2CF112DB00F68C55 /* FontTextBaselineOffset.swift */; };
 		9586B36D2CF114B200F68C55 /* FontLayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B36C2CF114B200F68C55 /* FontLayoutPriority.swift */; };
 		9586B36F2CF1155F00F68C55 /* FontTextCustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B36E2CF1155F00F68C55 /* FontTextCustomFont.swift */; };
+		958D8E2A2D0D95F60092EEA4 /* ColorNewInIos15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958D8E292D0D95F60092EEA4 /* ColorNewInIos15.swift */; };
 		958F10992CFCF0DC00003DA6 /* TextEditorLineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F10982CFCF0DC00003DA6 /* TextEditorLineLimit.swift */; };
 		958F109D2CFCF19800003DA6 /* TextEditorLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F109C2CFCF19800003DA6 /* TextEditorLineSpacing.swift */; };
 		958F109F2CFCF40700003DA6 /* TextEditorCustomizingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F109E2CFCF40700003DA6 /* TextEditorCustomizingText.swift */; };
@@ -613,6 +614,7 @@
 		9586B36A2CF112DB00F68C55 /* FontTextBaselineOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextBaselineOffset.swift; sourceTree = "<group>"; };
 		9586B36C2CF114B200F68C55 /* FontLayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLayoutPriority.swift; sourceTree = "<group>"; };
 		9586B36E2CF1155F00F68C55 /* FontTextCustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextCustomFont.swift; sourceTree = "<group>"; };
+		958D8E292D0D95F60092EEA4 /* ColorNewInIos15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorNewInIos15.swift; sourceTree = "<group>"; };
 		958F10982CFCF0DC00003DA6 /* TextEditorLineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorLineLimit.swift; sourceTree = "<group>"; };
 		958F109C2CFCF19800003DA6 /* TextEditorLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorLineSpacing.swift; sourceTree = "<group>"; };
 		958F109E2CFCF40700003DA6 /* TextEditorCustomizingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorCustomizingText.swift; sourceTree = "<group>"; };
@@ -1168,6 +1170,7 @@
 				9561D3EE2D0CC05C00C62B71 /* OpacityModifier.swift */,
 				9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */,
 				9561D3F22D0CC10C00C62B71 /* ColorUsingSystemFill.swift */,
+				958D8E292D0D95F60092EEA4 /* ColorNewInIos15.swift */,
 			);
 			path = Color;
 			sourceTree = "<group>";
@@ -1879,6 +1882,7 @@
 				957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */,
 				8ADD6F102BB5A0CA00C7D329 /* NavigationBarButtonsPositioning.swift in Sources */,
 				8A0DC8232C4A758E000428B9 /* CustomSegmentedControl.swift in Sources */,
+				958D8E2A2D0D95F60092EEA4 /* ColorNewInIos15.swift in Sources */,
 				959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */,
 				9576FC952CE1497C0082C662 /* NavigationSearchableFilter.swift in Sources */,
 				95919E342CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift in Sources */,
