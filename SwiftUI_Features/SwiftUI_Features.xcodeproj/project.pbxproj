@@ -245,6 +245,7 @@
 		957E21DD2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */; };
 		957E21DF2CD36734004A34D6 /* BindingWithinTheListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21DE2CD36734004A34D6 /* BindingWithinTheListView.swift */; };
 		957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */; };
+		957E84902D0EB76F00E2D0BE /* ColorMix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E848F2D0EB76F00E2D0BE /* ColorMix.swift */; };
 		95801D5C2CF4EB2E00949E61 /* FontTextFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */; };
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
 		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
@@ -604,6 +605,7 @@
 		957E21DC2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSafeAreaInsetScrollView.swift; sourceTree = "<group>"; };
 		957E21DE2CD36734004A34D6 /* BindingWithinTheListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithinTheListView.swift; sourceTree = "<group>"; };
 		957E21E02CD4B4E2004A34D6 /* BackgroundVisibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVisibilityView.swift; sourceTree = "<group>"; };
+		957E848F2D0EB76F00E2D0BE /* ColorMix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMix.swift; sourceTree = "<group>"; };
 		95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextFormat.swift; sourceTree = "<group>"; };
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
 		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
@@ -1171,6 +1173,7 @@
 				9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */,
 				9561D3F22D0CC10C00C62B71 /* ColorUsingSystemFill.swift */,
 				958D8E292D0D95F60092EEA4 /* ColorNewInIos15.swift */,
+				957E848F2D0EB76F00E2D0BE /* ColorMix.swift */,
 			);
 			path = Color;
 			sourceTree = "<group>";
@@ -1982,6 +1985,7 @@
 				9576FC752CDFEC640082C662 /* ScrollviewIntro.swift in Sources */,
 				956C9B942CB54BCC004898DB /* ButtonRepeatBehaviorView.swift in Sources */,
 				9593F61C2CD6AD60009C6D70 /* MultiDatePickerIntro.swift in Sources */,
+				957E84902D0EB76F00E2D0BE /* ColorMix.swift in Sources */,
 				959C2D2E2CEE5661006D4602 /* FontWidths.swift in Sources */,
 				9529FDE32D0621B4000B1E0E /* ToggleColor.swift in Sources */,
 				8A27C9C52C8C79AB00DFAFE1 /* CustomToggleContentView.swift in Sources */,
