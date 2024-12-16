@@ -167,6 +167,7 @@
 		9561D3EF2D0CC05C00C62B71 /* OpacityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3EE2D0CC05C00C62B71 /* OpacityModifier.swift */; };
 		9561D3F12D0CC0C000C62B71 /* ColorWithUIColorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */; };
 		9561D3F32D0CC10C00C62B71 /* ColorUsingSystemFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3F22D0CC10C00C62B71 /* ColorUsingSystemFill.swift */; };
+		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
 		956A531A2CF65772008745D3 /* FontDateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956A53192CF65772008745D3 /* FontDateFormatting.swift */; };
 		956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */; };
@@ -526,6 +527,7 @@
 		9561D3EE2D0CC05C00C62B71 /* OpacityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityModifier.swift; sourceTree = "<group>"; };
 		9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWithUIColorSystem.swift; sourceTree = "<group>"; };
 		9561D3F22D0CC10C00C62B71 /* ColorUsingSystemFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUsingSystemFill.swift; sourceTree = "<group>"; };
+		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
 		956A53192CF65772008745D3 /* FontDateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDateFormatting.swift; sourceTree = "<group>"; };
 		956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellColumnsExample.swift; sourceTree = "<group>"; };
@@ -1338,6 +1340,7 @@
 				95954BAD2CFA4B6E009C6773 /* FontTextMeasurementConversion.swift */,
 				95954BAF2CFA4C77009C6773 /* FontText_Currency.swift */,
 				95954BB12CFA4CC3009C6773 /* FontText_PersonNameComponents.swift */,
+				956799EB2D10B5DE000486D6 /* DividerCusomization.swift */,
 				958F10A82CFCFAA300003DA6 /* TextField */,
 				959078A32CFB9FDC006AF73E /* TextEditor */,
 				95954BB32CFA4D34009C6773 /* FontText_ListFormatting.swift */,
@@ -1947,6 +1950,7 @@
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
 				9593F6222CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift in Sources */,
+				956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */,
 				9576FC7F2CDFEE440082C662 /* ScrollviewScrollBounceBehavior.swift in Sources */,
 				958F109D2CFCF19800003DA6 /* TextEditorLineSpacing.swift in Sources */,
 				958F10AA2CFCFAB100003DA6 /* TextFieldIntro.swift in Sources */,
