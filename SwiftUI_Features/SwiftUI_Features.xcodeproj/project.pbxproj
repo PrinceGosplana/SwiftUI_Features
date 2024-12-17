@@ -161,6 +161,7 @@
 		956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */; };
 		9561A4682D12042400C358C7 /* GroupSharedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4672D12042400C358C7 /* GroupSharedModifiers.swift */; };
 		9561A46B2D1204C500C358C7 /* ImageScaledMetricImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A46A2D1204C500C358C7 /* ImageScaledMetricImage.swift */; };
+		9561A46D2D12057C00C358C7 /* ImageClipShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A46C2D12057C00C358C7 /* ImageClipShape.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -523,6 +524,7 @@
 		956087DB2BA6F85F00BAC9BA /* TransparentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentHomeView.swift; sourceTree = "<group>"; };
 		9561A4672D12042400C358C7 /* GroupSharedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSharedModifiers.swift; sourceTree = "<group>"; };
 		9561A46A2D1204C500C358C7 /* ImageScaledMetricImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScaledMetricImage.swift; sourceTree = "<group>"; };
+		9561A46C2D12057C00C358C7 /* ImageClipShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClipShape.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1171,6 +1173,7 @@
 			isa = PBXGroup;
 			children = (
 				9561A46A2D1204C500C358C7 /* ImageScaledMetricImage.swift */,
+				9561A46C2D12057C00C358C7 /* ImageClipShape.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -1899,6 +1902,7 @@
 				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
 				957AF0E22D04D69800606944 /* TextFieldFocusStateWithEnum.swift in Sources */,
 				9576FCA32CE52B290082C662 /* SegmentedControlColors.swift in Sources */,
+				9561A46D2D12057C00C358C7 /* ImageClipShape.swift in Sources */,
 				9593F61E2CD7983D009C6D70 /* MultiDatePickerLabel.swift in Sources */,
 				957E21922CD162B6004A34D6 /* ListRowBackground.swift in Sources */,
 				957E21E12CD4B4E2004A34D6 /* BackgroundVisibilityView.swift in Sources */,
