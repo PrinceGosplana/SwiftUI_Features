@@ -166,6 +166,7 @@
 		9561A4712D12089100C358C7 /* SymbolSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4702D12089100C358C7 /* SymbolSizing.swift */; };
 		9561A4732D1208E000C358C7 /* ImageScaledMetricSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4722D1208E000C358C7 /* ImageScaledMetricSymbol.swift */; };
 		9561A4752D12094F00C358C7 /* ImageSymbolsWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4742D12094F00C358C7 /* ImageSymbolsWeight.swift */; };
+		9561A4772D1209B700C358C7 /* ImageFromSymbolsWithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -533,6 +534,7 @@
 		9561A4702D12089100C358C7 /* SymbolSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolSizing.swift; sourceTree = "<group>"; };
 		9561A4722D1208E000C358C7 /* ImageScaledMetricSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScaledMetricSymbol.swift; sourceTree = "<group>"; };
 		9561A4742D12094F00C358C7 /* ImageSymbolsWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolsWeight.swift; sourceTree = "<group>"; };
+		9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromSymbolsWithColor.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1186,6 +1188,7 @@
 				9561A4702D12089100C358C7 /* SymbolSizing.swift */,
 				9561A4722D1208E000C358C7 /* ImageScaledMetricSymbol.swift */,
 				9561A4742D12094F00C358C7 /* ImageSymbolsWeight.swift */,
+				9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -1862,6 +1865,7 @@
 				9576FC932CE148D50082C662 /* SearchableDismissSearch.swift in Sources */,
 				9529FDE72D06232F000B1E0E /* ToggleToggleStyle.swift in Sources */,
 				8A20ED512C15A61C00D5915D /* AnimatedExampleView.swift in Sources */,
+				9561A4772D1209B700C358C7 /* ImageFromSymbolsWithColor.swift in Sources */,
 				9576FC9C2CE14B4A0082C662 /* SecureTextFieldCustomizationLayers.swift in Sources */,
 				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
