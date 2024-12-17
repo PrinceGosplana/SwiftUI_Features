@@ -162,6 +162,7 @@
 		9561A4682D12042400C358C7 /* GroupSharedModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4672D12042400C358C7 /* GroupSharedModifiers.swift */; };
 		9561A46B2D1204C500C358C7 /* ImageScaledMetricImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A46A2D1204C500C358C7 /* ImageScaledMetricImage.swift */; };
 		9561A46D2D12057C00C358C7 /* ImageClipShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A46C2D12057C00C358C7 /* ImageClipShape.swift */; };
+		9561A46F2D12071A00C358C7 /* SymbolsIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A46E2D12071A00C358C7 /* SymbolsIntro.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -525,6 +526,7 @@
 		9561A4672D12042400C358C7 /* GroupSharedModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSharedModifiers.swift; sourceTree = "<group>"; };
 		9561A46A2D1204C500C358C7 /* ImageScaledMetricImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScaledMetricImage.swift; sourceTree = "<group>"; };
 		9561A46C2D12057C00C358C7 /* ImageClipShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClipShape.swift; sourceTree = "<group>"; };
+		9561A46E2D12071A00C358C7 /* SymbolsIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsIntro.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1174,6 +1176,7 @@
 			children = (
 				9561A46A2D1204C500C358C7 /* ImageScaledMetricImage.swift */,
 				9561A46C2D12057C00C358C7 /* ImageClipShape.swift */,
+				9561A46E2D12071A00C358C7 /* SymbolsIntro.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -1738,6 +1741,7 @@
 				9593F6192CD6ACC9009C6D70 /* MenгOrder.swift in Sources */,
 				95919E382CF39E5E006C8355 /* FontTextMarkdown.swift in Sources */,
 				8A3B992D2BC51DBB009B326E /* ReplaceEffect.swift in Sources */,
+				9561A46F2D12071A00C358C7 /* SymbolsIntro.swift in Sources */,
 				954B18D22D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift in Sources */,
 				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
 				956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */,
