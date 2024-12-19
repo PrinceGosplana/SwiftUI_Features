@@ -168,6 +168,7 @@
 		9561A4752D12094F00C358C7 /* ImageSymbolsWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4742D12094F00C358C7 /* ImageSymbolsWeight.swift */; };
 		9561A4772D1209B700C358C7 /* ImageFromSymbolsWithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */; };
 		9561A4792D120A1C00C358C7 /* ImageSymbolVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */; };
+		9561A47B2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -537,6 +538,7 @@
 		9561A4742D12094F00C358C7 /* ImageSymbolsWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolsWeight.swift; sourceTree = "<group>"; };
 		9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromSymbolsWithColor.swift; sourceTree = "<group>"; };
 		9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolVariant.swift; sourceTree = "<group>"; };
+		9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolRenderingMode.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1191,6 +1193,7 @@
 				9561A4722D1208E000C358C7 /* ImageScaledMetricSymbol.swift */,
 				9561A4742D12094F00C358C7 /* ImageSymbolsWeight.swift */,
 				9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */,
+				9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */,
 				9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */,
 			);
 			path = Image;
@@ -1759,6 +1762,7 @@
 				9561A46F2D12071A00C358C7 /* SymbolsIntro.swift in Sources */,
 				954B18D22D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift in Sources */,
 				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
+				9561A47B2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift in Sources */,
 				956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */,
 				958F10992CFCF0DC00003DA6 /* TextEditorLineLimit.swift in Sources */,
 				8AE449992BC4577900406747 /* SystemImageIconMaskView.swift in Sources */,
