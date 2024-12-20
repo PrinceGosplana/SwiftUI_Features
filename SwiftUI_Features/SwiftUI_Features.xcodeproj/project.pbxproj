@@ -174,6 +174,7 @@
 		9561A4812D15FA8700C358C7 /* ImageUsingMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4802D15FA8700C358C7 /* ImageUsingMaterials.swift */; };
 		9561A4832D15FB6600C358C7 /* ImageSymbolEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4822D15FB6600C358C7 /* ImageSymbolEffect.swift */; };
 		9561A4852D15FBDC00C358C7 /* ImageSymbolEffect_18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4842D15FBDC00C358C7 /* ImageSymbolEffect_18.swift */; };
+		9561A4882D15FC6A00C358C7 /* MyDividerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -549,6 +550,7 @@
 		9561A4802D15FA8700C358C7 /* ImageUsingMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUsingMaterials.swift; sourceTree = "<group>"; };
 		9561A4822D15FB6600C358C7 /* ImageSymbolEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolEffect.swift; sourceTree = "<group>"; };
 		9561A4842D15FBDC00C358C7 /* ImageSymbolEffect_18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolEffect_18.swift; sourceTree = "<group>"; };
+		9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDividerPath.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1214,6 +1216,14 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		9561A4862D15FC5D00C358C7 /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
 		9561D3E12D0CBE6A00C62B71 /* Color */ = {
 			isa = PBXGroup;
 			children = (
@@ -1387,6 +1397,7 @@
 				95919E352CF39DED006C8355 /* FjontTextWrappingImages.swift */,
 				95919E372CF39E5E006C8355 /* FontTextMarkdown.swift */,
 				95919E392CF39ECE006C8355 /* FontTextDynamicTypeSize.swift */,
+				9561A4862D15FC5D00C358C7 /* Path */,
 				9561A4672D12042400C358C7 /* GroupSharedModifiers.swift */,
 				95919E3B2CF39F8F006C8355 /* FontTextTextSelection.swift */,
 				9561A4692D1204A800C358C7 /* Image */,
@@ -1862,6 +1873,7 @@
 				9576FC7D2CDFEDEE0082C662 /* ScrollviewDisabled.swift in Sources */,
 				954B18D42D0BFF45003A3C2C /* CircularShapesWithButtons.swift in Sources */,
 				8ADDED232C937197002C42C6 /* ReactionsView.swift in Sources */,
+				9561A4882D15FC6A00C358C7 /* MyDividerPath.swift in Sources */,
 				95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */,
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				9576FC852CE143500082C662 /* ScrollViewScrollPosition.swift in Sources */,
