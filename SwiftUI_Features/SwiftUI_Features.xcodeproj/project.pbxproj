@@ -169,6 +169,7 @@
 		9561A4772D1209B700C358C7 /* ImageFromSymbolsWithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */; };
 		9561A4792D120A1C00C358C7 /* ImageSymbolVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */; };
 		9561A47B2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */; };
+		9561A47D2D15F94300C358C7 /* ImageForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A47C2D15F94300C358C7 /* ImageForegroundStyle.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -539,6 +540,7 @@
 		9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromSymbolsWithColor.swift; sourceTree = "<group>"; };
 		9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolVariant.swift; sourceTree = "<group>"; };
 		9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolRenderingMode.swift; sourceTree = "<group>"; };
+		9561A47C2D15F94300C358C7 /* ImageForegroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageForegroundStyle.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1195,6 +1197,7 @@
 				9561A4762D1209B700C358C7 /* ImageFromSymbolsWithColor.swift */,
 				9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */,
 				9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */,
+				9561A47C2D15F94300C358C7 /* ImageForegroundStyle.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -2044,6 +2047,7 @@
 				8A867E552C7B76E000E75AF9 /* NewVisualEffectModifierView.swift in Sources */,
 				9593F6112CD6AAD8009C6D70 /* MenuMenuPosition.swift in Sources */,
 				957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */,
+				9561A47D2D15F94300C358C7 /* ImageForegroundStyle.swift in Sources */,
 				957E21942CD1633A004A34D6 /* ListRowBackgroundonSections.swift in Sources */,
 				8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */,
 				9576FC6F2CDE7E340082C662 /* ProgressViewCustomizing.swift in Sources */,
