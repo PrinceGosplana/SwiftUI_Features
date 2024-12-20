@@ -177,6 +177,7 @@
 		9561A4882D15FC6A00C358C7 /* MyDividerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */; };
 		9561A48A2D15FCEC00C358C7 /* TrianglesPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4892D15FCEC00C358C7 /* TrianglesPath.swift */; };
 		9561A48C2D15FD4C00C358C7 /* PathCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A48B2D15FD4C00C358C7 /* PathCurve.swift */; };
+		9561A48E2D15FDF500C358C7 /* PathQuadCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A48D2D15FDF500C358C7 /* PathQuadCurve.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -555,6 +556,7 @@
 		9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDividerPath.swift; sourceTree = "<group>"; };
 		9561A4892D15FCEC00C358C7 /* TrianglesPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglesPath.swift; sourceTree = "<group>"; };
 		9561A48B2D15FD4C00C358C7 /* PathCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathCurve.swift; sourceTree = "<group>"; };
+		9561A48D2D15FDF500C358C7 /* PathQuadCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathQuadCurve.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1226,6 +1228,7 @@
 				9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */,
 				9561A4892D15FCEC00C358C7 /* TrianglesPath.swift */,
 				9561A48B2D15FD4C00C358C7 /* PathCurve.swift */,
+				9561A48D2D15FDF500C358C7 /* PathQuadCurve.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -2083,6 +2086,7 @@
 				9593F6112CD6AAD8009C6D70 /* MenuMenuPosition.swift in Sources */,
 				957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */,
 				9561A47D2D15F94300C358C7 /* ImageForegroundStyle.swift in Sources */,
+				9561A48E2D15FDF500C358C7 /* PathQuadCurve.swift in Sources */,
 				957E21942CD1633A004A34D6 /* ListRowBackgroundonSections.swift in Sources */,
 				8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */,
 				9576FC6F2CDE7E340082C662 /* ProgressViewCustomizing.swift in Sources */,
