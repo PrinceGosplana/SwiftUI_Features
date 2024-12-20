@@ -175,6 +175,7 @@
 		9561A4832D15FB6600C358C7 /* ImageSymbolEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4822D15FB6600C358C7 /* ImageSymbolEffect.swift */; };
 		9561A4852D15FBDC00C358C7 /* ImageSymbolEffect_18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4842D15FBDC00C358C7 /* ImageSymbolEffect_18.swift */; };
 		9561A4882D15FC6A00C358C7 /* MyDividerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */; };
+		9561A48A2D15FCEC00C358C7 /* TrianglesPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4892D15FCEC00C358C7 /* TrianglesPath.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -551,6 +552,7 @@
 		9561A4822D15FB6600C358C7 /* ImageSymbolEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolEffect.swift; sourceTree = "<group>"; };
 		9561A4842D15FBDC00C358C7 /* ImageSymbolEffect_18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolEffect_18.swift; sourceTree = "<group>"; };
 		9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDividerPath.swift; sourceTree = "<group>"; };
+		9561A4892D15FCEC00C358C7 /* TrianglesPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglesPath.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1220,6 +1222,7 @@
 			isa = PBXGroup;
 			children = (
 				9561A4872D15FC6A00C358C7 /* MyDividerPath.swift */,
+				9561A4892D15FCEC00C358C7 /* TrianglesPath.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -2038,6 +2041,7 @@
 				95919E2C2CF39A06006C8355 /* FontTracking.swift in Sources */,
 				95919E2E2CF39ABE006C8355 /* FontShowingDates.swift in Sources */,
 				8A96E31E2C79E03F00712616 /* BadgeView.swift in Sources */,
+				9561A48A2D15FCEC00C358C7 /* TrianglesPath.swift in Sources */,
 				957E21862CD019F3004A34D6 /* StaticListView.swift in Sources */,
 				95A6357F2CED032C000CE914 /* FontTextWeightsTextStyles.swift in Sources */,
 				95F860DF2CDD43350076005E /* PickerWheel.swift in Sources */,
