@@ -170,6 +170,7 @@
 		9561A4792D120A1C00C358C7 /* ImageSymbolVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */; };
 		9561A47B2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */; };
 		9561A47D2D15F94300C358C7 /* ImageForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A47C2D15F94300C358C7 /* ImageForegroundStyle.swift */; };
+		9561A47F2D15F9E100C358C7 /* ImageUsingGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561A47E2D15F9E100C358C7 /* ImageUsingGradients.swift */; };
 		9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */; };
 		9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */; };
 		9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */; };
@@ -541,6 +542,7 @@
 		9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolVariant.swift; sourceTree = "<group>"; };
 		9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSymbolRenderingMode.swift; sourceTree = "<group>"; };
 		9561A47C2D15F94300C358C7 /* ImageForegroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageForegroundStyle.swift; sourceTree = "<group>"; };
+		9561A47E2D15F9E100C358C7 /* ImageUsingGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUsingGradients.swift; sourceTree = "<group>"; };
 		9561D3E22D0CBE7700C62B71 /* ColorIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIntro.swift; sourceTree = "<group>"; };
 		9561D3E42D0CBEF400C62B71 /* ColorOtherSystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOtherSystemColors.swift; sourceTree = "<group>"; };
 		9561D3E62D0CBF3B00C62B71 /* ColorSecondaryStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSecondaryStacking.swift; sourceTree = "<group>"; };
@@ -1198,6 +1200,7 @@
 				9561A47A2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift */,
 				9561A4782D120A1C00C358C7 /* ImageSymbolVariant.swift */,
 				9561A47C2D15F94300C358C7 /* ImageForegroundStyle.swift */,
+				9561A47E2D15F9E100C358C7 /* ImageUsingGradients.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -1775,6 +1778,7 @@
 				8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */,
 				95919E3C2CF39F8F006C8355 /* FontTextTextSelection.swift in Sources */,
 				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
+				9561A47F2D15F9E100C358C7 /* ImageUsingGradients.swift in Sources */,
 				957E218E2CD1620C004A34D6 /* SelectionDisabled.swift in Sources */,
 				9576FC602CDE7AD00082C662 /* PhotosPickerIntro.swift in Sources */,
 				95954BBE2CFA509A009C6773 /* FontText_StopwatchStyle.swift in Sources */,
