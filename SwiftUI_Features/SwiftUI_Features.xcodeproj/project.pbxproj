@@ -197,6 +197,7 @@
 		956C9B942CB54BCC004898DB /* ButtonRepeatBehaviorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B932CB54BCC004898DB /* ButtonRepeatBehaviorView.swift */; };
 		956C9BA22CB85154004898DB /* DebuggingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */; };
 		956C9BA42CB986D4004898DB /* DetectingVisibleCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9BA32CB986D4004898DB /* DetectingVisibleCells.swift */; };
+		956FA0D62D174693004CB2CC /* PathRelativeArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0D52D174693004CB2CC /* PathRelativeArc.swift */; };
 		956FACAA2D0A16FA008DE100 /* TrimOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FACA92D0A16FA008DE100 /* TrimOutlineView.swift */; };
 		9576FC5D2CDE79E00082C662 /* PickerWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC5C2CDE79E00082C662 /* PickerWithEnum.swift */; };
 		9576FC602CDE7AD00082C662 /* PhotosPickerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC5F2CDE7AD00082C662 /* PhotosPickerIntro.swift */; };
@@ -576,6 +577,7 @@
 		956C9B932CB54BCC004898DB /* ButtonRepeatBehaviorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRepeatBehaviorView.swift; sourceTree = "<group>"; };
 		956C9BA12CB85154004898DB /* DebuggingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingAnimationView.swift; sourceTree = "<group>"; };
 		956C9BA32CB986D4004898DB /* DetectingVisibleCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingVisibleCells.swift; sourceTree = "<group>"; };
+		956FA0D52D174693004CB2CC /* PathRelativeArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathRelativeArc.swift; sourceTree = "<group>"; };
 		956FACA92D0A16FA008DE100 /* TrimOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimOutlineView.swift; sourceTree = "<group>"; };
 		9576FC5C2CDE79E00082C662 /* PickerWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWithEnum.swift; sourceTree = "<group>"; };
 		9576FC5F2CDE7AD00082C662 /* PhotosPickerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerIntro.swift; sourceTree = "<group>"; };
@@ -1229,6 +1231,7 @@
 				9561A4892D15FCEC00C358C7 /* TrianglesPath.swift */,
 				9561A48B2D15FD4C00C358C7 /* PathCurve.swift */,
 				9561A48D2D15FDF500C358C7 /* PathQuadCurve.swift */,
+				956FA0D52D174693004CB2CC /* PathRelativeArc.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -1781,6 +1784,7 @@
 				9593F6152CD6ABE2009C6D70 /* OtherViewsWithin.swift in Sources */,
 				9561D3EF2D0CC05C00C62B71 /* OpacityModifier.swift in Sources */,
 				95AE9D582CE92588002510C1 /* SliderCustomization.swift in Sources */,
+				956FA0D62D174693004CB2CC /* PathRelativeArc.swift in Sources */,
 				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
 				8A0663582CAD2D7C00937F63 /* TimeLineAnimationView.swift in Sources */,
 				8A4001432C83304C00A633A5 /* UserLocationView.swift in Sources */,
