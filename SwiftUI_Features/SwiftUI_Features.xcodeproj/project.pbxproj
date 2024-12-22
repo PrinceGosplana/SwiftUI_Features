@@ -204,6 +204,7 @@
 		956FA0DF2D188262004CB2CC /* RectangularStokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0DE2D188262004CB2CC /* RectangularStokes.swift */; };
 		956FA0E12D1882C2004CB2CC /* RectangularStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0E02D1882C2004CB2CC /* RectangularStrokeBorder.swift */; };
 		956FA0E32D188350004CB2CC /* SizingfWithPaddingFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0E22D188350004CB2CC /* SizingfWithPaddingFrame.swift */; };
+		956FA0E52D1883D5004CB2CC /* RectangularSizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0E42D1883D5004CB2CC /* RectangularSizeModifier.swift */; };
 		956FACAA2D0A16FA008DE100 /* TrimOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FACA92D0A16FA008DE100 /* TrimOutlineView.swift */; };
 		9576FC5D2CDE79E00082C662 /* PickerWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC5C2CDE79E00082C662 /* PickerWithEnum.swift */; };
 		9576FC602CDE7AD00082C662 /* PhotosPickerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC5F2CDE7AD00082C662 /* PhotosPickerIntro.swift */; };
@@ -590,6 +591,7 @@
 		956FA0DE2D188262004CB2CC /* RectangularStokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularStokes.swift; sourceTree = "<group>"; };
 		956FA0E02D1882C2004CB2CC /* RectangularStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularStrokeBorder.swift; sourceTree = "<group>"; };
 		956FA0E22D188350004CB2CC /* SizingfWithPaddingFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizingfWithPaddingFrame.swift; sourceTree = "<group>"; };
+		956FA0E42D1883D5004CB2CC /* RectangularSizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularSizeModifier.swift; sourceTree = "<group>"; };
 		956FACA92D0A16FA008DE100 /* TrimOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimOutlineView.swift; sourceTree = "<group>"; };
 		9576FC5C2CDE79E00082C662 /* PickerWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWithEnum.swift; sourceTree = "<group>"; };
 		9576FC5F2CDE7AD00082C662 /* PhotosPickerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerIntro.swift; sourceTree = "<group>"; };
@@ -1274,6 +1276,7 @@
 				956FA0E02D1882C2004CB2CC /* RectangularStrokeBorder.swift */,
 				956FA0DC2D1881D8004CB2CC /* RectangularColors.swift */,
 				956FA0E22D188350004CB2CC /* SizingfWithPaddingFrame.swift */,
+				956FA0E42D1883D5004CB2CC /* RectangularSizeModifier.swift */,
 			);
 			path = "Rectangular Shapes";
 			sourceTree = "<group>";
@@ -1812,6 +1815,7 @@
 				95AE9D582CE92588002510C1 /* SliderCustomization.swift in Sources */,
 				956FA0D62D174693004CB2CC /* PathRelativeArc.swift in Sources */,
 				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
+				956FA0E52D1883D5004CB2CC /* RectangularSizeModifier.swift in Sources */,
 				8A0663582CAD2D7C00937F63 /* TimeLineAnimationView.swift in Sources */,
 				8A4001432C83304C00A633A5 /* UserLocationView.swift in Sources */,
 				9576FCA72CE7D73A0082C662 /* SignInWithAppleIntro.swift in Sources */,
