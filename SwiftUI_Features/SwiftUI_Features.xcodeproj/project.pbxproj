@@ -201,6 +201,7 @@
 		956FA0D82D187FDE004CB2CC /* PathRelativeArcMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0D72D187FDE004CB2CC /* PathRelativeArcMask.swift */; };
 		956FA0DA2D18815E004CB2CC /* PathCGPathToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0D92D18815E004CB2CC /* PathCGPathToPath.swift */; };
 		956FA0DD2D1881D8004CB2CC /* RectangularColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0DC2D1881D8004CB2CC /* RectangularColors.swift */; };
+		956FA0DF2D188262004CB2CC /* RectangularStokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FA0DE2D188262004CB2CC /* RectangularStokes.swift */; };
 		956FACAA2D0A16FA008DE100 /* TrimOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FACA92D0A16FA008DE100 /* TrimOutlineView.swift */; };
 		9576FC5D2CDE79E00082C662 /* PickerWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC5C2CDE79E00082C662 /* PickerWithEnum.swift */; };
 		9576FC602CDE7AD00082C662 /* PhotosPickerIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FC5F2CDE7AD00082C662 /* PhotosPickerIntro.swift */; };
@@ -584,6 +585,7 @@
 		956FA0D72D187FDE004CB2CC /* PathRelativeArcMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathRelativeArcMask.swift; sourceTree = "<group>"; };
 		956FA0D92D18815E004CB2CC /* PathCGPathToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathCGPathToPath.swift; sourceTree = "<group>"; };
 		956FA0DC2D1881D8004CB2CC /* RectangularColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularColors.swift; sourceTree = "<group>"; };
+		956FA0DE2D188262004CB2CC /* RectangularStokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularStokes.swift; sourceTree = "<group>"; };
 		956FACA92D0A16FA008DE100 /* TrimOutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimOutlineView.swift; sourceTree = "<group>"; };
 		9576FC5C2CDE79E00082C662 /* PickerWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWithEnum.swift; sourceTree = "<group>"; };
 		9576FC5F2CDE7AD00082C662 /* PhotosPickerIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPickerIntro.swift; sourceTree = "<group>"; };
@@ -1264,6 +1266,7 @@
 		956FA0DB2D1881B9004CB2CC /* Rectangular Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				956FA0DE2D188262004CB2CC /* RectangularStokes.swift */,
 				956FA0DC2D1881D8004CB2CC /* RectangularColors.swift */,
 			);
 			path = "Rectangular Shapes";
@@ -1890,6 +1893,7 @@
 				9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */,
 				95F860CB2CD95E840076005E /* NavLinkWithNavigationDestination.swift in Sources */,
 				95F860C42CD95BFC0076005E /* NavigationCustomBackButton.swift in Sources */,
+				956FA0DF2D188262004CB2CC /* RectangularStokes.swift in Sources */,
 				95AE9D612CE92AF3002510C1 /* StepperIntro.swift in Sources */,
 				95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */,
 				8A3B99212BC4F087009B326E /* BounceEffectView.swift in Sources */,
