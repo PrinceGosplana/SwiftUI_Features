@@ -187,6 +187,7 @@
 		9561D3F12D0CC0C000C62B71 /* ColorWithUIColorSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */; };
 		9561D3F32D0CC10C00C62B71 /* ColorUsingSystemFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561D3F22D0CC10C00C62B71 /* ColorUsingSystemFill.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
+		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
 		956A531A2CF65772008745D3 /* FontDateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956A53192CF65772008745D3 /* FontDateFormatting.swift */; };
 		956C9B882CB26BC4004898DB /* GridCellColumnsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */; };
@@ -578,6 +579,7 @@
 		9561D3F02D0CC0C000C62B71 /* ColorWithUIColorSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWithUIColorSystem.swift; sourceTree = "<group>"; };
 		9561D3F22D0CC10C00C62B71 /* ColorUsingSystemFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUsingSystemFill.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
+		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
 		956A53192CF65772008745D3 /* FontDateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDateFormatting.swift; sourceTree = "<group>"; };
 		956C9B872CB26BC4004898DB /* GridCellColumnsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCellColumnsExample.swift; sourceTree = "<group>"; };
@@ -1448,6 +1450,7 @@
 				95CF29212CF2013500A1210E /* FontCapitalLetterOptions.swift */,
 				95919E352CF39DED006C8355 /* FjontTextWrappingImages.swift */,
 				95919E372CF39E5E006C8355 /* FontTextMarkdown.swift */,
+				956859C72D1C7F27006E42FF /* InsetIntroducti.swift */,
 				956FA0DB2D1881B9004CB2CC /* Rectangular Shapes */,
 				95919E392CF39ECE006C8355 /* FontTextDynamicTypeSize.swift */,
 				9561A4862D15FC5D00C358C7 /* Path */,
@@ -2107,6 +2110,7 @@
 				957E21862CD019F3004A34D6 /* StaticListView.swift in Sources */,
 				95A6357F2CED032C000CE914 /* FontTextWeightsTextStyles.swift in Sources */,
 				95F860DF2CDD43350076005E /* PickerWheel.swift in Sources */,
+				956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */,
 				9576FC872CE143F70082C662 /* ScrollviewContentMargins.swift in Sources */,
 				8ADD6EE72BB4522000C7D329 /* Color+Ext.swift in Sources */,
 				8A96E3352C7B682200712616 /* DoneBtnAlternativeView.swift in Sources */,
