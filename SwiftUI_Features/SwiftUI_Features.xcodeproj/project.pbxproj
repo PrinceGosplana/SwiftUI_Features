@@ -142,6 +142,7 @@
 		9529FDF42D0628B9000B1E0E /* CircularShapesStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9529FDF32D0628B9000B1E0E /* CircularShapesStrokeBorder.swift */; };
 		952B7DB12CFF937700B230F3 /* TextFieldFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */; };
 		9531763A2D07718900132C46 /* PaddingandFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953176392D07718900132C46 /* PaddingandFrame.swift */; };
+		95328B9A2D1F3840004341E2 /* AppliedToCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95328B992D1F3840004341E2 /* AppliedToCircle.swift */; };
 		9547F6FC2CBC3C17009648DF /* TooltipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FB2CBC3C17009648DF /* TooltipsView.swift */; };
 		9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */; };
 		9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */; };
@@ -535,6 +536,7 @@
 		9529FDF32D0628B9000B1E0E /* CircularShapesStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapesStrokeBorder.swift; sourceTree = "<group>"; };
 		952B7DB02CFF937700B230F3 /* TextFieldFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFontSize.swift; sourceTree = "<group>"; };
 		953176392D07718900132C46 /* PaddingandFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingandFrame.swift; sourceTree = "<group>"; };
+		95328B992D1F3840004341E2 /* AppliedToCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedToCircle.swift; sourceTree = "<group>"; };
 		9547F6FB2CBC3C17009648DF /* TooltipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipsView.swift; sourceTree = "<group>"; };
 		9547F6FD2CBEE141009648DF /* EnvironmentObservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObservationView.swift; sourceTree = "<group>"; };
 		9547F6FF2CC2C3EC009648DF /* BentoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoLayoutView.swift; sourceTree = "<group>"; };
@@ -1210,6 +1212,14 @@
 			path = Drawing;
 			sourceTree = "<group>";
 		};
+		95328B962D1F3678004341E2 /* Paints */ = {
+			isa = PBXGroup;
+			children = (
+				95328B992D1F3840004341E2 /* AppliedToCircle.swift */,
+			);
+			path = Paints;
+			sourceTree = "<group>";
+		};
 		956087D32B9F6C3500BAC9BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -1454,6 +1464,7 @@
 				95919E372CF39E5E006C8355 /* FontTextMarkdown.swift */,
 				956859C72D1C7F27006E42FF /* InsetIntroducti.swift */,
 				9580B2D52D1DD8D600FB881B /* InsetNegativeValues.swift */,
+				95328B962D1F3678004341E2 /* Paints */,
 				956FA0DB2D1881B9004CB2CC /* Rectangular Shapes */,
 				95919E392CF39ECE006C8355 /* FontTextDynamicTypeSize.swift */,
 				9561A4862D15FC5D00C358C7 /* Path */,
@@ -1949,6 +1960,7 @@
 				956FA0E92D188612004CB2CC /* RoundedRectangleCornerSize.swift in Sources */,
 				8AFE44822C81D77E0018E70F /* SystemREnderingModesView.swift in Sources */,
 				957E21842CD018F9004A34D6 /* LinkView.swift in Sources */,
+				95328B9A2D1F3840004341E2 /* AppliedToCircle.swift in Sources */,
 				956FACAA2D0A16FA008DE100 /* TrimOutlineView.swift in Sources */,
 				9561A46B2D1204C500C358C7 /* ImageScaledMetricImage.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
