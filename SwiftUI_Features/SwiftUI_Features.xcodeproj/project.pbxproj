@@ -283,6 +283,7 @@
 		957E84902D0EB76F00E2D0BE /* ColorMix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E848F2D0EB76F00E2D0BE /* ColorMix.swift */; };
 		95801D5C2CF4EB2E00949E61 /* FontTextFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */; };
 		9580B2D62D1DD8D600FB881B /* InsetNegativeValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580B2D52D1DD8D600FB881B /* InsetNegativeValues.swift */; };
+		958530912D20840300906BB8 /* ConicGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530902D20840300906BB8 /* ConicGradient.swift */; };
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
 		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
 		9586B3632CF1105700F68C55 /* FontLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3622CF1105700F68C55 /* FontLineSpacing.swift */; };
@@ -679,6 +680,7 @@
 		957E848F2D0EB76F00E2D0BE /* ColorMix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMix.swift; sourceTree = "<group>"; };
 		95801D5B2CF4EB2E00949E61 /* FontTextFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextFormat.swift; sourceTree = "<group>"; };
 		9580B2D52D1DD8D600FB881B /* InsetNegativeValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetNegativeValues.swift; sourceTree = "<group>"; };
+		958530902D20840300906BB8 /* ConicGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConicGradient.swift; sourceTree = "<group>"; };
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
 		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
 		9586B3622CF1105700F68C55 /* FontLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLineSpacing.swift; sourceTree = "<group>"; };
@@ -1467,6 +1469,7 @@
 				95919E372CF39E5E006C8355 /* FontTextMarkdown.swift */,
 				956859C72D1C7F27006E42FF /* InsetIntroducti.swift */,
 				9580B2D52D1DD8D600FB881B /* InsetNegativeValues.swift */,
+				958530902D20840300906BB8 /* ConicGradient.swift */,
 				95328B962D1F3678004341E2 /* Paints */,
 				956FA0DB2D1881B9004CB2CC /* Rectangular Shapes */,
 				95919E392CF39ECE006C8355 /* FontTextDynamicTypeSize.swift */,
@@ -2111,6 +2114,7 @@
 				9547F6FE2CBEE141009648DF /* EnvironmentObservationView.swift in Sources */,
 				9576FC982CE14A3E0082C662 /* SecureFieldIntro.swift in Sources */,
 				8A3B99252BC4F474009B326E /* ExtractedView.swift in Sources */,
+				958530912D20840300906BB8 /* ConicGradient.swift in Sources */,
 				8AFE17612BB984E0002CC3AA /* MockData.swift in Sources */,
 				9593F6222CD79A4D009C6D70 /* MultiDatePickerCustomizations.swift in Sources */,
 				956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */,
