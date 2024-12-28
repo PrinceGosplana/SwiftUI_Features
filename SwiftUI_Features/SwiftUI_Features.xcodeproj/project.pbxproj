@@ -290,6 +290,7 @@
 		9585309A2D20870500906BB8 /* EllipticalGradientRadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */; };
 		9585309C2D20877100906BB8 /* ShapeControlGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585309B2D20877100906BB8 /* ShapeControlGradient.swift */; };
 		9585309E2D2087D900906BB8 /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585309D2D2087D900906BB8 /* GradientDirection.swift */; };
+		958530A02D20885900906BB8 /* CustomGradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585309F2D20885900906BB8 /* CustomGradientDirection.swift */; };
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
 		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
 		9586B3632CF1105700F68C55 /* FontLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3622CF1105700F68C55 /* FontLineSpacing.swift */; };
@@ -693,6 +694,7 @@
 		958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradientRadiusFraction.swift; sourceTree = "<group>"; };
 		9585309B2D20877100906BB8 /* ShapeControlGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeControlGradient.swift; sourceTree = "<group>"; };
 		9585309D2D2087D900906BB8 /* GradientDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDirection.swift; sourceTree = "<group>"; };
+		9585309F2D20885900906BB8 /* CustomGradientDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientDirection.swift; sourceTree = "<group>"; };
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
 		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
 		9586B3622CF1105700F68C55 /* FontLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLineSpacing.swift; sourceTree = "<group>"; };
@@ -1585,6 +1587,7 @@
 				958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */,
 				9585309B2D20877100906BB8 /* ShapeControlGradient.swift */,
 				9585309D2D2087D900906BB8 /* GradientDirection.swift */,
+				9585309F2D20885900906BB8 /* CustomGradientDirection.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -1964,6 +1967,7 @@
 				8AFE44802C81D6C10018E70F /* NewForegroundStyleView.swift in Sources */,
 				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
 				8A27C9C72C8C7CE200DFAFE1 /* ListOffsetfixView.swift in Sources */,
+				958530A02D20885900906BB8 /* CustomGradientDirection.swift in Sources */,
 				9586B3672CF1119300F68C55 /* FontTruncationMode.swift in Sources */,
 				9593F60D2CD699CD009C6D70 /* MenuInsideMenu.swift in Sources */,
 				95F860CB2CD95E840076005E /* NavLinkWithNavigationDestination.swift in Sources */,
