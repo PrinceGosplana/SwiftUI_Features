@@ -291,6 +291,7 @@
 		9585309C2D20877100906BB8 /* ShapeControlGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585309B2D20877100906BB8 /* ShapeControlGradient.swift */; };
 		9585309E2D2087D900906BB8 /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585309D2D2087D900906BB8 /* GradientDirection.swift */; };
 		958530A02D20885900906BB8 /* CustomGradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585309F2D20885900906BB8 /* CustomGradientDirection.swift */; };
+		958530A22D20893100906BB8 /* ColorLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530A12D20893100906BB8 /* ColorLocation.swift */; };
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
 		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
 		9586B3632CF1105700F68C55 /* FontLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3622CF1105700F68C55 /* FontLineSpacing.swift */; };
@@ -695,6 +696,7 @@
 		9585309B2D20877100906BB8 /* ShapeControlGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeControlGradient.swift; sourceTree = "<group>"; };
 		9585309D2D2087D900906BB8 /* GradientDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDirection.swift; sourceTree = "<group>"; };
 		9585309F2D20885900906BB8 /* CustomGradientDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientDirection.swift; sourceTree = "<group>"; };
+		958530A12D20893100906BB8 /* ColorLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLocation.swift; sourceTree = "<group>"; };
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
 		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
 		9586B3622CF1105700F68C55 /* FontLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLineSpacing.swift; sourceTree = "<group>"; };
@@ -1588,6 +1590,7 @@
 				9585309B2D20877100906BB8 /* ShapeControlGradient.swift */,
 				9585309D2D2087D900906BB8 /* GradientDirection.swift */,
 				9585309F2D20885900906BB8 /* CustomGradientDirection.swift */,
+				958530A12D20893100906BB8 /* ColorLocation.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -2118,6 +2121,7 @@
 				8A96E3222C79F55C00712616 /* SafeAreaInsetView.swift in Sources */,
 				9586B3632CF1105700F68C55 /* FontLineSpacing.swift in Sources */,
 				9576FC622CDE7B9A0082C662 /* PhotosPickerMultipleItems.swift in Sources */,
+				958530A22D20893100906BB8 /* ColorLocation.swift in Sources */,
 				8AAD77AA2C6F15BE004E54D1 /* OfflineAlertView.swift in Sources */,
 				95AE9D542CE924A7002510C1 /* SliderIntro.swift in Sources */,
 				8A91A2142C75CD81007F7B7F /* ViewThatFitsView.swift in Sources */,
