@@ -289,6 +289,7 @@
 		958530982D20863D00906BB8 /* EllipticalGradientSizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530972D20863D00906BB8 /* EllipticalGradientSizeChanges.swift */; };
 		9585309A2D20870500906BB8 /* EllipticalGradientRadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */; };
 		9585309C2D20877100906BB8 /* ShapeControlGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585309B2D20877100906BB8 /* ShapeControlGradient.swift */; };
+		9585309E2D2087D900906BB8 /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585309D2D2087D900906BB8 /* GradientDirection.swift */; };
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
 		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
 		9586B3632CF1105700F68C55 /* FontLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3622CF1105700F68C55 /* FontLineSpacing.swift */; };
@@ -691,6 +692,7 @@
 		958530972D20863D00906BB8 /* EllipticalGradientSizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradientSizeChanges.swift; sourceTree = "<group>"; };
 		958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradientRadiusFraction.swift; sourceTree = "<group>"; };
 		9585309B2D20877100906BB8 /* ShapeControlGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeControlGradient.swift; sourceTree = "<group>"; };
+		9585309D2D2087D900906BB8 /* GradientDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDirection.swift; sourceTree = "<group>"; };
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
 		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
 		9586B3622CF1105700F68C55 /* FontLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLineSpacing.swift; sourceTree = "<group>"; };
@@ -1582,6 +1584,7 @@
 				958530972D20863D00906BB8 /* EllipticalGradientSizeChanges.swift */,
 				958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */,
 				9585309B2D20877100906BB8 /* ShapeControlGradient.swift */,
+				9585309D2D2087D900906BB8 /* GradientDirection.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -2167,6 +2170,7 @@
 				9576FC672CDE7CEE0082C662 /* ProgressViewShowingProgress.swift in Sources */,
 				95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */,
 				95CF29222CF2013500A1210E /* FontCapitalLetterOptions.swift in Sources */,
+				9585309E2D2087D900906BB8 /* GradientDirection.swift in Sources */,
 				9529FDF02D0627D5000B1E0E /* CircularShapesColors.swift in Sources */,
 				9580B2D62D1DD8D600FB881B /* InsetNegativeValues.swift in Sources */,
 				957E21492CCD6467004A34D6 /* GaugeRangeExample.swift in Sources */,
