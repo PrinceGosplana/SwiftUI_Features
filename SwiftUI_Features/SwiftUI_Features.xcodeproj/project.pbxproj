@@ -287,6 +287,7 @@
 		958530932D20854A00906BB8 /* ConicAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530922D20854A00906BB8 /* ConicAngle.swift */; };
 		958530962D2085CA00906BB8 /* EllipticalGradientIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530952D2085CA00906BB8 /* EllipticalGradientIntro.swift */; };
 		958530982D20863D00906BB8 /* EllipticalGradientSizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530972D20863D00906BB8 /* EllipticalGradientSizeChanges.swift */; };
+		9585309A2D20870500906BB8 /* EllipticalGradientRadiusFraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */; };
 		9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B35E2CF10F6A00F68C55 /* FontTightening.swift */; };
 		9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */; };
 		9586B3632CF1105700F68C55 /* FontLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586B3622CF1105700F68C55 /* FontLineSpacing.swift */; };
@@ -687,6 +688,7 @@
 		958530922D20854A00906BB8 /* ConicAngle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConicAngle.swift; sourceTree = "<group>"; };
 		958530952D2085CA00906BB8 /* EllipticalGradientIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradientIntro.swift; sourceTree = "<group>"; };
 		958530972D20863D00906BB8 /* EllipticalGradientSizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradientSizeChanges.swift; sourceTree = "<group>"; };
+		958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradientRadiusFraction.swift; sourceTree = "<group>"; };
 		9586B35E2CF10F6A00F68C55 /* FontTightening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTightening.swift; sourceTree = "<group>"; };
 		9586B3602CF1100800F68C55 /* FontMinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontMinimumScaleFactor.swift; sourceTree = "<group>"; };
 		9586B3622CF1105700F68C55 /* FontLineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontLineSpacing.swift; sourceTree = "<group>"; };
@@ -1576,6 +1578,7 @@
 				958530922D20854A00906BB8 /* ConicAngle.swift */,
 				958530952D2085CA00906BB8 /* EllipticalGradientIntro.swift */,
 				958530972D20863D00906BB8 /* EllipticalGradientSizeChanges.swift */,
+				958530992D20870500906BB8 /* EllipticalGradientRadiusFraction.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -1892,6 +1895,7 @@
 				9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */,
 				957E21982CD1643E004A34D6 /* ListWithChildren.swift in Sources */,
 				8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */,
+				9585309A2D20870500906BB8 /* EllipticalGradientRadiusFraction.swift in Sources */,
 				95919E3C2CF39F8F006C8355 /* FontTextTextSelection.swift in Sources */,
 				8AAD77B62C6F50B5004E54D1 /* AnimationCompletionCriteria.swift in Sources */,
 				9561A47F2D15F9E100C358C7 /* ImageUsingGradients.swift in Sources */,
