@@ -195,6 +195,7 @@
 		95650B1E2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */; };
 		95650B202D21DF2200ABABE0 /* RadialAsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */; };
 		95650B222D21DFF700ABABE0 /* RadialGradientStartRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B212D21DFF700ABABE0 /* RadialGradientStartRadius.swift */; };
+		95650B242D21E07500ABABE0 /* RadialGradientEndRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B232D21E07500ABABE0 /* RadialGradientEndRadius.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -606,6 +607,7 @@
 		95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientAppliedToViews.swift; sourceTree = "<group>"; };
 		95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialAsBackground.swift; sourceTree = "<group>"; };
 		95650B212D21DFF700ABABE0 /* RadialGradientStartRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientStartRadius.swift; sourceTree = "<group>"; };
+		95650B232D21E07500ABABE0 /* RadialGradientEndRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientEndRadius.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1612,6 +1614,7 @@
 				95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */,
 				95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */,
 				95650B212D21DFF700ABABE0 /* RadialGradientStartRadius.swift */,
+				95650B232D21E07500ABABE0 /* RadialGradientEndRadius.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -2166,6 +2169,7 @@
 				8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */,
 				958530962D2085CA00906BB8 /* EllipticalGradientIntro.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
+				95650B242D21E07500ABABE0 /* RadialGradientEndRadius.swift in Sources */,
 				95A0351F2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift in Sources */,
 				9576FC9A2CE14AD70082C662 /* SecureTextFieldCustomizations.swift in Sources */,
 				95AE9D5E2CE92A5F002510C1 /* SliderInMenu.swift in Sources */,
