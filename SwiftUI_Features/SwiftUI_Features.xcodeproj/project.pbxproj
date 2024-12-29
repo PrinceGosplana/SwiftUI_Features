@@ -193,6 +193,7 @@
 		95650B1A2D21DABC00ABABE0 /* MeshGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B192D21DABC00ABABE0 /* MeshGradientBackground.swift */; };
 		95650B1C2D21DD7400ABABE0 /* MeshGradient3x3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */; };
 		95650B1E2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */; };
+		95650B202D21DF2200ABABE0 /* RadialAsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -602,6 +603,7 @@
 		95650B192D21DABC00ABABE0 /* MeshGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientBackground.swift; sourceTree = "<group>"; };
 		95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradient3x3.swift; sourceTree = "<group>"; };
 		95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientAppliedToViews.swift; sourceTree = "<group>"; };
+		95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialAsBackground.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1606,6 +1608,7 @@
 				95650B192D21DABC00ABABE0 /* MeshGradientBackground.swift */,
 				95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */,
 				95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */,
+				95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -1942,6 +1945,7 @@
 				9576FC8F2CE1478A0082C662 /* NavigationSearchableCancel.swift in Sources */,
 				9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */,
 				9576FC832CDFEF180082C662 /* ScrollViewBehaviorViewAligned.swift in Sources */,
+				95650B202D21DF2200ABABE0 /* RadialAsBackground.swift in Sources */,
 				95328B9E2D1F3887004341E2 /* AngularOnOtherControls.swift in Sources */,
 				95F860EB2CDD463D0076005E /* PickerNavigationLinkStyle.swift in Sources */,
 				95AE9D5C2CE929A8002510C1 /* SliderTint.swift in Sources */,
