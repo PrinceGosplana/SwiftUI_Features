@@ -191,6 +191,7 @@
 		95650B162D21D94200ABABE0 /* MeshGradientIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B152D21D94200ABABE0 /* MeshGradientIntro.swift */; };
 		95650B182D21DA3300ABABE0 /* MeshGradientDifferentPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B172D21DA3300ABABE0 /* MeshGradientDifferentPoints.swift */; };
 		95650B1A2D21DABC00ABABE0 /* MeshGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B192D21DABC00ABABE0 /* MeshGradientBackground.swift */; };
+		95650B1C2D21DD7400ABABE0 /* MeshGradient3x3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -598,6 +599,7 @@
 		95650B152D21D94200ABABE0 /* MeshGradientIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientIntro.swift; sourceTree = "<group>"; };
 		95650B172D21DA3300ABABE0 /* MeshGradientDifferentPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientDifferentPoints.swift; sourceTree = "<group>"; };
 		95650B192D21DABC00ABABE0 /* MeshGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientBackground.swift; sourceTree = "<group>"; };
+		95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradient3x3.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1600,6 +1602,7 @@
 				95650B152D21D94200ABABE0 /* MeshGradientIntro.swift */,
 				95650B172D21DA3300ABABE0 /* MeshGradientDifferentPoints.swift */,
 				95650B192D21DABC00ABABE0 /* MeshGradientBackground.swift */,
+				95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -1927,6 +1930,7 @@
 				95A6357B2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift in Sources */,
 				8A202A322C7711C700509CB4 /* NewLayoutAPIView.swift in Sources */,
 				9586B3692CF111E600F68C55 /* FontCombiningModifiedText.swift in Sources */,
+				95650B1C2D21DD7400ABABE0 /* MeshGradient3x3.swift in Sources */,
 				8AFA1CE92C0DE0C300EC7A39 /* BottomSheetView.swift in Sources */,
 				956FA0E12D1882C2004CB2CC /* RectangularStrokeBorder.swift in Sources */,
 				952473C82B9A2607005E393F /* ScrollTransitionViewExample.swift in Sources */,
