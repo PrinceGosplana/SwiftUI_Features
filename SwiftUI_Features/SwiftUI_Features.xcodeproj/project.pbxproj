@@ -194,6 +194,7 @@
 		95650B1C2D21DD7400ABABE0 /* MeshGradient3x3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */; };
 		95650B1E2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */; };
 		95650B202D21DF2200ABABE0 /* RadialAsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */; };
+		95650B222D21DFF700ABABE0 /* RadialGradientStartRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B212D21DFF700ABABE0 /* RadialGradientStartRadius.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -604,6 +605,7 @@
 		95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradient3x3.swift; sourceTree = "<group>"; };
 		95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientAppliedToViews.swift; sourceTree = "<group>"; };
 		95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialAsBackground.swift; sourceTree = "<group>"; };
+		95650B212D21DFF700ABABE0 /* RadialGradientStartRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientStartRadius.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1609,6 +1611,7 @@
 				95650B1B2D21DD7400ABABE0 /* MeshGradient3x3.swift */,
 				95650B1D2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift */,
 				95650B1F2D21DF2200ABABE0 /* RadialAsBackground.swift */,
+				95650B212D21DFF700ABABE0 /* RadialGradientStartRadius.swift */,
 			);
 			path = Gradient;
 			sourceTree = "<group>";
@@ -2035,6 +2038,7 @@
 				8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */,
 				9593F62A2CD79DE0009C6D70 /* NavigationCustomBackground.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
+				95650B222D21DFF700ABABE0 /* RadialGradientStartRadius.swift in Sources */,
 				956C9B8C2CB528B3004898DB /* SpanView.swift in Sources */,
 				8A12DFCC2C33FE1A003DACE1 /* RoutHomeView.swift in Sources */,
 				8A39C0E12C4403FC00A7F855 /* AnimateTransition.swift in Sources */,
