@@ -204,6 +204,7 @@
 		95650B312D23386300ABABE0 /* AlertPresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B302D23386300ABABE0 /* AlertPresentingWithBool.swift */; };
 		95650B332D2338D800ABABE0 /* AlertPassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */; };
 		95650B352D233A0900ABABE0 /* AlertChangeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B342D233A0900ABABE0 /* AlertChangeBack.swift */; };
+		95650B372D233A9800ABABE0 /* ConfirmationDialogIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -624,6 +625,7 @@
 		95650B302D23386300ABABE0 /* AlertPresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentingWithBool.swift; sourceTree = "<group>"; };
 		95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPassDataInto.swift; sourceTree = "<group>"; };
 		95650B342D233A0900ABABE0 /* AlertChangeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertChangeBack.swift; sourceTree = "<group>"; };
+		95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogIntro.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1354,6 +1356,7 @@
 				95650B302D23386300ABABE0 /* AlertPresentingWithBool.swift */,
 				95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */,
 				95650B342D233A0900ABABE0 /* AlertChangeBack.swift */,
+				95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2077,6 +2080,7 @@
 				9561D3F12D0CC0C000C62B71 /* ColorWithUIColorSystem.swift in Sources */,
 				8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */,
 				9593F62A2CD79DE0009C6D70 /* NavigationCustomBackground.swift in Sources */,
+				95650B372D233A9800ABABE0 /* ConfirmationDialogIntro.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
 				95650B222D21DFF700ABABE0 /* RadialGradientStartRadius.swift in Sources */,
 				956C9B8C2CB528B3004898DB /* SpanView.swift in Sources */,
