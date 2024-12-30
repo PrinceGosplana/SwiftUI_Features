@@ -203,6 +203,7 @@
 		95650B2F2D2337A300ABABE0 /* ActionSheetButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B2E2D2337A300ABABE0 /* ActionSheetButtons.swift */; };
 		95650B312D23386300ABABE0 /* AlertPresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B302D23386300ABABE0 /* AlertPresentingWithBool.swift */; };
 		95650B332D2338D800ABABE0 /* AlertPassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */; };
+		95650B352D233A0900ABABE0 /* AlertChangeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B342D233A0900ABABE0 /* AlertChangeBack.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -622,6 +623,7 @@
 		95650B2E2D2337A300ABABE0 /* ActionSheetButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetButtons.swift; sourceTree = "<group>"; };
 		95650B302D23386300ABABE0 /* AlertPresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentingWithBool.swift; sourceTree = "<group>"; };
 		95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPassDataInto.swift; sourceTree = "<group>"; };
+		95650B342D233A0900ABABE0 /* AlertChangeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertChangeBack.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1351,6 +1353,7 @@
 				95650B2E2D2337A300ABABE0 /* ActionSheetButtons.swift */,
 				95650B302D23386300ABABE0 /* AlertPresentingWithBool.swift */,
 				95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */,
+				95650B342D233A0900ABABE0 /* AlertChangeBack.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -1913,6 +1916,7 @@
 				8A27C9C12C8C795100DFAFE1 /* CheckmarkToggleStyle.swift in Sources */,
 				95650B1E2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift in Sources */,
 				9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */,
+				95650B352D233A0900ABABE0 /* AlertChangeBack.swift in Sources */,
 				8A91A2182C75D1EB007F7B7F /* CustomLayoutView.swift in Sources */,
 				9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */,
 				957E21DD2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift in Sources */,
