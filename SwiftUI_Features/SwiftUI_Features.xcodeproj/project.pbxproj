@@ -205,6 +205,7 @@
 		95650B332D2338D800ABABE0 /* AlertPassDataInto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */; };
 		95650B352D233A0900ABABE0 /* AlertChangeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B342D233A0900ABABE0 /* AlertChangeBack.swift */; };
 		95650B372D233A9800ABABE0 /* ConfirmationDialogIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */; };
+		95650B392D233AED00ABABE0 /* ConfirmationDialogTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -626,6 +627,7 @@
 		95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPassDataInto.swift; sourceTree = "<group>"; };
 		95650B342D233A0900ABABE0 /* AlertChangeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertChangeBack.swift; sourceTree = "<group>"; };
 		95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogIntro.swift; sourceTree = "<group>"; };
+		95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogTitle.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1357,6 +1359,7 @@
 				95650B322D2338D800ABABE0 /* AlertPassDataInto.swift */,
 				95650B342D233A0900ABABE0 /* AlertChangeBack.swift */,
 				95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */,
+				95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2173,6 +2176,7 @@
 				8A3FDF1D2C33F0CB00AF9F9B /* HomeListNavPathView.swift in Sources */,
 				9576FC8B2CE1465B0082C662 /* NavigationSearchableSearch.swift in Sources */,
 				8A96E32B2C7B1D9900712616 /* DoulingoView.swift in Sources */,
+				95650B392D233AED00ABABE0 /* ConfirmationDialogTitle.swift in Sources */,
 				8A0DC81E2C4A64C6000428B9 /* GeometryProxyInScrollView.swift in Sources */,
 				8A3FDF1F2C33F0FE00AF9F9B /* PaintInfo.swift in Sources */,
 				956FA0E72D188592004CB2CC /* RectangularTrim.swift in Sources */,
