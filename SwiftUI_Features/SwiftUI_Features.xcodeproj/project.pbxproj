@@ -206,6 +206,7 @@
 		95650B352D233A0900ABABE0 /* AlertChangeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B342D233A0900ABABE0 /* AlertChangeBack.swift */; };
 		95650B372D233A9800ABABE0 /* ConfirmationDialogIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */; };
 		95650B392D233AED00ABABE0 /* ConfirmationDialogTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */; };
+		95650B3B2D24451C00ABABE0 /* CustomPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B3A2D24451C00ABABE0 /* CustomPopup.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -628,6 +629,7 @@
 		95650B342D233A0900ABABE0 /* AlertChangeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertChangeBack.swift; sourceTree = "<group>"; };
 		95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogIntro.swift; sourceTree = "<group>"; };
 		95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogTitle.swift; sourceTree = "<group>"; };
+		95650B3A2D24451C00ABABE0 /* CustomPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopup.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1360,6 +1362,7 @@
 				95650B342D233A0900ABABE0 /* AlertChangeBack.swift */,
 				95650B362D233A9800ABABE0 /* ConfirmationDialogIntro.swift */,
 				95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */,
+				95650B3A2D24451C00ABABE0 /* CustomPopup.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2111,6 +2114,7 @@
 				95AE9D562CE9250C002510C1 /* SliderRangeOfValues.swift in Sources */,
 				95BF22A82CC952C200326432 /* PatternShapeStylesView.swift in Sources */,
 				95F860DB2CDD415D0076005E /* PickerIntro.swift in Sources */,
+				95650B3B2D24451C00ABABE0 /* CustomPopup.swift in Sources */,
 				9576FC692CDE7D7A0082C662 /* ProgressViewTotal.swift in Sources */,
 				95B7CE482BA97A840030839E /* GlassBackgroundView.swift in Sources */,
 				8A96E3332C7B640200712616 /* AppStorageRawRepresentableView.swift in Sources */,
