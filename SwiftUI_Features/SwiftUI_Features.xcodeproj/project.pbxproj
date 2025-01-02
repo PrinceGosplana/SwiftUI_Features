@@ -208,6 +208,7 @@
 		95650B392D233AED00ABABE0 /* ConfirmationDialogTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */; };
 		95650B3B2D24451C00ABABE0 /* CustomPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B3A2D24451C00ABABE0 /* CustomPopup.swift */; };
 		95650B3D2D25BC9800ABABE0 /* PopoverFromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B3C2D25BC9800ABABE0 /* PopoverFromBool.swift */; };
+		95650B3F2D2727D900ABABE0 /* PopoverColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B3E2D2727D900ABABE0 /* PopoverColor.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -632,6 +633,7 @@
 		95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogTitle.swift; sourceTree = "<group>"; };
 		95650B3A2D24451C00ABABE0 /* CustomPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopup.swift; sourceTree = "<group>"; };
 		95650B3C2D25BC9800ABABE0 /* PopoverFromBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverFromBool.swift; sourceTree = "<group>"; };
+		95650B3E2D2727D900ABABE0 /* PopoverColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverColor.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1366,6 +1368,7 @@
 				95650B382D233AED00ABABE0 /* ConfirmationDialogTitle.swift */,
 				95650B3A2D24451C00ABABE0 /* CustomPopup.swift */,
 				95650B3C2D25BC9800ABABE0 /* PopoverFromBool.swift */,
+				95650B3E2D2727D900ABABE0 /* PopoverColor.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2041,6 +2044,7 @@
 				956087D52B9F6C4800BAC9BA /* Intro.swift in Sources */,
 				95F860E92CDD45D90076005E /* PickerInForm.swift in Sources */,
 				9561A4682D12042400C358C7 /* GroupSharedModifiers.swift in Sources */,
+				95650B3F2D2727D900ABABE0 /* PopoverColor.swift in Sources */,
 				8AFE44802C81D6C10018E70F /* NewForegroundStyleView.swift in Sources */,
 				95650B332D2338D800ABABE0 /* AlertPassDataInto.swift in Sources */,
 				8AF1C1732C2562EF003CABE6 /* ClaimButtonViewModel.swift in Sources */,
