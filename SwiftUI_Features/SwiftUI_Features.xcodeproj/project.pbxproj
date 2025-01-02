@@ -209,6 +209,7 @@
 		95650B3B2D24451C00ABABE0 /* CustomPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B3A2D24451C00ABABE0 /* CustomPopup.swift */; };
 		95650B3D2D25BC9800ABABE0 /* PopoverFromBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B3C2D25BC9800ABABE0 /* PopoverFromBool.swift */; };
 		95650B3F2D2727D900ABABE0 /* PopoverColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B3E2D2727D900ABABE0 /* PopoverColor.swift */; };
+		95650B412D2728E800ABABE0 /* PopoverSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B402D2728E800ABABE0 /* PopoverSize.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -634,6 +635,7 @@
 		95650B3A2D24451C00ABABE0 /* CustomPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopup.swift; sourceTree = "<group>"; };
 		95650B3C2D25BC9800ABABE0 /* PopoverFromBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverFromBool.swift; sourceTree = "<group>"; };
 		95650B3E2D2727D900ABABE0 /* PopoverColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverColor.swift; sourceTree = "<group>"; };
+		95650B402D2728E800ABABE0 /* PopoverSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverSize.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1369,6 +1371,7 @@
 				95650B3A2D24451C00ABABE0 /* CustomPopup.swift */,
 				95650B3C2D25BC9800ABABE0 /* PopoverFromBool.swift */,
 				95650B3E2D2727D900ABABE0 /* PopoverColor.swift */,
+				95650B402D2728E800ABABE0 /* PopoverSize.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2092,6 +2095,7 @@
 				95533CEF2CF7AD8B006AB1E1 /* FonDateFormatSpecific.swift in Sources */,
 				9561D3F12D0CC0C000C62B71 /* ColorWithUIColorSystem.swift in Sources */,
 				8AAD77662C6DFD09004E54D1 /* NetworkMonitor.swift in Sources */,
+				95650B412D2728E800ABABE0 /* PopoverSize.swift in Sources */,
 				9593F62A2CD79DE0009C6D70 /* NavigationCustomBackground.swift in Sources */,
 				95650B372D233A9800ABABE0 /* ConfirmationDialogIntro.swift in Sources */,
 				8ADF1AAC2BE210A100F0C67F /* StopUsingSpacerView.swift in Sources */,
