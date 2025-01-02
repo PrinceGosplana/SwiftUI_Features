@@ -215,6 +215,7 @@
 		95650B472D272A8900ABABE0 /* SheetSwipeDisabledWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B462D272A8900ABABE0 /* SheetSwipeDisabledWithBool.swift */; };
 		95650B492D272AEF00ABABE0 /* SheetDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B482D272AEF00ABABE0 /* SheetDetents.swift */; };
 		95650B4B2D272B7B00ABABE0 /* SheetCustomSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B4A2D272B7B00ABABE0 /* SheetCustomSizes.swift */; };
+		95650B4D2D272BBF00ABABE0 /* SheetHideDragIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B4C2D272BBF00ABABE0 /* SheetHideDragIndicator.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -646,6 +647,7 @@
 		95650B462D272A8900ABABE0 /* SheetSwipeDisabledWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSwipeDisabledWithBool.swift; sourceTree = "<group>"; };
 		95650B482D272AEF00ABABE0 /* SheetDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDetents.swift; sourceTree = "<group>"; };
 		95650B4A2D272B7B00ABABE0 /* SheetCustomSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCustomSizes.swift; sourceTree = "<group>"; };
+		95650B4C2D272BBF00ABABE0 /* SheetHideDragIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetHideDragIndicator.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1387,6 +1389,7 @@
 				95650B462D272A8900ABABE0 /* SheetSwipeDisabledWithBool.swift */,
 				95650B482D272AEF00ABABE0 /* SheetDetents.swift */,
 				95650B4A2D272B7B00ABABE0 /* SheetCustomSizes.swift */,
+				95650B4C2D272BBF00ABABE0 /* SheetHideDragIndicator.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -1992,6 +1995,7 @@
 				9561A46F2D12071A00C358C7 /* SymbolsIntro.swift in Sources */,
 				954B18D22D0B5A9E003A3C2C /* CirclesTrimSolidShapes.swift in Sources */,
 				8A097D9E2C31BBCB00F03670 /* StructuredConcurrency.swift in Sources */,
+				95650B4D2D272BBF00ABABE0 /* SheetHideDragIndicator.swift in Sources */,
 				9561A47B2D14AB5300C358C7 /* ImageSymbolRenderingMode.swift in Sources */,
 				956C9B8E2CB52A35004898DB /* CustomLogicForSizeView.swift in Sources */,
 				958F10992CFCF0DC00003DA6 /* TextEditorLineLimit.swift in Sources */,
