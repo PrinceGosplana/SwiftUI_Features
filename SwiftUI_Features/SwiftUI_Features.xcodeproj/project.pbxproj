@@ -211,6 +211,7 @@
 		95650B3F2D2727D900ABABE0 /* PopoverColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B3E2D2727D900ABABE0 /* PopoverColor.swift */; };
 		95650B412D2728E800ABABE0 /* PopoverSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B402D2728E800ABABE0 /* PopoverSize.swift */; };
 		95650B432D27297400ABABE0 /* SheetIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B422D27297400ABABE0 /* SheetIdentifiable.swift */; };
+		95650B452D2729FB00ABABE0 /*  SheetSwipeDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B442D2729FB00ABABE0 /*  SheetSwipeDisabled.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -638,6 +639,7 @@
 		95650B3E2D2727D900ABABE0 /* PopoverColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverColor.swift; sourceTree = "<group>"; };
 		95650B402D2728E800ABABE0 /* PopoverSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverSize.swift; sourceTree = "<group>"; };
 		95650B422D27297400ABABE0 /* SheetIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetIdentifiable.swift; sourceTree = "<group>"; };
+		95650B442D2729FB00ABABE0 /*  SheetSwipeDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SheetSwipeDisabled.swift"; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1375,6 +1377,7 @@
 				95650B3E2D2727D900ABABE0 /* PopoverColor.swift */,
 				95650B402D2728E800ABABE0 /* PopoverSize.swift */,
 				95650B422D27297400ABABE0 /* SheetIdentifiable.swift */,
+				95650B442D2729FB00ABABE0 /*  SheetSwipeDisabled.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2258,6 +2261,7 @@
 				958F109D2CFCF19800003DA6 /* TextEditorLineSpacing.swift in Sources */,
 				958F10AA2CFCFAB100003DA6 /* TextFieldIntro.swift in Sources */,
 				957AF0EA2D04D9CA00606944 /* TextFieldLineLimit.swift in Sources */,
+				95650B452D2729FB00ABABE0 /*  SheetSwipeDisabled.swift in Sources */,
 				95A035192D0388C70089EEDE /* TextFieldDisabled.swift in Sources */,
 				95919E322CF39B6A006C8355 /* FontTextScaledMetric.swift in Sources */,
 				9576FC712CDE7EB80082C662 /* ProgressViewTint.swift in Sources */,
