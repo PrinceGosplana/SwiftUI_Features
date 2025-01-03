@@ -223,6 +223,7 @@
 		95650B572D286F1000ABABE0 /* ToolbarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B562D286F1000ABABE0 /* ToolbarLocation.swift */; };
 		95650B592D286F8C00ABABE0 /* ToolbarToolbarItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B582D286F8C00ABABE0 /* ToolbarToolbarItemGroup.swift */; };
 		95650B5B2D286FD700ABABE0 /* ToolbarPrincipalPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B5A2D286FD700ABABE0 /* ToolbarPrincipalPlacement.swift */; };
+		95650B5D2D2870A800ABABE0 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B5C2D2870A800ABABE0 /* ConfirmationView.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -662,6 +663,7 @@
 		95650B562D286F1000ABABE0 /* ToolbarLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarLocation.swift; sourceTree = "<group>"; };
 		95650B582D286F8C00ABABE0 /* ToolbarToolbarItemGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarToolbarItemGroup.swift; sourceTree = "<group>"; };
 		95650B5A2D286FD700ABABE0 /* ToolbarPrincipalPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPrincipalPlacement.swift; sourceTree = "<group>"; };
+		95650B5C2D2870A800ABABE0 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1411,6 +1413,7 @@
 				95650B562D286F1000ABABE0 /* ToolbarLocation.swift */,
 				95650B582D286F8C00ABABE0 /* ToolbarToolbarItemGroup.swift */,
 				95650B5A2D286FD700ABABE0 /* ToolbarPrincipalPlacement.swift */,
+				95650B5C2D2870A800ABABE0 /* ConfirmationView.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2229,6 +2232,7 @@
 				958D8E2A2D0D95F60092EEA4 /* ColorNewInIos15.swift in Sources */,
 				959C2D302CEEF254006D4602 /* FontFormatting.swift in Sources */,
 				9576FC952CE1497C0082C662 /* NavigationSearchableFilter.swift in Sources */,
+				95650B5D2D2870A800ABABE0 /* ConfirmationView.swift in Sources */,
 				95919E342CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift in Sources */,
 				9593F62C2CD79E91009C6D70 /* NavigationUINavigationBarAppearance.swift in Sources */,
 				8AF2FB572C1991AD00B98D74 /* RecipesRouter.swift in Sources */,
