@@ -217,6 +217,7 @@
 		95650B4B2D272B7B00ABABE0 /* SheetCustomSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B4A2D272B7B00ABABE0 /* SheetCustomSizes.swift */; };
 		95650B4D2D272BBF00ABABE0 /* SheetHideDragIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B4C2D272BBF00ABABE0 /* SheetHideDragIndicator.swift */; };
 		95650B4F2D286B9D00ABABE0 /* SheetPresentationBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B4E2D286B9D00ABABE0 /* SheetPresentationBackground.swift */; };
+		95650B512D286C5C00ABABE0 /* SheetPresentationBackgroundInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95650B502D286C5C00ABABE0 /* SheetPresentationBackgroundInteraction.swift */; };
 		956799EC2D10B5DE000486D6 /* DividerCusomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956799EB2D10B5DE000486D6 /* DividerCusomization.swift */; };
 		956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956859C72D1C7F27006E42FF /* InsetIntroducti.swift */; };
 		9569CBA32D00C16A000977FD /* TextFieldCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */; };
@@ -650,6 +651,7 @@
 		95650B4A2D272B7B00ABABE0 /* SheetCustomSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCustomSizes.swift; sourceTree = "<group>"; };
 		95650B4C2D272BBF00ABABE0 /* SheetHideDragIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetHideDragIndicator.swift; sourceTree = "<group>"; };
 		95650B4E2D286B9D00ABABE0 /* SheetPresentationBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPresentationBackground.swift; sourceTree = "<group>"; };
+		95650B502D286C5C00ABABE0 /* SheetPresentationBackgroundInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPresentationBackgroundInteraction.swift; sourceTree = "<group>"; };
 		956799EB2D10B5DE000486D6 /* DividerCusomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerCusomization.swift; sourceTree = "<group>"; };
 		956859C72D1C7F27006E42FF /* InsetIntroducti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetIntroducti.swift; sourceTree = "<group>"; };
 		9569CBA22D00C16A000977FD /* TextFieldCustomizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomizing.swift; sourceTree = "<group>"; };
@@ -1393,6 +1395,7 @@
 				95650B4A2D272B7B00ABABE0 /* SheetCustomSizes.swift */,
 				95650B4C2D272BBF00ABABE0 /* SheetHideDragIndicator.swift */,
 				95650B4E2D286B9D00ABABE0 /* SheetPresentationBackground.swift */,
+				95650B502D286C5C00ABABE0 /* SheetPresentationBackgroundInteraction.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2103,6 +2106,7 @@
 				95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */,
 				8ADD6F0E2BB59A4800C7D329 /* NavigationBarBaseSettingsView.swift in Sources */,
 				9576FC852CE143500082C662 /* ScrollViewScrollPosition.swift in Sources */,
+				95650B512D286C5C00ABABE0 /* SheetPresentationBackgroundInteraction.swift in Sources */,
 				8A3B99292BC51AC4009B326E /* ScaleEffect.swift in Sources */,
 				8A22E69C2C70BD030003345B /* CustomerModel.swift in Sources */,
 				956FA0E92D188612004CB2CC /* RoundedRectangleCornerSize.swift in Sources */,
