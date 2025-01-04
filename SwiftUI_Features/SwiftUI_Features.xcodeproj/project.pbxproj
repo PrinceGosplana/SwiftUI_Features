@@ -400,6 +400,7 @@
 		95A0351F2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0351E2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift */; };
 		95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */; };
 		95A235412D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235402D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift */; };
+		95A235432D29BFC90059CDF4 /* ToolbarControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235422D29BFC90059CDF4 /* ToolbarControlGroup.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -843,6 +844,7 @@
 		95A0351E2D0389EA0089EEDE /* TextFieldKeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldKeyboardSafeArea.swift; sourceTree = "<group>"; };
 		95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlignment.swift; sourceTree = "<group>"; };
 		95A235402D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarOnKeyboard.swift; sourceTree = "<group>"; };
+		95A235422D29BFC90059CDF4 /* ToolbarControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarControlGroup.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1420,6 +1422,7 @@
 				95650B5C2D2870A800ABABE0 /* ConfirmationView.swift */,
 				95650B5E2D28718B00ABABE0 /* ToolbarMenu.swift */,
 				95A235402D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift */,
+				95A235422D29BFC90059CDF4 /* ToolbarControlGroup.swift */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -2261,6 +2264,7 @@
 				8A91A2102C75C484007F7B7F /* ShareLinkView.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				8A16A9F92C81FC910047B40C /* TextCustomizationView.swift in Sources */,
+				95A235432D29BFC90059CDF4 /* ToolbarControlGroup.swift in Sources */,
 				95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */,
 				95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
