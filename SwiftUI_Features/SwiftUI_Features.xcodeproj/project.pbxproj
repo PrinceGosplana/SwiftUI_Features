@@ -404,6 +404,7 @@
 		95A235462D29C0700059CDF4 /* AlignmentGuideIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */; };
 		95A235482D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235472D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift */; };
 		95A2354A2D29C2240059CDF4 /* AspectRatioIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235492D29C2240059CDF4 /* AspectRatioIntro.swift */; };
+		95A2354C2D29C2A70059CDF4 /* AspectRatioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2354B2D29C2A70059CDF4 /* AspectRatioDevice.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -851,6 +852,7 @@
 		95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideIntro.swift; sourceTree = "<group>"; };
 		95A235472D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideComparedWithOffset.swift; sourceTree = "<group>"; };
 		95A235492D29C2240059CDF4 /* AspectRatioIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatioIntro.swift; sourceTree = "<group>"; };
+		95A2354B2D29C2A70059CDF4 /* AspectRatioDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatioDevice.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1805,6 +1807,7 @@
 				95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */,
 				95A235472D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift */,
 				95A235492D29C2240059CDF4 /* AspectRatioIntro.swift */,
+				95A2354B2D29C2A70059CDF4 /* AspectRatioDevice.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2055,6 +2058,7 @@
 				956FA0ED2D1B4939004CB2CC /* RectangularUnevenCorners.swift in Sources */,
 				9593F62E2CD79F54009C6D70 /* NavigationBarHidden.swift in Sources */,
 				9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */,
+				95A2354C2D29C2A70059CDF4 /* AspectRatioDevice.swift in Sources */,
 				957E21982CD1643E004A34D6 /* ListWithChildren.swift in Sources */,
 				8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */,
 				9585309A2D20870500906BB8 /* EllipticalGradientRadiusFraction.swift in Sources */,
