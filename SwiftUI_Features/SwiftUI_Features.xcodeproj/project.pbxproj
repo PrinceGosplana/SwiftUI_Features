@@ -401,6 +401,7 @@
 		95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */; };
 		95A235412D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235402D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift */; };
 		95A235432D29BFC90059CDF4 /* ToolbarControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235422D29BFC90059CDF4 /* ToolbarControlGroup.swift */; };
+		95A235462D29C0700059CDF4 /* AlignmentGuideIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -845,6 +846,7 @@
 		95A1E4A62CFE357000FA3EDD /* TextFieldAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlignment.swift; sourceTree = "<group>"; };
 		95A235402D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarOnKeyboard.swift; sourceTree = "<group>"; };
 		95A235422D29BFC90059CDF4 /* ToolbarControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarControlGroup.swift; sourceTree = "<group>"; };
+		95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideIntro.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1597,6 +1599,7 @@
 				95919E332CF39C44006C8355 /* FontTextScaledMetricRelativeTo.swift */,
 				95CF29212CF2013500A1210E /* FontCapitalLetterOptions.swift */,
 				95919E352CF39DED006C8355 /* FjontTextWrappingImages.swift */,
+				95A235442D29C0590059CDF4 /* Alignment */,
 				95650B272D23353C00ABABE0 /* Controlls */,
 				95919E372CF39E5E006C8355 /* FontTextMarkdown.swift */,
 				956859C72D1C7F27006E42FF /* InsetIntroducti.swift */,
@@ -1790,6 +1793,14 @@
 				9593F61B2CD6AD60009C6D70 /* MultiDatePickerIntro.swift */,
 			);
 			path = MultiDatePicker;
+			sourceTree = "<group>";
+		};
+		95A235442D29C0590059CDF4 /* Alignment */ = {
+			isa = PBXGroup;
+			children = (
+				95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */,
+			);
+			path = Alignment;
 			sourceTree = "<group>";
 		};
 		95A635712CED00D9000CE914 /* Tab */ = {
@@ -2267,6 +2278,7 @@
 				95A235432D29BFC90059CDF4 /* ToolbarControlGroup.swift in Sources */,
 				95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */,
 				95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */,
+				95A235462D29C0700059CDF4 /* AlignmentGuideIntro.swift in Sources */,
 				956087A92B9B96A700BAC9BA /* CustomAnimationsView.swift in Sources */,
 				9576FC812CDFEEB30082C662 /* ScrollViewBehaviorPaging.swift in Sources */,
 				8AFF1ED72C5E4EDF0032C778 /* Rotation3DEffectView.swift in Sources */,
