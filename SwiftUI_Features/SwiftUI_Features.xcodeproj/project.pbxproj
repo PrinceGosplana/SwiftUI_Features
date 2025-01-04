@@ -402,6 +402,7 @@
 		95A235412D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235402D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift */; };
 		95A235432D29BFC90059CDF4 /* ToolbarControlGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235422D29BFC90059CDF4 /* ToolbarControlGroup.swift */; };
 		95A235462D29C0700059CDF4 /* AlignmentGuideIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */; };
+		95A235482D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235472D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -847,6 +848,7 @@
 		95A235402D29BF2F0059CDF4 /* ToolbarOnKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarOnKeyboard.swift; sourceTree = "<group>"; };
 		95A235422D29BFC90059CDF4 /* ToolbarControlGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarControlGroup.swift; sourceTree = "<group>"; };
 		95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideIntro.swift; sourceTree = "<group>"; };
+		95A235472D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideComparedWithOffset.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1799,6 +1801,7 @@
 			isa = PBXGroup;
 			children = (
 				95A235452D29C0700059CDF4 /* AlignmentGuideIntro.swift */,
+				95A235472D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2160,6 +2163,7 @@
 				9561A46B2D1204C500C358C7 /* ImageScaledMetricImage.swift in Sources */,
 				957D36562B9866F500E5E342 /* NewApiScrollView.swift in Sources */,
 				957E219E2CD166AB004A34D6 /* SafeAreaInset.swift in Sources */,
+				95A235482D29C1AF0059CDF4 /* AlignmentGuideComparedWithOffset.swift in Sources */,
 				8A0663562CAD2C6300937F63 /* KeyframeAnimationExampleView.swift in Sources */,
 				95650B532D286CEA00ABABE0 /* StatusBarHiddenIntro.swift in Sources */,
 				9561A4752D12094F00C358C7 /* ImageSymbolsWeight.swift in Sources */,
