@@ -413,6 +413,7 @@
 		95A2355A2D2B0DB80059CDF4 /* FixedSizeTextTruncated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235592D2B0DB80059CDF4 /* FixedSizeTextTruncated.swift */; };
 		95A2355C2D2B0E100059CDF4 /* FullScreenCover_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2355B2D2B0E100059CDF4 /* FullScreenCover_Intro.swift */; };
 		95A2355E2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */; };
+		95A235602D2B0F780059CDF4 /* ImageFixedSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -869,6 +870,7 @@
 		95A235592D2B0DB80059CDF4 /* FixedSizeTextTruncated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeTextTruncated.swift; sourceTree = "<group>"; };
 		95A2355B2D2B0E100059CDF4 /* FullScreenCover_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_Intro.swift; sourceTree = "<group>"; };
 		95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_OverBars.swift; sourceTree = "<group>"; };
+		95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFixedSizes.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1832,6 +1834,7 @@
 				95A235592D2B0DB80059CDF4 /* FixedSizeTextTruncated.swift */,
 				95A2355B2D2B0E100059CDF4 /* FullScreenCover_Intro.swift */,
 				95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */,
+				95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2437,6 +2440,7 @@
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				9561A4812D15FA8700C358C7 /* ImageUsingMaterials.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
+				95A235602D2B0F780059CDF4 /* ImageFixedSizes.swift in Sources */,
 				8AFE178A2BBAC669002CC3AA /* DateFormatterView.swift in Sources */,
 				8A96E32D2C7B1DCE00712616 /* DoulingoModel.swift in Sources */,
 				9561A4792D120A1C00C358C7 /* ImageSymbolVariant.swift in Sources */,
