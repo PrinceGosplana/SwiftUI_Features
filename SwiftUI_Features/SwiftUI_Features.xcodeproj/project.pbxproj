@@ -409,6 +409,7 @@
 		95A235502D29C33C0059CDF4 /* BackgroundShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2354F2D29C33C0059CDF4 /* BackgroundShapes.swift */; };
 		95A235542D29C3B80059CDF4 /* BackgroundHierarchical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235532D29C3B80059CDF4 /* BackgroundHierarchical.swift */; };
 		95A235562D2B0BF00059CDF4 /* BackgroundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235552D2B0BF00059CDF4 /* BackgroundViews.swift */; };
+		95A235582D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235572D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -861,6 +862,7 @@
 		95A2354F2D29C33C0059CDF4 /* BackgroundShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundShapes.swift; sourceTree = "<group>"; };
 		95A235532D29C3B80059CDF4 /* BackgroundHierarchical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundHierarchical.swift; sourceTree = "<group>"; };
 		95A235552D2B0BF00059CDF4 /* BackgroundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViews.swift; sourceTree = "<group>"; };
+		95A235572D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpaceIntro.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1820,6 +1822,7 @@
 				95A2354F2D29C33C0059CDF4 /* BackgroundShapes.swift */,
 				95A235532D29C3B80059CDF4 /* BackgroundHierarchical.swift */,
 				95A235552D2B0BF00059CDF4 /* BackgroundViews.swift */,
+				95A235572D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2032,6 +2035,7 @@
 				8A22E6A22C70C1530003345B /* DynamicRoutingView.swift in Sources */,
 				957E21432CCD6327004A34D6 /* GaugeCircularExample.swift in Sources */,
 				8AF1C1752C25632F003CABE6 /* ClaimButtonContentView.swift in Sources */,
+				95A235582D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift in Sources */,
 				8A91A2162C75CFB6007F7B7F /* NewGridView.swift in Sources */,
 				9586B36F2CF1155F00F68C55 /* FontTextCustomFont.swift in Sources */,
 				95AE9D512CE92423002510C1 /* SignInWithAppleSizeChanges.swift in Sources */,
