@@ -415,6 +415,7 @@
 		95A2355E2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */; };
 		95A235602D2B0F780059CDF4 /* ImageFixedSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */; };
 		95A235622D2B101A0059CDF4 /* ControlsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235612D2B101A0059CDF4 /* ControlsShapes.swift */; };
+		95A235642D2B10840059CDF4 /* FrameAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235632D2B10840059CDF4 /* FrameAlignment.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -873,6 +874,7 @@
 		95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_OverBars.swift; sourceTree = "<group>"; };
 		95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFixedSizes.swift; sourceTree = "<group>"; };
 		95A235612D2B101A0059CDF4 /* ControlsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsShapes.swift; sourceTree = "<group>"; };
+		95A235632D2B10840059CDF4 /* FrameAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAlignment.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1838,6 +1840,7 @@
 				95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */,
 				95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */,
 				95A235612D2B101A0059CDF4 /* ControlsShapes.swift */,
+				95A235632D2B10840059CDF4 /* FrameAlignment.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2036,6 +2039,7 @@
 				95650B1E2D21DE7700ABABE0 /* MeshGradientAppliedToViews.swift in Sources */,
 				9593F60F2CD69A46009C6D70 /* MenuCustomizing.swift in Sources */,
 				95650B352D233A0900ABABE0 /* AlertChangeBack.swift in Sources */,
+				95A235642D2B10840059CDF4 /* FrameAlignment.swift in Sources */,
 				8A91A2182C75D1EB007F7B7F /* CustomLayoutView.swift in Sources */,
 				9561D3E52D0CBEF400C62B71 /* ColorOtherSystemColors.swift in Sources */,
 				957E21DD2CD2C4A7004A34D6 /* ListSafeAreaInsetScrollView.swift in Sources */,
