@@ -412,6 +412,7 @@
 		95A235582D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235572D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift */; };
 		95A2355A2D2B0DB80059CDF4 /* FixedSizeTextTruncated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235592D2B0DB80059CDF4 /* FixedSizeTextTruncated.swift */; };
 		95A2355C2D2B0E100059CDF4 /* FullScreenCover_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2355B2D2B0E100059CDF4 /* FullScreenCover_Intro.swift */; };
+		95A2355E2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -867,6 +868,7 @@
 		95A235572D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpaceIntro.swift; sourceTree = "<group>"; };
 		95A235592D2B0DB80059CDF4 /* FixedSizeTextTruncated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeTextTruncated.swift; sourceTree = "<group>"; };
 		95A2355B2D2B0E100059CDF4 /* FullScreenCover_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_Intro.swift; sourceTree = "<group>"; };
+		95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover_OverBars.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1829,6 +1831,7 @@
 				95A235572D2B0CCD0059CDF4 /* CoordinateSpaceIntro.swift */,
 				95A235592D2B0DB80059CDF4 /* FixedSizeTextTruncated.swift */,
 				95A2355B2D2B0E100059CDF4 /* FullScreenCover_Intro.swift */,
+				95A2355D2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2430,6 +2433,7 @@
 				9576FC6D2CDE7DE90082C662 /* ProgressViewCurrentValue.swift in Sources */,
 				95650B262D21E0FE00ABABE0 /* RadialGradientAppliedToShapes.swift in Sources */,
 				95650B3D2D25BC9800ABABE0 /* PopoverFromBool.swift in Sources */,
+				95A2355E2D2B0EF80059CDF4 /* FullScreenCover_OverBars.swift in Sources */,
 				95B7CE462BA9799F0030839E /* HomeGlassView.swift in Sources */,
 				9561A4812D15FA8700C358C7 /* ImageUsingMaterials.swift in Sources */,
 				957D36482B96DC8D00E5E342 /* SwiftUI_FeaturesApp.swift in Sources */,
