@@ -416,6 +416,7 @@
 		95A235602D2B0F780059CDF4 /* ImageFixedSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */; };
 		95A235622D2B101A0059CDF4 /* ControlsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235612D2B101A0059CDF4 /* ControlsShapes.swift */; };
 		95A235642D2B10840059CDF4 /* FrameAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235632D2B10840059CDF4 /* FrameAlignment.swift */; };
+		95A235662D2B10DA0059CDF4 /* Frame_Min_Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235652D2B10DA0059CDF4 /* Frame_Min_Max.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -875,6 +876,7 @@
 		95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFixedSizes.swift; sourceTree = "<group>"; };
 		95A235612D2B101A0059CDF4 /* ControlsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsShapes.swift; sourceTree = "<group>"; };
 		95A235632D2B10840059CDF4 /* FrameAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAlignment.swift; sourceTree = "<group>"; };
+		95A235652D2B10DA0059CDF4 /* Frame_Min_Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_Min_Max.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1841,6 +1843,7 @@
 				95A2355F2D2B0F780059CDF4 /* ImageFixedSizes.swift */,
 				95A235612D2B101A0059CDF4 /* ControlsShapes.swift */,
 				95A235632D2B10840059CDF4 /* FrameAlignment.swift */,
+				95A235652D2B10DA0059CDF4 /* Frame_Min_Max.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2441,6 +2444,7 @@
 				957E21942CD1633A004A34D6 /* ListRowBackgroundonSections.swift in Sources */,
 				8A22E6A52C70C55A0003345B /* MedicineRoute.swift in Sources */,
 				9576FC6F2CDE7E340082C662 /* ProgressViewCustomizing.swift in Sources */,
+				95A235662D2B10DA0059CDF4 /* Frame_Min_Max.swift in Sources */,
 				9576FC6D2CDE7DE90082C662 /* ProgressViewCurrentValue.swift in Sources */,
 				95650B262D21E0FE00ABABE0 /* RadialGradientAppliedToShapes.swift in Sources */,
 				95650B3D2D25BC9800ABABE0 /* PopoverFromBool.swift in Sources */,
