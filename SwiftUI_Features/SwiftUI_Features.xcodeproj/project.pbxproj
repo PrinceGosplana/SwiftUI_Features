@@ -425,6 +425,7 @@
 		95A235722D2C71BF0059CDF4 /* PriorityProblemSolve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235712D2C71BF0059CDF4 /* PriorityProblemSolve.swift */; };
 		95A235742D2C71FF0059CDF4 /* SomeOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235732D2C71FF0059CDF4 /* SomeOffset.swift */; };
 		95A235762D2C72780059CDF4 /* Overlay_Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235752D2C72780059CDF4 /* Overlay_Images.swift */; };
+		95A235782D2C72D00059CDF4 /* Overlay_ImagesAndButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235772D2C72D00059CDF4 /* Overlay_ImagesAndButtons.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -893,6 +894,7 @@
 		95A235712D2C71BF0059CDF4 /* PriorityProblemSolve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityProblemSolve.swift; sourceTree = "<group>"; };
 		95A235732D2C71FF0059CDF4 /* SomeOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeOffset.swift; sourceTree = "<group>"; };
 		95A235752D2C72780059CDF4 /* Overlay_Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_Images.swift; sourceTree = "<group>"; };
+		95A235772D2C72D00059CDF4 /* Overlay_ImagesAndButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay_ImagesAndButtons.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1868,6 +1870,7 @@
 				95A235712D2C71BF0059CDF4 /* PriorityProblemSolve.swift */,
 				95A235732D2C71FF0059CDF4 /* SomeOffset.swift */,
 				95A235752D2C72780059CDF4 /* Overlay_Images.swift */,
+				95A235772D2C72D00059CDF4 /* Overlay_ImagesAndButtons.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2267,6 +2270,7 @@
 				9576FC9C2CE14B4A0082C662 /* SecureTextFieldCustomizationLayers.swift in Sources */,
 				8A3FDF1A2C33EDFD00AF9F9B /* RoomDetail.swift in Sources */,
 				8ADD6EE22BB4492F00C7D329 /* MulticolorSymbolsView.swift in Sources */,
+				95A235782D2C72D00059CDF4 /* Overlay_ImagesAndButtons.swift in Sources */,
 				95A235722D2C71BF0059CDF4 /* PriorityProblemSolve.swift in Sources */,
 				958F10A72CFCF9F100003DA6 /* TextEditorKeyboardSafeArea.swift in Sources */,
 				9529FDF42D0628B9000B1E0E /* CircularShapesStrokeBorder.swift in Sources */,
