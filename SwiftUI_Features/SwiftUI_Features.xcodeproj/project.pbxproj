@@ -417,6 +417,7 @@
 		95A235622D2B101A0059CDF4 /* ControlsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235612D2B101A0059CDF4 /* ControlsShapes.swift */; };
 		95A235642D2B10840059CDF4 /* FrameAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235632D2B10840059CDF4 /* FrameAlignment.swift */; };
 		95A235662D2B10DA0059CDF4 /* Frame_Min_Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235652D2B10DA0059CDF4 /* Frame_Min_Max.swift */; };
+		95A235682D2C6E580059CDF4 /* Frame_PullInToPushOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235672D2C6E580059CDF4 /* Frame_PullInToPushOut.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -877,6 +878,7 @@
 		95A235612D2B101A0059CDF4 /* ControlsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsShapes.swift; sourceTree = "<group>"; };
 		95A235632D2B10840059CDF4 /* FrameAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAlignment.swift; sourceTree = "<group>"; };
 		95A235652D2B10DA0059CDF4 /* Frame_Min_Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_Min_Max.swift; sourceTree = "<group>"; };
+		95A235672D2C6E580059CDF4 /* Frame_PullInToPushOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame_PullInToPushOut.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1844,6 +1846,7 @@
 				95A235612D2B101A0059CDF4 /* ControlsShapes.swift */,
 				95A235632D2B10840059CDF4 /* FrameAlignment.swift */,
 				95A235652D2B10DA0059CDF4 /* Frame_Min_Max.swift */,
+				95A235672D2C6E580059CDF4 /* Frame_PullInToPushOut.swift */,
 			);
 			path = Alignment;
 			sourceTree = "<group>";
@@ -2099,6 +2102,7 @@
 				9593F62E2CD79F54009C6D70 /* NavigationBarHidden.swift in Sources */,
 				9586B3612CF1100800F68C55 /* FontMinimumScaleFactor.swift in Sources */,
 				95A2354C2D29C2A70059CDF4 /* AspectRatioDevice.swift in Sources */,
+				95A235682D2C6E580059CDF4 /* Frame_PullInToPushOut.swift in Sources */,
 				957E21982CD1643E004A34D6 /* ListWithChildren.swift in Sources */,
 				8A22E69E2C70BF610003345B /* BasicListNavigation.swift in Sources */,
 				9585309A2D20870500906BB8 /* EllipticalGradientRadiusFraction.swift in Sources */,
