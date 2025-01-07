@@ -432,6 +432,7 @@
 		95A235812D2DB73C0059CDF4 /* ForegroundStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235802D2DB73C0059CDF4 /* ForegroundStyleView.swift */; };
 		95A235832D2DB9230059CDF4 /* AccentColor_ColorProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */; };
 		95A235852D2DB9890059CDF4 /* BlendMode_Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235842D2DB9890059CDF4 /* BlendMode_Setup.swift */; };
+		95A235872D2DBB5A0059CDF4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235862D2DBB5A0059CDF4 /* BlurView.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -907,6 +908,7 @@
 		95A235802D2DB73C0059CDF4 /* ForegroundStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyleView.swift; sourceTree = "<group>"; };
 		95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_ColorProperty.swift; sourceTree = "<group>"; };
 		95A235842D2DB9890059CDF4 /* BlendMode_Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendMode_Setup.swift; sourceTree = "<group>"; };
+		95A235862D2DBB5A0059CDF4 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1897,6 +1899,7 @@
 				95A235802D2DB73C0059CDF4 /* ForegroundStyleView.swift */,
 				95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */,
 				95A235842D2DB9890059CDF4 /* BlendMode_Setup.swift */,
+				95A235862D2DBB5A0059CDF4 /* BlurView.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2489,6 +2492,7 @@
 				956087AF2B9C54D800BAC9BA /* UnEvenRoundedRectangleView.swift in Sources */,
 				9561D3E72D0CBF3B00C62B71 /* ColorSecondaryStacking.swift in Sources */,
 				957E21882CD01ADD004A34D6 /* SelectingRowView.swift in Sources */,
+				95A235872D2DBB5A0059CDF4 /* BlurView.swift in Sources */,
 				8A22E6972C7089E20003345B /* DisclosureGroupModuleView.swift in Sources */,
 				8A3FDF162C33EDAE00AF9F9B /* RoomListNavLinkView.swift in Sources */,
 				9586B35F2CF10F6A00F68C55 /* FontTightening.swift in Sources */,
