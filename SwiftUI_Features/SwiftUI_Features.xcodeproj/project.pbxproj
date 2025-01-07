@@ -430,6 +430,7 @@
 		95A2357C2D2DB6390059CDF4 /* ZIndex_Reorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2357B2D2DB6390059CDF4 /* ZIndex_Reorder.swift */; };
 		95A2357F2D2DB6BE0059CDF4 /* AccentColor_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2357E2D2DB6BE0059CDF4 /* AccentColor_Intro.swift */; };
 		95A235812D2DB73C0059CDF4 /* ForegroundStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235802D2DB73C0059CDF4 /* ForegroundStyleView.swift */; };
+		95A235832D2DB9230059CDF4 /* AccentColor_ColorProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -903,6 +904,7 @@
 		95A2357B2D2DB6390059CDF4 /* ZIndex_Reorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIndex_Reorder.swift; sourceTree = "<group>"; };
 		95A2357E2D2DB6BE0059CDF4 /* AccentColor_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_Intro.swift; sourceTree = "<group>"; };
 		95A235802D2DB73C0059CDF4 /* ForegroundStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundStyleView.swift; sourceTree = "<group>"; };
+		95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_ColorProperty.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1891,6 +1893,7 @@
 			children = (
 				95A2357E2D2DB6BE0059CDF4 /* AccentColor_Intro.swift */,
 				95A235802D2DB73C0059CDF4 /* ForegroundStyleView.swift */,
+				95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2160,6 +2163,7 @@
 				95954BBE2CFA509A009C6773 /* FontText_StopwatchStyle.swift in Sources */,
 				9561A48C2D15FD4C00C358C7 /* PathCurve.swift in Sources */,
 				95A6357B2CED0261000CE914 /* TabViewPageTabViewStyleIndexDisplayMode.swift in Sources */,
+				95A235832D2DB9230059CDF4 /* AccentColor_ColorProperty.swift in Sources */,
 				8A202A322C7711C700509CB4 /* NewLayoutAPIView.swift in Sources */,
 				95A2357C2D2DB6390059CDF4 /* ZIndex_Reorder.swift in Sources */,
 				9586B3692CF111E600F68C55 /* FontCombiningModifiedText.swift in Sources */,
