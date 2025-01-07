@@ -433,6 +433,7 @@
 		95A235832D2DB9230059CDF4 /* AccentColor_ColorProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */; };
 		95A235852D2DB9890059CDF4 /* BlendMode_Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235842D2DB9890059CDF4 /* BlendMode_Setup.swift */; };
 		95A235872D2DBB5A0059CDF4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235862D2DBB5A0059CDF4 /* BlurView.swift */; };
+		95A235892D2DBBAB0059CDF4 /* Blur_UnderneathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235882D2DBBAB0059CDF4 /* Blur_UnderneathView.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -909,6 +910,7 @@
 		95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColor_ColorProperty.swift; sourceTree = "<group>"; };
 		95A235842D2DB9890059CDF4 /* BlendMode_Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendMode_Setup.swift; sourceTree = "<group>"; };
 		95A235862D2DBB5A0059CDF4 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		95A235882D2DBBAB0059CDF4 /* Blur_UnderneathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur_UnderneathView.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1900,6 +1902,7 @@
 				95A235822D2DB9230059CDF4 /* AccentColor_ColorProperty.swift */,
 				95A235842D2DB9890059CDF4 /* BlendMode_Setup.swift */,
 				95A235862D2DBB5A0059CDF4 /* BlurView.swift */,
+				95A235882D2DBBAB0059CDF4 /* Blur_UnderneathView.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2085,6 +2088,7 @@
 				956087B12B9C567B00BAC9BA /* HapticFeedbackView.swift in Sources */,
 				95F860E32CDD444A0076005E /* PickerCustomized.swift in Sources */,
 				8ADD6EE02BB41A8500C7D329 /* ObservableiOS17Style.swift in Sources */,
+				95A235892D2DBBAB0059CDF4 /* Blur_UnderneathView.swift in Sources */,
 				9547F7002CC2C3EC009648DF /* BentoLayoutView.swift in Sources */,
 				9576FCA52CE670BD0082C662 /* ShareLinkIntro.swift in Sources */,
 				9586B36D2CF114B200F68C55 /* FontLayoutPriority.swift in Sources */,
