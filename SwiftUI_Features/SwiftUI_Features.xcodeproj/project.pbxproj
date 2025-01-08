@@ -435,6 +435,7 @@
 		95A235872D2DBB5A0059CDF4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235862D2DBB5A0059CDF4 /* BlurView.swift */; };
 		95A235892D2DBBAB0059CDF4 /* Blur_UnderneathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A235882D2DBBAB0059CDF4 /* Blur_UnderneathView.swift */; };
 		95A2358B2D2DBC5A0059CDF4 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2358A2D2DBC5A0059CDF4 /* BorderView.swift */; };
+		95A2358D2D2F07910059CDF4 /* Border_RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2358C2D2F07910059CDF4 /* Border_RoundedCorners.swift */; };
 		95A6356E2CECFF7E000CE914 /* StepperCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */; };
 		95A635702CED002B000CE914 /* ColorsStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6356F2CED002B000CE914 /* ColorsStepper.swift */; };
 		95A635752CED015A000CE914 /* TabViewPageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */; };
@@ -913,6 +914,7 @@
 		95A235862D2DBB5A0059CDF4 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		95A235882D2DBBAB0059CDF4 /* Blur_UnderneathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur_UnderneathView.swift; sourceTree = "<group>"; };
 		95A2358A2D2DBC5A0059CDF4 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		95A2358C2D2F07910059CDF4 /* Border_RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border_RoundedCorners.swift; sourceTree = "<group>"; };
 		95A6356D2CECFF7E000CE914 /* StepperCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperCustomization.swift; sourceTree = "<group>"; };
 		95A6356F2CED002B000CE914 /* ColorsStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsStepper.swift; sourceTree = "<group>"; };
 		95A635742CED015A000CE914 /* TabViewPageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPageTabViewStyle.swift; sourceTree = "<group>"; };
@@ -1906,6 +1908,7 @@
 				95A235862D2DBB5A0059CDF4 /* BlurView.swift */,
 				95A235882D2DBBAB0059CDF4 /* Blur_UnderneathView.swift */,
 				95A2358A2D2DBC5A0059CDF4 /* BorderView.swift */,
+				95A2358C2D2F07910059CDF4 /* Border_RoundedCorners.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2480,6 +2483,7 @@
 				95A6357F2CED032C000CE914 /* FontTextWeightsTextStyles.swift in Sources */,
 				95F860DF2CDD43350076005E /* PickerWheel.swift in Sources */,
 				956859C82D1C7F27006E42FF /* InsetIntroducti.swift in Sources */,
+				95A2358D2D2F07910059CDF4 /* Border_RoundedCorners.swift in Sources */,
 				9576FC872CE143F70082C662 /* ScrollviewContentMargins.swift in Sources */,
 				8ADD6EE72BB4522000C7D329 /* Color+Ext.swift in Sources */,
 				8A96E3352C7B682200712616 /* DoneBtnAlternativeView.swift in Sources */,
