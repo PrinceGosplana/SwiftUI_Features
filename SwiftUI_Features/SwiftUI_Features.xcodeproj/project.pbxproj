@@ -286,6 +286,7 @@
 		957813822D32996B00E07DE3 /* ClippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813812D32996B00E07DE3 /* ClippedView.swift */; };
 		957813842D32EC5F00E07DE3 /* ClipShape_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */; };
 		957813882D32F04400E07DE3 /* ColorMultiplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813872D32F04400E07DE3 /* ColorMultiplyView.swift */; };
+		9578138A2D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */; };
 		9578F16F2CF85B90007553A0 /* FontTextMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */; };
 		957AF0DC2D04D3D700606944 /* TextFieldOnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */; };
 		957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */; };
@@ -770,6 +771,7 @@
 		957813812D32996B00E07DE3 /* ClippedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippedView.swift; sourceTree = "<group>"; };
 		957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipShape_Intro.swift; sourceTree = "<group>"; };
 		957813872D32F04400E07DE3 /* ColorMultiplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiplyView.swift; sourceTree = "<group>"; };
+		957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiply_CantDo.swift; sourceTree = "<group>"; };
 		9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextMeasurement.swift; sourceTree = "<group>"; };
 		957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChange.swift; sourceTree = "<group>"; };
 		957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnSubmit.swift; sourceTree = "<group>"; };
@@ -1927,6 +1929,7 @@
 				957813812D32996B00E07DE3 /* ClippedView.swift */,
 				957813872D32F04400E07DE3 /* ColorMultiplyView.swift */,
 				957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */,
+				957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2394,6 +2397,7 @@
 				957E219A2CD16531004A34D6 /* HeaderProminence.swift in Sources */,
 				95650B182D21DA3300ABABE0 /* MeshGradientDifferentPoints.swift in Sources */,
 				8A27C9C32C8C797C00DFAFE1 /* CheckmarkToggleStyle2.swift in Sources */,
+				9578138A2D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift in Sources */,
 				957AF0E22D04D69800606944 /* TextFieldFocusStateWithEnum.swift in Sources */,
 				9576FCA32CE52B290082C662 /* SegmentedControlColors.swift in Sources */,
 				9561A46D2D12057C00C358C7 /* ImageClipShape.swift in Sources */,
