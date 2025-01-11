@@ -288,6 +288,7 @@
 		957813882D32F04400E07DE3 /* ColorMultiplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813872D32F04400E07DE3 /* ColorMultiplyView.swift */; };
 		9578138A2D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */; };
 		9578138C2D32F18200E07DE3 /* CompositingGroup_OneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */; };
+		9578138E2D32F21700E07DE3 /* ContentShape_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578138D2D32F21700E07DE3 /* ContentShape_Problem.swift */; };
 		9578F16F2CF85B90007553A0 /* FontTextMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */; };
 		957AF0DC2D04D3D700606944 /* TextFieldOnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */; };
 		957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */; };
@@ -774,6 +775,7 @@
 		957813872D32F04400E07DE3 /* ColorMultiplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiplyView.swift; sourceTree = "<group>"; };
 		957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiply_CantDo.swift; sourceTree = "<group>"; };
 		9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositingGroup_OneView.swift; sourceTree = "<group>"; };
+		9578138D2D32F21700E07DE3 /* ContentShape_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Problem.swift; sourceTree = "<group>"; };
 		9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextMeasurement.swift; sourceTree = "<group>"; };
 		957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChange.swift; sourceTree = "<group>"; };
 		957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnSubmit.swift; sourceTree = "<group>"; };
@@ -1933,6 +1935,7 @@
 				957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */,
 				957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */,
 				9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */,
+				9578138D2D32F21700E07DE3 /* ContentShape_Problem.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2219,6 +2222,7 @@
 				9561D3E32D0CBE7700C62B71 /* ColorIntro.swift in Sources */,
 				9576FC832CDFEF180082C662 /* ScrollViewBehaviorViewAligned.swift in Sources */,
 				95650B202D21DF2200ABABE0 /* RadialAsBackground.swift in Sources */,
+				9578138E2D32F21700E07DE3 /* ContentShape_Problem.swift in Sources */,
 				95328B9E2D1F3887004341E2 /* AngularOnOtherControls.swift in Sources */,
 				95F860EB2CDD463D0076005E /* PickerNavigationLinkStyle.swift in Sources */,
 				95AE9D5C2CE929A8002510C1 /* SliderTint.swift in Sources */,
