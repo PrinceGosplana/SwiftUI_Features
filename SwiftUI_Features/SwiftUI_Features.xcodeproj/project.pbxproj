@@ -287,6 +287,7 @@
 		957813842D32EC5F00E07DE3 /* ClipShape_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */; };
 		957813882D32F04400E07DE3 /* ColorMultiplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813872D32F04400E07DE3 /* ColorMultiplyView.swift */; };
 		9578138A2D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */; };
+		9578138C2D32F18200E07DE3 /* CompositingGroup_OneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */; };
 		9578F16F2CF85B90007553A0 /* FontTextMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */; };
 		957AF0DC2D04D3D700606944 /* TextFieldOnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */; };
 		957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */; };
@@ -772,6 +773,7 @@
 		957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipShape_Intro.swift; sourceTree = "<group>"; };
 		957813872D32F04400E07DE3 /* ColorMultiplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiplyView.swift; sourceTree = "<group>"; };
 		957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiply_CantDo.swift; sourceTree = "<group>"; };
+		9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositingGroup_OneView.swift; sourceTree = "<group>"; };
 		9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextMeasurement.swift; sourceTree = "<group>"; };
 		957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChange.swift; sourceTree = "<group>"; };
 		957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnSubmit.swift; sourceTree = "<group>"; };
@@ -1930,6 +1932,7 @@
 				957813872D32F04400E07DE3 /* ColorMultiplyView.swift */,
 				957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */,
 				957813892D32F0DE00E07DE3 /* ColorMultiply_CantDo.swift */,
+				9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2456,6 +2459,7 @@
 				8A91A2142C75CD81007F7B7F /* ViewThatFitsView.swift in Sources */,
 				956C9B922CB5478E004898DB /* PagingOnboardView.swift in Sources */,
 				956087DC2BA6F85F00BAC9BA /* TransparentHomeView.swift in Sources */,
+				9578138C2D32F18200E07DE3 /* CompositingGroup_OneView.swift in Sources */,
 				956087AD2B9C536B00BAC9BA /* ObservBindableView.swift in Sources */,
 				95F860CF2CD95F4A0076005E /* NavLinkisPresented.swift in Sources */,
 				8AF1C1712C256233003CABE6 /* ClaimButton.swift in Sources */,
