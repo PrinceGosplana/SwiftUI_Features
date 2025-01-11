@@ -290,6 +290,7 @@
 		9578138C2D32F18200E07DE3 /* CompositingGroup_OneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */; };
 		9578138E2D32F21700E07DE3 /* ContentShape_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578138D2D32F21700E07DE3 /* ContentShape_Problem.swift */; };
 		957813902D32F28400E07DE3 /* ContentShape_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578138F2D32F28400E07DE3 /* ContentShape_Solution.swift */; };
+		957813922D32F45C00E07DE3 /* ContentShape_ContentShapeKinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813912D32F45C00E07DE3 /* ContentShape_ContentShapeKinds.swift */; };
 		9578F16F2CF85B90007553A0 /* FontTextMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */; };
 		957AF0DC2D04D3D700606944 /* TextFieldOnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */; };
 		957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */; };
@@ -778,6 +779,7 @@
 		9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositingGroup_OneView.swift; sourceTree = "<group>"; };
 		9578138D2D32F21700E07DE3 /* ContentShape_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Problem.swift; sourceTree = "<group>"; };
 		9578138F2D32F28400E07DE3 /* ContentShape_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Solution.swift; sourceTree = "<group>"; };
+		957813912D32F45C00E07DE3 /* ContentShape_ContentShapeKinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_ContentShapeKinds.swift; sourceTree = "<group>"; };
 		9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextMeasurement.swift; sourceTree = "<group>"; };
 		957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChange.swift; sourceTree = "<group>"; };
 		957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnSubmit.swift; sourceTree = "<group>"; };
@@ -1939,6 +1941,7 @@
 				9578138B2D32F18200E07DE3 /* CompositingGroup_OneView.swift */,
 				9578138D2D32F21700E07DE3 /* ContentShape_Problem.swift */,
 				9578138F2D32F28400E07DE3 /* ContentShape_Solution.swift */,
+				957813912D32F45C00E07DE3 /* ContentShape_ContentShapeKinds.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2171,6 +2174,7 @@
 				8A0663542CAD2BF700937F63 /* PhaseAnimationView.swift in Sources */,
 				956FA0E52D1883D5004CB2CC /* RectangularSizeModifier.swift in Sources */,
 				95A2357A2D2DB5D90059CDF4 /* ZIndex_Intro.swift in Sources */,
+				957813922D32F45C00E07DE3 /* ContentShape_ContentShapeKinds.swift in Sources */,
 				95650B4B2D272B7B00ABABE0 /* SheetCustomSizes.swift in Sources */,
 				8A0663582CAD2D7C00937F63 /* TimeLineAnimationView.swift in Sources */,
 				8A4001432C83304C00A633A5 /* UserLocationView.swift in Sources */,
