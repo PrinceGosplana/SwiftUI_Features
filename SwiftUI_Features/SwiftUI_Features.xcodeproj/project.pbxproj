@@ -282,6 +282,7 @@
 		9576FCA32CE52B290082C662 /* SegmentedControlColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA22CE52B290082C662 /* SegmentedControlColors.swift */; };
 		9576FCA52CE670BD0082C662 /* ShareLinkIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA42CE670BD0082C662 /* ShareLinkIntro.swift */; };
 		9576FCA72CE7D73A0082C662 /* SignInWithAppleIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */; };
+		957813802D32983D00E07DE3 /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578137F2D32983D00E07DE3 /* BrightnessView.swift */; };
 		9578F16F2CF85B90007553A0 /* FontTextMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */; };
 		957AF0DC2D04D3D700606944 /* TextFieldOnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */; };
 		957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */; };
@@ -762,6 +763,7 @@
 		9576FCA22CE52B290082C662 /* SegmentedControlColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlColors.swift; sourceTree = "<group>"; };
 		9576FCA42CE670BD0082C662 /* ShareLinkIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkIntro.swift; sourceTree = "<group>"; };
 		9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleIntro.swift; sourceTree = "<group>"; };
+		9578137F2D32983D00E07DE3 /* BrightnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessView.swift; sourceTree = "<group>"; };
 		9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextMeasurement.swift; sourceTree = "<group>"; };
 		957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChange.swift; sourceTree = "<group>"; };
 		957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnSubmit.swift; sourceTree = "<group>"; };
@@ -1915,6 +1917,7 @@
 				95A2358C2D2F07910059CDF4 /* Border_RoundedCorners.swift */,
 				95A2358E2D3057C30059CDF4 /* RoundedCornersonImages.swift */,
 				95A235902D316F3E0059CDF4 /* BorderGradientView.swift */,
+				9578137F2D32983D00E07DE3 /* BrightnessView.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2447,6 +2450,7 @@
 				95954BC02CFA511F009C6773 /* FontText_TimerStyle.swift in Sources */,
 				95954BAE2CFA4B6E009C6773 /* FontTextMeasurementConversion.swift in Sources */,
 				8A4001412C83203700A633A5 /* NewButtonCustomizationView.swift in Sources */,
+				957813802D32983D00E07DE3 /* BrightnessView.swift in Sources */,
 				8A00A9E42CA2BD0E0042C2FC /* WiggleEffect.swift in Sources */,
 				958530962D2085CA00906BB8 /* EllipticalGradientIntro.swift in Sources */,
 				956087B32B9DD6B400BAC9BA /* KeyframeAnimationView.swift in Sources */,
