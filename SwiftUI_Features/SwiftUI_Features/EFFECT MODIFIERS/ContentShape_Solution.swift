@@ -1,5 +1,5 @@
 //
-//  ContentShape_Problem.swift
+//  ContentShape_Solution.swift
 //  SwiftUI_Features
 //
 //  Created by OLEKSANDR ISAIEV on 11.01.2025.
@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-struct ContentShapeContentShape_Problem: View {
+struct ContentShape_Solution: View {
     @State private var likes = 0
+    
     var body: some View {
         VStack(spacing: 20) {
             Text("Content Shape").font(.largeTitle)
@@ -35,5 +36,5 @@ struct ContentShapeContentShape_Problem: View {
 }
 
 #Preview {
-    ContentShapeContentShape_Problem()
+    ContentShape_Solution()
 }
