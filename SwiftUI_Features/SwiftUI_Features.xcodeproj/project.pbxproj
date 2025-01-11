@@ -284,6 +284,7 @@
 		9576FCA72CE7D73A0082C662 /* SignInWithAppleIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */; };
 		957813802D32983D00E07DE3 /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578137F2D32983D00E07DE3 /* BrightnessView.swift */; };
 		957813822D32996B00E07DE3 /* ClippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813812D32996B00E07DE3 /* ClippedView.swift */; };
+		957813842D32EC5F00E07DE3 /* ClipShape_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */; };
 		9578F16F2CF85B90007553A0 /* FontTextMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */; };
 		957AF0DC2D04D3D700606944 /* TextFieldOnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */; };
 		957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */; };
@@ -766,6 +767,7 @@
 		9576FCA62CE7D73A0082C662 /* SignInWithAppleIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleIntro.swift; sourceTree = "<group>"; };
 		9578137F2D32983D00E07DE3 /* BrightnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessView.swift; sourceTree = "<group>"; };
 		957813812D32996B00E07DE3 /* ClippedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClippedView.swift; sourceTree = "<group>"; };
+		957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipShape_Intro.swift; sourceTree = "<group>"; };
 		9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextMeasurement.swift; sourceTree = "<group>"; };
 		957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChange.swift; sourceTree = "<group>"; };
 		957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnSubmit.swift; sourceTree = "<group>"; };
@@ -1921,6 +1923,7 @@
 				95A235902D316F3E0059CDF4 /* BorderGradientView.swift */,
 				9578137F2D32983D00E07DE3 /* BrightnessView.swift */,
 				957813812D32996B00E07DE3 /* ClippedView.swift */,
+				957813832D32EC5F00E07DE3 /* ClipShape_Intro.swift */,
 			);
 			path = "EFFECT MODIFIERS";
 			sourceTree = "<group>";
@@ -2422,6 +2425,7 @@
 				8A91A2102C75C484007F7B7F /* ShareLinkView.swift in Sources */,
 				8AFE17672BB98FCF002CC3AA /* StaticGridExampleView.swift in Sources */,
 				8A16A9F92C81FC910047B40C /* TextCustomizationView.swift in Sources */,
+				957813842D32EC5F00E07DE3 /* ClipShape_Intro.swift in Sources */,
 				95A235432D29BFC90059CDF4 /* ToolbarControlGroup.swift in Sources */,
 				95A1E4A72CFE357000FA3EDD /* TextFieldAlignment.swift in Sources */,
 				95AE9D4F2CE9236A002510C1 /* SignInWithAppleCustomizing.swift in Sources */,
