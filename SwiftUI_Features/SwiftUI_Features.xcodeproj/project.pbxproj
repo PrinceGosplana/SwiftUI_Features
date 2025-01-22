@@ -291,6 +291,7 @@
 		9578138E2D32F21700E07DE3 /* ContentShape_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578138D2D32F21700E07DE3 /* ContentShape_Problem.swift */; };
 		957813902D32F28400E07DE3 /* ContentShape_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578138F2D32F28400E07DE3 /* ContentShape_Solution.swift */; };
 		957813922D32F45C00E07DE3 /* ContentShape_ContentShapeKinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813912D32F45C00E07DE3 /* ContentShape_ContentShapeKinds.swift */; };
+		957813952D40D4FC00E07DE3 /* TabViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957813942D40D4FC00E07DE3 /* TabViewStyleView.swift */; };
 		9578F16F2CF85B90007553A0 /* FontTextMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */; };
 		957AF0DC2D04D3D700606944 /* TextFieldOnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */; };
 		957AF0DE2D04D53700606944 /* TextFieldOnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */; };
@@ -780,6 +781,7 @@
 		9578138D2D32F21700E07DE3 /* ContentShape_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Problem.swift; sourceTree = "<group>"; };
 		9578138F2D32F28400E07DE3 /* ContentShape_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_Solution.swift; sourceTree = "<group>"; };
 		957813912D32F45C00E07DE3 /* ContentShape_ContentShapeKinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentShape_ContentShapeKinds.swift; sourceTree = "<group>"; };
+		957813942D40D4FC00E07DE3 /* TabViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewStyleView.swift; sourceTree = "<group>"; };
 		9578F16E2CF85B90007553A0 /* FontTextMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTextMeasurement.swift; sourceTree = "<group>"; };
 		957AF0DB2D04D3D700606944 /* TextFieldOnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnChange.swift; sourceTree = "<group>"; };
 		957AF0DD2D04D53700606944 /* TextFieldOnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOnSubmit.swift; sourceTree = "<group>"; };
@@ -1588,6 +1590,14 @@
 			path = "Segment control";
 			sourceTree = "<group>";
 		};
+		957813932D40D4D600E07DE3 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				957813942D40D4FC00E07DE3 /* TabViewStyleView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 		957AF0EB2D04DA7100606944 /* Toggle */ = {
 			isa = PBXGroup;
 			children = (
@@ -1704,6 +1714,7 @@
 				95919E3B2CF39F8F006C8355 /* FontTextTextSelection.swift */,
 				9561A4692D1204A800C358C7 /* Image */,
 				95954BAD2CFA4B6E009C6773 /* FontTextMeasurementConversion.swift */,
+				957813932D40D4D600E07DE3 /* TabView */,
 				95954BAF2CFA4C77009C6773 /* FontText_Currency.swift */,
 				95954BB12CFA4CC3009C6773 /* FontText_PersonNameComponents.swift */,
 				956799EB2D10B5DE000486D6 /* DividerCusomization.swift */,
@@ -2299,6 +2310,7 @@
 				956087D82B9F6EC700BAC9BA /* Home.swift in Sources */,
 				8AF2FB532C198FFD00B98D74 /* NPRecipesDetailView.swift in Sources */,
 				9547F7022CC2D67A009648DF /* PhotoGridView.swift in Sources */,
+				957813952D40D4FC00E07DE3 /* TabViewStyleView.swift in Sources */,
 				8A96E3392C7B6DC400712616 /* ScrollViewNewWWDC23.swift in Sources */,
 				8A96E3372C7B6B6900712616 /* CanvasView.swift in Sources */,
 				95650B5F2D28718B00ABABE0 /* ToolbarMenu.swift in Sources */,
