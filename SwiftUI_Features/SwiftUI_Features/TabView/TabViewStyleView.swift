@@ -12,15 +12,15 @@ struct TabViewStyleView: View {
         if #available(iOS 18.0, *) {
             TabView {
                 Tab("Boat", systemImage: "sailboat") {
-                    EmptyView()
+                    BoatView()
                 }
                 
                 Tab("Wind", systemImage: "wind") {
-                    EmptyView()
+                    WindView()
                 }
                 
                 Tab("Sea", systemImage: "water.waves") {
-                    EmptyView()
+                    SeaView()
                 }
             }
             .background(.black)
@@ -31,6 +31,38 @@ struct TabViewStyleView: View {
     }
 }
 
+struct BoatView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "sailboat")
+            Text("Boat")
+        }
+        .font(.largeTitle)
+        .foregroundStyle(.white)
+    }
+}
+
+struct WindView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "wind")
+            Text("Wind")
+        }
+        .font(.largeTitle)
+        .foregroundStyle(.white)
+    }
+}
+
+struct SeaView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "water.waves")
+            Text("Sea")
+        }
+        .font(.largeTitle)
+        .foregroundStyle(.white)
+    }
+}
 #Preview {
     TabViewStyleView()
 }
